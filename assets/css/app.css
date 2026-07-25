@@ -380,6 +380,9 @@ main { max-width: var(--shell); margin: 0 auto; padding: 26px 20px 96px; }
 .map-stage.focus .mp-node:not(.hi) { opacity: 0.16; }
 .map-stage.focus .mp-edge:not(.hi) { opacity: 0.1; }
 .mp-node, .mp-edge { transition: opacity 160ms var(--ease); }
+.mp-hub { cursor: pointer; transition: transform 160ms var(--ease), opacity 160ms var(--ease); }
+.mp-hub:hover { transform: scale(1.12); }
+.mp-node:hover .node-lbl { opacity: 1; font-weight: 640; fill: var(--brand); }
 
 .map-detail {
   position: absolute; left: 12px; bottom: 12px; width: min(340px, calc(100% - 24px));
