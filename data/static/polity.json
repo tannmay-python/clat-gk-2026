@@ -4121,6 +4121,78 @@
      "explain": "The Rajya Sabha can only recommend and cannot reject or amend, so no deadlock is possible and Article 108 has nothing to resolve."
     }
    ]
+  },
+  {
+   "id": "polity-p5",
+   "kind": "static",
+   "month": "polity",
+   "topicIds": [],
+   "category": "Polity & Constitution",
+   "tags": [
+    "Directive Principles",
+    "Article 37",
+    "Article 44"
+   ],
+   "difficulty": 2,
+   "title": "The part that cannot be enforced",
+   "passage": "One part of the Constitution confers rights that a citizen may take straight to the highest court. The next part sets out instructions to the state that no court may enforce at all, and says in terms that they are nevertheless fundamental in the governance of the country and that it shall be the duty of the state to apply them in making laws. The framers borrowed the device from the Irish constitution of 1937, which had borrowed the idea from Spain.\n\nThe instructions cover a wide field: a social order in which justice informs all institutions; adequate means of livelihood; a distribution of material resources that best serves the common good; equal pay for equal work; the health and strength of workers; free and compulsory education for children, which was later lifted out of this part and written into the enforceable one; village panchayats; a living wage; participation of workers in management; a uniform civil code; separation of the judiciary from the executive; protection of monuments; protection of the environment and of forests and wildlife, added in 1976 along with a direction that legal aid be provided and a new instruction on equal justice.\n\nThe relationship between the two parts has been fought over for fifty years. An early view held that fundamental rights must prevail wherever the two conflict. A later amendment tried to give a class of these instructions blanket immunity from challenge under the equality and freedom articles, and the court struck that down, holding that the balance between the two parts was itself part of the Constitution's basic structure and that giving one absolute primacy would destroy it. What survives is a narrower immunity, and a practice of reading the instructions into the rights to give them content.",
+   "questions": [
+    {
+     "q": "The part described in the second sentence is:",
+     "options": [
+      "Part III",
+      "Part IV",
+      "Part IVA",
+      "Part XI"
+     ],
+     "answer": 1,
+     "explain": "Part IV, the Directive Principles of State Policy."
+    },
+    {
+     "q": "The provision declaring them non-justiciable but fundamental in governance is:",
+     "options": [
+      "Article 32",
+      "Article 36",
+      "Article 37",
+      "Article 51"
+     ],
+     "answer": 2,
+     "explain": "Article 37."
+    },
+    {
+     "q": "The device was borrowed from the constitution of:",
+     "options": [
+      "The United States",
+      "Ireland",
+      "Canada",
+      "Australia"
+     ],
+     "answer": 1,
+     "explain": "Ireland, whose 1937 constitution contains directive principles of social policy."
+    },
+    {
+     "q": "The instruction on free and compulsory education was later moved into:",
+     "options": [
+      "Article 19",
+      "Article 21A",
+      "Article 23",
+      "Article 51A"
+     ],
+     "answer": 1,
+     "explain": "Article 21A, inserted by the 86th Amendment in 2002."
+    },
+    {
+     "q": "The judgment holding that the balance between the two parts is part of the basic structure is:",
+     "options": [
+      "Kesavananda Bharati",
+      "Minerva Mills",
+      "Golaknath",
+      "Maneka Gandhi"
+     ],
+     "answer": 1,
+     "explain": "Minerva Mills v. Union of India (1980) struck down the blanket immunity given by the 42nd Amendment."
+    }
+   ]
   }
  ]
 }

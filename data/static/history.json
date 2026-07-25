@@ -2307,6 +2307,80 @@
      "explain": "Queen Victoria’s Proclamation of 1 November 1858, sometimes called the Magna Carta of Indian liberties."
     }
    ]
+  },
+  {
+   "id": "history-p3",
+   "kind": "static",
+   "month": "history",
+   "topicIds": [
+    "his-medieval"
+   ],
+   "category": "History",
+   "tags": [
+    "Mughals",
+    "Sher Shah",
+    "Revenue"
+   ],
+   "difficulty": 3,
+   "title": "The interruption that lasted",
+   "passage": "He was born the son of a minor jagirdar, took service under an Afghan noble, and by 1540 had driven the second emperor of the new dynasty out of India entirely, into fifteen years of exile in Persia. He ruled for five years and died besieging a fort. His own successors lost everything within a decade. Judged by dynastic survival his reign was a failure, and judged by administration it was the foundation of everything that followed.\n\nHe measured land rather than estimating it, using a standard unit, and fixed the state's share at a third of the average produce of three categories of soil, payable in cash or kind at the cultivator's option. Each peasant received a written statement of holding and liability, and gave a written undertaking in return, so that the demand was known in advance instead of being invented at harvest. Remissions in bad years were built into the arrangement rather than begged for.\n\nHe issued a silver coin of a fixed weight and purity whose name survives as the name of the currency, and a copper coin alongside it, replacing a debased and chaotic circulation. He rebuilt and extended the road running from Bengal to the northwest frontier, planting trees and building rest houses along it at intervals, with a mounted postal relay using them. He divided the empire into administrative units with a civil and a military head whose functions checked each other, and moved officials regularly so that none took root.\n\nWhen the exiled emperor's son returned and rebuilt the empire, his revenue minister took the survey method, the classification of soils and the standard measure, and applied them across a far larger territory under a different name. The credit has gone mostly to the dynasty that borrowed them.",
+   "questions": [
+    {
+     "q": "The ruler described is:",
+     "options": [
+      "Ibrahim Lodi",
+      "Sher Shah Suri",
+      "Babur",
+      "Bahlul Lodi"
+     ],
+     "answer": 1,
+     "explain": "Sher Shah Suri, who drove Humayun out in 1540 and ruled until 1545."
+    },
+    {
+     "q": "The emperor he drove into exile was:",
+     "options": [
+      "Babur",
+      "Humayun",
+      "Akbar",
+      "Jahangir"
+     ],
+     "answer": 1,
+     "explain": "Humayun, who spent fifteen years in exile, largely in Safavid Persia."
+    },
+    {
+     "q": "The coin whose name survives as the currency is the:",
+     "options": [
+      "Tanka",
+      "Jital",
+      "Rupiya",
+      "Dam"
+     ],
+     "answer": 2,
+     "explain": "The silver rupiya of fixed weight and purity."
+    },
+    {
+     "q": "The road he rebuilt is now known as the:",
+     "options": [
+      "Silk Road",
+      "Grand Trunk Road",
+      "Deccan Road",
+      "Uttarapatha only"
+     ],
+     "answer": 1,
+     "explain": "The Grand Trunk Road, from Bengal to the northwest frontier."
+    },
+    {
+     "q": "The revenue minister who later applied his methods was:",
+     "options": [
+      "Todar Mal",
+      "Birbal",
+      "Abul Fazl",
+      "Man Singh"
+     ],
+     "answer": 0,
+     "explain": "Todar Mal, under Akbar, in the zabt settlement."
+    }
+   ]
   }
  ]
 }

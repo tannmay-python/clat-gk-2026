@@ -924,6 +924,237 @@
    "sources": []
   },
   {
+   "id": "org-bretton",
+   "rank": 4,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Bretton Woods: the Fund, the Bank and the trade body that took fifty years",
+   "date": "",
+   "category": "International Organisations",
+   "tags": [
+    "IMF",
+    "World Bank",
+    "WTO",
+    "Bretton Woods"
+   ],
+   "hook": "Two institutions were agreed in three weeks at a New Hampshire hotel in 1944. The third took until 1995.",
+   "story": "Delegates from forty-four allied nations met at the **Mount Washington Hotel in Bretton Woods, New Hampshire**, in **July 1944**, while the war was still running, to design a monetary order that would not repeat the competitive devaluations and trade blocs of the 1930s. Two institutions came out of it, and both began work in **1945**. India was among the founding members of each.\n\nThe **International Monetary Fund** was built to keep exchange rates stable and to lend to countries in balance of payments difficulty. Its unit of account is the **Special Drawing Right**, created in 1969, whose value is set from a basket of five currencies: the dollar, the euro, the renminbi, the yen and the pound. Voting is by **quota**, roughly reflecting economic size, which gives the United States alone enough weight to veto the 85% supermajority that major decisions require. The Fund publishes the **World Economic Outlook** and the **Global Financial Stability Report**. Its lending has always carried **conditionality**, the reforms a borrower must accept, which is the source of most of the criticism directed at it, including over the Indian programme of **1991**, when India pledged gold and devalued the rupee.\n\nThe **World Bank** began as the **International Bank for Reconstruction and Development**, aimed first at rebuilding Europe and afterwards at development lending. It now sits inside a **World Bank Group** of five: the IBRD, the **International Development Association** which lends concessionally to the poorest countries, the **International Finance Corporation** which lends to the private sector, **MIGA** which insures against political risk, and **ICSID** which arbitrates investment disputes. India is a member of all except ICSID, which it has never joined. The Bank publishes the **World Development Report**. By long convention the Bank's president is American and the Fund's managing director European, an arrangement developing countries have objected to for decades.\n\nTrade took longer. The Bretton Woods plan for an **International Trade Organization** died when the United States Senate refused the Havana Charter, leaving the **General Agreement on Tariffs and Trade** of **1947** to run trade rules as a provisional treaty through eight negotiating rounds. The last of them, the **Uruguay Round**, created the **World Trade Organization** on **1 January 1995**, based at Geneva, with a binding **Dispute Settlement Body** whose Appellate Body has been paralysed since 2019 because the United States has blocked appointments.",
+   "facts": [
+    {
+     "k": "Conference",
+     "v": "Bretton Woods, New Hampshire, July 1944; 44 nations; India a founder member"
+    },
+    {
+     "k": "IMF",
+     "v": "Exchange rate stability and balance of payments lending; quota-based voting; SDR from 1969"
+    },
+    {
+     "k": "SDR basket",
+     "v": "Dollar, euro, renminbi, yen, pound"
+    },
+    {
+     "k": "World Bank Group",
+     "v": "IBRD, IDA, IFC, MIGA and ICSID; India is not a member of ICSID"
+    },
+    {
+     "k": "Convention",
+     "v": "The Bank's head is American, the Fund's European, by long practice"
+    },
+    {
+     "k": "GATT",
+     "v": "1947, provisional; ran eight rounds of trade negotiation"
+    },
+    {
+     "k": "WTO",
+     "v": "Created 1 January 1995 out of the Uruguay Round; headquartered at Geneva"
+    },
+    {
+     "k": "Appellate Body",
+     "v": "Paralysed since 2019 by blocked appointments"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1944",
+     "what": "Bretton Woods conference"
+    },
+    {
+     "when": "1945",
+     "what": "IMF and IBRD begin operations"
+    },
+    {
+     "when": "1947",
+     "what": "GATT signed"
+    },
+    {
+     "when": "1969",
+     "what": "Special Drawing Right created"
+    },
+    {
+     "when": "1991",
+     "what": "India's IMF programme, devaluation and gold pledge"
+    },
+    {
+     "when": "1995",
+     "what": "WTO established"
+    },
+    {
+     "when": "2019",
+     "what": "WTO Appellate Body loses quorum"
+    }
+   ],
+   "why": "The examiner mixes the five World Bank arms and asks which report comes from which body. Remember the World Development Report is the Bank and the World Economic Outlook is the Fund, and that the WTO is 1995 while GATT is 1947.",
+   "map": {
+    "nodes": [
+     {
+      "id": "ob-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bretton Woods",
+      "kind": "event",
+      "rel": "core",
+      "note": "A monetary order designed in 1944 to avoid repeating the 1930s."
+     },
+     {
+      "id": "ob-imf",
+      "parent": "ob-root",
+      "tier": 1,
+      "label": "International Monetary Fund",
+      "kind": "institution",
+      "rel": "pillar",
+      "note": "Exchange rates and balance of payments lending."
+     },
+     {
+      "id": "ob-sdr",
+      "parent": "ob-imf",
+      "tier": 2,
+      "label": "Special Drawing Right",
+      "kind": "concept",
+      "rel": "unit",
+      "note": "Created 1969; a basket of five currencies."
+     },
+     {
+      "id": "ob-quota",
+      "parent": "ob-imf",
+      "tier": 2,
+      "label": "Quota voting",
+      "kind": "concept",
+      "rel": "governance",
+      "note": "Weighted by economic size; the United States can block."
+     },
+     {
+      "id": "ob-cond",
+      "parent": "ob-imf",
+      "tier": 2,
+      "label": "Conditionality",
+      "kind": "concept",
+      "rel": "criticism",
+      "note": "The reforms attached to a loan."
+     },
+     {
+      "id": "ob-1991",
+      "parent": "ob-cond",
+      "tier": 3,
+      "label": "India, 1991",
+      "kind": "event",
+      "rel": "case",
+      "note": "Gold pledged, rupee devalued, liberalisation followed."
+     },
+     {
+      "id": "ob-weo",
+      "parent": "ob-imf",
+      "tier": 2,
+      "label": "World Economic Outlook",
+      "kind": "concept",
+      "rel": "publication",
+      "note": "The Fund's flagship report."
+     },
+     {
+      "id": "ob-wb",
+      "parent": "ob-root",
+      "tier": 1,
+      "label": "World Bank",
+      "kind": "institution",
+      "rel": "pillar",
+      "note": "Began as the IBRD, for reconstruction then development."
+     },
+     {
+      "id": "ob-ida",
+      "parent": "ob-wb",
+      "tier": 2,
+      "label": "IDA",
+      "kind": "institution",
+      "rel": "arm",
+      "note": "Concessional lending to the poorest countries."
+     },
+     {
+      "id": "ob-ifc",
+      "parent": "ob-wb",
+      "tier": 2,
+      "label": "IFC",
+      "kind": "institution",
+      "rel": "arm",
+      "note": "Lends to the private sector."
+     },
+     {
+      "id": "ob-icsid",
+      "parent": "ob-wb",
+      "tier": 2,
+      "label": "ICSID",
+      "kind": "institution",
+      "rel": "arm",
+      "note": "Investment arbitration; India has never joined."
+     },
+     {
+      "id": "ob-wdr",
+      "parent": "ob-wb",
+      "tier": 2,
+      "label": "World Development Report",
+      "kind": "concept",
+      "rel": "publication",
+      "note": "The Bank's flagship report."
+     },
+     {
+      "id": "ob-gatt",
+      "parent": "ob-root",
+      "tier": 1,
+      "label": "GATT, 1947",
+      "kind": "agreement",
+      "rel": "trade",
+      "note": "Provisional treaty that ran eight negotiating rounds."
+     },
+     {
+      "id": "ob-ito",
+      "parent": "ob-gatt",
+      "tier": 2,
+      "label": "The stillborn ITO",
+      "kind": "concept",
+      "rel": "history",
+      "note": "Havana Charter refused by the United States Senate."
+     },
+     {
+      "id": "ob-wto",
+      "parent": "ob-gatt",
+      "tier": 2,
+      "label": "WTO, 1995",
+      "kind": "institution",
+      "rel": "successor",
+      "note": "Out of the Uruguay Round; based at Geneva."
+     },
+     {
+      "id": "ob-dsb",
+      "parent": "ob-wto",
+      "tier": 3,
+      "label": "Dispute Settlement Body",
+      "kind": "institution",
+      "rel": "teeth",
+      "note": "Appellate Body paralysed since 2019."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "org-envtreaties",
    "rank": 5,
    "depth": "deep",
@@ -1124,6 +1355,215 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "org-courts",
+   "rank": 6,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The international courts and what each one can actually do",
+   "date": "",
+   "category": "International Organisations",
+   "tags": [
+    "ICJ",
+    "ICC",
+    "ITLOS",
+    "International Law"
+   ],
+   "hook": "One court tries states, another tries people, and they sit in the same city without any connection between them.",
+   "story": "Four international judicial bodies get confused with one another, and the distinctions are the whole of the question.\n\nThe **International Court of Justice** is the principal judicial organ of the United Nations, created by the **Charter** in 1945 and seated at the **Peace Palace, The Hague**. It has **fifteen judges** elected for nine-year terms by the **General Assembly and the Security Council voting separately**, with no two from the same country. **Only states** may be parties, and its jurisdiction rests on consent. It also gives **advisory opinions** to UN organs, which bind nobody. India's most cited appearance is **Jadhav v. Pakistan (2019)**, where the Court held Pakistan had breached the **Vienna Convention on Consular Relations** and ordered effective review of the conviction. **Justice Dalveer Bhandari** has sat on the Court since 2012.\n\nThe **International Criminal Court**, also at The Hague, is a separate creature entirely. It was created by the **Rome Statute of 1998**, in force from **2002**, and tries **individuals** for genocide, crimes against humanity, war crimes and the crime of aggression. It is not a UN body. **India has not ratified** the Rome Statute, and neither have the United States, China or Russia; India's objections were the Security Council's referral power, the exclusion of terrorism and of nuclear weapons use from the definitions, and the prosecutor's power to act on their own initiative.\n\nThe **International Tribunal for the Law of the Sea** sits at **Hamburg** under the **UN Convention on the Law of the Sea**, and handles maritime disputes; the **Enrica Lexie** case between India and Italy went to arbitration under the same convention. The **Permanent Court of Arbitration**, also at The Hague, is the oldest of them, established by the **Hague Convention of 1899**; it is not a court but a registry that administers tribunals, and it heard the South China Sea case brought by the Philippines in 2016.",
+   "facts": [
+    {
+     "k": "ICJ",
+     "v": "Principal judicial organ of the UN; 15 judges; only states may be parties"
+    },
+    {
+     "k": "ICJ election",
+     "v": "By the General Assembly and Security Council voting separately; nine-year terms"
+    },
+    {
+     "k": "Jadhav case, 2019",
+     "v": "ICJ held Pakistan breached the Vienna Convention on Consular Relations"
+    },
+    {
+     "k": "ICC",
+     "v": "Rome Statute 1998, in force 2002; tries individuals; not a UN body"
+    },
+    {
+     "k": "India and the ICC",
+     "v": "Has not ratified, nor have the United States, China or Russia"
+    },
+    {
+     "k": "ITLOS",
+     "v": "At Hamburg, under UNCLOS, for maritime disputes"
+    },
+    {
+     "k": "PCA",
+     "v": "Hague Convention of 1899; a registry administering tribunals, not a court"
+    },
+    {
+     "k": "Seats",
+     "v": "ICJ, ICC and PCA at The Hague; ITLOS at Hamburg"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1899",
+     "what": "Permanent Court of Arbitration established"
+    },
+    {
+     "when": "1945",
+     "what": "ICJ created by the UN Charter"
+    },
+    {
+     "when": "1998",
+     "what": "Rome Statute adopted"
+    },
+    {
+     "when": "2002",
+     "what": "ICC begins work"
+    },
+    {
+     "when": "2016",
+     "what": "PCA tribunal rejects China's nine-dash line"
+    },
+    {
+     "when": "2019",
+     "what": "ICJ decides Jadhav"
+    }
+   ],
+   "why": "States against individuals is the distinction that decides most of these questions. The other reliable one is that an advisory opinion is not binding, and that the PCA is not a court at all.",
+   "map": {
+    "nodes": [
+     {
+      "id": "oc-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "International courts",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Four bodies, four different jurisdictions."
+     },
+     {
+      "id": "oc-icj",
+      "parent": "oc-root",
+      "tier": 1,
+      "label": "International Court of Justice",
+      "kind": "institution",
+      "rel": "court",
+      "note": "Principal judicial organ of the UN, at The Hague."
+     },
+     {
+      "id": "oc-15",
+      "parent": "oc-icj",
+      "tier": 2,
+      "label": "Fifteen judges",
+      "kind": "concept",
+      "rel": "composition",
+      "note": "Elected by the Assembly and Council voting separately."
+     },
+     {
+      "id": "oc-states",
+      "parent": "oc-icj",
+      "tier": 2,
+      "label": "Only states",
+      "kind": "concept",
+      "rel": "jurisdiction",
+      "note": "Individuals cannot be parties; consent is required."
+     },
+     {
+      "id": "oc-adv",
+      "parent": "oc-icj",
+      "tier": 2,
+      "label": "Advisory opinions",
+      "kind": "concept",
+      "rel": "function",
+      "note": "Given to UN organs; not binding."
+     },
+     {
+      "id": "oc-jadhav",
+      "parent": "oc-icj",
+      "tier": 2,
+      "label": "Jadhav, 2019",
+      "kind": "case",
+      "rel": "India",
+      "note": "Pakistan held in breach of the consular relations convention."
+     },
+     {
+      "id": "oc-icc",
+      "parent": "oc-root",
+      "tier": 1,
+      "label": "International Criminal Court",
+      "kind": "institution",
+      "rel": "court",
+      "note": "Rome Statute 1998; tries individuals; not a UN body."
+     },
+     {
+      "id": "oc-crimes",
+      "parent": "oc-icc",
+      "tier": 2,
+      "label": "Four crimes",
+      "kind": "concept",
+      "rel": "jurisdiction",
+      "note": "Genocide, crimes against humanity, war crimes, aggression."
+     },
+     {
+      "id": "oc-india",
+      "parent": "oc-icc",
+      "tier": 2,
+      "label": "India outside",
+      "kind": "concept",
+      "rel": "position",
+      "note": "Has not ratified; nor have the US, China or Russia."
+     },
+     {
+      "id": "oc-itlos",
+      "parent": "oc-root",
+      "tier": 1,
+      "label": "ITLOS",
+      "kind": "institution",
+      "rel": "court",
+      "note": "At Hamburg, under UNCLOS, for maritime disputes."
+     },
+     {
+      "id": "oc-unclos",
+      "parent": "oc-itlos",
+      "tier": 2,
+      "label": "UNCLOS",
+      "kind": "agreement",
+      "rel": "source",
+      "note": "The law of the sea convention behind it."
+     },
+     {
+      "id": "oc-pca",
+      "parent": "oc-root",
+      "tier": 1,
+      "label": "Permanent Court of Arbitration",
+      "kind": "institution",
+      "rel": "registry",
+      "note": "Hague Convention 1899; administers tribunals."
+     },
+     {
+      "id": "oc-scs",
+      "parent": "oc-pca",
+      "tier": 2,
+      "label": "South China Sea, 2016",
+      "kind": "case",
+      "rel": "award",
+      "note": "Brought by the Philippines; rejected the nine-dash line."
+     },
+     {
+      "id": "oc-vienna",
+      "parent": "oc-jadhav",
+      "tier": 3,
+      "label": "Vienna Convention, 1963",
+      "kind": "agreement",
+      "rel": "instrument",
+      "note": "On consular relations, including access to detainees."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
@@ -1269,6 +1709,154 @@
      ],
      "answer": 0,
      "explain": "The G4: India, Brazil, Germany and Japan. Uniting for Consensus, sometimes called the Coffee Club, opposes them."
+    }
+   ]
+  },
+  {
+   "id": "orgs-p3",
+   "kind": "static",
+   "month": "orgs",
+   "topicIds": [
+    "org-bretton"
+   ],
+   "category": "International Organisations",
+   "tags": [
+    "Bretton Woods",
+    "IMF",
+    "World Bank"
+   ],
+   "difficulty": 3,
+   "title": "Three weeks in New Hampshire",
+   "passage": "Seven hundred delegates from forty-four allied nations gathered at a hotel in the White Mountains in July 1944, eleven months before the war in Europe ended, to design the monetary order that would follow it. The memory driving them was the decade before: countries that had devalued to steal each other's exports, raised tariffs in retaliation, and split the world into currency blocs, with the political consequences everyone in the room had just lived through.\n\nTwo rival plans were on the table. The British delegation, led by an economist who had predicted in 1919 that the reparations imposed on Germany would end badly, proposed an international clearing union with its own unit of account and, crucially, pressure on surplus countries as well as deficit ones to adjust. The American plan, from a Treasury official, put the dollar at the centre, tied it to gold, and placed the burden of adjustment on the deficit country alone. The United States held most of the world's gold and almost all of its intact industry, and the American plan is substantially what was adopted.\n\nTwo institutions emerged and both opened in 1945. One would lend to countries in balance of payments trouble and police exchange rates. The other would lend for reconstruction, and then, when European reconstruction turned out to be financed by a bilateral American programme instead, for development. India was a founding member of both.\n\nThe third pillar was never built as planned. A charter for an international trade organisation was negotiated at Havana and then refused by the American Senate, leaving a provisional tariff agreement signed in 1947 to carry world trade rules for forty-seven years, through eight rounds of negotiation, until the last of them finally produced a permanent body in 1995.",
+   "questions": [
+    {
+     "q": "The conference described was held in:",
+     "options": [
+      "1919",
+      "1944",
+      "1945",
+      "1947"
+     ],
+     "answer": 1,
+     "explain": "July 1944, at Bretton Woods, New Hampshire."
+    },
+    {
+     "q": "The British plan, unlike the American one, would have:",
+     "options": [
+      "Fixed all currencies to gold",
+      "Pressed surplus countries to adjust as well as deficit ones",
+      "Abolished tariffs entirely",
+      "Created a single world currency for retail use"
+     ],
+     "answer": 1,
+     "explain": "Keynes's clearing union placed adjustment pressure on creditors too; the American plan did not."
+    },
+    {
+     "q": "The two institutions that opened in 1945 were:",
+     "options": [
+      "The IMF and the WTO",
+      "The IMF and the World Bank",
+      "The World Bank and GATT",
+      "The UN and the IMF"
+     ],
+     "answer": 1,
+     "explain": "The International Monetary Fund and the International Bank for Reconstruction and Development."
+    },
+    {
+     "q": "The provisional agreement signed in 1947 was:",
+     "options": [
+      "The Havana Charter",
+      "The General Agreement on Tariffs and Trade",
+      "The Marshall Plan",
+      "The Bretton Woods Agreement"
+     ],
+     "answer": 1,
+     "explain": "GATT ran trade rules provisionally until the WTO was created."
+    },
+    {
+     "q": "The permanent trade body was finally created in:",
+     "options": [
+      "1971",
+      "1986",
+      "1995",
+      "2001"
+     ],
+     "answer": 2,
+     "explain": "The WTO came into being on 1 January 1995, out of the Uruguay Round."
+    }
+   ]
+  },
+  {
+   "id": "orgs-p4",
+   "kind": "static",
+   "month": "orgs",
+   "topicIds": [
+    "org-courts"
+   ],
+   "category": "International Organisations",
+   "tags": [
+    "ICJ",
+    "ICC",
+    "Jurisdiction"
+   ],
+   "difficulty": 3,
+   "title": "Two courts in one city",
+   "passage": "Both sit in The Hague and both are commonly called world courts, and almost nothing else about them is the same.\n\nThe older one was set up by the Charter in 1945 as the principal judicial organ of the organisation, inheriting the building and much of the practice of a predecessor from the League era. Fifteen judges sit for nine-year terms, elected by two organs of the parent body voting separately, and no two may hold the nationality of the same state. Its contentious jurisdiction extends only to disputes between states, and only where the states concerned have consented, whether by a clause in a treaty, by a special agreement, or by a general declaration accepting jurisdiction in advance. It has a second function with no equivalent elsewhere: on request from certain organs it delivers opinions that carry great authority and bind nobody, a combination that has produced findings on nuclear weapons, on a wall, and on the detachment of an archipelago from a colony before independence.\n\nThe younger one was created by a treaty adopted at Rome in 1998 and in force from 2002, and it is not part of the parent organisation at all. It prosecutes individuals, not states, for four categories of offence, and only where the national courts of the state concerned are unwilling or unable to act genuinely, a limitation known as complementarity. Its reach depends on ratification, and several of the largest states, including India, have declined to ratify. India's stated objections included the power given to the Security Council to refer situations and to defer them, the exclusion of terrorism from the listed crimes, and the independent power of the prosecutor to open an investigation.",
+   "questions": [
+    {
+     "q": "The court created in 1945 may hear contentious cases:",
+     "options": [
+      "Between individuals",
+      "Between states only",
+      "Between states and individuals",
+      "Between international organisations"
+     ],
+     "answer": 1,
+     "explain": "The ICJ's contentious jurisdiction is limited to states."
+    },
+    {
+     "q": "Its advisory opinions are:",
+     "options": [
+      "Binding on all UN members",
+      "Binding only on the requesting organ",
+      "Not binding on anyone",
+      "Binding once endorsed by the Security Council"
+     ],
+     "answer": 2,
+     "explain": "They carry authority but bind nobody, as the passage says."
+    },
+    {
+     "q": "The 1998 treaty referred to is:",
+     "options": [
+      "The Vienna Convention",
+      "The Rome Statute",
+      "The Geneva Conventions",
+      "The Hague Convention"
+     ],
+     "answer": 1,
+     "explain": "The Rome Statute of the International Criminal Court, in force from 2002."
+    },
+    {
+     "q": "Complementarity means the younger court acts only when:",
+     "options": [
+      "The Security Council refers the case",
+      "National courts are unwilling or unable to act genuinely",
+      "The accused consents",
+      "The state has ratified the treaty"
+     ],
+     "answer": 1,
+     "explain": "It is a court of last resort relative to national jurisdictions."
+    },
+    {
+     "q": "On the passage, one of India's objections was:",
+     "options": [
+      "The court sits in The Hague",
+      "The exclusion of terrorism from the listed crimes",
+      "The nine-year judicial term",
+      "The requirement of state consent"
+     ],
+     "answer": 1,
+     "explain": "India objected to terrorism's exclusion, to the Council's referral and deferral powers, and to the prosecutor's own initiative."
     }
    ]
   }

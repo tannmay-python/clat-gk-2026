@@ -1570,6 +1570,80 @@
      "explain": "Three consecutive quarters, which obliges the RBI to report to the central government on the causes and the remedial action."
     }
    ]
+  },
+  {
+   "id": "economy-p3",
+   "kind": "static",
+   "month": "economy",
+   "topicIds": [
+    "eco-planning"
+   ],
+   "category": "Economy",
+   "tags": [
+    "Planning",
+    "NITI Aayog",
+    "Five Year Plans"
+   ],
+   "difficulty": 2,
+   "title": "Planning without a statute",
+   "passage": "The body that directed where India's public investment went for sixty-five years was created by a resolution of the cabinet in March 1950. No article of the Constitution mentions it and no Act of Parliament established it. Its authority came from two things: the head of government chaired it, and it decided how much of the central pool each state received for its plan projects. A separate council of all state chief executives formally approved each plan, which gave the arrangement a federal appearance without giving the states much leverage.\n\nThe first plan leaned on a growth model relating output to the rate of saving and investment, put agriculture first because Partition had cut the country off from its main irrigated wheat and jute areas, and met its target. The second took a different route entirely, following a statistician's four-sector model that argued a poor country should build the industries that build machines, even at the cost of consumption in the short run. A policy resolution the same year reserved the strategic sectors to the state. That choice defined the next three decades.\n\nThen the sequence broke. Two wars and a severe drought forced three annual plans in place of a five-year one, and the devaluation and food imports of those years are still argued about. Growth returned but so did the balance of payments, and by the time the eighth plan was written the crisis of 1991 had already changed the state's role from producer to referee.\n\nThe commission was replaced in January 2015, again by resolution rather than statute. The successor advises and publishes indices but does not hand out money; the transfer function moved to the finance ministry, at the same moment as a finance commission raised the states' untied share of central taxes by ten percentage points.",
+   "questions": [
+    {
+     "q": "The body described was created by:",
+     "options": [
+      "A constitutional amendment",
+      "An Act of Parliament",
+      "A cabinet resolution",
+      "A presidential order"
+     ],
+     "answer": 2,
+     "explain": "The Planning Commission was set up by a Cabinet resolution in March 1950."
+    },
+    {
+     "q": "The model behind the second plan is associated with:",
+     "options": [
+      "Harrod and Domar",
+      "P. C. Mahalanobis",
+      "Amartya Sen",
+      "Manmohan Singh"
+     ],
+     "answer": 1,
+     "explain": "The Mahalanobis four-sector model, favouring capital goods industries."
+    },
+    {
+     "q": "The council of state chief executives that approved plans was the:",
+     "options": [
+      "Inter-State Council",
+      "National Development Council",
+      "Finance Commission",
+      "Zonal Council"
+     ],
+     "answer": 1,
+     "explain": "The National Development Council, created in 1952."
+    },
+    {
+     "q": "The three annual plans of 1966 to 1969 are known as the:",
+     "options": [
+      "Rolling plan",
+      "Plan holiday",
+      "Interim plan",
+      "Emergency plan"
+     ],
+     "answer": 1,
+     "explain": "The plan holiday, forced by two wars and drought."
+    },
+    {
+     "q": "On the passage, the successor body differs most importantly in that it:",
+     "options": [
+      "Is established by statute",
+      "Does not allocate funds",
+      "Excludes the states",
+      "Reports to Parliament"
+     ],
+     "answer": 1,
+     "explain": "NITI Aayog advises and publishes; allocation moved to the Finance Ministry."
+    }
+   ]
   }
  ]
 }

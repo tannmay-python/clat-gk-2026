@@ -609,6 +609,181 @@
    "sources": []
   },
   {
+   "id": "awd-nobel",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The Nobel Prizes: five from a will, one from a central bank",
+   "date": "",
+   "category": "Awards & Honours",
+   "tags": [
+    "Nobel Prize",
+    "Literature",
+    "Peace",
+    "Economics"
+   ],
+   "hook": "The man who invented dynamite read his own obituary, did not like it, and left his fortune to a set of prizes.",
+   "story": "**Alfred Nobel** left the bulk of his estate in his **1895 will** to fund annual prizes in **physics, chemistry, physiology or medicine, literature and peace**. The first were awarded in **1901**. The **economics** prize is not one of his: it was established in **1968** by **Sveriges Riksbank**, the Swedish central bank, and is properly the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.\n\nThe awarding bodies differ, which is the detail examiners like. The **Royal Swedish Academy of Sciences** decides physics, chemistry and economics; the **Karolinska Institute** decides medicine; the **Swedish Academy** decides literature; and the **peace prize alone** is decided by a committee of five appointed by the **Norwegian Parliament** and is presented in **Oslo** rather than Stockholm. A prize may be shared by at most three people, is not awarded posthumously except where the recipient died after the announcement, and cannot be awarded to an organisation except in peace.\n\nIndian and India-linked laureates: **Rabindranath Tagore**, literature, **1913**, the first Asian laureate; **C. V. Raman**, physics, **1930**, for the scattering effect that carries his name; **Mother Teresa**, peace, 1979; **Amartya Sen**, economics, 1998, for work on welfare economics and famine; **Kailash Satyarthi**, peace, 2014, shared with Malala Yousafzai. Of Indian origin but foreign citizens: **Har Gobind Khorana** (medicine, 1968), **S. Chandrasekhar** (physics, 1983), **V. Ramakrishnan** (chemistry, 2009) and **Abhijit Banerjee** (economics, 2019). **Ronald Ross**, who worked in India on the malaria parasite, won in 1902 for that work.",
+   "facts": [
+    {
+     "k": "Established",
+     "v": "Alfred Nobel's will of 1895; first prizes awarded 1901"
+    },
+    {
+     "k": "The five original fields",
+     "v": "Physics, chemistry, physiology or medicine, literature, peace"
+    },
+    {
+     "k": "Economics",
+     "v": "Added 1968 by Sveriges Riksbank; not part of the will"
+    },
+    {
+     "k": "Peace prize",
+     "v": "Decided by a Norwegian committee, presented at Oslo"
+    },
+    {
+     "k": "Sharing",
+     "v": "At most three laureates per prize; only peace may go to an organisation"
+    },
+    {
+     "k": "First Indian",
+     "v": "Rabindranath Tagore, literature, 1913, the first Asian laureate"
+    },
+    {
+     "k": "C. V. Raman",
+     "v": "Physics, 1930, for the Raman effect"
+    },
+    {
+     "k": "Others",
+     "v": "Mother Teresa 1979, Amartya Sen 1998, Kailash Satyarthi 2014"
+    }
+   ],
+   "timeline": [],
+   "why": "Two facts carry most Nobel questions: economics is not from the will, and peace is the Norwegian one. Tagore as the first Asian laureate is the third.",
+   "map": {
+    "nodes": [
+     {
+      "id": "an-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Nobel Prizes",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Five from a will, one from a central bank."
+     },
+     {
+      "id": "an-will",
+      "parent": "an-root",
+      "tier": 1,
+      "label": "Nobel's will, 1895",
+      "kind": "concept",
+      "rel": "origin",
+      "note": "Endowed five prizes; first awarded 1901."
+     },
+     {
+      "id": "an-econ",
+      "parent": "an-root",
+      "tier": 1,
+      "label": "Economics prize",
+      "kind": "concept",
+      "rel": "addition",
+      "note": "Sveriges Riksbank, 1968; not a Nobel in the strict sense."
+     },
+     {
+      "id": "an-peace",
+      "parent": "an-root",
+      "tier": 1,
+      "label": "Peace prize",
+      "kind": "concept",
+      "rel": "exception",
+      "note": "Norwegian committee; awarded at Oslo."
+     },
+     {
+      "id": "an-bodies",
+      "parent": "an-root",
+      "tier": 2,
+      "label": "The awarding bodies",
+      "kind": "concept",
+      "rel": "structure",
+      "note": "Royal Academy, Karolinska, Swedish Academy, Norwegian committee."
+     },
+     {
+      "id": "an-rules",
+      "parent": "an-root",
+      "tier": 2,
+      "label": "Three laureates",
+      "kind": "concept",
+      "rel": "rule",
+      "note": "No posthumous awards; organisations only in peace."
+     },
+     {
+      "id": "an-tagore",
+      "parent": "an-root",
+      "tier": 1,
+      "label": "Rabindranath Tagore",
+      "kind": "person",
+      "rel": "laureate",
+      "note": "Literature, 1913; the first Asian laureate."
+     },
+     {
+      "id": "an-raman",
+      "parent": "an-root",
+      "tier": 1,
+      "label": "C. V. Raman",
+      "kind": "person",
+      "rel": "laureate",
+      "note": "Physics, 1930, for the Raman effect."
+     },
+     {
+      "id": "an-teresa",
+      "parent": "an-root",
+      "tier": 2,
+      "label": "Mother Teresa",
+      "kind": "person",
+      "rel": "laureate",
+      "note": "Peace, 1979."
+     },
+     {
+      "id": "an-sen",
+      "parent": "an-root",
+      "tier": 2,
+      "label": "Amartya Sen",
+      "kind": "person",
+      "rel": "laureate",
+      "note": "Economics, 1998, on welfare and famine."
+     },
+     {
+      "id": "an-satyarthi",
+      "parent": "an-root",
+      "tier": 2,
+      "label": "Kailash Satyarthi",
+      "kind": "person",
+      "rel": "laureate",
+      "note": "Peace, 2014, shared with Malala Yousafzai."
+     },
+     {
+      "id": "an-origin",
+      "parent": "an-root",
+      "tier": 2,
+      "label": "Of Indian origin",
+      "kind": "concept",
+      "rel": "group",
+      "note": "Khorana, Chandrasekhar, Ramakrishnan, Banerjee."
+     },
+     {
+      "id": "an-ross",
+      "parent": "an-root",
+      "tier": 2,
+      "label": "Ronald Ross",
+      "kind": "person",
+      "rel": "link",
+      "note": "1902, for malaria work done in India."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "awd-arts",
    "rank": 4,
    "depth": "deep",
@@ -808,6 +983,162 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "awd-days",
+   "rank": 5,
+   "depth": "medium",
+   "importance": 3,
+   "title": "Days, observances and the themes that go with them",
+   "date": "",
+   "category": "Awards & Honours",
+   "tags": [
+    "International Days",
+    "UN",
+    "Observances"
+   ],
+   "hook": "A date on the calendar is the cheapest question a paper can ask, and the cheapest mark to lose.",
+   "story": "International days are proclaimed mostly by the **General Assembly**, sometimes by a specialised agency, and each usually carries an annual theme announced by the lead agency.\n\nThe Indian national days are fixed points: **Republic Day, 26 January**, marking the Constitution coming into force in 1950; **Independence Day, 15 August**; **Gandhi Jayanti, 2 October**, which the UN also observes as the **International Day of Non-Violence**; **Constitution Day, 26 November**, the date the Assembly adopted the Constitution in 1949; **National Unity Day, 31 October**, Patel's birthday; **Teachers' Day, 5 September**, Radhakrishnan's birthday; **Children's Day, 14 November**, Nehru's; **National Science Day, 28 February**, marking Raman's announcement of his effect in 1928; **National Youth Day, 12 January**, Vivekananda's birthday; and **Ambedkar Jayanti, 14 April**.\n\nThe international ones cluster by theme. Environment: **World Environment Day, 5 June**, hosted by a different country each year; **Earth Day, 22 April**; **World Water Day, 22 March**; **International Day for Biological Diversity, 22 May**; **World Ozone Day, 16 September**, marking the Montreal Protocol. Health: **World Health Day, 7 April**, the date the WHO constitution came into force; **World AIDS Day, 1 December**; **World Tuberculosis Day, 24 March**. Rights: **Human Rights Day, 10 December**, marking the Universal Declaration in 1948; **International Women's Day, 8 March**; **World Refugee Day, 20 June**. And the ones India proposed: **International Day of Yoga, 21 June**, adopted in 2014 with a record number of co-sponsors, and the **International Year of Millets, 2023**.",
+   "facts": [
+    {
+     "k": "Republic Day",
+     "v": "26 January; the Constitution came into force in 1950"
+    },
+    {
+     "k": "Constitution Day",
+     "v": "26 November; the Constituent Assembly adopted it in 1949"
+    },
+    {
+     "k": "National Science Day",
+     "v": "28 February, for Raman's announcement of his effect in 1928"
+    },
+    {
+     "k": "International Day of Non-Violence",
+     "v": "2 October, Gandhi's birthday"
+    },
+    {
+     "k": "International Day of Yoga",
+     "v": "21 June, proposed by India and adopted in 2014"
+    },
+    {
+     "k": "World Environment Day",
+     "v": "5 June, hosted by a different country each year"
+    },
+    {
+     "k": "Human Rights Day",
+     "v": "10 December, for the Universal Declaration of 1948"
+    },
+    {
+     "k": "World Ozone Day",
+     "v": "16 September, for the Montreal Protocol"
+    }
+   ],
+   "timeline": [],
+   "why": "The two dates most often swapped are 26 January and 26 November, and the trap is that adoption and commencement are a year and ten months apart.",
+   "map": {
+    "nodes": [
+     {
+      "id": "ad-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Days and observances",
+      "kind": "concept",
+      "rel": "core",
+      "note": "National fixed points and UN-proclaimed days."
+     },
+     {
+      "id": "ad-rep",
+      "parent": "ad-root",
+      "tier": 1,
+      "label": "Republic Day, 26 January",
+      "kind": "concept",
+      "rel": "national",
+      "note": "Constitution came into force in 1950."
+     },
+     {
+      "id": "ad-const",
+      "parent": "ad-root",
+      "tier": 1,
+      "label": "Constitution Day, 26 November",
+      "kind": "concept",
+      "rel": "national",
+      "note": "Adopted by the Constituent Assembly in 1949."
+     },
+     {
+      "id": "ad-sci",
+      "parent": "ad-root",
+      "tier": 2,
+      "label": "National Science Day, 28 February",
+      "kind": "concept",
+      "rel": "national",
+      "note": "Raman announced his effect in 1928."
+     },
+     {
+      "id": "ad-teach",
+      "parent": "ad-root",
+      "tier": 2,
+      "label": "Teachers' and Children's Days",
+      "kind": "concept",
+      "rel": "national",
+      "note": "5 September and 14 November."
+     },
+     {
+      "id": "ad-yoga",
+      "parent": "ad-root",
+      "tier": 1,
+      "label": "International Day of Yoga, 21 June",
+      "kind": "concept",
+      "rel": "india-led",
+      "note": "Adopted in 2014 with record co-sponsorship."
+     },
+     {
+      "id": "ad-nonviol",
+      "parent": "ad-root",
+      "tier": 2,
+      "label": "Day of Non-Violence, 2 October",
+      "kind": "concept",
+      "rel": "india-led",
+      "note": "Gandhi's birthday, adopted by the General Assembly."
+     },
+     {
+      "id": "ad-env",
+      "parent": "ad-root",
+      "tier": 1,
+      "label": "Environment days",
+      "kind": "concept",
+      "rel": "cluster",
+      "note": "5 June, 22 April, 22 March, 22 May, 16 September."
+     },
+     {
+      "id": "ad-health",
+      "parent": "ad-root",
+      "tier": 1,
+      "label": "Health days",
+      "kind": "concept",
+      "rel": "cluster",
+      "note": "7 April, 1 December, 24 March."
+     },
+     {
+      "id": "ad-rights",
+      "parent": "ad-root",
+      "tier": 1,
+      "label": "Rights days",
+      "kind": "concept",
+      "rel": "cluster",
+      "note": "10 December, 8 March, 20 June."
+     },
+     {
+      "id": "ad-millet",
+      "parent": "ad-root",
+      "tier": 2,
+      "label": "International Year of Millets, 2023",
+      "kind": "concept",
+      "rel": "india-led",
+      "note": "Proposed by India through the FAO."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
@@ -882,6 +1213,78 @@
      ],
      "answer": 2,
      "explain": "The passage states the peace prize alone is decided and presented in the Norwegian capital by a committee appointed by that country’s parliament, and that no prize may be divided among more than three people."
+    }
+   ]
+  },
+  {
+   "id": "awd-p2",
+   "kind": "static",
+   "month": "awards",
+   "topicIds": [
+    "awd-nobel"
+   ],
+   "category": "Awards & Honours",
+   "tags": [
+    "Nobel Prize"
+   ],
+   "difficulty": 2,
+   "title": "The prize the will did not create",
+   "passage": "The chemist who endowed them had made his fortune from an explosive that stabilised nitroglycerine, and the story that he was moved to act by reading a premature obituary calling him a merchant of death is repeated everywhere and confirmed nowhere. What is certain is the will of 1895, which directed that the interest on his estate be divided into five parts and given each year to those who had conferred the greatest benefit on humankind in five named fields.\n\nFour of the five are decided in Stockholm. The fifth, alone among them, was left to a committee of five appointed by the parliament of the neighbouring country, and is presented in that country's capital rather than in Sweden. Nobody has satisfactorily explained the choice; the two countries were in a union at the time the will was written and separated a decade later.\n\nA sixth award, in a subject the will never mentioned, was established in 1968 by the Swedish central bank on its three-hundredth anniversary, funded by the bank rather than the estate, and administered under the same rules and announced in the same week. Purists insist on its full name; almost nobody uses it.\n\nThe rules constrain the outcome more than people notice. A prize may be divided among no more than three individuals, which in an age of large research collaborations has become the most common complaint against it. It is not awarded posthumously, save where the recipient dies between announcement and ceremony. And with a single exception, it goes only to persons, never to institutions.",
+   "questions": [
+    {
+     "q": "The prize decided outside Sweden is for:",
+     "options": [
+      "Literature",
+      "Peace",
+      "Economics",
+      "Chemistry"
+     ],
+     "answer": 1,
+     "explain": "The peace prize is decided by a Norwegian committee and presented at Oslo."
+    },
+    {
+     "q": "The sixth award, established in 1968, is in:",
+     "options": [
+      "Mathematics",
+      "Economic sciences",
+      "Environment",
+      "Medicine"
+     ],
+     "answer": 1,
+     "explain": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel."
+    },
+    {
+     "q": "It was funded by:",
+     "options": [
+      "Nobel's estate",
+      "The Swedish central bank",
+      "The Swedish government",
+      "The Royal Academy"
+     ],
+     "answer": 1,
+     "explain": "The bank endowed it on its three-hundredth anniversary."
+    },
+    {
+     "q": "The maximum number of individuals who may share one prize is:",
+     "options": [
+      "Two",
+      "Three",
+      "Four",
+      "No limit"
+     ],
+     "answer": 1,
+     "explain": "Three, which is the source of the standard complaint about large collaborations."
+    },
+    {
+     "q": "The single exception to the rule that prizes go only to persons is:",
+     "options": [
+      "Literature",
+      "Peace",
+      "Physics",
+      "Economics"
+     ],
+     "answer": 1,
+     "explain": "Organisations may win the peace prize, and several have."
     }
    ]
   }
