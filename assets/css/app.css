@@ -103,9 +103,9 @@ body::before {
   position: fixed; inset: 0; z-index: -1; pointer-events: none;
   background-image: url("../lily-pattern.svg");
   background-size: 360px 360px;
-  opacity: 0.075;
+  opacity: 0.115;
 }
-:root[data-theme="dark"] body::before { opacity: 0.06; }
+:root[data-theme="dark"] body::before { opacity: 0.085; }
 
 /* ── shell ──────────────────────────────────────────────────────────── */
 .top {

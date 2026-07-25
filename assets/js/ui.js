@@ -12,7 +12,8 @@ export function meter(n, max = 5) {
 // Deliberately tiny markdown: paragraphs, ### headings, lists, bold, italic, code, links.
 export function md(src) {
   if (!src) return '';
-  const blocks = String(src).trim().split(/\n{2,}/);
+  // Some source files carried a literal backslash-n instead of a newline.
+  const blocks = String(src).replace(/\\n/g, '\n').trim().split(/\n{2,}/);
   return blocks.map(b => {
     b = b.trim();
     if (/^###\s/.test(b)) return '<h3>' + inline(b.replace(/^###\s*/, '')) + '</h3>';
