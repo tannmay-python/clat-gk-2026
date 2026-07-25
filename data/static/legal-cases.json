@@ -1,13 +1,239 @@
 {
  "id": "legal-cases",
  "kind": "static",
- "label": "Landmark Supreme Court Judgments",
- "blurb": "A comprehensive compilation of landmark Supreme Court judgments that have shaped Indian constitutional law. These cases are essential for understanding the evolution of fundamental rights, basic structure, federalism, and judicial review.",
+ "label": "Landmark Judgments & Legal GK",
+ "blurb": "The constitutional canon plus the legal vocabulary the paper assumes you already have. Cases ranked by how often they actually appear.",
  "topics": [
   {
-   "id": "static-sr-bommai",
+   "id": "law-kesavananda",
    "rank": 1,
-   "depth": "medium",
+   "depth": "deep",
+   "importance": 5,
+   "title": "Kesavananda Bharati (1973) and the amendment cases before it",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "Kesavananda",
+    "Basic Structure",
+    "Article 368",
+    "Golaknath"
+   ],
+   "hook": "Thirteen judges, sixty-eight days of hearing, eleven separate opinions and a 7-6 split that decided Parliament can amend the Constitution but cannot rewrite what it is.",
+   "story": "The line of amendment cases runs in five steps and the exam expects all of them.\n\n**Shankari Prasad (1951).** Challenge to the First Amendment, which had added the Ninth Schedule. Held that \"law\" in Article 13 does not include a constitutional amendment, so Fundamental Rights could be amended.\n\n**Sajjan Singh (1965).** Reaffirmed Shankari Prasad by 3-2. Justices Hidayatullah and Mudholkar doubted it, and Mudholkar first floated the idea of \"basic features\".\n\n**Golaknath (1967).** An eleven-judge bench reversed course 6-5. Chief Justice Subba Rao held that an amendment is \"law\" under Article 13 and Parliament cannot abridge Fundamental Rights at all. He applied prospective overruling so earlier amendments survived.\n\nParliament answered with the **24th Amendment (1971)**, declaring that Article 368 amendments are not \"law\" for Article 13; the **25th Amendment (1971)**, inserting Article 31C; and the **29th Amendment**, putting Kerala land reform laws into the Ninth Schedule.\n\n**Kesavananda Bharati v. State of Kerala (1973).** Swami Kesavananda Bharati, head of the Edneer Mutt in Kasaragod, challenged Kerala land reform laws. The bench of thirteen was assembled to decide the amendment question. Judgment came on **24 April 1973**. By 7-6 the Court overruled Golaknath, upheld the 24th Amendment, and held that the amending power does not extend to altering the **basic structure** of the Constitution. Chief Justice S.M. Sikri retired the following day. The second part of Article 31C, barring judicial review of laws claiming to implement Directive Principles, was struck down.\n\n**Minerva Mills (1980).** Chief Justice Y.V. Chandrachud struck down clauses 4 and 5 of Article 368 and read down the expanded Article 31C, holding that the balance between Parts III and IV is itself a basic feature. Justice Bhagwati partly dissented.\n\n**I.R. Coelho (2007).** Nine judges held that laws inserted into the Ninth Schedule after 24 April 1973 are open to challenge if they damage the basic structure. The Ninth Schedule stopped being a safe harbour.",
+   "facts": [
+    {
+     "k": "Decided",
+     "v": "24 April 1973"
+    },
+    {
+     "k": "Bench",
+     "v": "13 judges, the largest ever"
+    },
+    {
+     "k": "Split",
+     "v": "7-6"
+    },
+    {
+     "k": "Petitioner",
+     "v": "Swami Kesavananda Bharati, head of the Edneer Mutt, Kasaragod"
+    },
+    {
+     "k": "Chief Justice",
+     "v": "S.M. Sikri, who retired the next day"
+    },
+    {
+     "k": "Overruled",
+     "v": "Golaknath (1967)"
+    },
+    {
+     "k": "Amendment upheld",
+     "v": "24th Amendment, 1971"
+    },
+    {
+     "k": "Ninth Schedule cut-off",
+     "v": "24 April 1973, fixed by I.R. Coelho (2007)"
+    },
+    {
+     "k": "Case that first hinted at basic features",
+     "v": "Sajjan Singh (1965), Justice Mudholkar"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1951",
+     "what": "Shankari Prasad"
+    },
+    {
+     "when": "1965",
+     "what": "Sajjan Singh"
+    },
+    {
+     "when": "1967",
+     "what": "Golaknath"
+    },
+    {
+     "when": "1971",
+     "what": "24th, 25th and 29th Amendments"
+    },
+    {
+     "when": "1973",
+     "what": "Kesavananda Bharati"
+    },
+    {
+     "when": "1980",
+     "what": "Minerva Mills"
+    },
+    {
+     "when": "2007",
+     "what": "I.R. Coelho"
+    }
+   ],
+   "why": "The chain of five cases is the single most examined sequence in Indian constitutional law. Learn which case overruled which, and the 7-6 split.",
+   "map": {
+    "nodes": [
+     {
+      "id": "sikri",
+      "parent": "root",
+      "tier": 1,
+      "label": "CJI S.M. Sikri",
+      "kind": "person",
+      "rel": "presided",
+      "note": "Headed the 13-judge bench and retired on 25 April 1973, the day after judgment."
+     },
+     {
+      "id": "golak",
+      "parent": "root",
+      "tier": 1,
+      "label": "Golaknath (1967)",
+      "kind": "event",
+      "rel": "overruled by it",
+      "note": "11 judges, 6-5. Held amendments are \"law\" under Article 13 and Fundamental Rights cannot be abridged. Introduced prospective overruling."
+     },
+     {
+      "id": "a24",
+      "parent": "root",
+      "tier": 1,
+      "label": "24th Amendment (1971)",
+      "kind": "event",
+      "rel": "upheld",
+      "note": "Declared that an amendment under Article 368 is not \"law\" for the purposes of Article 13, reversing Golaknath legislatively."
+     },
+     {
+      "id": "a31c",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 31C",
+      "kind": "law",
+      "rel": "partly struck down",
+      "note": "Inserted by the 25th Amendment. Its second limb, barring review of laws claiming to implement Articles 39(b) and (c), was voided."
+     },
+     {
+      "id": "minerva",
+      "parent": "root",
+      "tier": 1,
+      "label": "Minerva Mills (1980)",
+      "kind": "event",
+      "rel": "followed",
+      "note": "Struck down clauses 4 and 5 of Article 368. CJI Y.V. Chandrachud wrote for the majority."
+     },
+     {
+      "id": "shankari",
+      "parent": "golak",
+      "tier": 2,
+      "label": "Shankari Prasad (1951)",
+      "kind": "event",
+      "rel": "earliest",
+      "note": "Upheld the First Amendment. Held Article 13 does not cover constitutional amendments."
+     },
+     {
+      "id": "sajjan",
+      "parent": "golak",
+      "tier": 2,
+      "label": "Sajjan Singh (1965)",
+      "kind": "event",
+      "rel": "the doubt",
+      "note": "3-2 in favour of amendability, but Justice Mudholkar first raised the idea that the Constitution has basic features."
+     },
+     {
+      "id": "coelho",
+      "parent": "root",
+      "tier": 2,
+      "label": "I.R. Coelho (2007)",
+      "kind": "event",
+      "rel": "extended",
+      "note": "9 judges. Ninth Schedule laws added after 24 April 1973 can be tested against Part III and the basic structure."
+     },
+     {
+      "id": "ninth",
+      "parent": "coelho",
+      "tier": 2,
+      "label": "Ninth Schedule",
+      "kind": "law",
+      "rel": "the shield",
+      "note": "Added by the First Amendment in 1951 to protect land reform. Now holds around 284 laws, no longer all immune."
+     },
+     {
+      "id": "subbarao",
+      "parent": "golak",
+      "tier": 2,
+      "label": "CJI K. Subba Rao",
+      "kind": "person",
+      "rel": "wrote Golaknath",
+      "note": "Resigned soon after to contest the presidential election as a joint opposition candidate."
+     },
+     {
+      "id": "indira",
+      "parent": "minerva",
+      "tier": 2,
+      "label": "Indira Nehru Gandhi v. Raj Narain (1975)",
+      "kind": "event",
+      "rel": "first application",
+      "note": "Struck down clause 4 of the 39th Amendment, which had insulated the Prime Minister’s election from challenge."
+     },
+     {
+      "id": "a368",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 368",
+      "kind": "law",
+      "rel": "the provision at issue",
+      "note": "The amending power. Kesavananda held it is wide but cannot be used to destroy the Constitution’s identity."
+     },
+     {
+      "id": "palkhivala",
+      "parent": "sikri",
+      "tier": 2,
+      "label": "Nani Palkhivala",
+      "kind": "person",
+      "rel": "argued it",
+      "note": "Led the petitioners’ argument against unlimited amending power, in what is usually called his greatest case."
+     },
+     {
+      "id": "bommai",
+      "parent": "minerva",
+      "tier": 3,
+      "label": "S.R. Bommai (1994)",
+      "kind": "event",
+      "rel": "applied the doctrine",
+      "note": "Held secularism is part of the basic structure and Article 356 proclamations are reviewable."
+     },
+     {
+      "id": "njac",
+      "parent": "minerva",
+      "tier": 3,
+      "label": "NJAC judgment (2015)",
+      "kind": "event",
+      "rel": "latest application",
+      "note": "Struck down the 99th Amendment, holding judicial primacy in appointments is part of the basic structure."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "static-sr-bommai",
+   "rank": 2,
+   "depth": "deep",
    "importance": 5,
    "title": "SR Bommai v Union of India and Article 356",
    "date": "1994-03-11",
@@ -126,9 +352,202 @@
    "sources": []
   },
   {
+   "id": "law-maneka",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Maneka Gandhi (1978) and the golden triangle",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "Maneka Gandhi",
+    "Article 21",
+    "Golden Triangle",
+    "Due Process"
+   ],
+   "hook": "A passport impounded \"in the public interest\" without reasons, and the judgment that turned Article 21 from a formality into the most powerful provision in the Constitution.",
+   "story": "In July 1977 the government impounded Maneka Gandhi's passport under section 10(3)(c) of the Passports Act 1967 \"in the interests of the general public\", and declined to give reasons. She moved the Supreme Court under Article 32, arguing breaches of Articles 14, 19 and 21.\n\nA **seven-judge bench** decided in January 1978. The holdings that matter:\n\n**Articles 14, 19 and 21 are not watertight compartments.** *A.K. Gopalan* (1950) had held that a law depriving personal liberty need only satisfy Article 21, and that Article 19 had no application. Maneka Gandhi overruled that approach. A law must now survive all three, which is why the three are called the **golden triangle**.\n\n**\"Procedure established by law\" means fair procedure.** The procedure must be right, just and fair, and not arbitrary, fanciful or oppressive. American due process was thus read into a text that had deliberately avoided it.\n\n**Natural justice is implied.** Even where a statute is silent, the audi alteram partem rule applies unless expressly excluded. The government's refusal to give reasons failed this test.\n\n**The right to travel abroad is part of personal liberty**, following *Satwant Singh Sawhney* (1967).\n\nThe Court did not quash the order. The Attorney General gave an undertaking that the petitioner would be given a hearing and reasons, and the Court disposed of the petition on that basis. The doctrine outlived the outcome.\n\nEverything expansive in Article 21 since 1978 rests on this case: livelihood in *Olga Tellis*, a clean environment in the *M.C. Mehta* line, legal aid in *Hussainara Khatoon*, speedy trial, shelter, health, privacy in *Puttaswamy* and dignity in death in *Common Cause*. Read with *E.P. Royappa* (1974), it also cemented arbitrariness as an independent ground under Article 14.",
+   "facts": [
+    {
+     "k": "Decided",
+     "v": "25 January 1978"
+    },
+    {
+     "k": "Bench",
+     "v": "Seven judges"
+    },
+    {
+     "k": "Statute challenged",
+     "v": "Section 10(3)(c), Passports Act 1967"
+    },
+    {
+     "k": "Case overruled in approach",
+     "v": "A.K. Gopalan (1950)"
+    },
+    {
+     "k": "Golden triangle",
+     "v": "Articles 14, 19 and 21"
+    },
+    {
+     "k": "Test laid down",
+     "v": "Procedure must be right, just and fair"
+    },
+    {
+     "k": "Right recognised",
+     "v": "Right to travel abroad as part of personal liberty"
+    },
+    {
+     "k": "Earlier case on travel",
+     "v": "Satwant Singh Sawhney (1967)"
+    }
+   ],
+   "timeline": [],
+   "why": "Any passage where the State restricts a freedom without giving reasons is a Maneka Gandhi question. The examiner usually wants the golden triangle named, or the shift from Gopalan.",
+   "map": {
+    "nodes": [
+     {
+      "id": "a21",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 21",
+      "kind": "law",
+      "rel": "transformed",
+      "note": "After 1978 the procedure depriving life or liberty must itself be fair, just and reasonable."
+     },
+     {
+      "id": "gopalan",
+      "parent": "root",
+      "tier": 1,
+      "label": "A.K. Gopalan (1950)",
+      "kind": "event",
+      "rel": "overruled in approach",
+      "note": "Held Articles 19, 21 and 22 are mutually exclusive. Preventive detention survived almost any challenge under that reading."
+     },
+     {
+      "id": "triangle",
+      "parent": "root",
+      "tier": 1,
+      "label": "The golden triangle",
+      "kind": "concept",
+      "rel": "established",
+      "note": "Articles 14, 19 and 21 read together. A law restricting liberty must satisfy all three."
+     },
+     {
+      "id": "passports",
+      "parent": "root",
+      "tier": 1,
+      "label": "Passports Act, 1967",
+      "kind": "law",
+      "rel": "the statute",
+      "note": "Enacted after Satwant Singh Sawhney held that refusing a passport violates personal liberty."
+     },
+     {
+      "id": "bhagwati",
+      "parent": "triangle",
+      "tier": 2,
+      "label": "Justice P.N. Bhagwati",
+      "kind": "person",
+      "rel": "wrote the lead",
+      "note": "Also the author of E.P. Royappa (1974), which made arbitrariness an independent ground under Article 14."
+     },
+     {
+      "id": "natural",
+      "parent": "root",
+      "tier": 2,
+      "label": "Audi alteram partem",
+      "kind": "term",
+      "rel": "implied",
+      "note": "Hear the other side. Read into statutes even where they are silent, unless expressly excluded."
+     },
+     {
+      "id": "olga",
+      "parent": "a21",
+      "tier": 2,
+      "label": "Olga Tellis (1985)",
+      "kind": "event",
+      "rel": "built on it",
+      "note": "Right to livelihood read into Article 21 for Bombay pavement dwellers."
+     },
+     {
+      "id": "putta",
+      "parent": "a21",
+      "tier": 2,
+      "label": "Puttaswamy (2017)",
+      "kind": "event",
+      "rel": "built on it",
+      "note": "Privacy read into Article 21 by nine judges, with a proportionality test for state intrusion."
+     },
+     {
+      "id": "common",
+      "parent": "a21",
+      "tier": 2,
+      "label": "Common Cause (2018)",
+      "kind": "event",
+      "rel": "built on it",
+      "note": "Passive euthanasia and advance directives recognised as part of dignity under Article 21."
+     },
+     {
+      "id": "duep",
+      "parent": "root",
+      "tier": 2,
+      "label": "Due process of law",
+      "kind": "concept",
+      "rel": "entered indirectly",
+      "note": "The drafters chose the Japanese \"procedure established by law\" on B.N. Rau’s advice. Maneka Gandhi restored the substance of due process."
+     },
+     {
+      "id": "satwant",
+      "parent": "passports",
+      "tier": 2,
+      "label": "Satwant Singh Sawhney (1967)",
+      "kind": "event",
+      "rel": "the precursor",
+      "note": "Held the right to travel abroad is part of personal liberty, which forced Parliament to enact the Passports Act."
+     },
+     {
+      "id": "royappa",
+      "parent": "triangle",
+      "tier": 2,
+      "label": "E.P. Royappa (1974)",
+      "kind": "event",
+      "rel": "companion doctrine",
+      "note": "Equality is antithetical to arbitrariness; arbitrary State action violates Article 14 without a comparator."
+     },
+     {
+      "id": "a19",
+      "parent": "triangle",
+      "tier": 3,
+      "label": "Article 19",
+      "kind": "law",
+      "rel": "the six freedoms",
+      "note": "Speech and expression, assembly, association, movement, residence, and profession. Each carries its own reasonable restrictions."
+     },
+     {
+      "id": "hussainara",
+      "parent": "a21",
+      "tier": 3,
+      "label": "Hussainara Khatoon (1979)",
+      "kind": "event",
+      "rel": "built on it",
+      "note": "Right to a speedy trial and free legal aid, in the first true public interest litigation."
+     },
+     {
+      "id": "emergency",
+      "parent": "gopalan",
+      "tier": 3,
+      "label": "ADM Jabalpur (1976)",
+      "kind": "event",
+      "rel": "the low point",
+      "note": "Decided under the Gopalan approach two years before Maneka Gandhi, holding Article 21 could be suspended entirely."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "static-shah-bano",
-   "rank": 2,
-   "depth": "medium",
+   "rank": 4,
+   "depth": "deep",
    "importance": 5,
    "title": "Mohd. Ahmed Khan v Shah Bano Begum and Muslim Personal Law",
    "date": "1985-04-23",
@@ -244,8 +663,8 @@
   },
   {
    "id": "static-shayara-bano",
-   "rank": 3,
-   "depth": "medium",
+   "rank": 5,
+   "depth": "deep",
    "importance": 5,
    "title": "Shayara Bano v Union of India and the End of Triple Talaq",
    "date": "2017-08-22",
@@ -361,8 +780,8 @@
   },
   {
    "id": "static-vishaka",
-   "rank": 4,
-   "depth": "medium",
+   "rank": 6,
+   "depth": "deep",
    "importance": 5,
    "title": "Vishaka v State of Rajasthan and Workplace Harassment Guidelines",
    "date": "1997-08-13",
@@ -478,9 +897,9 @@
   },
   {
    "id": "static-puttaswamy",
-   "rank": 5,
-   "depth": "medium",
-   "importance": 5,
+   "rank": 7,
+   "depth": "deep",
+   "importance": 4,
    "title": "KS Puttaswamy v Union of India and the Right to Privacy",
    "date": "2017-08-24",
    "category": "Polity",
@@ -592,7 +1011,866 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "law-indra",
+   "rank": 8,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Indra Sawhney (1992): reservation, the creamy layer and the 50% ceiling",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "Indra Sawhney",
+    "Reservation",
+    "Mandal",
+    "Creamy Layer"
+   ],
+   "hook": "The Mandal case. Nine judges, 27% for other backward classes upheld, promotions excluded, and a ceiling that Parliament has since gone around twice.",
+   "story": "The **Mandal Commission**, formally the Second Backward Classes Commission, was set up in 1979 under **B.P. Mandal** and reported in 1980. It identified 3,743 castes as socially and educationally backward, estimated them at 52% of the population, and recommended 27% reservation in central government jobs. The report sat unused until **V.P. Singh** announced implementation on 7 August 1990, triggering nationwide protests.\n\n*Indra Sawhney v. Union of India* (1992) was decided by **nine judges, 6-3**. The holdings:\n\n- **27% reservation for OBCs in public employment is valid** under Article 16(4). Caste can be a starting point for identifying a backward class, provided backwardness is established.\n- The **creamy layer** among OBCs must be excluded. This is the most examined element. The Court directed the government to fix criteria, done by the Ram Nandan Committee in 1993.\n- Total reservation must not ordinarily exceed **50%**, except in extraordinary situations.\n- **No reservation in promotions.** Parliament overturned this with the 77th Amendment (1995), inserting Article 16(4A), followed by the 81st (2000, carry-forward of backlog vacancies under 16(4B)), 82nd (2000, relaxation in qualifying marks) and 85th (2001, consequential seniority).\n- An additional 10% reservation for economically backward sections not covered by 16(4), proposed by the government, was struck down: economic criteria alone cannot found a backward class.\n\nThat last holding is why the **103rd Amendment (2019)**, giving 10% to economically weaker sections through new clauses 15(6) and 16(6), needed a constitutional amendment. It was upheld 3-2 in *Janhit Abhiyan* (2022), the majority holding that the 50% ceiling is not inflexible and that EWS reservation, being outside 16(4), does not breach the basic structure. *M. Nagaraj* (2006) and *Jarnail Singh* (2018) held that the creamy layer principle applies to Scheduled Castes and Tribes in promotions too.",
+   "facts": [
+    {
+     "k": "Case",
+     "v": "Indra Sawhney v. Union of India, 1992"
+    },
+    {
+     "k": "Bench",
+     "v": "Nine judges, decided 6-3"
+    },
+    {
+     "k": "Commission",
+     "v": "Mandal Commission, set up 1979, reported 1980, chaired by B.P. Mandal"
+    },
+    {
+     "k": "Reservation upheld",
+     "v": "27% for OBCs in public employment"
+    },
+    {
+     "k": "Ceiling",
+     "v": "50% on total reservation"
+    },
+    {
+     "k": "Creamy layer",
+     "v": "Must be excluded from OBC benefits"
+    },
+    {
+     "k": "Promotions",
+     "v": "No reservation, later reversed by the 77th Amendment, 1995"
+    },
+    {
+     "k": "EWS",
+     "v": "103rd Amendment, 2019, upheld 3-2 in Janhit Abhiyan, 2022"
+    }
+   ],
+   "timeline": [],
+   "why": "Reservation passages are common and always turn on three numbers: 27, 50 and 10. The creamy layer question is the standard second-order test.",
+   "map": {
+    "nodes": [
+     {
+      "id": "mandal",
+      "parent": "root",
+      "tier": 1,
+      "label": "Mandal Commission",
+      "kind": "org",
+      "rel": "the trigger",
+      "note": "Second Backward Classes Commission, 1979-80, chaired by B.P. Mandal. Recommended 27% OBC reservation."
+     },
+     {
+      "id": "creamy",
+      "parent": "root",
+      "tier": 1,
+      "label": "Creamy layer",
+      "kind": "concept",
+      "rel": "the key holding",
+      "note": "Better-off members of a backward class must be excluded. Criteria fixed by the Ram Nandan Committee in 1993."
+     },
+     {
+      "id": "ceiling",
+      "parent": "root",
+      "tier": 1,
+      "label": "The 50% ceiling",
+      "kind": "concept",
+      "rel": "the limit",
+      "note": "Total reservation should not ordinarily exceed half, except in extraordinary situations."
+     },
+     {
+      "id": "a164",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 16(4)",
+      "kind": "law",
+      "rel": "the power",
+      "note": "Permits reservation in appointments for any backward class not adequately represented in state services."
+     },
+     {
+      "id": "a103",
+      "parent": "root",
+      "tier": 1,
+      "label": "103rd Amendment (2019)",
+      "kind": "event",
+      "rel": "went around it",
+      "note": "Added 15(6) and 16(6) for economically weaker sections, 10%, outside the 16(4) framework."
+     },
+     {
+      "id": "vps",
+      "parent": "mandal",
+      "tier": 2,
+      "label": "V.P. Singh",
+      "kind": "person",
+      "rel": "implemented",
+      "note": "Prime Minister who announced implementation on 7 August 1990. His government fell in November that year."
+     },
+     {
+      "id": "a77",
+      "parent": "root",
+      "tier": 2,
+      "label": "77th Amendment (1995)",
+      "kind": "event",
+      "rel": "reversed a holding",
+      "note": "Inserted Article 16(4A) to permit reservation in promotions for Scheduled Castes and Tribes."
+     },
+     {
+      "id": "nagaraj",
+      "parent": "a77",
+      "tier": 2,
+      "label": "M. Nagaraj (2006)",
+      "kind": "event",
+      "rel": "conditions",
+      "note": "Upheld 16(4A) but required the state to show backwardness, inadequate representation and administrative efficiency."
+     },
+     {
+      "id": "jarnail",
+      "parent": "nagaraj",
+      "tier": 2,
+      "label": "Jarnail Singh (2018)",
+      "kind": "event",
+      "rel": "modified",
+      "note": "Removed the need to prove backwardness of SCs and STs but applied the creamy layer test to them in promotions."
+     },
+     {
+      "id": "janhit",
+      "parent": "a103",
+      "tier": 2,
+      "label": "Janhit Abhiyan (2022)",
+      "kind": "event",
+      "rel": "upheld EWS",
+      "note": "5 judges, 3-2. Held the 50% ceiling is not inflexible and EWS reservation does not violate the basic structure."
+     },
+     {
+      "id": "kaka",
+      "parent": "mandal",
+      "tier": 2,
+      "label": "Kaka Kalelkar Commission",
+      "kind": "org",
+      "rel": "the first",
+      "note": "First Backward Classes Commission, 1953. Its report was never acted upon."
+     },
+     {
+      "id": "a340",
+      "parent": "mandal",
+      "tier": 2,
+      "label": "Article 340",
+      "kind": "law",
+      "rel": "the basis",
+      "note": "Empowers the President to appoint a commission to investigate the conditions of socially and educationally backward classes."
+     },
+     {
+      "id": "a338b",
+      "parent": "root",
+      "tier": 3,
+      "label": "National Commission for Backward Classes",
+      "kind": "org",
+      "rel": "now constitutional",
+      "note": "Given constitutional status by the 102nd Amendment in 2018 under Article 338B."
+     },
+     {
+      "id": "a15",
+      "parent": "a164",
+      "tier": 3,
+      "label": "Article 15(4) and 15(5)",
+      "kind": "law",
+      "rel": "education",
+      "note": "15(4) came with the First Amendment after Champakam Dorairajan; 15(5), added in 2005, allows reservation in private unaided institutions."
+     },
+     {
+      "id": "mrat",
+      "parent": "ceiling",
+      "tier": 3,
+      "label": "Maratha reservation (2021)",
+      "kind": "event",
+      "rel": "tested the ceiling",
+      "note": "The Supreme Court struck down Maharashtra’s SEBC quota for breaching the 50% limit without extraordinary circumstances."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "law-navtej",
+   "rank": 9,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Navtej Singh Johar (2018) and the dismantling of Victorian morality",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "Navtej Johar",
+    "Section 377",
+    "Joseph Shine",
+    "Privacy"
+   ],
+   "hook": "Section 377 was drafted by Macaulay in 1860 and read down in 2018 by five judges who described the earlier decision restoring it as a mistake the Court had to correct.",
+   "story": "**Section 377 of the Indian Penal Code** punished \"carnal intercourse against the order of nature\". It was part of Macaulay's draft code, enacted in 1860, and modelled on the English Buggery Act of 1533.\n\nThe litigation ran in three stages. In **Naz Foundation v. NCT of Delhi (2009)** the Delhi High Court read down section 377 to exclude consensual acts between adults in private, holding it violated Articles 14, 15 and 21. In **Suresh Kumar Koushal (2013)** a two-judge bench of the Supreme Court reversed that, saying only a \"minuscule fraction\" of the population was affected and that it was for Parliament to change the law. In **Navtej Singh Johar v. Union of India (6 September 2018)** a five-judge bench unanimously overruled Koushal and read down section 377 to decriminalise consensual sexual acts between adults. Chief Justice Dipak Misra, and Justices Nariman, Chandrachud and Indu Malhotra each wrote separately. Justice Malhotra's line that history owes an apology to members of the community is widely quoted.\n\nThe reasoning came directly from *Puttaswamy* (2017), which had recognised privacy including decisional autonomy and sexual orientation. The Court used **manifest arbitrariness** under Article 14, non-discrimination on grounds of sex under Article 15 read to include sexual orientation, and dignity under Article 21. Section 377 survives for non-consensual acts and acts with minors and animals; the new **Bharatiya Nyaya Sanhita 2023** omits the provision entirely, which has left a gap regarding non-consensual acts between adult men.\n\nThe same bench season produced **Joseph Shine v. Union of India (2018)**, striking down section 497 IPC on adultery as a violation of Articles 14, 15 and 21, on the ground that it treated a wife as her husband's property and denied women agency. Read together with **Shakti Vahini** and **Shafin Jahan** on choice in marriage, and **Common Cause** on dignity in dying, 2018 was the year the Court applied Puttaswamy across the board.\n\n*Supriyo v. Union of India* (2023) declined to recognise same-sex marriage, holding by 3-2 that this is for Parliament, while directing the government to form a committee on the rights of queer couples.",
+   "facts": [
+    {
+     "k": "Judgment date",
+     "v": "6 September 2018"
+    },
+    {
+     "k": "Bench",
+     "v": "Five judges, unanimous"
+    },
+    {
+     "k": "Provision read down",
+     "v": "Section 377, Indian Penal Code, 1860"
+    },
+    {
+     "k": "Case overruled",
+     "v": "Suresh Kumar Koushal, 2013"
+    },
+    {
+     "k": "High Court judgment restored in effect",
+     "v": "Naz Foundation, Delhi High Court, 2009"
+    },
+    {
+     "k": "Foundation",
+     "v": "Puttaswamy, 2017"
+    },
+    {
+     "k": "Adultery case",
+     "v": "Joseph Shine v. Union of India, 2018, struck down section 497"
+    },
+    {
+     "k": "Same-sex marriage",
+     "v": "Supriyo v. Union of India, 2023, declined 3-2"
+    }
+   ],
+   "timeline": [],
+   "why": "A passage on personal autonomy, privacy or discrimination will expect Navtej and Joseph Shine by name, and the fact that Koushal was overruled rather than distinguished.",
+   "map": {
+    "nodes": [
+     {
+      "id": "s377",
+      "parent": "root",
+      "tier": 1,
+      "label": "Section 377, IPC",
+      "kind": "law",
+      "rel": "read down",
+      "note": "Enacted 1860 as part of Macaulay’s code, modelled on the English Buggery Act of 1533."
+     },
+     {
+      "id": "koushal",
+      "parent": "root",
+      "tier": 1,
+      "label": "Suresh Kumar Koushal (2013)",
+      "kind": "event",
+      "rel": "overruled",
+      "note": "Two-judge bench that restored section 377, using the \"minuscule fraction\" reasoning the 2018 bench rejected."
+     },
+     {
+      "id": "naz",
+      "parent": "root",
+      "tier": 1,
+      "label": "Naz Foundation (2009)",
+      "kind": "event",
+      "rel": "the first win",
+      "note": "Delhi High Court read down section 377 on Articles 14, 15 and 21. Never appealed by the government."
+     },
+     {
+      "id": "putta",
+      "parent": "root",
+      "tier": 1,
+      "label": "Puttaswamy (2017)",
+      "kind": "event",
+      "rel": "the foundation",
+      "note": "Recognised decisional autonomy and sexual orientation as part of privacy, which made the 2018 outcome inevitable."
+     },
+     {
+      "id": "shine",
+      "parent": "root",
+      "tier": 1,
+      "label": "Joseph Shine (2018)",
+      "kind": "event",
+      "rel": "companion ruling",
+      "note": "Struck down section 497 IPC on adultery. Adultery remains a ground for divorce but is no longer a crime."
+     },
+     {
+      "id": "malhotra",
+      "parent": "koushal",
+      "tier": 2,
+      "label": "Justice Indu Malhotra",
+      "kind": "person",
+      "rel": "wrote separately",
+      "note": "Her opinion said history owes an apology to members of the community for the delay in redress."
+     },
+     {
+      "id": "misra",
+      "parent": "root",
+      "tier": 2,
+      "label": "CJI Dipak Misra",
+      "kind": "person",
+      "rel": "presided",
+      "note": "Led the bench in Navtej, Joseph Shine, Sabarimala and the Aadhaar case, all in 2018."
+     },
+     {
+      "id": "bns",
+      "parent": "s377",
+      "tier": 2,
+      "label": "Bharatiya Nyaya Sanhita, 2023",
+      "kind": "law",
+      "rel": "the sequel",
+      "note": "Replaced the IPC from 1 July 2024 and omits section 377 entirely, leaving no provision for non-consensual acts between adult men."
+     },
+     {
+      "id": "supriyo",
+      "parent": "root",
+      "tier": 2,
+      "label": "Supriyo v. Union of India (2023)",
+      "kind": "event",
+      "rel": "the limit",
+      "note": "Declined to recognise same-sex marriage 3-2, holding the question is for Parliament."
+     },
+     {
+      "id": "a15",
+      "parent": "root",
+      "tier": 2,
+      "label": "Article 15",
+      "kind": "law",
+      "rel": "ground used",
+      "note": "Read to cover sexual orientation as an aspect of \"sex\", following the reasoning in Puttaswamy and NALSA."
+     },
+     {
+      "id": "nalsa",
+      "parent": "a15",
+      "tier": 2,
+      "label": "NALSA v. Union of India (2014)",
+      "kind": "event",
+      "rel": "related",
+      "note": "Recognised transgender persons as a third gender and directed reservation in education and employment."
+     },
+     {
+      "id": "macaulay",
+      "parent": "s377",
+      "tier": 2,
+      "label": "Thomas Babington Macaulay",
+      "kind": "person",
+      "rel": "drafted",
+      "note": "Chaired the First Law Commission of India, appointed 1834. Drafted the Indian Penal Code, enacted 1860."
+     },
+     {
+      "id": "shafin",
+      "parent": "root",
+      "tier": 3,
+      "label": "Shafin Jahan (2018)",
+      "kind": "event",
+      "rel": "choice in marriage",
+      "note": "The Hadiya case. Held the right to choose a partner is part of Article 21 and cannot be overridden by a court."
+     },
+     {
+      "id": "common",
+      "parent": "root",
+      "tier": 3,
+      "label": "Common Cause (2018)",
+      "kind": "event",
+      "rel": "same season",
+      "note": "Recognised passive euthanasia and advance medical directives."
+     },
+     {
+      "id": "sabarimala",
+      "parent": "misra",
+      "tier": 3,
+      "label": "Indian Young Lawyers Association (2018)",
+      "kind": "event",
+      "rel": "same bench",
+      "note": "Sabarimala. Allowed women of all ages entry, 4-1, with Justice Indu Malhotra dissenting. Review is pending before nine judges."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "law-newcodes",
+   "rank": 10,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The three new criminal laws that replaced the IPC, CrPC and Evidence Act",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "BNS",
+    "BNSS",
+    "BSA",
+    "Criminal Law"
+   ],
+   "hook": "From 1 July 2024 India stopped prosecuting under an 1860 code. The names, the dates and what replaced what are guaranteed exam material.",
+   "story": "Three statutes passed in December 2023 and brought into force on **1 July 2024** replaced the colonial criminal law framework:\n\n- **Bharatiya Nyaya Sanhita, 2023** replaces the **Indian Penal Code, 1860**. 358 sections against the IPC's 511.\n- **Bharatiya Nagarik Suraksha Sanhita, 2023** replaces the **Code of Criminal Procedure, 1973**. 531 sections.\n- **Bharatiya Sakshya Adhiniyam, 2023** replaces the **Indian Evidence Act, 1872**. 170 sections.\n\nThe Union Home Minister **Amit Shah** introduced them; they were referred to the Standing Committee on Home Affairs and passed in the winter session while a large number of opposition members were suspended.\n\nWhat changed substantively:\n\n**Sedition, section 124A IPC, is gone.** In its place section 152 of the BNS creates the offence of \"acts endangering the sovereignty, unity and integrity of India\", covering secession, armed rebellion and subversive activities. Critics argue the new provision is broader than what it replaced. Sedition had been kept in abeyance by the Supreme Court in *S.G. Vombatkere* (2022) pending review of *Kedar Nath Singh* (1962), which had upheld it while confining it to incitement to violence.\n\n**Terrorism enters the general criminal law.** Section 113 BNS defines a terrorist act, previously only in the UAPA.\n\n**Mob lynching** becomes a distinct offence, punishable by death or life imprisonment where a group of five or more kills on grounds of race, caste, community, sex, language or personal belief.\n\n**Community service** appears as a punishment for the first time. **Zero FIR** and electronic FIR are given statutory form, as is mandatory videography of search and seizure. Timelines are fixed: judgment within 45 days of the end of trial, charges framed within 60 days of the first hearing.\n\n**Adultery and section 377 are not carried over**, following *Joseph Shine* and *Navtej Johar*. **Section 498A** on cruelty to a married woman survives as section 85 BNS.",
+   "facts": [
+    {
+     "k": "In force from",
+     "v": "1 July 2024"
+    },
+    {
+     "k": "Replaces the IPC",
+     "v": "Bharatiya Nyaya Sanhita, 2023, 358 sections"
+    },
+    {
+     "k": "Replaces the CrPC",
+     "v": "Bharatiya Nagarik Suraksha Sanhita, 2023, 531 sections"
+    },
+    {
+     "k": "Replaces the Evidence Act",
+     "v": "Bharatiya Sakshya Adhiniyam, 2023, 170 sections"
+    },
+    {
+     "k": "Sedition",
+     "v": "Section 124A IPC repealed; section 152 BNS covers acts endangering sovereignty"
+    },
+    {
+     "k": "Terrorism",
+     "v": "Defined in section 113 BNS"
+    },
+    {
+     "k": "New punishment introduced",
+     "v": "Community service"
+    },
+    {
+     "k": "Introduced by",
+     "v": "Union Home Minister Amit Shah"
+    },
+    {
+     "k": "Sedition case kept in abeyance",
+     "v": "S.G. Vombatkere, 2022"
+    }
+   ],
+   "timeline": [],
+   "why": "Expect a passage on the new codes, and questions matching each new Act to the colonial statute it replaced. The sedition change is the most likely single question.",
+   "map": {
+    "nodes": [
+     {
+      "id": "bns",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bharatiya Nyaya Sanhita, 2023",
+      "kind": "law",
+      "rel": "replaces the IPC",
+      "note": "358 sections. Adds terrorism, organised crime and mob lynching as distinct offences."
+     },
+     {
+      "id": "bnss",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "kind": "law",
+      "rel": "replaces the CrPC",
+      "note": "531 sections. Fixes timelines for charges, judgments and forensic collection."
+     },
+     {
+      "id": "bsa",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bharatiya Sakshya Adhiniyam, 2023",
+      "kind": "law",
+      "rel": "replaces the Evidence Act",
+      "note": "170 sections. Gives electronic and digital records the status of primary evidence."
+     },
+     {
+      "id": "sedition",
+      "parent": "root",
+      "tier": 1,
+      "label": "Sedition, section 124A IPC",
+      "kind": "law",
+      "rel": "repealed",
+      "note": "Introduced in 1870 by James Fitzjames Stephen. Used against Tilak and Gandhi. Kept in abeyance by the Supreme Court in 2022."
+     },
+     {
+      "id": "s152",
+      "parent": "sedition",
+      "tier": 1,
+      "label": "Section 152, BNS",
+      "kind": "law",
+      "rel": "the replacement",
+      "note": "Acts endangering the sovereignty, unity and integrity of India. Punishable with life imprisonment or up to seven years."
+     },
+     {
+      "id": "kedar",
+      "parent": "sedition",
+      "tier": 2,
+      "label": "Kedar Nath Singh (1962)",
+      "kind": "event",
+      "rel": "the old test",
+      "note": "Upheld sedition but read it down to speech that incites violence or public disorder."
+     },
+     {
+      "id": "ipc",
+      "parent": "bns",
+      "tier": 2,
+      "label": "Indian Penal Code, 1860",
+      "kind": "law",
+      "rel": "what it replaced",
+      "note": "Drafted by Macaulay’s First Law Commission from 1834, enacted 1860, in force from 1 January 1862."
+     },
+     {
+      "id": "crpc",
+      "parent": "bnss",
+      "tier": 2,
+      "label": "Code of Criminal Procedure, 1973",
+      "kind": "law",
+      "rel": "what it replaced",
+      "note": "Itself a replacement for the 1898 code, following the 41st Law Commission report."
+     },
+     {
+      "id": "evidence",
+      "parent": "bsa",
+      "tier": 2,
+      "label": "Indian Evidence Act, 1872",
+      "kind": "law",
+      "rel": "what it replaced",
+      "note": "Drafted by Sir James Fitzjames Stephen."
+     },
+     {
+      "id": "uapa",
+      "parent": "bns",
+      "tier": 2,
+      "label": "UAPA, 1967",
+      "kind": "law",
+      "rel": "overlap",
+      "note": "Terrorism was previously prosecuted only under the UAPA, amended in 2019 to allow individuals to be designated as terrorists."
+     },
+     {
+      "id": "shah",
+      "parent": "root",
+      "tier": 2,
+      "label": "Amit Shah",
+      "kind": "person",
+      "rel": "introduced them",
+      "note": "Union Home Minister. Piloted the three bills through Parliament in December 2023."
+     },
+     {
+      "id": "zero",
+      "parent": "bnss",
+      "tier": 2,
+      "label": "Zero FIR",
+      "kind": "term",
+      "rel": "given statutory form",
+      "note": "An FIR can be registered at any police station regardless of jurisdiction and transferred later."
+     },
+     {
+      "id": "lynch",
+      "parent": "bns",
+      "tier": 3,
+      "label": "Mob lynching",
+      "kind": "term",
+      "rel": "new offence",
+      "note": "A group of five or more killing on grounds of race, caste, community, sex, language or personal belief. Death or life imprisonment."
+     },
+     {
+      "id": "community",
+      "parent": "bns",
+      "tier": 3,
+      "label": "Community service",
+      "kind": "term",
+      "rel": "new punishment",
+      "note": "The first non-custodial punishment of its kind in Indian criminal law, for petty offences."
+     },
+     {
+      "id": "s498a",
+      "parent": "bns",
+      "tier": 3,
+      "label": "Section 85, BNS",
+      "kind": "law",
+      "rel": "carried over",
+      "note": "Continues section 498A IPC on cruelty to a married woman by her husband or his relatives."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "law-doctrines",
+   "rank": 11,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Doctrines and maxims a law entrance expects you to know",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "Doctrines",
+    "Legal Maxims",
+    "Stare Decisis",
+    "PIL"
+   ],
+   "hook": "Fifteen terms that turn up in legal reasoning passages, in questions on judgments, and in the reading comprehension section without warning.",
+   "story": "**Constitutional doctrines.** *Basic structure*: Parliament may amend but not destroy the Constitution's identity. *Pith and substance*: a law is judged by its true nature, so incidental encroachment on another legislative list does not void it. *Colourable legislation*: what cannot be done directly cannot be done indirectly. *Eclipse*: a pre-Constitution law inconsistent with a Fundamental Right is dormant, not dead, and revives if the inconsistency is removed. *Severability*: only the offending portion is struck down if separable. *Harmonious construction*: conflicting provisions are read so that both are given effect. *Prospective overruling*: a new interpretation applies only to future cases, used in *Golaknath*. *Doctrine of repugnancy*: Article 254, Union law prevails on Concurrent subjects.\n\n**Procedural terms.** *Locus standi*: standing to sue, relaxed by PIL. *Res judicata*: a matter already decided between the same parties cannot be relitigated. *Sub judice*: pending before a court. *Stare decisis*: stand by decided matters; precedent binds. *Obiter dicta*: things said in passing, persuasive but not binding. *Ratio decidendi*: the reason for the decision, which is the binding part. *Amicus curiae*: friend of the court, appointed to assist. *Suo motu*: on the court's own motion. *Ex parte*: a decision made in the absence of one party. *Caveat*: a notice asking that no order be passed without hearing the person who filed it.\n\n**Maxims of substance.** *Audi alteram partem*: hear the other side. *Nemo judex in causa sua*: no one may judge their own cause. Together these make up natural justice. *Actus non facit reum nisi mens sit rea*: an act does not make a person guilty unless the mind is guilty, the basis of criminal intent. *Ignorantia juris non excusat*: ignorance of the law is no excuse. *Ubi jus ibi remedium*: where there is a right there is a remedy. *Volenti non fit injuria*: no injury is done to one who consents, a tort defence. *Res ipsa loquitur*: the thing speaks for itself, shifting the burden in negligence. *Damnum sine injuria*: loss without legal injury, which is not actionable. *Injuria sine damno*: legal injury without loss, which is actionable, as in *Ashby v. White*.",
+   "facts": [
+    {
+     "k": "Binding part of a judgment",
+     "v": "Ratio decidendi"
+    },
+    {
+     "k": "Persuasive but not binding",
+     "v": "Obiter dicta"
+    },
+    {
+     "k": "Stand by decided matters",
+     "v": "Stare decisis"
+    },
+    {
+     "k": "Hear the other side",
+     "v": "Audi alteram partem"
+    },
+    {
+     "k": "No one a judge in his own cause",
+     "v": "Nemo judex in causa sua"
+    },
+    {
+     "k": "Guilty mind",
+     "v": "Mens rea"
+    },
+    {
+     "k": "Loss without legal injury, not actionable",
+     "v": "Damnum sine injuria"
+    },
+    {
+     "k": "Legal injury without loss, actionable",
+     "v": "Injuria sine damno"
+    },
+    {
+     "k": "Friend of the court",
+     "v": "Amicus curiae"
+    },
+    {
+     "k": "On the court’s own motion",
+     "v": "Suo motu"
+    }
+   ],
+   "timeline": [],
+   "why": "Legal reasoning passages use these terms without defining them, and the GK section asks for the meaning directly. The pair most often confused is damnum sine injuria against injuria sine damno.",
+   "map": {
+    "nodes": [
+     {
+      "id": "ratio",
+      "parent": "root",
+      "tier": 1,
+      "label": "Ratio decidendi",
+      "kind": "term",
+      "rel": "binding",
+      "note": "The legal reasoning essential to the decision. Only this binds under Article 141."
+     },
+     {
+      "id": "obiter",
+      "parent": "ratio",
+      "tier": 1,
+      "label": "Obiter dicta",
+      "kind": "term",
+      "rel": "persuasive",
+      "note": "Observations not necessary to the decision. Persuasive but not binding."
+     },
+     {
+      "id": "natural",
+      "parent": "root",
+      "tier": 1,
+      "label": "Natural justice",
+      "kind": "concept",
+      "rel": "two rules",
+      "note": "Audi alteram partem and nemo judex in causa sua. Read into statutes even where they are silent."
+     },
+     {
+      "id": "mens",
+      "parent": "root",
+      "tier": 1,
+      "label": "Mens rea",
+      "kind": "term",
+      "rel": "criminal intent",
+      "note": "From actus non facit reum nisi mens sit rea. Strict liability offences are the exception."
+     },
+     {
+      "id": "pith",
+      "parent": "root",
+      "tier": 1,
+      "label": "Pith and substance",
+      "kind": "concept",
+      "rel": "federal doctrine",
+      "note": "A law is judged by its true character; incidental encroachment on another list does not invalidate it."
+     },
+     {
+      "id": "damnum",
+      "parent": "root",
+      "tier": 2,
+      "label": "Damnum sine injuria",
+      "kind": "term",
+      "rel": "not actionable",
+      "note": "Loss without violation of a legal right. Gloucester Grammar School case: opening a rival school caused loss but no legal injury."
+     },
+     {
+      "id": "injuria",
+      "parent": "damnum",
+      "tier": 2,
+      "label": "Injuria sine damno",
+      "kind": "term",
+      "rel": "actionable",
+      "note": "Violation of a legal right without loss. Ashby v. White (1703), where a voter was wrongly refused a vote."
+     },
+     {
+      "id": "volenti",
+      "parent": "root",
+      "tier": 2,
+      "label": "Volenti non fit injuria",
+      "kind": "term",
+      "rel": "tort defence",
+      "note": "No injury is done to one who consents. Does not apply where consent is obtained by fraud or where a statutory duty is breached."
+     },
+     {
+      "id": "resipsa",
+      "parent": "volenti",
+      "tier": 2,
+      "label": "Res ipsa loquitur",
+      "kind": "term",
+      "rel": "negligence",
+      "note": "The thing speaks for itself. Shifts the burden to the defendant where the accident could not ordinarily happen without negligence."
+     },
+     {
+      "id": "locus",
+      "parent": "root",
+      "tier": 2,
+      "label": "Locus standi",
+      "kind": "term",
+      "rel": "standing",
+      "note": "Relaxed from the late 1970s so that any public-spirited person may move the court on behalf of those unable to."
+     },
+     {
+      "id": "resjud",
+      "parent": "locus",
+      "tier": 2,
+      "label": "Res judicata",
+      "kind": "term",
+      "rel": "finality",
+      "note": "A matter already adjudicated between the same parties cannot be reopened. Section 11, Civil Procedure Code."
+     },
+     {
+      "id": "stare",
+      "parent": "ratio",
+      "tier": 2,
+      "label": "Stare decisis",
+      "kind": "term",
+      "rel": "precedent",
+      "note": "Decisions of the Supreme Court bind all courts under Article 141; a larger bench may overrule a smaller one."
+     },
+     {
+      "id": "eclipse",
+      "parent": "pith",
+      "tier": 3,
+      "label": "Doctrine of eclipse",
+      "kind": "concept",
+      "rel": "Article 13",
+      "note": "A pre-Constitution law inconsistent with Part III is dormant and revives if the inconsistency is removed."
+     },
+     {
+      "id": "colour",
+      "parent": "pith",
+      "tier": 3,
+      "label": "Colourable legislation",
+      "kind": "concept",
+      "rel": "Article 246",
+      "note": "What cannot be done directly cannot be done indirectly. K.C. Gajapati Narayan Deo (1953)."
+     },
+     {
+      "id": "amicus",
+      "parent": "locus",
+      "tier": 3,
+      "label": "Amicus curiae",
+      "kind": "term",
+      "rel": "court’s assistant",
+      "note": "A lawyer appointed to assist the court, often in PILs or where a party is unrepresented."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
- "passages": []
+ "passages": [
+  {
+   "id": "legal-p1",
+   "kind": "static",
+   "month": "legal-cases",
+   "topicIds": [
+    "law-indra"
+   ],
+   "category": "Law & Judiciary",
+   "tags": [
+    "Reservation",
+    "Indra Sawhney"
+   ],
+   "difficulty": 3,
+   "title": "The Mandal case",
+   "passage": "A commission appointed in 1979 to identify socially and educationally backward classes reported the following year that such groups made up a little over half the population, and recommended that twenty-seven per cent of central government posts be reserved for them. The report was shelved for a decade. When a coalition government announced in August 1990 that it would implement the recommendation, the announcement set off protests across northern India and the government fell within months.\n\nThe litigation that followed was heard by nine judges. The Court upheld the twenty-seven per cent reservation, holding that caste could serve as the starting point for identifying a backward class provided social and educational backwardness was actually established. It then imposed three limits. The better-off members of a backward class, those who had already escaped the disadvantages that justified the classification, were to be excluded from its benefits. Total reservation was not ordinarily to exceed half of the available posts, since reservation is an exception to the general rule of equality of opportunity and an exception cannot swallow the rule. And reservation was to apply to appointments, not to promotions.\n\nThe government had also proposed a further ten per cent for sections that were poor but not socially backward. The Court struck this down, holding that economic criteria alone could not identify a backward class within the meaning of the relevant clause.\n\nParliament responded to two of these holdings. A constitutional amendment in 1995 restored reservation in promotions for Scheduled Castes and Scheduled Tribes; three further amendments over the next six years dealt with backlog vacancies, qualifying marks and consequential seniority. Almost thirty years after the judgment, another amendment created a ten per cent quota on purely economic grounds by placing it in new clauses outside the provision the Court had interpreted. A five-judge bench upheld it by a majority of three to two.",
+   "questions": [
+    {
+     "q": "The commission described in the first paragraph is the:",
+     "options": [
+      "Kaka Kalelkar Commission",
+      "Mandal Commission",
+      "Sarkaria Commission",
+      "Punchhi Commission"
+     ],
+     "answer": 1,
+     "explain": "The Mandal Commission, the Second Backward Classes Commission, appointed 1979 under B.P. Mandal and reporting in 1980. Kalelkar chaired the first such commission in 1953; Sarkaria and Punchhi dealt with centre-state relations."
+    },
+    {
+     "q": "The exclusion described in the second paragraph is known as the:",
+     "options": [
+      "Creamy layer",
+      "Carry-forward rule",
+      "Consequential seniority rule",
+      "Catch-up rule"
+     ],
+     "answer": 0,
+     "explain": "The creamy layer. Criteria were fixed by the Ram Nandan Committee in 1993. Carry-forward and consequential seniority relate to promotion amendments that came later."
+    },
+    {
+     "q": "Why was the government’s proposed ten per cent quota struck down in 1992?",
+     "options": [
+      "It breached the fifty per cent ceiling",
+      "Economic criteria alone cannot identify a backward class under Article 16(4)",
+      "It had not been recommended by any commission",
+      "It applied to promotions rather than appointments"
+     ],
+     "answer": 1,
+     "explain": "The Court held that backwardness under Article 16(4) is social and educational, so poverty alone could not found a backward class. This is precisely why the 2019 EWS quota needed a constitutional amendment rather than an executive order."
+    },
+    {
+     "q": "The 1995 amendment referred to in the final paragraph inserted which provision?",
+     "options": [
+      "Article 15(4)",
+      "Article 16(4A)",
+      "Article 16(4B)",
+      "Article 15(6)"
+     ],
+     "answer": 1,
+     "explain": "The 77th Amendment inserted Article 16(4A), permitting reservation in promotion for Scheduled Castes and Tribes. 16(4B) came with the 81st Amendment on backlog vacancies; 15(6) came with the 103rd for EWS."
+    },
+    {
+     "q": "The amendment upheld three to two by a five-judge bench is the:",
+     "options": [
+      "93rd Amendment",
+      "102nd Amendment",
+      "103rd Amendment",
+      "106th Amendment"
+     ],
+     "answer": 2,
+     "explain": "The 103rd Amendment of 2019, creating the ten per cent EWS quota, upheld in Janhit Abhiyan (2022). The 102nd gave the NCBC constitutional status; the 106th is the women’s reservation amendment."
+    }
+   ]
+  }
+ ],
+ "order": 2
 }
