@@ -1013,6 +1013,190 @@
    "sources": []
   },
   {
+   "id": "law-statutes",
+   "rank": 7,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The statutes a legal GK paper assumes you know",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "RTI",
+    "Consumer Protection",
+    "POCSO",
+    "Domestic Violence"
+   ],
+   "hook": "Most legal GK questions are not about cases. They are about which Act covers what, and how many days you have.",
+   "story": "**Right to Information Act, 2005.** Any citizen may request information from a public authority, which must reply within **30 days**, or **48 hours** where life or liberty is involved. The machinery is a Public Information Officer in each authority, an appeal to a first appellate authority, and a second appeal to the **Central or State Information Commission**. Section 8 lists the exemptions: sovereignty, foreign relations, commercial confidence, cabinet papers, and personal information with no public interest. The **2019 amendment** let the Centre fix the tenure and salary of Information Commissioners, which had previously been set in the statute, and the **DPDP Act 2023** widened the personal information exemption.\n\n**Consumer Protection Act, 2019**, which replaced the 1986 Act. It created the **Central Consumer Protection Authority**, brought **e-commerce** and misleading advertisement within its reach, made **product liability** a statutory claim, introduced mediation, and allowed a complaint to be filed where the complainant resides. The three-tier commissions are **District** up to ₹50 lakh, **State** to ₹2 crore, and **National** above that; appeals run upward and then to the Supreme Court. A complaint must ordinarily be filed within **two years**.\n\n**Protection of Children from Sexual Offences Act, 2012.** Gender-neutral, applies to anyone below **18**, and reverses the usual burden: **Section 29** presumes the accused guilty once foundational facts are proved, and **Section 30** presumes a culpable mental state. It requires child-friendly procedure, recording of the statement by a woman officer at the child's residence where possible, in-camera trial, and completion within **one year**. The **2019 amendment** added the death penalty for aggravated penetrative assault.\n\n**Protection of Women from Domestic Violence Act, 2005** is civil, not criminal. It gives a right to reside in the shared household, and provides protection, residence, monetary, custody and compensation orders through a Magistrate, with a Protection Officer to assist. Violation of a protection order is the only criminal offence in it.\n\nAlso standing: the **Maintenance and Welfare of Parents and Senior Citizens Act 2007**, the **Motor Vehicles (Amendment) Act 2019** which raised penalties sharply, the **Juvenile Justice Act 2015** allowing 16 to 18 year olds to be tried as adults for heinous offences after a Board assessment, and the **Mental Healthcare Act 2017**, which decriminalised attempted suicide in effect and created advance directives.",
+   "facts": [
+    {
+     "k": "RTI",
+     "v": "Reply in 30 days, or 48 hours where life or liberty is at stake; Section 8 exemptions"
+    },
+    {
+     "k": "RTI amendment, 2019",
+     "v": "Tenure and salary of Information Commissioners moved from statute to executive rule"
+    },
+    {
+     "k": "Consumer Protection Act, 2019",
+     "v": "Replaced the 1986 Act; created the CCPA; covers e-commerce and product liability"
+    },
+    {
+     "k": "Consumer pecuniary limits",
+     "v": "District to ₹50 lakh, State to ₹2 crore, National above"
+    },
+    {
+     "k": "POCSO",
+     "v": "Applies below 18; gender-neutral; Sections 29 and 30 reverse the burden"
+    },
+    {
+     "k": "Domestic Violence Act",
+     "v": "Civil in nature; right to reside in the shared household; only breach of a protection order is criminal"
+    },
+    {
+     "k": "Juvenile Justice Act, 2015",
+     "v": "16 to 18 may be tried as adults for heinous offences after a Board assessment"
+    },
+    {
+     "k": "Mental Healthcare Act, 2017",
+     "v": "Presumption of severe stress on an attempted suicide, and advance directives"
+    }
+   ],
+   "timeline": [],
+   "why": "Time limits and pecuniary limits are the mechanical marks here. The conceptual question is which Act is civil and which criminal — the Domestic Violence Act catches people out every year.",
+   "map": {
+    "nodes": [
+     {
+      "id": "ls-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "The statutes",
+      "kind": "concept",
+      "rel": "core",
+      "note": "What a legal GK paper assumes without saying so."
+     },
+     {
+      "id": "ls-rti",
+      "parent": "ls-root",
+      "tier": 1,
+      "label": "Right to Information Act, 2005",
+      "kind": "law",
+      "rel": "statute",
+      "note": "30 days, or 48 hours for life and liberty."
+     },
+     {
+      "id": "ls-rti8",
+      "parent": "ls-rti",
+      "tier": 2,
+      "label": "Section 8 exemptions",
+      "kind": "law",
+      "rel": "limit",
+      "note": "Sovereignty, foreign relations, cabinet papers, personal information."
+     },
+     {
+      "id": "ls-rti19",
+      "parent": "ls-rti",
+      "tier": 2,
+      "label": "2019 amendment",
+      "kind": "law",
+      "rel": "change",
+      "note": "Commissioners' tenure and salary moved to executive rule."
+     },
+     {
+      "id": "ls-cpa",
+      "parent": "ls-root",
+      "tier": 1,
+      "label": "Consumer Protection Act, 2019",
+      "kind": "law",
+      "rel": "statute",
+      "note": "Replaced the 1986 Act."
+     },
+     {
+      "id": "ls-ccpa",
+      "parent": "ls-cpa",
+      "tier": 2,
+      "label": "Central Consumer Protection Authority",
+      "kind": "institution",
+      "rel": "regulator",
+      "note": "Acts against misleading advertisement."
+     },
+     {
+      "id": "ls-tiers",
+      "parent": "ls-cpa",
+      "tier": 2,
+      "label": "Three commissions",
+      "kind": "concept",
+      "rel": "structure",
+      "note": "District, State and National, by value."
+     },
+     {
+      "id": "ls-pocso",
+      "parent": "ls-root",
+      "tier": 1,
+      "label": "POCSO, 2012",
+      "kind": "law",
+      "rel": "statute",
+      "note": "Gender-neutral, applies below 18."
+     },
+     {
+      "id": "ls-29",
+      "parent": "ls-pocso",
+      "tier": 2,
+      "label": "Sections 29 and 30",
+      "kind": "law",
+      "rel": "burden",
+      "note": "Presumption of guilt and of culpable mental state."
+     },
+     {
+      "id": "ls-dv",
+      "parent": "ls-root",
+      "tier": 1,
+      "label": "Domestic Violence Act, 2005",
+      "kind": "law",
+      "rel": "statute",
+      "note": "Civil, not criminal."
+     },
+     {
+      "id": "ls-reside",
+      "parent": "ls-dv",
+      "tier": 2,
+      "label": "Right to reside",
+      "kind": "concept",
+      "rel": "remedy",
+      "note": "In the shared household, whatever the title."
+     },
+     {
+      "id": "ls-jj",
+      "parent": "ls-root",
+      "tier": 2,
+      "label": "Juvenile Justice Act, 2015",
+      "kind": "law",
+      "rel": "statute",
+      "note": "16 to 18 tried as adults for heinous offences after assessment."
+     },
+     {
+      "id": "ls-mv",
+      "parent": "ls-root",
+      "tier": 2,
+      "label": "Motor Vehicles (Amendment) Act, 2019",
+      "kind": "law",
+      "rel": "statute",
+      "note": "Sharply higher penalties."
+     },
+     {
+      "id": "ls-mh",
+      "parent": "ls-root",
+      "tier": 2,
+      "label": "Mental Healthcare Act, 2017",
+      "kind": "law",
+      "rel": "statute",
+      "note": "Advance directives; attempted suicide effectively decriminalised."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "law-indra",
    "rank": 8,
    "depth": "deep",
@@ -1393,6 +1577,217 @@
       "kind": "event",
       "rel": "same bench",
       "note": "Sabarimala. Allowed women of all ages entry, 4-1, with Justice Indu Malhotra dissenting. Review is pending before nine judges."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "law-principles",
+   "rank": 9,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Contract, tort and crime: the principles legal reasoning runs on",
+   "date": "",
+   "category": "Law & Judiciary",
+   "tags": [
+    "Contract",
+    "Tort",
+    "Criminal Law",
+    "Legal Reasoning"
+   ],
+   "hook": "A legal reasoning question gives you the rule. What it tests is whether you will apply the rule you were given rather than the one you half remember.",
+   "story": "**Contract.** The **Indian Contract Act, 1872** makes an agreement enforceable when there is offer and acceptance, lawful consideration, capacity, free consent and a lawful object. An **offer** must be distinguished from an **invitation to treat**: goods in a shop window invite offers, they do not make one. Acceptance must be **absolute and unqualified**; a counter-offer destroys the original. Consideration must move at the promisor's desire but **need not be adequate**, and under Indian law, unlike English, it may move from a third party. Consent is not free if obtained by **coercion, undue influence, fraud, misrepresentation or mistake**; the first four make the contract **voidable** at the option of the aggrieved party, while a bilateral mistake of fact makes it **void**. A minor's agreement is **void ab initio**, settled in **Mohori Bibee v. Dharmodas Ghose (1903)**. An agreement in restraint of trade, of marriage, or of legal proceedings is void. **Frustration** under Section 56 discharges a contract when performance becomes impossible or unlawful after it is made.\n\n**Tort** is judge-made and uncodified in India. Liability generally requires a duty of care, its breach, and damage caused by the breach; **Donoghue v. Stevenson (1932)** is the source of the neighbour principle. **Vicarious liability** makes an employer answerable for an employee's tort committed in the course of employment. **Strict liability** under **Rylands v. Fletcher** applies to the escape of a dangerous thing brought onto land in a non-natural use, subject to exceptions. India went further in **M.C. Mehta v. Union of India (1987)**, the oleum gas leak case, and created **absolute liability** for enterprises in hazardous activity, with no exceptions at all, a rule later written into the Public Liability Insurance Act. Defences include **volenti non fit injuria**, consent to the risk, and contributory negligence.\n\n**Criminal law.** An offence generally needs **actus reus**, the guilty act, and **mens rea**, the guilty mind, unless the statute creates strict liability. The general exceptions in the **Bharatiya Nyaya Sanhita** cover mistake of fact, judicial acts, accident, necessity, infancy below seven and conditionally below twelve, unsoundness of mind, intoxication, consent, and **private defence**, which extends to causing death only in listed situations and must be proportionate.",
+   "facts": [
+    {
+     "k": "Contract essentials",
+     "v": "Offer, acceptance, consideration, capacity, free consent, lawful object"
+    },
+    {
+     "k": "Invitation to treat",
+     "v": "Displayed goods invite offers rather than making one"
+    },
+    {
+     "k": "Consideration",
+     "v": "Need not be adequate; in India it may move from a third party"
+    },
+    {
+     "k": "Voidable against void",
+     "v": "Coercion, undue influence, fraud and misrepresentation make a contract voidable; bilateral mistake makes it void"
+    },
+    {
+     "k": "Minor's agreement",
+     "v": "Void ab initio, from Mohori Bibee v. Dharmodas Ghose, 1903"
+    },
+    {
+     "k": "Negligence",
+     "v": "Duty, breach, damage; the neighbour principle from Donoghue v. Stevenson, 1932"
+    },
+    {
+     "k": "Absolute liability",
+     "v": "M.C. Mehta, 1987; no exceptions, unlike Rylands v. Fletcher"
+    },
+    {
+     "k": "Criminal elements",
+     "v": "Actus reus and mens rea, unless the statute imposes strict liability"
+    }
+   ],
+   "timeline": [],
+   "why": "In legal reasoning the passage supplies the principle and the facts, and marks are lost by importing outside knowledge. Learn these to recognise the structure, then answer only on what the passage gives you.",
+   "map": {
+    "nodes": [
+     {
+      "id": "lp-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "The principles",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Contract, tort and crime, as legal reasoning uses them."
+     },
+     {
+      "id": "lp-con",
+      "parent": "lp-root",
+      "tier": 1,
+      "label": "Contract",
+      "kind": "law",
+      "rel": "branch",
+      "note": "Indian Contract Act, 1872."
+     },
+     {
+      "id": "lp-offer",
+      "parent": "lp-con",
+      "tier": 2,
+      "label": "Offer and acceptance",
+      "kind": "concept",
+      "rel": "element",
+      "note": "Acceptance must be absolute; a counter-offer kills the offer."
+     },
+     {
+      "id": "lp-invite",
+      "parent": "lp-offer",
+      "tier": 3,
+      "label": "Invitation to treat",
+      "kind": "concept",
+      "rel": "distinction",
+      "note": "Displayed goods invite offers."
+     },
+     {
+      "id": "lp-consid",
+      "parent": "lp-con",
+      "tier": 2,
+      "label": "Consideration",
+      "kind": "concept",
+      "rel": "element",
+      "note": "Need not be adequate; may move from a third party in India."
+     },
+     {
+      "id": "lp-consent",
+      "parent": "lp-con",
+      "tier": 2,
+      "label": "Free consent",
+      "kind": "concept",
+      "rel": "element",
+      "note": "Coercion, undue influence, fraud, misrepresentation, mistake."
+     },
+     {
+      "id": "lp-minor",
+      "parent": "lp-con",
+      "tier": 2,
+      "label": "Minor's agreement",
+      "kind": "case",
+      "rel": "rule",
+      "note": "Void ab initio; Mohori Bibee, 1903."
+     },
+     {
+      "id": "lp-frust",
+      "parent": "lp-con",
+      "tier": 2,
+      "label": "Frustration",
+      "kind": "law",
+      "rel": "discharge",
+      "note": "Section 56, supervening impossibility."
+     },
+     {
+      "id": "lp-tort",
+      "parent": "lp-root",
+      "tier": 1,
+      "label": "Tort",
+      "kind": "law",
+      "rel": "branch",
+      "note": "Uncodified and judge-made in India."
+     },
+     {
+      "id": "lp-neg",
+      "parent": "lp-tort",
+      "tier": 2,
+      "label": "Negligence",
+      "kind": "concept",
+      "rel": "element",
+      "note": "Duty, breach, damage."
+     },
+     {
+      "id": "lp-donoghue",
+      "parent": "lp-neg",
+      "tier": 3,
+      "label": "Donoghue v. Stevenson, 1932",
+      "kind": "case",
+      "rel": "source",
+      "note": "The neighbour principle."
+     },
+     {
+      "id": "lp-vic",
+      "parent": "lp-tort",
+      "tier": 2,
+      "label": "Vicarious liability",
+      "kind": "concept",
+      "rel": "rule",
+      "note": "Employer answerable for acts in the course of employment."
+     },
+     {
+      "id": "lp-strict",
+      "parent": "lp-tort",
+      "tier": 2,
+      "label": "Strict liability",
+      "kind": "case",
+      "rel": "rule",
+      "note": "Rylands v. Fletcher, with exceptions."
+     },
+     {
+      "id": "lp-abs",
+      "parent": "lp-strict",
+      "tier": 3,
+      "label": "Absolute liability",
+      "kind": "case",
+      "rel": "india",
+      "note": "M.C. Mehta, 1987; no exceptions."
+     },
+     {
+      "id": "lp-crim",
+      "parent": "lp-root",
+      "tier": 1,
+      "label": "Criminal law",
+      "kind": "law",
+      "rel": "branch",
+      "note": "Actus reus and mens rea."
+     },
+     {
+      "id": "lp-exc",
+      "parent": "lp-crim",
+      "tier": 2,
+      "label": "General exceptions",
+      "kind": "law",
+      "rel": "defences",
+      "note": "Mistake, accident, necessity, infancy, insanity, private defence."
+     },
+     {
+      "id": "lp-def",
+      "parent": "lp-exc",
+      "tier": 3,
+      "label": "Private defence",
+      "kind": "concept",
+      "rel": "limit",
+      "note": "Proportionate; death only in listed situations."
      }
     ]
    },
@@ -1943,6 +2338,153 @@
      ],
      "answer": 0,
      "explain": "Navtej Singh Johar v. Union of India (2018) read down Section 377 IPC, overruling Suresh Kumar Koushal (2013)."
+    }
+   ]
+  },
+  {
+   "id": "legal-p3",
+   "kind": "static",
+   "month": "legal-cases",
+   "topicIds": [
+    "law-principles"
+   ],
+   "category": "Law & Judiciary",
+   "tags": [
+    "Absolute Liability",
+    "M.C. Mehta",
+    "Tort"
+   ],
+   "difficulty": 3,
+   "title": "The rule India wrote for itself",
+   "passage": "The English rule came out of a Lancashire case in 1868. A mill owner built a reservoir; water escaped through disused shafts into a neighbouring colliery and flooded it. There was no negligence, because the contractors had been competent and the shafts unknown. The court held nonetheless that a person who brings onto land and keeps there anything likely to do mischief if it escapes, in a use of land that is not natural, must keep it at his peril and is answerable for all the damage that follows. The rule was strict but not unqualified: it did not apply where the escape was caused by an act of God, by the act of a stranger, by the plaintiff's own fault, or with the plaintiff's consent, nor where the thing was kept under statutory authority.\n\nA little over a hundred years later, weeks after a gas leak in central India had killed thousands, oleum gas escaped from a plant in Delhi and injured several people. The Supreme Court, hearing a petition about the plant, took the opportunity to consider whether the old rule was adequate for an economy that had industrialised on a scale the Lancashire judges never contemplated.\n\nIt held that it was not. Where an enterprise is engaged in a hazardous or inherently dangerous activity and harm results, the enterprise is strictly and absolutely liable to compensate all those affected, and the liability is not subject to any of the exceptions to the older rule. The reasoning was that such an enterprise owes an absolute and non-delegable duty to the community, that it alone can guard against the hazard, and that the cost of an accident should be treated as an overhead of the activity itself. The court added that compensation must be correlated to the magnitude and capacity of the enterprise, so that it has a deterrent effect.\n\nThe rule has since been given statutory form for certain hazardous industries, with compulsory insurance and a no-fault relief scheme, and the National Green Tribunal was later empowered to apply it directly.",
+   "questions": [
+    {
+     "q": "The 1868 English case referred to is:",
+     "options": [
+      "Donoghue v. Stevenson",
+      "Rylands v. Fletcher",
+      "Ryland v. Bolton",
+      "Carlill v. Carbolic Smoke Ball"
+     ],
+     "answer": 1,
+     "explain": "Rylands v. Fletcher, the source of the strict liability rule."
+    },
+    {
+     "q": "Under the English rule, liability did NOT arise where the escape was caused by:",
+     "options": [
+      "A non-natural use of land",
+      "The act of a stranger",
+      "The escape of a dangerous thing",
+      "The defendant's own contractors"
+     ],
+     "answer": 1,
+     "explain": "Act of a stranger is one of the recognised exceptions, along with act of God, plaintiff's fault and consent."
+    },
+    {
+     "q": "The Indian case described in the third paragraph established:",
+     "options": [
+      "Strict liability",
+      "Absolute liability",
+      "Vicarious liability",
+      "Contributory negligence"
+     ],
+     "answer": 1,
+     "explain": "M.C. Mehta v. Union of India (1987) laid down absolute liability."
+    },
+    {
+     "q": "On the passage, the essential difference between the two rules is that the Indian one:",
+     "options": [
+      "Applies only to gas leaks",
+      "Admits none of the exceptions",
+      "Requires proof of negligence",
+      "Applies only to state enterprises"
+     ],
+     "answer": 1,
+     "explain": "The passage says the liability is not subject to any of the exceptions to the older rule."
+    },
+    {
+     "q": "The court said compensation should be correlated to:",
+     "options": [
+      "The plaintiff's income",
+      "The magnitude and capacity of the enterprise",
+      "The market value of the property",
+      "The insurance cover taken"
+     ],
+     "answer": 1,
+     "explain": "So that the award has a deterrent effect on an enterprise of that size."
+    }
+   ]
+  },
+  {
+   "id": "legal-p4",
+   "kind": "static",
+   "month": "legal-cases",
+   "topicIds": [
+    "law-statutes"
+   ],
+   "category": "Law & Judiciary",
+   "tags": [
+    "RTI",
+    "Transparency"
+   ],
+   "difficulty": 2,
+   "title": "A right built out of another right",
+   "passage": "Before the statute there was a case. Villagers in Rajasthan demanding to see muster rolls and bills for public works in the early 1990s built a campaign around a slogan about the right to know being the right to live, and the movement they started supplied both the political pressure and the draft. The courts had already provided the constitutional footing, reading a right to know into the freedom of speech and expression on the reasoning that a citizen cannot form or express an opinion on public affairs without access to the facts about them.\n\nThe Act that followed in 2005 is procedural rather than declaratory. Every public authority must designate an officer to receive requests. The officer must dispose of a request within thirty days, and within forty-eight hours where the information concerns the life or liberty of a person. Refusal must state reasons and the appeal route. A first appeal lies within the authority; a second lies to a commission at the centre or in the state, which may impose a penalty on the officer personally for a refusal without reasonable cause.\n\nThe exemptions are listed and closed. They cover sovereignty and integrity, information forbidden by a court, breach of parliamentary privilege, commercial confidence and trade secrets, information held in a fiduciary relationship, information received in confidence from a foreign government, information endangering life or safety, information impeding investigation, cabinet papers until a decision is taken, and personal information bearing no relationship to public activity. Almost all of them yield where the public interest in disclosure outweighs the harm.\n\nTwo later changes narrowed it. An amendment in 2019 moved the tenure and salary of the commissioners out of the statute and into rules made by the central government, which critics said converted a fixed term into a favour. And the data protection statute of 2023 amended the personal information exemption to remove the public interest override that had until then allowed disclosure of, for instance, the assets of a public servant.",
+   "questions": [
+    {
+     "q": "The constitutional footing for the right was found in:",
+     "options": [
+      "Article 21",
+      "Article 19(1)(a)",
+      "Article 14",
+      "Article 32"
+     ],
+     "answer": 1,
+     "explain": "The right to know was read into the freedom of speech and expression."
+    },
+    {
+     "q": "The ordinary time limit for disposing of a request is:",
+     "options": [
+      "48 hours",
+      "15 days",
+      "30 days",
+      "60 days"
+     ],
+     "answer": 2,
+     "explain": "Thirty days, reduced to forty-eight hours where life or liberty is concerned."
+    },
+    {
+     "q": "A penalty for refusal without reasonable cause may be imposed on:",
+     "options": [
+      "The public authority",
+      "The information officer personally",
+      "The first appellate authority",
+      "The applicant"
+     ],
+     "answer": 1,
+     "explain": "The commission may penalise the Public Information Officer personally."
+    },
+    {
+     "q": "On the passage, the 2019 amendment was criticised because it:",
+     "options": [
+      "Increased the fee",
+      "Moved commissioners' tenure and salary into executive rules",
+      "Abolished the second appeal",
+      "Added new exemptions"
+     ],
+     "answer": 1,
+     "explain": "Moving a statutory term into rules made by the government was said to convert a fixed term into a favour."
+    },
+    {
+     "q": "The 2023 change to the personal information exemption:",
+     "options": [
+      "Widened the public interest override",
+      "Removed the public interest override",
+      "Abolished the exemption",
+      "Applied it only to private bodies"
+     ],
+     "answer": 1,
+     "explain": "The DPDP Act removed the override that had permitted disclosure in the public interest."
     }
    ]
   }
