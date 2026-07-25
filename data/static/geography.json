@@ -2571,6 +2571,79 @@
      "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
     }
    ]
+  },
+  {
+   "id": "geo-p9",
+   "kind": "static",
+   "month": "geography",
+   "topicIds": [
+    "geo-protected"
+   ],
+   "category": "Environment",
+   "tags": [
+    "Tiger Reserves",
+    "Wildlife"
+   ],
+   "difficulty": 2,
+   "title": "Counting tigers",
+   "passage": "The programme began in 1973 with nine reserves and a population estimate derived from pugmarks, a method that assumed each animal's footprint was as distinctive as a fingerprint and which later proved unreliable. For three decades the numbers reported rose steadily, which suited everyone. Then in 2005 a reserve in Rajasthan, one of the best known in the country, was found on inspection to contain no tigers at all. The subsequent inquiry concluded that poaching had emptied it while official estimates continued to record a healthy population.\n\nThe response was institutional. An amendment to the parent statute the following year created a statutory authority to oversee the programme, with powers of direction over state forest departments, and required a scientific estimation exercise every four years. The new method combines camera traps, which photograph individual animals whose stripe patterns are genuinely unique, with sign surveys and habitat occupancy modelling across the whole landscape rather than reserve by reserve.\n\nThe estimates published since have risen from about 1,411 at the first such exercise to roughly 3,682 in the most recent, which represents around three quarters of the world's wild population of the species. Conservationists caution that part of the increase reflects better counting rather than more animals, and that the population is concentrated in a small number of landscapes while several reserves in the east and northeast hold very few.\n\nThe legal framework distinguishes between categories of protected area. In the strictest category no human activity is permitted at all and no grazing rights or private landholdings survive. In the next, limited activities may be allowed at the discretion of the state's chief wildlife official. Two further categories, added by amendment in 2002, cover buffer land and community-owned land where local participation is built into management.",
+   "questions": [
+    {
+     "q": "The reserve found in 2005 to contain no tigers was:",
+     "options": [
+      "Ranthambore",
+      "Sariska",
+      "Panna",
+      "Corbett"
+     ],
+     "answer": 1,
+     "explain": "Sariska in Rajasthan. Panna suffered a similar collapse discovered in 2009; both were later repopulated by translocation."
+    },
+    {
+     "q": "The authority created by the 2006 amendment is the:",
+     "options": [
+      "Wildlife Crime Control Bureau",
+      "Central Zoo Authority",
+      "National Tiger Conservation Authority",
+      "National Board for Wildlife"
+     ],
+     "answer": 2,
+     "explain": "The National Tiger Conservation Authority, a statutory body under the Wildlife (Protection) Act 1972."
+    },
+    {
+     "q": "The strictest category of protected area described in the final paragraph is a:",
+     "options": [
+      "Wildlife sanctuary",
+      "National park",
+      "Conservation reserve",
+      "Community reserve"
+     ],
+     "answer": 1,
+     "explain": "A national park, where no human activity, grazing or private landholding is permitted. Sanctuaries allow limited activity at the Chief Wildlife Warden’s discretion."
+    },
+    {
+     "q": "The estimation exercise is conducted once every:",
+     "options": [
+      "Year",
+      "Two years",
+      "Four years",
+      "Five years"
+     ],
+     "answer": 2,
+     "explain": "Every four years. The 2022 exercise was released in 2023 and put the population at about 3,682."
+    },
+    {
+     "q": "Why is the camera trap method described as more reliable than the earlier one?",
+     "options": [
+      "It covers a larger area",
+      "Stripe patterns are unique to each animal, unlike pugmark impressions",
+      "It requires fewer personnel",
+      "It counts prey species as well"
+     ],
+     "answer": 1,
+     "explain": "The passage contrasts the assumption behind pugmark identification with stripe patterns, which are genuinely individual and can be matched photographically."
+    }
+   ]
   }
  ],
  "order": 8

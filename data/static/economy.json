@@ -1283,6 +1283,80 @@
      "explain": "Fourteen per cent a year against a 2015-16 base, guaranteed for five years from 1 July 2017 and funded by the compensation cess."
     }
    ]
+  },
+  {
+   "id": "economy-p2",
+   "kind": "static",
+   "month": "economy",
+   "topicIds": [
+    "eco-rbi"
+   ],
+   "category": "Economy",
+   "tags": [
+    "Inflation",
+    "Monetary Policy",
+    "RBI"
+   ],
+   "difficulty": 2,
+   "title": "Targeting inflation",
+   "passage": "Until 2016 the central bank pursued several goals at once and was never told in law which one mattered most. An amendment to its governing statute that year gave it a single primary objective, price stability, while adding that growth was to be kept in view. The government was to notify a numerical target once every five years in consultation with the bank; the figure chosen was four per cent, with a band of two percentage points on either side. It was renotified without change at the end of the first cycle.\n\nThe target is set on the consumer price index, not the wholesale index that had earlier dominated commentary. The choice matters because food and fuel carry much more weight in what households buy than in what factories pay for, so the two series can diverge for months. The bank publishes a measure that strips out those two volatile groups when it wants to describe underlying pressure.\n\nRates are no longer set by the Governor alone. A committee of six decides, three from the bank and three appointed by the government for four-year terms, and each member has one vote. Ties are broken by the Governor's casting vote. The committee meets at least four times a year, its decisions are published the same day, and the minutes with each member's statement follow a fortnight later.\n\nFailure is defined rather than left to argument. If average inflation stays outside the band for three consecutive quarters, the bank must send the government a report explaining why it happened, what it proposes to do, and how long it expects the correction to take. That report is not made public. The obligation was triggered for the first time in 2022, after supply shocks pushed prices above the upper bound.",
+   "questions": [
+    {
+     "q": "The inflation target notified under the framework is:",
+     "options": [
+      "2 per cent, plus or minus 2",
+      "4 per cent, plus or minus 2",
+      "5 per cent, plus or minus 2",
+      "6 per cent, plus or minus 2"
+     ],
+     "answer": 1,
+     "explain": "Four per cent with a tolerance band of two percentage points, so between two and six per cent."
+    },
+    {
+     "q": "The target is measured on:",
+     "options": [
+      "The Wholesale Price Index",
+      "The Consumer Price Index",
+      "The GDP deflator",
+      "The Index of Industrial Production"
+     ],
+     "answer": 1,
+     "explain": "Headline CPI combined. Core inflation, which excludes food and fuel, is watched but is not the target."
+    },
+    {
+     "q": "The Monetary Policy Committee has:",
+     "options": [
+      "Four members, all from the RBI",
+      "Six members, three from the RBI",
+      "Six members, all government appointees",
+      "Eight members, four from the RBI"
+     ],
+     "answer": 1,
+     "explain": "Six: the Governor, a Deputy Governor, one officer nominated by the Board, and three external members appointed by the central government."
+    },
+    {
+     "q": "A tie in the committee is resolved by:",
+     "options": [
+      "A fresh vote at the next meeting",
+      "The Governor’s casting vote",
+      "Reference to the Union Finance Minister",
+      "The Deputy Governor’s casting vote"
+     ],
+     "answer": 1,
+     "explain": "The Governor has a second, casting vote in addition to a regular one."
+    },
+    {
+     "q": "The framework treats the target as breached when inflation stays outside the band for:",
+     "options": [
+      "Two consecutive months",
+      "Two consecutive quarters",
+      "Three consecutive quarters",
+      "Four consecutive quarters"
+     ],
+     "answer": 2,
+     "explain": "Three consecutive quarters, which obliges the RBI to report to the central government on the causes and the remedial action."
+    }
+   ]
   }
  ]
 }

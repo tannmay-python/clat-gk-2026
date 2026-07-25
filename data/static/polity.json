@@ -3975,6 +3975,152 @@
      "explain": "The passage says one is a right the court cannot refuse to entertain and the other a discretionary power a court may decline. Article 226 is wider in subject matter, not Article 32."
     }
    ]
+  },
+  {
+   "id": "polity-p3",
+   "kind": "static",
+   "month": "polity",
+   "topicIds": [
+    "pol-emergency"
+   ],
+   "category": "Polity & Constitution",
+   "tags": [
+    "Emergency",
+    "Article 356"
+   ],
+   "difficulty": 2,
+   "title": "President’s Rule",
+   "passage": "The Constitution provides for three kinds of emergency, and they are not equally used. One responds to war, external aggression or armed rebellion, and has been proclaimed three times, most recently and most controversially in 1975. One deals with a threat to the financial stability or credit of the country, and has never been proclaimed at all. The third, which applies to a single state rather than the whole country, has been invoked more than a hundred times.\n\nThat third power rests on the President's satisfaction that the government of a state cannot be carried on in accordance with the Constitution, a satisfaction usually formed on a report from the state's Governor. For decades it was treated as effectively unreviewable, on the reasoning that satisfaction is subjective and that political judgments are not for courts. Governments of every party used it to dismiss administrations they disliked, sometimes within weeks of an election.\n\nA nine-judge bench changed that in 1994. It held that the proclamation is open to judicial review, though the court would examine only whether relevant material existed and not the sufficiency of that material. More importantly, it held that the question whether a ministry retains a majority is to be settled on the floor of the House and nowhere else, least of all in the Governor's assessment. And it held that a proclamation struck down may be followed by the revival of a dissolved assembly, so that dissolution before parliamentary approval is not a fait accompli.\n\nThe same judgment made a second, unrelated holding that has been cited far more often. Dealing with dismissals of state governments accused of failing to protect secular values, it held that secularism forms part of the Constitution's basic structure, so a state government acting against it may properly be dismissed.",
+   "questions": [
+    {
+     "q": "The power described from the second paragraph onwards is contained in:",
+     "options": [
+      "Article 352",
+      "Article 356",
+      "Article 360",
+      "Article 365"
+     ],
+     "answer": 1,
+     "explain": "Article 356, President’s Rule. Article 352 is national emergency, Article 360 financial emergency, and Article 365 is the companion provision on failure to comply with a Union direction."
+    },
+    {
+     "q": "The emergency that has never been proclaimed is the one dealing with:",
+     "options": [
+      "Armed rebellion",
+      "External aggression",
+      "Financial stability",
+      "Failure of constitutional machinery"
+     ],
+     "answer": 2,
+     "explain": "Financial Emergency under Article 360 has never been declared. National emergency has been declared three times and President’s Rule over a hundred."
+    },
+    {
+     "q": "The 1994 judgment is:",
+     "options": [
+      "Kesavananda Bharati",
+      "S.R. Bommai",
+      "Minerva Mills",
+      "Indra Sawhney"
+     ],
+     "answer": 1,
+     "explain": "S.R. Bommai v. Union of India, decided by nine judges in 1994."
+    },
+    {
+     "q": "On the passage, how is a ministry’s majority to be tested?",
+     "options": [
+      "By the Governor’s assessment",
+      "On the floor of the House",
+      "By the President on the Union Cabinet’s advice",
+      "By the Supreme Court"
+     ],
+     "answer": 1,
+     "explain": "The judgment held the floor of the House is the only forum for testing majority, displacing reliance on a Governor’s subjective view."
+    },
+    {
+     "q": "The maximum period for which President’s Rule may ordinarily continue is:",
+     "options": [
+      "Six months",
+      "One year",
+      "Two years",
+      "Three years"
+     ],
+     "answer": 3,
+     "explain": "Three years, with parliamentary approval every six months. The initial approval must come within two months of the proclamation."
+    }
+   ]
+  },
+  {
+   "id": "polity-p4",
+   "kind": "static",
+   "month": "polity",
+   "topicIds": [
+    "pol-parliament"
+   ],
+   "category": "Polity & Constitution",
+   "tags": [
+    "Parliament",
+    "Money Bill"
+   ],
+   "difficulty": 3,
+   "title": "The money bill route",
+   "passage": "Of the two Houses of the Indian Parliament, only one may originate a particular category of legislation, and the other may not amend it. That House may accept or reject the second chamber's recommendations as it pleases, and if the second chamber does not return the bill within fourteen days it is deemed to have been passed by both. There is consequently no possibility of deadlock and no provision for a joint sitting.\n\nWhether a bill belongs to that category is certified by the presiding officer of the originating House, and the Constitution states that his decision on the point is final. The category is defined by an exhaustive list: a bill qualifies only if it contains provisions dealing solely with matters such as the imposition or regulation of a tax, borrowing by the government, the custody of the consolidated or contingency funds, or the appropriation of money out of the consolidated fund. A bill that touches other matters as well is a financial bill of a different kind, which the second chamber may amend in the ordinary way.\n\nThe distinction has become politically significant. A government facing an unfavourable arithmetic in the second chamber has an obvious incentive to route contested legislation through the protected category. Two major statutes were enacted this way within the space of two years, one establishing a biometric identity system and another amending the law on tribunals through the annual finance legislation. Challenges to both reached the Supreme Court. In the first, a majority upheld the certification while one judge dissented in strong terms, describing the use of the route as a fraud on the Constitution. In the second, a larger bench referred the whole question of whether such certification is reviewable at all to a still larger bench, where it remains.",
+   "questions": [
+    {
+     "q": "The category of legislation described is:",
+     "options": [
+      "Ordinary bill",
+      "Money bill",
+      "Constitutional amendment bill",
+      "Ordinance"
+     ],
+     "answer": 1,
+     "explain": "A money bill under Article 110, which can only originate in the Lok Sabha and which the Rajya Sabha may only recommend upon."
+    },
+    {
+     "q": "The presiding officer whose certificate is final is the:",
+     "options": [
+      "Chairman of the Rajya Sabha",
+      "Speaker of the Lok Sabha",
+      "Deputy Chairman",
+      "President"
+     ],
+     "answer": 1,
+     "explain": "The Speaker of the Lok Sabha certifies a bill as a money bill, and Article 110(3) makes the certificate final."
+    },
+    {
+     "q": "The period within which the second chamber must return the bill is:",
+     "options": [
+      "Seven days",
+      "Fourteen days",
+      "Thirty days",
+      "Six weeks"
+     ],
+     "answer": 1,
+     "explain": "Fourteen days, after which the bill is deemed passed by both Houses in the form the Lok Sabha passed it."
+    },
+    {
+     "q": "The judge who described the use of the route as a fraud on the Constitution dissented in the case concerning:",
+     "options": [
+      "The Finance Act 2017",
+      "The Aadhaar Act",
+      "The Companies Act",
+      "The GST Act"
+     ],
+     "answer": 1,
+     "explain": "Justice D.Y. Chandrachud dissented in the Aadhaar judgment of 2018, where the majority upheld certification of the Aadhaar Act as a money bill."
+    },
+    {
+     "q": "Why is there no joint sitting for this category of bill?",
+     "options": [
+      "Because the Constitution forbids joint sittings entirely",
+      "Because deadlock cannot arise, the second chamber having no power to block",
+      "Because the President must assent within fourteen days",
+      "Because such bills need ratification by the states"
+     ],
+     "answer": 1,
+     "explain": "The Rajya Sabha can only recommend and cannot reject or amend, so no deadlock is possible and Article 108 has nothing to resolve."
+    }
+   ]
   }
  ]
 }

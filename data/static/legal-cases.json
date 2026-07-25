@@ -1870,6 +1870,81 @@
      "explain": "The 103rd Amendment of 2019, creating the ten per cent EWS quota, upheld in Janhit Abhiyan (2022). The 102nd gave the NCBC constitutional status; the 106th is the women’s reservation amendment."
     }
    ]
+  },
+  {
+   "id": "legal-p2",
+   "kind": "static",
+   "month": "legal-cases",
+   "topicIds": [
+    "static-puttaswamy",
+    "law-maneka"
+   ],
+   "category": "Law & Judiciary",
+   "tags": [
+    "Privacy",
+    "Puttaswamy",
+    "Article 21"
+   ],
+   "difficulty": 3,
+   "title": "Privacy as a right",
+   "passage": "The question reached a bench of nine judges by an awkward route. A challenge to the government's biometric identification programme had been running for years, and the Attorney General met it with an argument that went to the root: the Constitution contains no right to privacy at all, and two old benches had said so. One was an eight-judge bench from 1954 that had refused to read an American-style protection against search and seizure into Indian law. The other was a six-judge bench from 1962 that had struck down night-time police visits to a suspect's house while denying that privacy as such was a guaranteed right. Since no later bench had been large enough to overrule them, the point had to be settled before the main case could proceed.\n\nThe 2017 answer was unanimous in result and split into six opinions in reasoning. Privacy was held to be intrinsic to the life and personal liberty protected by Article 21, and to run through the other freedoms in Part III as well. The Court declined to treat it as a single narrow interest, describing it instead as covering bodily integrity, informational self-determination and the freedom to make personal choices about family, marriage and sexual orientation. The two earlier decisions were expressly overruled to the extent they held otherwise.\n\nThe right was not made absolute. Any state intrusion has to satisfy a test with three limbs, later stated as four: there must be a law, that law must serve a legitimate state aim, the means must be rationally connected and no more restrictive than necessary, and there must be procedural safeguards against abuse. That test has since been used to strike at colonial-era criminal law and to assess data collection by the state.\n\nOne passage in the judgment did unfinished work. It criticised a 2013 decision that had restored the criminal ban on consensual same-sex relations, on the ground that the size of the affected group cannot determine whether a right exists. A five-judge bench acted on that reasoning the following year.",
+   "questions": [
+    {
+     "q": "The nine-judge decision described is:",
+     "options": [
+      "K.S. Puttaswamy v. Union of India",
+      "Kharak Singh v. State of U.P.",
+      "M.P. Sharma v. Satish Chandra",
+      "Maneka Gandhi v. Union of India"
+     ],
+     "answer": 0,
+     "explain": "K.S. Puttaswamy v. Union of India (2017), decided by nine judges and reported as the privacy judgment."
+    },
+    {
+     "q": "The two earlier decisions overruled were of benches numbering:",
+     "options": [
+      "Five and seven",
+      "Eight and six",
+      "Seven and five",
+      "Nine and seven"
+     ],
+     "answer": 1,
+     "explain": "M.P. Sharma (1954) was eight judges and Kharak Singh (1962) was six, which is why a nine-judge bench was needed to overrule them."
+    },
+    {
+     "q": "The right to privacy was located primarily in:",
+     "options": [
+      "Article 14",
+      "Article 19(1)(a)",
+      "Article 21",
+      "Article 32"
+     ],
+     "answer": 2,
+     "explain": "Article 21, as intrinsic to life and personal liberty, though the Court held privacy also runs through other Part III freedoms."
+    },
+    {
+     "q": "The test the passage describes for permissible intrusion is known as:",
+     "options": [
+      "The basic structure test",
+      "The proportionality test",
+      "The doctrine of eclipse",
+      "The reasonable classification test"
+     ],
+     "answer": 1,
+     "explain": "Proportionality: legality, legitimate aim, necessity and least restrictive means, and procedural safeguards."
+    },
+    {
+     "q": "The 2013 decision criticised in the judgment was acted upon by a five-judge bench in:",
+     "options": [
+      "Navtej Singh Johar (2018)",
+      "Shayara Bano (2017)",
+      "Joseph Shine (2018)",
+      "Indian Young Lawyers Association (2018)"
+     ],
+     "answer": 0,
+     "explain": "Navtej Singh Johar v. Union of India (2018) read down Section 377 IPC, overruling Suresh Kumar Koushal (2013)."
+    }
+   ]
   }
  ],
  "order": 2

@@ -1803,6 +1803,79 @@
      "explain": "The Khilafat cause collapsed when Mustafa Kemal’s government abolished the Caliphate in 1924. The Lucknow Pact of 1916 predates this movement entirely."
     }
    ]
+  },
+  {
+   "id": "history-p2",
+   "kind": "static",
+   "month": "history",
+   "topicIds": [
+    "his-1857"
+   ],
+   "category": "History",
+   "tags": [
+    "1857",
+    "Company Rule"
+   ],
+   "difficulty": 2,
+   "title": "The end of Company rule",
+   "passage": "The immediate grievance was a cartridge. A new rifle issued to the army required its paper cartridge to be bitten open before loading, and the grease used on that paper was widely believed to contain the fat of animals sacred to one community and forbidden to another. In March 1857 a sepoy at a cantonment near Calcutta attacked his officers and was hanged within a fortnight. In May the garrison at a town north of Delhi mutinied over the same issue, marched on the old capital, and proclaimed the elderly Mughal pensioner living there as their sovereign.\n\nBeneath the cartridge lay a decade of dispossession. States without a natural heir had been annexed under a doctrine applied by the previous Governor-General; a large kingdom had been annexed the previous year on the ground of misgovernment, and a substantial share of the army's recruits came from it. Land settlements had displaced established rural families. A new enlistment rule had required soldiers to serve overseas, which many regarded as a violation of caste.\n\nThe revolt was crushed within eighteen months. It was confined largely to the north; the Punjab and the south remained quiet, and Sikh and Gurkha regiments fought for the British. The rebels had no shared programme beyond expelling the Company and no coordination between their centres.\n\nThe settlement that followed abolished the Company altogether. Its Court of Directors and the Board of Control were replaced by a single minister in the British cabinet with an advisory council, and the Governor-General acquired a second title as the sovereign's direct representative. A proclamation read at Allahabad that November promised no further annexations, non-interference in religious practice and the admission of Indians to public office without distinction of race or creed.",
+   "questions": [
+    {
+     "q": "The doctrine referred to in the second paragraph is the:",
+     "options": [
+      "Doctrine of Lapse",
+      "Subsidiary Alliance",
+      "Doctrine of Paramountcy",
+      "Ring Fence Policy"
+     ],
+     "answer": 0,
+     "explain": "The Doctrine of Lapse, applied by Lord Dalhousie, under which Satara, Jhansi and Nagpur were annexed. Subsidiary Alliance was Wellesley’s earlier system."
+    },
+    {
+     "q": "The kingdom annexed the previous year on the ground of misgovernment was:",
+     "options": [
+      "Jhansi",
+      "Awadh",
+      "Satara",
+      "Nagpur"
+     ],
+     "answer": 1,
+     "explain": "Awadh, annexed in 1856. A large proportion of the Bengal Army was recruited there, which spread the resentment through the ranks."
+    },
+    {
+     "q": "The statute that abolished the Company was the:",
+     "options": [
+      "Charter Act 1853",
+      "Government of India Act 1858",
+      "Indian Councils Act 1861",
+      "Government of India Act 1935"
+     ],
+     "answer": 1,
+     "explain": "The Government of India Act 1858, which created the Secretary of State for India with a council of fifteen and made the Governor-General a Viceroy."
+    },
+    {
+     "q": "The first holder of the second title mentioned in the final paragraph was:",
+     "options": [
+      "Lord Dalhousie",
+      "Lord Canning",
+      "Lord Curzon",
+      "Lord Ripon"
+     ],
+     "answer": 1,
+     "explain": "Lord Canning, Governor-General from 1856, became the first Viceroy in 1858. Dalhousie preceded him and left in 1856."
+    },
+    {
+     "q": "The proclamation read at Allahabad in November 1858 was issued in the name of:",
+     "options": [
+      "The Prime Minister",
+      "The Secretary of State",
+      "Queen Victoria",
+      "The Viceroy"
+     ],
+     "answer": 2,
+     "explain": "Queen Victoria’s Proclamation of 1 November 1858, sometimes called the Magna Carta of Indian liberties."
+    }
+   ]
   }
  ]
 }

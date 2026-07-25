@@ -1199,6 +1199,78 @@
      "explain": "Common but differentiated responsibilities, which underlies both Kyoto and Paris but was applied far more sharply in Kyoto through the Annex I list."
     }
    ]
+  },
+  {
+   "id": "orgs-p2",
+   "kind": "static",
+   "month": "orgs",
+   "topicIds": [],
+   "category": "International Organisations",
+   "tags": [
+    "United Nations",
+    "Security Council",
+    "Veto"
+   ],
+   "difficulty": 2,
+   "title": "The Council and the veto",
+   "passage": "The organ that the Charter charges with primary responsibility for international peace and security has fifteen members. Five of them hold their seats permanently and were, in 1945, the principal victors of the war just ended. The other ten are elected by the General Assembly for two-year terms on a regional formula, and cannot be re-elected immediately. Decisions on anything other than procedure need nine affirmative votes, and none of the permanent members may have voted against.\n\nThat last requirement is what people mean by the veto, though the word appears nowhere in the Charter. Practice has softened it in one respect: an abstention by a permanent member has been treated since the late 1940s as not blocking a resolution, a reading the International Court of Justice endorsed in 1971 despite the text speaking of concurring votes. Practice has hardened it in another: the threat of a veto is usually enough to keep a draft from ever being tabled.\n\nAttempts to work around the deadlock began early. In 1950, with the Soviet delegate boycotting the Council, the General Assembly adopted a resolution allowing itself to take up a matter and recommend collective measures when the Council fails to act because of a lack of unanimity. Since 2022, every veto cast automatically triggers a debate in the Assembly within ten working days, so that the casting state has to explain itself in public.\n\nReform of membership has moved nowhere. Four states that each support the others' claim to permanent seats have pressed the case since the early 2000s; a rival grouping, which prefers expanding only the non-permanent category, has blocked them. India has sat on the Council as an elected member eight times, most recently for 2021 and 2022.",
+   "questions": [
+    {
+     "q": "How many affirmative votes does a substantive Security Council resolution need?",
+     "options": [
+      "Eight",
+      "Nine",
+      "Ten",
+      "Eleven"
+     ],
+     "answer": 1,
+     "explain": "Nine of fifteen, with no permanent member voting against."
+    },
+    {
+     "q": "The permanent members are:",
+     "options": [
+      "China, France, Germany, Russia, United States",
+      "China, France, Russia, United Kingdom, United States",
+      "Brazil, China, India, Russia, United States",
+      "France, Japan, Russia, United Kingdom, United States"
+     ],
+     "answer": 1,
+     "explain": "China, France, Russia, the United Kingdom and the United States."
+    },
+    {
+     "q": "A permanent member that abstains:",
+     "options": [
+      "Blocks the resolution",
+      "Does not block the resolution",
+      "Forces a General Assembly vote",
+      "Loses its vote for that session"
+     ],
+     "answer": 1,
+     "explain": "Settled practice since 1946 treats abstention as not a veto, confirmed by the ICJ in the 1971 Namibia advisory opinion."
+    },
+    {
+     "q": "The 1950 General Assembly resolution referred to is:",
+     "options": [
+      "Uniting for Peace",
+      "The Declaration on Friendly Relations",
+      "The Definition of Aggression",
+      "Responsibility to Protect"
+     ],
+     "answer": 0,
+     "explain": "Uniting for Peace, Resolution 377(V), adopted during the Korean crisis."
+    },
+    {
+     "q": "The four states pressing jointly for permanent seats are known as:",
+     "options": [
+      "The G4",
+      "The Quad",
+      "Uniting for Consensus",
+      "The P5 plus one"
+     ],
+     "answer": 0,
+     "explain": "The G4: India, Brazil, Germany and Japan. Uniting for Consensus, sometimes called the Coffee Club, opposes them."
+    }
+   ]
   }
  ]
 }
