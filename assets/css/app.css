@@ -310,14 +310,14 @@ main { max-width: var(--shell); margin: 0 auto; padding: 26px 20px 96px; }
 .mp-edge.t1 { stroke: var(--brand-line); stroke-width: 1.6; }
 .mp-node { cursor: pointer; }
 .mp-node circle { transition: r 140ms var(--ease), fill var(--t), stroke var(--t); }
-.mp-node text { font: 500 11.5px/1 var(--sans); fill: var(--ink-2); pointer-events: none; }
+.mp-node text { font: 500 13px/1 var(--sans); fill: var(--ink-2); pointer-events: none; }
 .mp-node.t1 circle { fill: var(--brand); stroke: var(--brand); }
-.mp-node.t1 text { fill: var(--ink); font-weight: 580; font-size: 12.5px; }
+.mp-node.t1 text { fill: var(--ink); font-weight: 580; font-size: 14.5px; }
 .mp-node.t2 circle { fill: var(--bg); stroke: var(--brand-line); stroke-width: 1.6; }
 .mp-node.t3 circle { fill: var(--faint); stroke: none; opacity: 0.62; }
-.mp-node.t3 text { fill: var(--muted); font-size: 10.5px; }
+.mp-node.t3 text { fill: var(--muted); font-size: 12px; }
 .mp-root circle { fill: var(--ink); }
-.mp-root text { font: 620 13px/1.25 var(--sans); fill: var(--ink); }
+.mp-root text { font: 620 15px/1.25 var(--sans); fill: var(--ink); }
 .mp-node:hover circle { r: 8; }
 .mp-node.sel circle { stroke: var(--ink); stroke-width: 2.5; }
 .map-stage.focus .mp-node:not(.hi) { opacity: 0.16; }

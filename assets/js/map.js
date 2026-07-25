@@ -3,8 +3,11 @@
 
 import { esc } from './ui.js';
 
-const W = 1300, H = 1020, CX = 650, CY = 510;
-const RING = [0, 168, 300, 418];
+// Ellipse rather than circle: browser viewports are wide and short, and the
+// extra horizontal room is where the long labels go.
+const W = 1440, H = 940, CX = 720, CY = 470;
+const RING = [0, 158, 288, 405];
+const SPREAD = 1.42;
 const KIND_LABEL = {
   person: 'Person', org: 'Organisation', event: 'Event', concept: 'Concept',
   place: 'Place', law: 'Law / Article', book: 'Book', award: 'Award', term: 'Term'
@@ -61,7 +64,7 @@ function layout(topic, raw) {
   (function place(n, a0, a1) {
     n.angle = (a0 + a1) / 2;
     n.r = RING[n.depth];
-    n.x = CX + n.r * Math.cos(n.angle);
+    n.x = CX + n.r * SPREAD * Math.cos(n.angle);
     n.y = CY + n.r * Math.sin(n.angle);
     let a = a0;
     for (const c of n.children) {
@@ -86,8 +89,8 @@ function svg(topic, raw) {
     if (!n.parent) continue;
     const p = n.parent;
     const mr = (p.r + n.r) / 2;
-    const c1x = CX + mr * Math.cos(p.angle), c1y = CY + mr * Math.sin(p.angle);
-    const c2x = CX + mr * Math.cos(n.angle), c2y = CY + mr * Math.sin(n.angle);
+    const c1x = CX + mr * SPREAD * Math.cos(p.angle), c1y = CY + mr * Math.sin(p.angle);
+    const c2x = CX + mr * SPREAD * Math.cos(n.angle), c2y = CY + mr * Math.sin(n.angle);
     edges.push(`<path class="mp-edge t${n.tier}" data-edge="${esc(n.id)}" d="M${p.x.toFixed(1)} ${p.y.toFixed(1)} C${c1x.toFixed(1)} ${c1y.toFixed(1)} ${c2x.toFixed(1)} ${c2y.toFixed(1)} ${n.x.toFixed(1)} ${n.y.toFixed(1)}"/>`);
   }
 

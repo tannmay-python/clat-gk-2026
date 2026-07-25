@@ -126,8 +126,8 @@ export async function viewQuizSetup(el) {
       ? '<p class="warn">Nothing matches these filters. Loosen one.</p>'
       : n < need ? `<p class="warn">Only ${n} passage${n === 1 ? '' : 's'} match. You will get ${n * 5} questions.</p>` : '';
     $('[data-start]').disabled = n === 0;
-    $('[data-g-months]').style.display = cfg.mode === 'static' ? 'none' : '';
-    $('[data-g-static]').style.display = cfg.mode === 'current' ? 'none' : '';
+    $('[data-g-months]').style.display = (cfg.mode === 'static' || !cur.length) ? 'none' : '';
+    $('[data-g-static]').style.display = (cfg.mode === 'current' || !sta.length) ? 'none' : '';
   }
 
   $('[data-count]').addEventListener('input', e => { cfg.count = +e.target.value; refresh(); });
