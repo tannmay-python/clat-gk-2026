@@ -1,12 +1,414 @@
 {
  "id": "geography",
  "kind": "static",
- "label": "Geography and Environment",
- "blurb": "A comprehensive overview of physical geography and environmental conventions. This section covers rivers, climate systems, and global treaties.",
+ "label": "Geography & Environment",
+ "blurb": "Physical India, the monsoon, the protected-area network and the treaties that govern it. The treaty detail itself lives in World Organisations.",
  "topics": [
   {
-   "id": "geography-himalayan-rivers",
+   "id": "geo-physical",
    "rank": 1,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Physical India: the six divisions, the monsoon and the coordinates",
+   "date": "",
+   "category": "Geography",
+   "tags": [
+    "Physical Geography",
+    "Monsoon",
+    "Himalayas",
+    "Rivers"
+   ],
+   "hook": "A country that spans 30 degrees of latitude, sets its clocks by a line through Mirzapur, and gets three quarters of its rain in four months.",
+   "story": "**Extent.** India lies between roughly **8°4' N and 37°6' N** latitude and **68°7' E and 97°25' E** longitude. The **Tropic of Cancer at 23.5° N** passes through **eight states**: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. **Indian Standard Time** is fixed at **82°30' E**, which passes near **Mirzapur** in Uttar Pradesh, and is 5 hours 30 minutes ahead of GMT. The mainland stretches about 3,214 km north to south and 2,933 km east to west; the land frontier runs 15,200 km and the coastline, including islands, about 7,517 km. India is the **seventh largest country** by area, at about 2.4% of the world's land.\n\n**Neighbours** by land: Bangladesh (longest border, about 4,096 km), China, Pakistan, Nepal, Myanmar, Bhutan and Afghanistan (shortest). By sea: Sri Lanka and the Maldives. **Radcliffe Line** with Pakistan, **Durand Line** between Pakistan and Afghanistan, **McMahon Line** with China in the northeast, **Line of Actual Control** in Ladakh.\n\n**Six physical divisions.** The **Northern Mountains**, running Himadri (Greater Himalaya, with Kanchenjunga, India's highest peak at 8,586 m), Himachal (Lesser Himalaya, with the hill stations) and Shivalik (Outer Himalaya, with duns). The **Northern Plains**, alluvial, divided into bhabar, terai, bhangar and khadar. The **Peninsular Plateau**, the oldest landmass, split by the Narmada into the Central Highlands and the Deccan. The **Indian Desert**, the Thar. The **Coastal Plains**, wider and gentler on the east where deltas form, narrow on the west where estuaries do. The **Islands**: the Andaman and Nicobar chain, of volcanic and tectonic origin, and Lakshadweep, coral.\n\n**The monsoon.** Caused by differential heating of land and sea and the seasonal shift of the **Inter-Tropical Convergence Zone**. The **southwest monsoon** arrives over Kerala around **1 June** and withdraws from September, delivering about 75% of annual rainfall through two branches, Arabian Sea and Bay of Bengal. **Mawsynram** and **Cherrapunji** in Meghalaya receive the most rain in the world because the Bay branch is trapped by the Khasi hills. The **northeast monsoon** in October to December brings rain to Tamil Nadu, which is why that state's rain calendar is inverted. **El Niño** years usually mean weaker monsoons; **La Niña** years stronger.",
+   "facts": [
+    {
+     "k": "Latitudinal extent",
+     "v": "About 8°4′ N to 37°6′ N"
+    },
+    {
+     "k": "Tropic of Cancer passes through",
+     "v": "Eight states"
+    },
+    {
+     "k": "Indian Standard Time meridian",
+     "v": "82°30′ E, near Mirzapur; GMT plus 5:30"
+    },
+    {
+     "k": "Coastline",
+     "v": "About 7,517 km including islands"
+    },
+    {
+     "k": "Longest land border",
+     "v": "Bangladesh, about 4,096 km"
+    },
+    {
+     "k": "Shortest land border",
+     "v": "Afghanistan"
+    },
+    {
+     "k": "Highest peak in India",
+     "v": "Kanchenjunga, 8,586 m"
+    },
+    {
+     "k": "Southwest monsoon onset",
+     "v": "Around 1 June over Kerala"
+    },
+    {
+     "k": "Share of annual rainfall from the southwest monsoon",
+     "v": "About 75 per cent"
+    },
+    {
+     "k": "Wettest places",
+     "v": "Mawsynram and Cherrapunji, Meghalaya"
+    }
+   ],
+   "timeline": [],
+   "why": "A passage on drought, floods or a border dispute assumes this frame. The two most asked facts are the eight Tropic of Cancer states and the IST meridian.",
+   "map": {
+    "nodes": [
+     {
+      "id": "tropic",
+      "parent": "root",
+      "tier": 1,
+      "label": "Tropic of Cancer",
+      "kind": "concept",
+      "rel": "eight states",
+      "note": "Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram."
+     },
+     {
+      "id": "ist",
+      "parent": "root",
+      "tier": 1,
+      "label": "Indian Standard Time",
+      "kind": "concept",
+      "rel": "82°30′ E",
+      "note": "Passes near Mirzapur in Uttar Pradesh. Five and a half hours ahead of GMT, a single time zone for the whole country."
+     },
+     {
+      "id": "monsoon",
+      "parent": "root",
+      "tier": 1,
+      "label": "The southwest monsoon",
+      "kind": "concept",
+      "rel": "the rain",
+      "note": "Onset over Kerala around 1 June. Two branches, Arabian Sea and Bay of Bengal. About 75% of annual rainfall."
+     },
+     {
+      "id": "divisions",
+      "parent": "root",
+      "tier": 1,
+      "label": "Six physical divisions",
+      "kind": "concept",
+      "rel": "the structure",
+      "note": "Northern Mountains, Northern Plains, Peninsular Plateau, Indian Desert, Coastal Plains and Islands."
+     },
+     {
+      "id": "borders",
+      "parent": "root",
+      "tier": 1,
+      "label": "Land neighbours",
+      "kind": "concept",
+      "rel": "seven",
+      "note": "Bangladesh, China, Pakistan, Nepal, Myanmar, Bhutan and Afghanistan. Bangladesh has the longest border, Afghanistan the shortest."
+     },
+     {
+      "id": "kanchen",
+      "parent": "divisions",
+      "tier": 2,
+      "label": "Kanchenjunga",
+      "kind": "place",
+      "rel": "8,586 m",
+      "note": "Highest peak in India, on the Sikkim-Nepal border. Third highest in the world. K2 lies in Pakistan-administered territory."
+     },
+     {
+      "id": "itcz",
+      "parent": "monsoon",
+      "tier": 2,
+      "label": "Inter-Tropical Convergence Zone",
+      "kind": "concept",
+      "rel": "the mechanism",
+      "note": "Its seasonal northward shift draws the southwest monsoon over the subcontinent."
+     },
+     {
+      "id": "mawsynram",
+      "parent": "monsoon",
+      "tier": 2,
+      "label": "Mawsynram and Cherrapunji",
+      "kind": "place",
+      "rel": "wettest on earth",
+      "note": "In the Khasi hills of Meghalaya, where the Bay of Bengal branch is funnelled and forced to rise."
+     },
+     {
+      "id": "ne",
+      "parent": "monsoon",
+      "tier": 2,
+      "label": "Northeast monsoon",
+      "kind": "concept",
+      "rel": "October to December",
+      "note": "Brings most of Tamil Nadu’s rain, which is why the state’s wet season is out of step with the rest of India."
+     },
+     {
+      "id": "mcmahon",
+      "parent": "borders",
+      "tier": 2,
+      "label": "McMahon Line",
+      "kind": "concept",
+      "rel": "with China",
+      "note": "Drawn at the Simla Convention of 1914 and rejected by China. The Line of Actual Control governs the western sector."
+     },
+     {
+      "id": "radcliffe",
+      "parent": "borders",
+      "tier": 2,
+      "label": "Radcliffe Line",
+      "kind": "concept",
+      "rel": "with Pakistan",
+      "note": "Drawn in 1947 by Cyril Radcliffe. The Durand Line, drawn 1893, lies between Pakistan and Afghanistan."
+     },
+     {
+      "id": "plains",
+      "parent": "divisions",
+      "tier": 2,
+      "label": "Northern Plains",
+      "kind": "place",
+      "rel": "four belts",
+      "note": "Bhabar of coarse pebbles, terai of marshy land, bhangar of older alluvium and khadar of new floodplain alluvium."
+     },
+     {
+      "id": "elnino",
+      "parent": "monsoon",
+      "tier": 3,
+      "label": "El Niño and La Niña",
+      "kind": "concept",
+      "rel": "the modulator",
+      "note": "El Niño warming of the eastern Pacific usually weakens the Indian monsoon; La Niña usually strengthens it."
+     },
+     {
+      "id": "narmada",
+      "parent": "divisions",
+      "tier": 3,
+      "label": "Narmada",
+      "kind": "place",
+      "rel": "the divide",
+      "note": "Separates the Central Highlands from the Deccan plateau. Flows west through a rift valley into the Arabian Sea, as does the Tapi."
+     },
+     {
+      "id": "islands",
+      "parent": "divisions",
+      "tier": 3,
+      "label": "The islands",
+      "kind": "place",
+      "rel": "two chains",
+      "note": "Andaman and Nicobar are volcanic and tectonic; Lakshadweep is coral. Barren Island is India’s only active volcano."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "geo-protected",
+   "rank": 2,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Protected areas and the law that creates them",
+   "date": "",
+   "category": "Environment",
+   "tags": [
+    "Wildlife",
+    "Tiger Reserves",
+    "National Parks",
+    "Wildlife Protection Act"
+   ],
+   "hook": "Four categories of protected area, one Act from 1972 with six schedules, and a tiger count that is quoted every four years.",
+   "story": "The **Wildlife (Protection) Act 1972** is the parent statute. It created **national parks**, where no human activity is permitted and no grazing or private landholding is allowed, and **wildlife sanctuaries**, where limited activity may be permitted by the Chief Wildlife Warden. **Conservation reserves** and **community reserves** were added by the 2002 amendment for buffer areas and community land. The Act's schedules list species by protection level; the 2022 amendment reduced six schedules to four and brought CITES compliance into domestic law.\n\n**Project Tiger** was launched in **1973** with nine reserves. The **National Tiger Conservation Authority** was created by the 2006 amendment following the Sariska crisis, when the reserve was found to have lost all its tigers. India now has **57 tiger reserves** and, by the 2022 All India Tiger Estimation released in 2023, about **3,682 tigers**, roughly three quarters of the world's wild population. The estimate is published every four years using camera traps and the M-STrIPES protocol. **Project Elephant** followed in 1992; India has 33 elephant reserves.\n\n**Firsts and superlatives.** **Jim Corbett** in Uttarakhand, established 1936 as Hailey National Park, is India's oldest national park and one of the original nine tiger reserves. **Nagarhole**, **Bandipur**, **Kanha**, **Ranthambore**, **Sundarbans** and **Periyar** are the reserves most often named. **Kaziranga** in Assam holds the largest population of the one-horned rhinoceros and is a UNESCO site. **Gir** in Gujarat is the only home of the Asiatic lion. **Sundarbans** is the largest mangrove forest in the world and a tiger reserve, a national park, a biosphere reserve and a Ramsar site at once. **Nanda Devi and Valley of Flowers**, **Western Ghats**, **Keoladeo**, **Manas** and the **Great Himalayan National Park** are the natural World Heritage Sites.\n\n**Biosphere reserves** number 18 in India, of which 12 are in the **UNESCO Man and the Biosphere** network; **Nilgiri**, designated 1986, was the first. India has **four biodiversity hotspots** out of the world's 36: the **Himalaya**, the **Western Ghats and Sri Lanka**, the **Indo-Burma** region, and **Sundaland** covering the Nicobar Islands.",
+   "facts": [
+    {
+     "k": "Parent statute",
+     "v": "Wildlife (Protection) Act, 1972"
+    },
+    {
+     "k": "Categories of protected area",
+     "v": "National park, wildlife sanctuary, conservation reserve, community reserve"
+    },
+    {
+     "k": "Project Tiger launched",
+     "v": "1973, with nine reserves"
+    },
+    {
+     "k": "NTCA created",
+     "v": "2006 amendment, after the Sariska crisis"
+    },
+    {
+     "k": "Tiger reserves",
+     "v": "57"
+    },
+    {
+     "k": "Tiger population",
+     "v": "About 3,682, per the 2022 estimation released in 2023"
+    },
+    {
+     "k": "Oldest national park",
+     "v": "Jim Corbett, 1936, originally Hailey National Park"
+    },
+    {
+     "k": "Only home of the Asiatic lion",
+     "v": "Gir, Gujarat"
+    },
+    {
+     "k": "Largest mangrove forest",
+     "v": "Sundarbans"
+    },
+    {
+     "k": "Biodiversity hotspots in India",
+     "v": "Four of the world’s 36"
+    }
+   ],
+   "timeline": [],
+   "why": "Species-to-park matching is the reliable question, along with the 1972 Act and the tiger count. The trap is the difference between a national park and a sanctuary.",
+   "map": {
+    "nodes": [
+     {
+      "id": "wpa",
+      "parent": "root",
+      "tier": 1,
+      "label": "Wildlife (Protection) Act, 1972",
+      "kind": "law",
+      "rel": "the parent statute",
+      "note": "Creates national parks and sanctuaries, lists species in schedules, and was amended in 2002, 2006 and 2022."
+     },
+     {
+      "id": "tiger",
+      "parent": "root",
+      "tier": 1,
+      "label": "Project Tiger (1973)",
+      "kind": "concept",
+      "rel": "the programme",
+      "note": "Began with nine reserves. India now has 57 and about three quarters of the world’s wild tigers."
+     },
+     {
+      "id": "ntca",
+      "parent": "tiger",
+      "tier": 1,
+      "label": "National Tiger Conservation Authority",
+      "kind": "org",
+      "rel": "2006",
+      "note": "Created by amendment after Sariska was found to have lost all its tigers. Statutory body under the 1972 Act."
+     },
+     {
+      "id": "corbett",
+      "parent": "tiger",
+      "tier": 1,
+      "label": "Jim Corbett National Park",
+      "kind": "place",
+      "rel": "the oldest",
+      "note": "Established 1936 in Uttarakhand as Hailey National Park. Renamed after the hunter-turned-conservationist in 1957."
+     },
+     {
+      "id": "categories",
+      "parent": "wpa",
+      "tier": 1,
+      "label": "Four categories",
+      "kind": "concept",
+      "rel": "the distinction",
+      "note": "National parks allow no human activity; sanctuaries allow limited activity permitted by the Chief Wildlife Warden."
+     },
+     {
+      "id": "kaziranga",
+      "parent": "corbett",
+      "tier": 2,
+      "label": "Kaziranga",
+      "kind": "place",
+      "rel": "one-horned rhino",
+      "note": "In Assam, on the Brahmaputra floodplain. UNESCO World Heritage Site and holder of the largest rhino population."
+     },
+     {
+      "id": "gir",
+      "parent": "corbett",
+      "tier": 2,
+      "label": "Gir",
+      "kind": "place",
+      "rel": "Asiatic lion",
+      "note": "In Gujarat, the only wild population of Asiatic lions. Project Lion was launched in 2020."
+     },
+     {
+      "id": "sundarbans",
+      "parent": "corbett",
+      "tier": 2,
+      "label": "Sundarbans",
+      "kind": "place",
+      "rel": "four designations at once",
+      "note": "Largest mangrove forest in the world. A tiger reserve, national park, biosphere reserve and Ramsar site."
+     },
+     {
+      "id": "hotspots",
+      "parent": "root",
+      "tier": 2,
+      "label": "Biodiversity hotspots",
+      "kind": "concept",
+      "rel": "four in India",
+      "note": "Himalaya, Western Ghats and Sri Lanka, Indo-Burma, and Sundaland covering the Nicobar Islands. 36 worldwide."
+     },
+     {
+      "id": "biosphere",
+      "parent": "hotspots",
+      "tier": 2,
+      "label": "Biosphere reserves",
+      "kind": "concept",
+      "rel": "18 in India",
+      "note": "Twelve are in the UNESCO Man and the Biosphere network. Nilgiri, designated 1986, was the first."
+     },
+     {
+      "id": "elephant",
+      "parent": "tiger",
+      "tier": 2,
+      "label": "Project Elephant (1992)",
+      "kind": "concept",
+      "rel": "the other flagship",
+      "note": "33 elephant reserves. India holds around 60% of the world’s Asian elephants."
+     },
+     {
+      "id": "a2022",
+      "parent": "wpa",
+      "tier": 2,
+      "label": "2022 amendment",
+      "kind": "event",
+      "rel": "the latest change",
+      "note": "Reduced six schedules to four and gave effect to India’s CITES obligations in domestic law."
+     },
+     {
+      "id": "mstripes",
+      "parent": "ntca",
+      "tier": 3,
+      "label": "M-STrIPES",
+      "kind": "term",
+      "rel": "the method",
+      "note": "Monitoring System for Tigers, the protocol combining camera traps and patrol data used in the four-yearly estimation."
+     },
+     {
+      "id": "a48a",
+      "parent": "wpa",
+      "tier": 3,
+      "label": "Articles 48A and 51A(g)",
+      "kind": "law",
+      "rel": "the constitutional hook",
+      "note": "Directive Principle on protecting forests and wildlife, and the Fundamental Duty to protect the natural environment."
+     },
+     {
+      "id": "keoladeo",
+      "parent": "corbett",
+      "tier": 3,
+      "label": "Keoladeo",
+      "kind": "place",
+      "rel": "Bharatpur",
+      "note": "A former royal hunting reserve in Rajasthan, now a national park, Ramsar site and UNESCO World Heritage Site for migratory birds."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "geography-himalayan-rivers",
+   "rank": 3,
    "depth": "brief",
    "importance": 4,
    "title": "Himalayan River Systems",
@@ -93,7 +495,7 @@
   },
   {
    "id": "geography-biosphere-reserves",
-   "rank": 2,
+   "rank": 4,
    "depth": "brief",
    "importance": 4,
    "title": "Biosphere Reserves",
@@ -180,7 +582,7 @@
   },
   {
    "id": "geography-enso",
-   "rank": 3,
+   "rank": 5,
    "depth": "brief",
    "importance": 4,
    "title": "El Niño and La Niña",
@@ -266,95 +668,8 @@
    ]
   },
   {
-   "id": "geography-cites-1973",
-   "rank": 4,
-   "depth": "brief",
-   "importance": 4,
-   "title": "CITES 1973",
-   "date": "2026-01-01",
-   "category": "Environment",
-   "tags": [
-    "Wildlife",
-    "Trade",
-    "Conservation"
-   ],
-   "hook": "CITES 1973 shapes regional ecology and policy, forming a core part of the syllabus.",
-   "story": "CITES 1973 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of CITES 1973 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
-   "facts": [
-    {
-     "k": "Primary aspect",
-     "v": "Governs resource distribution and climate"
-    },
-    {
-     "k": "Historical context",
-     "v": "Linked to major earth processes or global treaties"
-    },
-    {
-     "k": "Exam relevance",
-     "v": "Tested for application and exact location"
-    },
-    {
-     "k": "Primary metric",
-     "v": "Affects millions of people and entire ecosystems"
-    }
-   ],
-   "why": "CLAT tests CITES 1973 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
-   "map": {
-    "nodes": [
-     {
-      "id": "geography-cites-1973-root",
-      "parent": "root",
-      "tier": 1,
-      "label": "CITES 1973",
-      "kind": "concept",
-      "rel": "core concept",
-      "note": "The main idea behind CITES 1973."
-     },
-     {
-      "id": "geography-cites-1973-node1",
-      "parent": "geography-cites-1973-root",
-      "tier": 1,
-      "label": "Core Feature",
-      "kind": "event",
-      "rel": "exhibits",
-      "note": "An observable characteristic of the geographic system."
-     },
-     {
-      "id": "geography-cites-1973-node2",
-      "parent": "geography-cites-1973-root",
-      "tier": 2,
-      "label": "Related Policy",
-      "kind": "law",
-      "rel": "regulated by",
-      "note": "Government or international framework managing the issue."
-     },
-     {
-      "id": "geography-cites-1973-node3",
-      "parent": "geography-cites-1973-node1",
-      "tier": 3,
-      "label": "Specific Location",
-      "kind": "place",
-      "rel": "found at",
-      "note": "A concrete instance tested in examinations."
-     },
-     {
-      "id": "geography-cites-1973-node4",
-      "parent": "geography-cites-1973-root",
-      "tier": 2,
-      "label": "Notable Person",
-      "kind": "person",
-      "rel": "associated with",
-      "note": "An individual responsible for the framework or discovery."
-     }
-    ]
-   },
-   "sources": [
-    "https://example.com/geography"
-   ]
-  },
-  {
    "id": "geography-earthquakes",
-   "rank": 5,
+   "rank": 6,
    "depth": "brief",
    "importance": 4,
    "title": "Earthquakes and Seismic Zones",
@@ -441,7 +756,7 @@
   },
   {
    "id": "geography-peninsular-rivers",
-   "rank": 6,
+   "rank": 7,
    "depth": "brief",
    "importance": 4,
    "title": "Peninsular River Systems",
@@ -528,7 +843,7 @@
   },
   {
    "id": "geography-ramsar-sites",
-   "rank": 7,
+   "rank": 8,
    "depth": "brief",
    "importance": 4,
    "title": "Ramsar Sites in India",
@@ -615,7 +930,7 @@
   },
   {
    "id": "geography-mountain-passes",
-   "rank": 8,
+   "rank": 9,
    "depth": "brief",
    "importance": 4,
    "title": "Major Mountain Passes",
@@ -688,93 +1003,6 @@
      {
       "id": "geography-mountain-passes-node4",
       "parent": "geography-mountain-passes-root",
-      "tier": 2,
-      "label": "Notable Person",
-      "kind": "person",
-      "rel": "associated with",
-      "note": "An individual responsible for the framework or discovery."
-     }
-    ]
-   },
-   "sources": [
-    "https://example.com/geography"
-   ]
-  },
-  {
-   "id": "geography-cbd-1992",
-   "rank": 9,
-   "depth": "brief",
-   "importance": 4,
-   "title": "CBD 1992",
-   "date": "2026-01-01",
-   "category": "Environment",
-   "tags": [
-    "Biodiversity",
-    "Earth Summit",
-    "Rio"
-   ],
-   "hook": "CBD 1992 shapes regional ecology and policy, forming a core part of the syllabus.",
-   "story": "CBD 1992 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of CBD 1992 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
-   "facts": [
-    {
-     "k": "Primary aspect",
-     "v": "Governs resource distribution and climate"
-    },
-    {
-     "k": "Historical context",
-     "v": "Linked to major earth processes or global treaties"
-    },
-    {
-     "k": "Exam relevance",
-     "v": "Tested for application and exact location"
-    },
-    {
-     "k": "Primary metric",
-     "v": "Affects millions of people and entire ecosystems"
-    }
-   ],
-   "why": "CLAT tests CBD 1992 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
-   "map": {
-    "nodes": [
-     {
-      "id": "geography-cbd-1992-root",
-      "parent": "root",
-      "tier": 1,
-      "label": "CBD 1992",
-      "kind": "concept",
-      "rel": "core concept",
-      "note": "The main idea behind CBD 1992."
-     },
-     {
-      "id": "geography-cbd-1992-node1",
-      "parent": "geography-cbd-1992-root",
-      "tier": 1,
-      "label": "Core Feature",
-      "kind": "event",
-      "rel": "exhibits",
-      "note": "An observable characteristic of the geographic system."
-     },
-     {
-      "id": "geography-cbd-1992-node2",
-      "parent": "geography-cbd-1992-root",
-      "tier": 2,
-      "label": "Related Policy",
-      "kind": "law",
-      "rel": "regulated by",
-      "note": "Government or international framework managing the issue."
-     },
-     {
-      "id": "geography-cbd-1992-node3",
-      "parent": "geography-cbd-1992-node1",
-      "tier": 3,
-      "label": "Specific Location",
-      "kind": "place",
-      "rel": "found at",
-      "note": "A concrete instance tested in examinations."
-     },
-     {
-      "id": "geography-cbd-1992-node4",
-      "parent": "geography-cbd-1992-root",
       "tier": 2,
       "label": "Notable Person",
       "kind": "person",
@@ -1135,95 +1363,8 @@
    ]
   },
   {
-   "id": "geography-montreal-protocol",
-   "rank": 14,
-   "depth": "brief",
-   "importance": 4,
-   "title": "Montreal Protocol 1987",
-   "date": "2026-01-01",
-   "category": "Environment",
-   "tags": [
-    "Ozone",
-    "CFCs",
-    "Protocol"
-   ],
-   "hook": "Montreal Protocol 1987 shapes regional ecology and policy, forming a core part of the syllabus.",
-   "story": "Montreal Protocol 1987 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Montreal Protocol 1987 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
-   "facts": [
-    {
-     "k": "Primary aspect",
-     "v": "Governs resource distribution and climate"
-    },
-    {
-     "k": "Historical context",
-     "v": "Linked to major earth processes or global treaties"
-    },
-    {
-     "k": "Exam relevance",
-     "v": "Tested for application and exact location"
-    },
-    {
-     "k": "Primary metric",
-     "v": "Affects millions of people and entire ecosystems"
-    }
-   ],
-   "why": "CLAT tests Montreal Protocol 1987 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
-   "map": {
-    "nodes": [
-     {
-      "id": "geography-montreal-protocol-root",
-      "parent": "root",
-      "tier": 1,
-      "label": "Montreal Protocol 1987",
-      "kind": "concept",
-      "rel": "core concept",
-      "note": "The main idea behind Montreal Protocol 1987."
-     },
-     {
-      "id": "geography-montreal-protocol-node1",
-      "parent": "geography-montreal-protocol-root",
-      "tier": 1,
-      "label": "Core Feature",
-      "kind": "event",
-      "rel": "exhibits",
-      "note": "An observable characteristic of the geographic system."
-     },
-     {
-      "id": "geography-montreal-protocol-node2",
-      "parent": "geography-montreal-protocol-root",
-      "tier": 2,
-      "label": "Related Policy",
-      "kind": "law",
-      "rel": "regulated by",
-      "note": "Government or international framework managing the issue."
-     },
-     {
-      "id": "geography-montreal-protocol-node3",
-      "parent": "geography-montreal-protocol-node1",
-      "tier": 3,
-      "label": "Specific Location",
-      "kind": "place",
-      "rel": "found at",
-      "note": "A concrete instance tested in examinations."
-     },
-     {
-      "id": "geography-montreal-protocol-node4",
-      "parent": "geography-montreal-protocol-root",
-      "tier": 2,
-      "label": "Notable Person",
-      "kind": "person",
-      "rel": "associated with",
-      "note": "An individual responsible for the framework or discovery."
-     }
-    ]
-   },
-   "sources": [
-    "https://example.com/geography"
-   ]
-  },
-  {
    "id": "geography-western-ghats",
-   "rank": 15,
+   "rank": 14,
    "depth": "brief",
    "importance": 4,
    "title": "Western Ghats",
@@ -1310,7 +1451,7 @@
   },
   {
    "id": "geography-national-parks",
-   "rank": 16,
+   "rank": 15,
    "depth": "brief",
    "importance": 4,
    "title": "National Parks",
@@ -1397,7 +1538,7 @@
   },
   {
    "id": "geography-climate-monsoon",
-   "rank": 17,
+   "rank": 16,
    "depth": "brief",
    "importance": 4,
    "title": "Climate & Monsoon System",
@@ -1483,182 +1624,8 @@
    ]
   },
   {
-   "id": "geography-paris-agreement",
-   "rank": 18,
-   "depth": "brief",
-   "importance": 4,
-   "title": "Paris Agreement 2015",
-   "date": "2026-01-01",
-   "category": "Environment",
-   "tags": [
-    "Climate Change",
-    "UNFCCC",
-    "Paris"
-   ],
-   "hook": "Paris Agreement 2015 shapes regional ecology and policy, forming a core part of the syllabus.",
-   "story": "Paris Agreement 2015 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Paris Agreement 2015 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
-   "facts": [
-    {
-     "k": "Primary aspect",
-     "v": "Governs resource distribution and climate"
-    },
-    {
-     "k": "Historical context",
-     "v": "Linked to major earth processes or global treaties"
-    },
-    {
-     "k": "Exam relevance",
-     "v": "Tested for application and exact location"
-    },
-    {
-     "k": "Primary metric",
-     "v": "Affects millions of people and entire ecosystems"
-    }
-   ],
-   "why": "CLAT tests Paris Agreement 2015 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
-   "map": {
-    "nodes": [
-     {
-      "id": "geography-paris-agreement-root",
-      "parent": "root",
-      "tier": 1,
-      "label": "Paris Agreement 2015",
-      "kind": "concept",
-      "rel": "core concept",
-      "note": "The main idea behind Paris Agreement 2015."
-     },
-     {
-      "id": "geography-paris-agreement-node1",
-      "parent": "geography-paris-agreement-root",
-      "tier": 1,
-      "label": "Core Feature",
-      "kind": "event",
-      "rel": "exhibits",
-      "note": "An observable characteristic of the geographic system."
-     },
-     {
-      "id": "geography-paris-agreement-node2",
-      "parent": "geography-paris-agreement-root",
-      "tier": 2,
-      "label": "Related Policy",
-      "kind": "law",
-      "rel": "regulated by",
-      "note": "Government or international framework managing the issue."
-     },
-     {
-      "id": "geography-paris-agreement-node3",
-      "parent": "geography-paris-agreement-node1",
-      "tier": 3,
-      "label": "Specific Location",
-      "kind": "place",
-      "rel": "found at",
-      "note": "A concrete instance tested in examinations."
-     },
-     {
-      "id": "geography-paris-agreement-node4",
-      "parent": "geography-paris-agreement-root",
-      "tier": 2,
-      "label": "Notable Person",
-      "kind": "person",
-      "rel": "associated with",
-      "note": "An individual responsible for the framework or discovery."
-     }
-    ]
-   },
-   "sources": [
-    "https://example.com/geography"
-   ]
-  },
-  {
-   "id": "geography-kyoto-protocol",
-   "rank": 19,
-   "depth": "brief",
-   "importance": 4,
-   "title": "Kyoto Protocol 1997",
-   "date": "2026-01-01",
-   "category": "Environment",
-   "tags": [
-    "Greenhouse Gases",
-    "Emissions",
-    "Protocol"
-   ],
-   "hook": "Kyoto Protocol 1997 shapes regional ecology and policy, forming a core part of the syllabus.",
-   "story": "Kyoto Protocol 1997 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Kyoto Protocol 1997 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
-   "facts": [
-    {
-     "k": "Primary aspect",
-     "v": "Governs resource distribution and climate"
-    },
-    {
-     "k": "Historical context",
-     "v": "Linked to major earth processes or global treaties"
-    },
-    {
-     "k": "Exam relevance",
-     "v": "Tested for application and exact location"
-    },
-    {
-     "k": "Primary metric",
-     "v": "Affects millions of people and entire ecosystems"
-    }
-   ],
-   "why": "CLAT tests Kyoto Protocol 1997 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
-   "map": {
-    "nodes": [
-     {
-      "id": "geography-kyoto-protocol-root",
-      "parent": "root",
-      "tier": 1,
-      "label": "Kyoto Protocol 1997",
-      "kind": "concept",
-      "rel": "core concept",
-      "note": "The main idea behind Kyoto Protocol 1997."
-     },
-     {
-      "id": "geography-kyoto-protocol-node1",
-      "parent": "geography-kyoto-protocol-root",
-      "tier": 1,
-      "label": "Core Feature",
-      "kind": "event",
-      "rel": "exhibits",
-      "note": "An observable characteristic of the geographic system."
-     },
-     {
-      "id": "geography-kyoto-protocol-node2",
-      "parent": "geography-kyoto-protocol-root",
-      "tier": 2,
-      "label": "Related Policy",
-      "kind": "law",
-      "rel": "regulated by",
-      "note": "Government or international framework managing the issue."
-     },
-     {
-      "id": "geography-kyoto-protocol-node3",
-      "parent": "geography-kyoto-protocol-node1",
-      "tier": 3,
-      "label": "Specific Location",
-      "kind": "place",
-      "rel": "found at",
-      "note": "A concrete instance tested in examinations."
-     },
-     {
-      "id": "geography-kyoto-protocol-node4",
-      "parent": "geography-kyoto-protocol-root",
-      "tier": 2,
-      "label": "Notable Person",
-      "kind": "person",
-      "rel": "associated with",
-      "note": "An individual responsible for the framework or discovery."
-     }
-    ]
-   },
-   "sources": [
-    "https://example.com/geography"
-   ]
-  },
-  {
    "id": "geography-eastern-ghats",
-   "rank": 20,
+   "rank": 17,
    "depth": "brief",
    "importance": 4,
    "title": "Eastern Ghats",
@@ -1745,7 +1712,7 @@
   },
   {
    "id": "geography-tiger-reserves",
-   "rank": 21,
+   "rank": 18,
    "depth": "brief",
    "importance": 4,
    "title": "Tiger Reserves",
@@ -1831,7 +1798,7 @@
   },
   {
    "id": "geography-ocean-currents",
-   "rank": 22,
+   "rank": 19,
    "depth": "brief",
    "importance": 4,
    "title": "Ocean Currents",
@@ -1917,182 +1884,8 @@
    ]
   },
   {
-   "id": "geography-ramsar-1971",
-   "rank": 23,
-   "depth": "brief",
-   "importance": 4,
-   "title": "Ramsar Convention 1971",
-   "date": "2026-01-01",
-   "category": "Environment",
-   "tags": [
-    "Wetlands",
-    "Treaty",
-    "Iran"
-   ],
-   "hook": "Ramsar Convention 1971 shapes regional ecology and policy, forming a core part of the syllabus.",
-   "story": "Ramsar Convention 1971 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Ramsar Convention 1971 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
-   "facts": [
-    {
-     "k": "Primary aspect",
-     "v": "Governs resource distribution and climate"
-    },
-    {
-     "k": "Historical context",
-     "v": "Linked to major earth processes or global treaties"
-    },
-    {
-     "k": "Exam relevance",
-     "v": "Tested for application and exact location"
-    },
-    {
-     "k": "Primary metric",
-     "v": "Affects millions of people and entire ecosystems"
-    }
-   ],
-   "why": "CLAT tests Ramsar Convention 1971 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
-   "map": {
-    "nodes": [
-     {
-      "id": "geography-ramsar-1971-root",
-      "parent": "root",
-      "tier": 1,
-      "label": "Ramsar Convention 1971",
-      "kind": "concept",
-      "rel": "core concept",
-      "note": "The main idea behind Ramsar Convention 1971."
-     },
-     {
-      "id": "geography-ramsar-1971-node1",
-      "parent": "geography-ramsar-1971-root",
-      "tier": 1,
-      "label": "Core Feature",
-      "kind": "event",
-      "rel": "exhibits",
-      "note": "An observable characteristic of the geographic system."
-     },
-     {
-      "id": "geography-ramsar-1971-node2",
-      "parent": "geography-ramsar-1971-root",
-      "tier": 2,
-      "label": "Related Policy",
-      "kind": "law",
-      "rel": "regulated by",
-      "note": "Government or international framework managing the issue."
-     },
-     {
-      "id": "geography-ramsar-1971-node3",
-      "parent": "geography-ramsar-1971-node1",
-      "tier": 3,
-      "label": "Specific Location",
-      "kind": "place",
-      "rel": "found at",
-      "note": "A concrete instance tested in examinations."
-     },
-     {
-      "id": "geography-ramsar-1971-node4",
-      "parent": "geography-ramsar-1971-root",
-      "tier": 2,
-      "label": "Notable Person",
-      "kind": "person",
-      "rel": "associated with",
-      "note": "An individual responsible for the framework or discovery."
-     }
-    ]
-   },
-   "sources": [
-    "https://example.com/geography"
-   ]
-  },
-  {
-   "id": "geography-cop-summits",
-   "rank": 24,
-   "depth": "brief",
-   "importance": 4,
-   "title": "COP climate summits",
-   "date": "2026-01-01",
-   "category": "Environment",
-   "tags": [
-    "UNFCCC",
-    "COP",
-    "Climate Action"
-   ],
-   "hook": "COP climate summits shapes regional ecology and policy, forming a core part of the syllabus.",
-   "story": "COP climate summits constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of COP climate summits provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
-   "facts": [
-    {
-     "k": "Primary aspect",
-     "v": "Governs resource distribution and climate"
-    },
-    {
-     "k": "Historical context",
-     "v": "Linked to major earth processes or global treaties"
-    },
-    {
-     "k": "Exam relevance",
-     "v": "Tested for application and exact location"
-    },
-    {
-     "k": "Primary metric",
-     "v": "Affects millions of people and entire ecosystems"
-    }
-   ],
-   "why": "CLAT tests COP climate summits by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
-   "map": {
-    "nodes": [
-     {
-      "id": "geography-cop-summits-root",
-      "parent": "root",
-      "tier": 1,
-      "label": "COP climate summits",
-      "kind": "concept",
-      "rel": "core concept",
-      "note": "The main idea behind COP climate summits."
-     },
-     {
-      "id": "geography-cop-summits-node1",
-      "parent": "geography-cop-summits-root",
-      "tier": 1,
-      "label": "Core Feature",
-      "kind": "event",
-      "rel": "exhibits",
-      "note": "An observable characteristic of the geographic system."
-     },
-     {
-      "id": "geography-cop-summits-node2",
-      "parent": "geography-cop-summits-root",
-      "tier": 2,
-      "label": "Related Policy",
-      "kind": "law",
-      "rel": "regulated by",
-      "note": "Government or international framework managing the issue."
-     },
-     {
-      "id": "geography-cop-summits-node3",
-      "parent": "geography-cop-summits-node1",
-      "tier": 3,
-      "label": "Specific Location",
-      "kind": "place",
-      "rel": "found at",
-      "note": "A concrete instance tested in examinations."
-     },
-     {
-      "id": "geography-cop-summits-node4",
-      "parent": "geography-cop-summits-root",
-      "tier": 2,
-      "label": "Notable Person",
-      "kind": "person",
-      "rel": "associated with",
-      "note": "An individual responsible for the framework or discovery."
-     }
-    ]
-   },
-   "sources": [
-    "https://example.com/geography"
-   ]
-  },
-  {
    "id": "geography-islands",
-   "rank": 25,
+   "rank": 20,
    "depth": "brief",
    "importance": 4,
    "title": "Indian Islands",
@@ -2779,5 +2572,6 @@
     }
    ]
   }
- ]
+ ],
+ "order": 8
 }
