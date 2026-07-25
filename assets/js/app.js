@@ -52,6 +52,13 @@ function fail(e) {
 addEventListener('hashchange', () => { route(); window.scrollTo(0, 0); });
 route();
 
+// Static GK is built section by section; hide the entry until one exists.
+getManifest().then(m => {
+  if (!m.sections.some(s => s.kind === 'static')) {
+    document.querySelector('.nav a[href="#/static"]')?.remove();
+  }
+}).catch(() => {});
+
 /* ── overview ─────────────────────────────────────────────────────── */
 async function viewHome() {
   const m = await getManifest();
@@ -221,7 +228,7 @@ async function viewTopic(id) {
     <article>
       <div class="prose">${md(topic.story)}</div>
       ${renderMap(topic)}
-      ${topic.map?.nodes?.length ? '<p style="font-size:12.5px;color:var(--faint);margin-top:8px">Click a node for the fact attached to it. Drag to pan, scroll to zoom. Nodes closest to the centre are the ones an examiner reaches for first.</p>' : ''}
+      ${topic.map?.nodes?.length ? '<p style="font-size:12.5px;color:var(--faint);margin-top:8px">Click a node for the fact attached to it. Drag to pan, ctrl-scroll or pinch to zoom, or use the buttons. Nodes closest to the centre are the ones an examiner reaches for first.</p>' : ''}
     </article>
 
     <aside class="side">

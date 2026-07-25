@@ -1,0 +1,611 @@
+{
+ "id": "2026-05",
+ "kind": "current",
+ "label": "May 2026",
+ "blurb": "The Iran war reached the Strait of Hormuz and the Supreme Court ruled on both the Bihar roll purge and the online gaming ban. Badly incomplete: three topics only, no passage bank.",
+ "topics": [
+  {
+   "id": "2026-05-iran-hormuz-oil-shock",
+   "rank": 1,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The Iran war reaches the Strait of Hormuz",
+   "date": "2026-05-07",
+   "category": "International Relations",
+   "tags": [
+    "Iran",
+    "Israel",
+    "USA",
+    "Strait of Hormuz",
+    "oil prices"
+   ],
+   "hook": "In May 2026 the war that began with the killing of Iran's Supreme Leader in February spread into the Strait of Hormuz, and the world found out again how one narrow waterway can move the price of everything.",
+   "story": "The war started on 28 February 2026. Israel and the United States launched simultaneous operations, code-named Roaring Lion and Epic Fury, that killed Supreme Leader Ali Khamenei and several senior commanders in a single night. The Israeli Air Force flew its largest combat sortie ever, hitting roughly 500 targets with over 1,200 bombs in 24 hours, and a cyberattack knocked out Iran's internet for more than 60 hours. Iran had been through a shorter round with Israel already, the Twelve-Day War of June 2025, which in hindsight looks like a rehearsal.\n\nWhat followed was not a quick war. Iran struck back at Israel, the Gulf states and US bases. Hezbollah was drawn in from Lebanon. A two-week ceasefire opened on 8 April and fell apart within days; a round of talks in Islamabad on 12 and 13 April, with Pakistan's foreign minister Ishaq Dar shuttling between Washington and Tehran, produced nothing durable.\n\nMay is when the war reached the world's most important oil chokepoint. On 4 May, the US Navy launched Operation Project Freedom, escorting tankers through the Strait of Hormuz, the 33-kilometre-wide passage between Iran and Oman through which roughly a fifth of the world's traded oil moves. Iran's regular navy and its Islamic Revolutionary Guard Corps navy treated the escorts as provocation. On 7 May, Iran fired on three US destroyers, USS Truxtun, USS Rafael Peralta and USS Mason; US Central Command answered with what it called self-defence strikes on Iranian military sites, and explosions were reported at the ports of Bandar Abbas and Qeshm. Washington insisted this was not a restart of full-scale war, a distinction that meant very little to shipping insurers, who priced Gulf transits as a war-risk zone through the month.\n\nThe casualty count by June, when a ceasefire finally held, ran into the thousands: Iran put its own dead at roughly 3,500 with over 26,000 injured, the US lost 19 soldiers and a contractor, and Israel recorded 38 soldiers and 31 civilians killed. Hezbollah alone reported over a thousand fighters dead.\n\nIndia's stake in all this was never abstract. India imports more than four-fifths of its crude oil, and a large share of it moves through the Gulf and the Strait of Hormuz on its way from Saudi Arabia, Iraq and the UAE. Every reported skirmish near Hormuz through May pushed Brent crude higher, and Indian refiners and the finance ministry watched the Strait the way they watch the monsoon: something they cannot control and have to plan the year's budget around anyway. Dubai airport reported a 66 percent drop in March passenger traffic because of the war, a preview of how disruption in one country's airspace cascades through a region India depends on for both energy and expatriate remittances.\n\nBy the end of May there was no peace deal, only a war that had not, for the moment, become a full naval blockade. The settlement that eventually stopped it, the Islamabad Memorandum, was still six weeks away.",
+   "facts": [
+    {
+     "k": "War start date",
+     "v": "28 February 2026 (Operations Roaring Lion and Epic Fury)"
+    },
+    {
+     "k": "Killed in opening strike",
+     "v": "Supreme Leader Ali Khamenei"
+    },
+    {
+     "k": "Israeli strikes, day one",
+     "v": "About 500 targets, 1,200+ bombs in 24 hours"
+    },
+    {
+     "k": "US Navy escort operation",
+     "v": "Operation Project Freedom, launched 4 May 2026"
+    },
+    {
+     "k": "US destroyers attacked, 7 May",
+     "v": "USS Truxtun, USS Rafael Peralta, USS Mason"
+    },
+    {
+     "k": "Strait of Hormuz width (narrowest)",
+     "v": "About 33 km"
+    },
+    {
+     "k": "Share of world oil trade through Hormuz",
+     "v": "Roughly one-fifth"
+    },
+    {
+     "k": "Failed ceasefire talks venue",
+     "v": "Islamabad, 12-13 April 2026"
+    },
+    {
+     "k": "Precursor conflict",
+     "v": "Twelve-Day War, June 2025"
+    },
+    {
+     "k": "India's crude oil import dependence",
+     "v": "Over 80% of consumption"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1979",
+     "what": "Islamic Revolution ends the monarchy; Islamic Republic founded"
+    },
+    {
+     "when": "2015",
+     "what": "JCPOA nuclear deal signed in Vienna between Iran and the P5+1"
+    },
+    {
+     "when": "2018",
+     "what": "US withdraws from JCPOA under President Trump's first term"
+    },
+    {
+     "when": "June 2025",
+     "what": "Twelve-Day War between Israel and Iran"
+    },
+    {
+     "when": "28 Feb 2026",
+     "what": "Israel and US strike Iran; Khamenei killed"
+    },
+    {
+     "when": "8 April 2026",
+     "what": "Two-week ceasefire begins, later collapses"
+    },
+    {
+     "when": "4 May 2026",
+     "what": "US launches Operation Project Freedom in the Strait of Hormuz"
+    },
+    {
+     "when": "7 May 2026",
+     "what": "Iran fires on US destroyers; CENTCOM strikes back"
+    }
+   ],
+   "why": "CLAT passages on West Asia usually connect a conflict to an economic consequence for India, and this is the cleanest version of that link available in 2026: a war, a chokepoint, and an oil bill. Expect questions on the Strait of Hormuz's location and share of oil trade, and on the difference between the 2025 Twelve-Day War and the 2026 war as distinct events with distinct triggers.",
+   "map": {
+    "nodes": [
+     {
+      "id": "khamenei",
+      "parent": "root",
+      "tier": 1,
+      "kind": "person",
+      "rel": "leader killed",
+      "label": "Ali Khamenei",
+      "note": "Iran's Supreme Leader since 1989, killed in the opening US-Israeli strike on 28 February 2026."
+     },
+     {
+      "id": "hormuz",
+      "parent": "root",
+      "tier": 1,
+      "kind": "place",
+      "rel": "chokepoint",
+      "label": "Strait of Hormuz",
+      "note": "About 33 km wide at its narrowest; carries roughly a fifth of the world's traded oil between Iran and Oman."
+     },
+     {
+      "id": "netanyahu",
+      "parent": "root",
+      "tier": 1,
+      "kind": "person",
+      "rel": "co-initiator",
+      "label": "Benjamin Netanyahu",
+      "note": "Israeli PM since 2009 (with a 2021-22 gap); pressed Trump for the joint strikes that opened the war."
+     },
+     {
+      "id": "trump",
+      "parent": "root",
+      "tier": 1,
+      "kind": "person",
+      "rel": "authorised strikes",
+      "label": "Donald Trump",
+      "note": "US President who ordered Operation Epic Fury and later Operation Project Freedom's Hormuz escorts."
+     },
+     {
+      "id": "opec",
+      "parent": "root",
+      "tier": 1,
+      "kind": "org",
+      "rel": "oil cartel affected",
+      "label": "OPEC",
+      "note": "Founded 1960 in Baghdad, headquartered in Vienna; members Iran, Saudi Arabia and the UAE all sit on the Gulf the war touched."
+     },
+     {
+      "id": "revolution1979",
+      "parent": "khamenei",
+      "tier": 2,
+      "kind": "event",
+      "rel": "created the state he led",
+      "label": "1979 Islamic Revolution",
+      "note": "Ayatollah Khomeini's revolution toppled the Shah and founded the Islamic Republic; Khamenei succeeded Khomeini as Supreme Leader in 1989."
+     },
+     {
+      "id": "jcpoa",
+      "parent": "opec",
+      "tier": 2,
+      "kind": "event",
+      "rel": "earlier nuclear deal",
+      "label": "JCPOA, 2015",
+      "note": "The Joint Comprehensive Plan of Action capped Iran's uranium enrichment; the US withdrew under Trump in 2018, a decision many trace this war back to."
+     },
+     {
+      "id": "twelveday",
+      "parent": "khamenei",
+      "tier": 2,
+      "kind": "event",
+      "rel": "precursor",
+      "label": "Twelve-Day War, 2025",
+      "note": "A shorter Israel-Iran exchange in June 2025 that analysts later read as a rehearsal for the 2026 war."
+     },
+     {
+      "id": "hezbollah",
+      "parent": "netanyahu",
+      "tier": 2,
+      "kind": "org",
+      "rel": "drawn into war",
+      "label": "Hezbollah",
+      "note": "Lebanese Shia militia and party founded in 1982 with Iranian backing; reported over 1,000 fighters killed by June 2026."
+     },
+     {
+      "id": "irgc",
+      "parent": "hormuz",
+      "tier": 2,
+      "kind": "org",
+      "rel": "attacked US ships",
+      "label": "IRGC Navy",
+      "note": "The Islamic Revolutionary Guard Corps' separate naval wing, distinct from Iran's regular navy, carried out the 7 May strikes on US destroyers."
+     },
+     {
+      "id": "indiaoil",
+      "parent": "hormuz",
+      "tier": 2,
+      "kind": "concept",
+      "rel": "downstream cost",
+      "label": "India's oil import bill",
+      "note": "India imports over 80% of its crude; Gulf disruption through the Strait feeds directly into fuel inflation and the current account deficit."
+     },
+     {
+      "id": "khomeini",
+      "parent": "revolution1979",
+      "tier": 3,
+      "kind": "person",
+      "rel": "founder",
+      "label": "Ayatollah Khomeini",
+      "note": "Founder of the Islamic Republic, died 1989; Khamenei was his handpicked successor."
+     },
+     {
+      "id": "cent com",
+      "parent": "irgc",
+      "tier": 3,
+      "kind": "org",
+      "rel": "US retaliation",
+      "label": "US CENTCOM",
+      "note": "US Central Command ordered the 'self-defence' strikes on Bandar Abbas and Qeshm after the 7 May attacks."
+     },
+     {
+      "id": "pakistanmed",
+      "parent": "twelveday",
+      "tier": 3,
+      "kind": "person",
+      "rel": "mediator",
+      "label": "Ishaq Dar",
+      "note": "Pakistan's foreign minister shuttled ceasefire proposals between Washington and Tehran through April and May 2026."
+     },
+     {
+      "id": "brent",
+      "parent": "indiaoil",
+      "tier": 3,
+      "kind": "term",
+      "rel": "price benchmark",
+      "label": "Brent crude",
+      "note": "The global oil price benchmark, more sensitive to Gulf shocks than the US-centric WTI benchmark."
+     },
+     {
+      "id": "bandarabbas",
+      "parent": "irgc",
+      "tier": 3,
+      "kind": "place",
+      "rel": "port struck",
+      "label": "Bandar Abbas",
+      "note": "Iran's principal Gulf port and naval base, hit in the explosions reported on 7 May 2026."
+     },
+     {
+      "id": "suez",
+      "parent": "hormuz",
+      "tier": 3,
+      "kind": "place",
+      "rel": "comparable chokepoint",
+      "label": "Suez Canal",
+      "note": "Handles about 12% of global trade; alongside Hormuz it shows how narrow shipping lanes carry outsized economic weight."
+     },
+     {
+      "id": "fifthfleet",
+      "parent": "cent com",
+      "tier": 3,
+      "kind": "org",
+      "rel": "regional command",
+      "label": "US Fifth Fleet",
+      "note": "Headquartered in Manama, Bahrain; ran the tanker-escort missions under Operation Project Freedom."
+     }
+    ]
+   },
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_conflict",
+    "https://en.wikipedia.org/wiki/Portal:Current_events/May_2026"
+   ]
+  },
+  {
+   "id": "2026-05-sc-bihar-sir-verdict",
+   "rank": 2,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The Supreme Court upholds the Bihar electoral roll purge",
+   "date": "2026-05-27",
+   "category": "Election Law",
+   "tags": [
+    "Election Commission",
+    "Article 324",
+    "Bihar",
+    "SIR",
+    "electoral rolls"
+   ],
+   "hook": "On 27 May 2026 the Supreme Court closed the book on the Bihar Special Intensive Revision, ruling that striking 47 lakh names off the rolls before an election was lawful, proportionate and within the Election Commission's power.",
+   "story": "The dispute went back to June 2025, when the Election Commission of India ordered a Special Intensive Revision, or SIR, of Bihar's electoral rolls ahead of that year's assembly election. The exercise started with 7.89 crore voters on the rolls. Every voter had to file fresh documents proving citizenship and residence; anyone who did not was struck off. By the time the final roll was published on 30 September 2025, the number had fallen to 7.42 crore, a drop of roughly 47 lakh names in three months.\n\nThe Association for Democratic Reforms and other petitioners went to the Supreme Court, arguing that the SIR was really a backdoor citizenship test dressed up as an administrative exercise, that it disproportionately hit the poor, migrant workers and minorities who struggle to produce paperwork on short notice, and that it was too rushed and too close to an election to be fair. The Election Commission's answer was that Article 324 of the Constitution gives it superintendence over elections precisely so it can keep the rolls clean, and that Section 21(3) of the Representation of the People Act, 1950 lets it revise rolls as it sees fit.\n\nA bench led by Chief Justice of India Surya Kant, sitting with Justice Joymalya Bagchi, took up the case through 2025 and into 2026, at one point directing the Commission to hand over details of the 3.66 lakh voters excluded from the final roll so their exclusions could be checked. The final judgment came on 27 May 2026, well after the Bihar election itself had already been held and its results declared on 14 November 2025 under the revised rolls.\n\nThe Court upheld the SIR as constitutional, procedurally sound and proportionate. It read Article 324 broadly, holding that an intensive revision serves the same purpose the Constitution assigns the Commission: an accurate roll is the precondition for a free and fair election, not an obstacle to one. On the citizenship question, the bench drew a careful line. The Commission can ask about citizenship while compiling rolls, because a non-citizen has no right to vote, but it cannot make a final, binding determination of anyone's citizenship status; that remains the job of the machinery set up under the Citizenship Act, 1955.\n\nFor an aspirant this case sits at the intersection of three things CLAT tests constantly: the Election Commission's constitutional status, the limits of executive and quasi-judicial power, and the recurring argument in Indian law over how much process is due before the state can take away a right. The result also carries forward: the same SIR method has since been rolled out to more states, so the Bihar verdict effectively became the template.",
+   "facts": [
+    {
+     "k": "Case name",
+     "v": "Association for Democratic Reforms v. Election Commission of India"
+    },
+    {
+     "k": "Judgment date",
+     "v": "27 May 2026"
+    },
+    {
+     "k": "Bench",
+     "v": "CJI Surya Kant and Justice Joymalya Bagchi"
+    },
+    {
+     "k": "SIR ordered",
+     "v": "June 2025, by the Election Commission"
+    },
+    {
+     "k": "Voters on roll at start",
+     "v": "7.89 crore"
+    },
+    {
+     "k": "Voters on final roll (30 Sept 2025)",
+     "v": "7.42 crore"
+    },
+    {
+     "k": "Names removed",
+     "v": "Roughly 47 lakh"
+    },
+    {
+     "k": "Constitutional basis for ECI power",
+     "v": "Article 324"
+    },
+    {
+     "k": "Statutory basis for roll revision",
+     "v": "Section 21(3), Representation of the People Act, 1950"
+    },
+    {
+     "k": "Bihar poll results declared",
+     "v": "14 November 2025"
+    }
+   ],
+   "why": "Election Commission powers under Article 324 are a CLAT staple, and this case updates the standard textbook question with a live 2026 controversy. Expect a passage that tests whether students can separate the Commission's power to ask about citizenship from a power to decide it, since that distinction is exactly where a trap option would sit.",
+   "map": {
+    "nodes": [
+     {
+      "id": "art324",
+      "parent": "root",
+      "tier": 1,
+      "kind": "law",
+      "rel": "constitutional basis",
+      "label": "Article 324",
+      "note": "Gives the Election Commission superintendence, direction and control of elections; the Court read this to include the power to order intensive roll revisions."
+     },
+     {
+      "id": "eci",
+      "parent": "root",
+      "tier": 1,
+      "kind": "org",
+      "rel": "ordered the SIR",
+      "label": "Election Commission of India",
+      "note": "A permanent constitutional body under Part XV of the Constitution; ordered the Bihar SIR in June 2025."
+     },
+     {
+      "id": "suryakant",
+      "parent": "root",
+      "tier": 1,
+      "kind": "person",
+      "rel": "authored verdict",
+      "label": "CJI Surya Kant",
+      "note": "Chief Justice of India who headed the bench that decided the SIR was constitutional on 27 May 2026."
+     },
+     {
+      "id": "adr",
+      "parent": "root",
+      "tier": 1,
+      "kind": "org",
+      "rel": "petitioner",
+      "label": "Association for Democratic Reforms",
+      "note": "An election-transparency NGO founded 1999 that has litigated most major electoral-rights cases in the Supreme Court since the early 2000s."
+     },
+     {
+      "id": "rpa1950",
+      "parent": "art324",
+      "tier": 2,
+      "kind": "law",
+      "rel": "statutory backing",
+      "label": "Representation of the People Act, 1950",
+      "note": "Section 21(3) authorises the Commission to revise electoral rolls; this Act deals with roll preparation, while the 1951 Act of the same name governs the conduct of elections."
+     },
+     {
+      "id": "citizenshipact",
+      "parent": "eci",
+      "tier": 2,
+      "kind": "law",
+      "rel": "line the Court drew",
+      "label": "Citizenship Act, 1955",
+      "note": "The Court held final citizenship determination belongs to the machinery under this Act, not to the Election Commission compiling a voter roll."
+     },
+     {
+      "id": "biharpoll",
+      "parent": "eci",
+      "tier": 2,
+      "kind": "event",
+      "rel": "election conducted on revised rolls",
+      "label": "2025 Bihar Assembly election",
+      "note": "Results declared 14 November 2025, held under the rolls the SIR had already cut by 47 lakh names."
+     },
+     {
+      "id": "freeandfair",
+      "parent": "art324",
+      "tier": 2,
+      "kind": "concept",
+      "rel": "doctrinal anchor",
+      "label": "Free and fair elections",
+      "note": "A basic structure principle the Court invoked to justify strict roll accuracy over administrative convenience."
+     },
+     {
+      "id": "vp singh case",
+      "parent": "adr",
+      "tier": 3,
+      "kind": "event",
+      "rel": "earlier ADR win",
+      "label": "ADR v. UOI, 2002",
+      "note": "ADR's earlier landmark case forced candidates to disclose criminal records and assets before elections, a precedent this ruling extends."
+     },
+     {
+      "id": "sir stategen",
+      "parent": "biharpoll",
+      "tier": 3,
+      "kind": "concept",
+      "rel": "template extended",
+      "label": "SIR extended nationally",
+      "note": "The same Special Intensive Revision method was rolled out to further states after the Bihar exercise and this verdict."
+     },
+     {
+      "id": "bagchij",
+      "parent": "suryakant",
+      "tier": 3,
+      "kind": "person",
+      "rel": "co-author",
+      "label": "Justice Joymalya Bagchi",
+      "note": "Sat with the CJI on the bench and co-authored several other May 2026 rulings on bail and appointments."
+     },
+     {
+      "id": "excludedvoters",
+      "parent": "biharpoll",
+      "tier": 3,
+      "kind": "concept",
+      "rel": "disputed figure",
+      "label": "3.66 lakh excluded voters",
+      "note": "The Court had earlier directed the Commission to disclose details of this subset of excluded voters for scrutiny."
+     }
+    ]
+   },
+   "sources": [
+    "https://www.outlookindia.com/national/supreme-court-upholds-bihar-electoral-roll-revision-backs-ecs-power-to-conduct-sir",
+    "https://www.scobserver.in/cases/challenge-to-the-ecis-revision-of-electoral-rolls-in-bihar-sir-association-for-democratic-reforms-v-election-commission-of-india/"
+   ]
+  },
+  {
+   "id": "2026-05-sc-online-gaming-ban",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 5,
+   "title": "No fundamental right to bet: the Supreme Court upholds the rummy and poker ban",
+   "date": "2026-05-27",
+   "category": "Constitutional Law",
+   "tags": [
+    "Article 19",
+    "online gaming",
+    "Tamil Nadu",
+    "Karnataka",
+    "gambling"
+   ],
+   "hook": "The Supreme Court ruled on 27 May 2026 that Tamil Nadu and Karnataka can ban online rummy and poker played for money, holding that betting on a game of skill is still gambling, and gambling gets no protection under the right to trade.",
+   "story": "Tamil Nadu and Karnataka had each tried, and each been blocked, before this. Tamil Nadu passed the Tamil Nadu Gaming and Police Laws (Amendment) Act, 2021, then a further Online Gambling Act in 2022-23, widening the definition of gaming to catch rummy and poker played online for stakes. The Madras High Court struck the law down. Karnataka's equivalent law met the same fate at its own High Court. Both states argued that money changes the character of a game; both High Courts had held that rummy and poker are games of skill under settled law, and skill games enjoy a level of constitutional protection that pure games of chance do not.\n\nThe case, State of Tamil Nadu v. Junglee Games India Pvt. Ltd., reached the Supreme Court on appeal. A bench of Justices J.B. Pardiwala and R. Mahadevan set aside both High Court rulings on 27 May 2026. The Court's reasoning turned the skill-versus-chance question, the one that had decided every previous round of this fight since the 1957 case that first drew the line for rummy, into a side issue. Once real money enters a game, the Court said, its constitutional character changes regardless of how much skill is involved: betting on a game of skill is still a gambling enterprise, and gambling is not a trade or business protected under Article 19(1)(g).\n\nThe Court accepted the states' argument that they were regulating a public health and public order problem, not restricting a trade. Both governments had presented data on gaming addiction, suicides linked to online betting losses, and the burden on family courts and police from gambling-related debt. The judgment effectively hands every state government the same tool: as long as a law targets games played for stakes rather than for free, it sits outside the fundamental right to trade and does not need to survive the reasonableness test Article 19(6) would otherwise demand.\n\nThe ruling lands at a moment when India's real-money gaming industry, built on fantasy sports, rummy and poker platforms, had grown into a business worth billions of dollars and drawn central-level attention too, with Parliament separately debating a law to regulate or restrict online money games at the national level. States now have Supreme Court cover to move first and move harder, and the ruling is likely to be cited well beyond gaming, in any future case about whether an activity built around stakes can claim the shelter of Article 19(1)(g) at all.",
+   "facts": [
+    {
+     "k": "Case name",
+     "v": "State of Tamil Nadu v. Junglee Games India Pvt. Ltd."
+    },
+    {
+     "k": "Judgment date",
+     "v": "27 May 2026"
+    },
+    {
+     "k": "Bench",
+     "v": "Justices J.B. Pardiwala and R. Mahadevan"
+    },
+    {
+     "k": "Tamil Nadu law struck down by SC ruling",
+     "v": "Tamil Nadu Online Gambling Act, 2022-23"
+    },
+    {
+     "k": "Constitutional provision at issue",
+     "v": "Article 19(1)(g), right to trade and business"
+    },
+    {
+     "k": "High Courts overturned",
+     "v": "Madras High Court and Karnataka High Court"
+    },
+    {
+     "k": "Core holding",
+     "v": "No fundamental right to bet or gamble, even on games of skill"
+    },
+    {
+     "k": "Games named in the case",
+     "v": "Rummy, poker, and other stakes-based fantasy formats"
+    }
+   ],
+   "why": "This is a fundamental rights case dressed as a technology story, exactly the kind CLAT rewards students for recognising. The likely trap is conflating 'game of skill' with 'protected activity' — the judgment's entire point is that skill stops mattering once money is staked. A passage could also test Article 19(6)'s reasonable restrictions against this ruling's different route of simply placing gambling outside Article 19(1)(g) altogether.",
+   "map": {
+    "nodes": [
+     {
+      "id": "art19g",
+      "parent": "root",
+      "tier": 1,
+      "kind": "law",
+      "rel": "right denied",
+      "label": "Article 19(1)(g)",
+      "note": "Guarantees the right to practise any profession or carry on any trade, business or occupation; the Court held gambling for stakes falls outside it entirely."
+     },
+     {
+      "id": "pardiwala",
+      "parent": "root",
+      "tier": 1,
+      "kind": "person",
+      "rel": "authored judgment",
+      "label": "Justice J.B. Pardiwala",
+      "note": "Also authored the May 2026 ruling extending Article 21 bail rights in UAPA cases, making him a repeat name in this month's Supreme Court output."
+     },
+     {
+      "id": "tnlaw",
+      "parent": "root",
+      "tier": 1,
+      "kind": "law",
+      "rel": "law upheld",
+      "label": "Tamil Nadu Online Gambling Act, 2022-23",
+      "note": "Criminalised online games played for stakes, including rummy and poker; struck down by the Madras High Court before this ruling revived it."
+     },
+     {
+      "id": "publichealth",
+      "parent": "root",
+      "tier": 1,
+      "kind": "concept",
+      "rel": "state's justification",
+      "label": "Public health and order",
+      "note": "Tamil Nadu and Karnataka justified the bans citing gaming-addiction suicides and pressure on courts from gambling debt, a ground the Court accepted."
+     },
+     {
+      "id": "skillvschance",
+      "parent": "art19g",
+      "tier": 2,
+      "kind": "concept",
+      "rel": "sidelined by the ruling",
+      "label": "Skill vs. chance doctrine",
+      "note": "The older constitutional test asking whether a game is predominantly skill or chance; this judgment holds that the presence of stakes overrides the distinction."
+     },
+     {
+      "id": "rmdcase",
+      "parent": "skillvschance",
+      "tier": 2,
+      "kind": "event",
+      "rel": "founding precedent",
+      "label": "State of Bombay v. R.M.D. Chamarbaugwala, 1957",
+      "note": "The Supreme Court case that first held gambling and betting are not trade under Article 19(1)(g), the doctrine this 2026 ruling extends to online rummy and poker."
+     },
+     {
+      "id": "art196",
+      "parent": "art19g",
+      "tier": 2,
+      "kind": "law",
+      "rel": "route avoided",
+      "label": "Article 19(6)",
+      "note": "Normally the state must justify restricting a trade as 'reasonable'; by holding gambling is no trade at all, the Court skipped this reasonableness test entirely."
+     },
+     {
+      "id": "fantasysports",
+      "parent": "publichealth",
+      "tier": 2,
+      "kind": "concept",
+      "rel": "industry affected",
+      "label": "India's real-money gaming industry",
+      "note": "A multi-billion-dollar sector built on rummy, poker and fantasy-sports apps, now exposed to state-level bans following this precedent."
+     },
+     {
+      "id": "onlinegamingbill",
+      "parent": "fantasysports",
+      "tier": 3,
+      "kind": "law",
+      "rel": "parallel central move",
+      "label": "Central online gaming legislation",
+      "note": "Parliament has separately debated a national law to regulate or restrict real-money online games, working alongside rather than instead of state bans."
+     },
+     {
+      "id": "karnatakalaw",
+      "parent": "tnlaw",
+      "tier": 3,
+      "kind": "law",
+      "rel": "companion statute",
+      "label": "Karnataka's gaming ban",
+      "note": "Karnataka's equivalent law, struck down by its own High Court on the same skill-based reasoning, was revived by the same 27 May judgment."
+     },
+     {
+      "id": "mahadevanj",
+      "parent": "pardiwala",
+      "tier": 3,
+      "kind": "person",
+      "rel": "co-author",
+      "label": "Justice R. Mahadevan",
+      "note": "Co-authored this ruling and also sat on the May 2026 bench that issued the human-trafficking Victim Protection Plan in Prajwala v. Union of India."
+     }
+    ]
+   },
+   "sources": [
+    "https://www.verdictum.in/supreme-court/state-of-tamil-nadu-v-junglee-games-india-pvt-ltd-2026-insc-594-banning-online-rummy-poker-betting-gambling-1614987",
+    "https://www.business-standard.com/india-news/supreme-court-upholds-state-power-to-curb-online-betting-platforms-126052701677_1.html"
+   ]
+  }
+ ],
+ "passages": []
+}

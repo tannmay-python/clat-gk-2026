@@ -76,6 +76,26 @@ function layout(topic, raw) {
 
   const flat = [];
   (function collect(n) { flat.push(n); n.children.forEach(collect); })(root);
+
+  // Labels sit horizontally, so two nodes at the same radius on the same side
+  // will collide. Push them apart vertically; the edges follow.
+  const MIN = 19;
+  const groups = new Map();
+  for (const n of flat) {
+    if (n.depth === 0) continue;
+    const key = n.depth + ':' + (Math.cos(n.angle) >= -0.05 ? 'r' : 'l');
+    (groups.get(key) || groups.set(key, []).get(key)).push(n);
+  }
+  for (const g of groups.values()) {
+    g.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < g.length; i++) {
+      const d = g[i].y - g[i - 1].y;
+      if (d < MIN) g[i].y = g[i - 1].y + MIN;
+    }
+    const overflow = g.length ? g[g.length - 1].y - (CY + RING[3] + 60) : 0;
+    if (overflow > 0) for (const n of g) n.y -= overflow / 2;
+  }
+
   return { root, flat };
 }
 
@@ -101,7 +121,7 @@ function svg(topic, raw) {
     const dx = isRoot ? 0 : (right ? r + 8 : -(r + 8));
     const anchor = isRoot ? 'middle' : right ? 'start' : 'end';
     const dy = isRoot ? 26 : 4;
-    const cap = isRoot ? 40 : n.tier === 1 ? 30 : 26;
+    const cap = isRoot ? 42 : n.tier === 1 ? 34 : 30;
     const label = trunc(n.label, cap);
     const cls = isRoot ? 'mp-node mp-root' : `mp-node t${n.tier}`;
     const delay = isRoot ? 0 : 90 + n.depth * 110 + (n.tier - 1) * 40;
@@ -132,7 +152,11 @@ export function wireMap(scope, topic) {
   for (const n of nodes.values()) parentOf.set(n.id, nodes.has(n.parent) && n.parent !== n.id ? n.parent : 'root');
 
   let scale = 1, tx = 0, ty = 0;
-  const apply = () => cam.setAttribute('transform', `translate(${tx} ${ty}) scale(${scale})`);
+  const apply = () => {
+    tx = Math.max(-W, Math.min(W, tx));
+    ty = Math.max(-H, Math.min(H, ty));
+    cam.setAttribute('transform', `translate(${tx.toFixed(1)} ${ty.toFixed(1)}) scale(${scale})`);
+  };
 
   wrap.querySelectorAll('[data-z]').forEach(b => b.addEventListener('click', () => {
     const z = +b.dataset.z;
@@ -151,8 +175,9 @@ export function wireMap(scope, topic) {
     }
   });
 
+  // Plain scrolling belongs to the page. Zoom needs a pinch or ctrl held.
   stage.addEventListener('wheel', e => {
-    if (!e.ctrlKey && Math.abs(e.deltaY) < 2) return;
+    if (!e.ctrlKey && !e.metaKey) return;
     e.preventDefault();
     scale = Math.min(3.2, Math.max(0.55, scale * (e.deltaY > 0 ? 0.92 : 1.08)));
     apply();
