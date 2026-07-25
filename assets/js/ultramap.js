@@ -121,18 +121,23 @@ export async function viewUltraMap(el) {
     return [...best.values()].sort((a, b) => b.score - a.score).slice(0, n).map(x => x.t.id);
   }
 
+  // The map is a walked path, not an accumulating cloud. Only the trail you
+  // have actually clicked stays on screen, plus whatever the node at the head
+  // of it connects to. Branches you looked at and did not take fall away.
   const state = {
-    pos: new Map(),      // id -> {x, y}
-    opened: new Set(),   // ids the user has clicked open
-    fresh: new Set(),    // placed since the last draw, so only they animate
-    order: [],           // click order, for step-back
+    pos: new Map(),      // id -> {x, y, from}
+    path: [],            // the chain of opened nodes, in click order
+    seeds: [],           // the six anchors, shown until the first click
+    fresh: new Set(),    // newly visible since the last draw, so only they animate
+    leaving: new Set(),  // visible last draw, gone now, held one beat to fade
     sel: null, scale: 1, tx: 0, ty: 0
   };
+  const head = () => state.path[state.path.length - 1] || null;
 
   el.innerHTML = `
   <div class="page-head">
     <h1>Ultra map</h1>
-    <p class="sub">The whole corpus, revealed a step at a time. Six anchors to begin with; click one and the topics it shares real ground with fade in around it. Keep clicking and the map grows along whatever thread you are pulling. Rose links cross between static GK and current affairs, which is the crossing the exam lives on.</p>
+    <p class="sub">The corpus as a walk rather than a picture. Six anchors to begin with; click one and the camera moves onto it while the topics it shares real ground with fade in around it. The branches you did not take fall away, so what stays on screen is the thread you actually pulled. Rose links cross between static GK and current affairs, which is the crossing the exam lives on.</p>
   </div>
 
   <div class="ultra-bar">
@@ -156,7 +161,7 @@ export async function viewUltraMap(el) {
       <span><i class="ln cross"></i>Crosses between them</span>
     </div>
   </div>
-  <p style="font-size:12.5px;color:var(--faint);margin-top:10px">Hollow dots are unopened. Click one to reveal what it connects to. Drag to pan, ctrl-scroll or pinch to zoom.</p>`;
+  <p style="font-size:12.5px;color:var(--faint);margin-top:10px">Hollow dots are branches you have not taken; the number on one is how many topics sit behind it. Clicking moves you onto a node and drops the branches you passed over. Click back along the rose trail to return. Drag to pan, ctrl-scroll or pinch to zoom.</p>`;
 
   const stage = el.querySelector('[data-stage]');
   const card = el.querySelector('[data-card]');
@@ -196,64 +201,92 @@ export async function viewUltraMap(el) {
     });
   }
 
-  function open(id) {
-    if (state.opened.has(id)) return false;
-    state.opened.add(id);
-    state.order.push(id);
+  // What is on screen: the trail, plus the head's neighbours. Before the first
+  // click that is the six anchors instead.
+  function visible() {
+    const out = new Set(state.path);
+    const h = head();
+    if (h) for (const n of nbr.get(h) || []) out.add(n);
+    else for (const s of state.seeds) out.add(s);
+    return out;
+  }
+
+  function walkTo(id) {
+    const at = state.path.indexOf(id);
+    if (at >= 0) { state.path.length = at + 1; return; }   // clicked back up the trail
+    state.path.push(id);
     const next = (nbr.get(id) || [])
       .filter(x => !state.pos.has(x))
       .sort((a, b) => (byId.get(b)?.importance || 3) - (byId.get(a)?.importance || 3));
     if (next.length) place(id, next);
-    return true;
   }
 
   function reset() {
-    state.pos.clear(); state.opened.clear(); state.fresh.clear(); state.order = [];
+    state.pos.clear(); state.fresh.clear(); state.leaving.clear();
+    state.path = [];
     state.sel = null; state.scale = 1; state.tx = 0; state.ty = 0;
     card.classList.remove('on');
-    const seeds = anchors(6);
-    seeds.forEach((id, i) => {
-      const a = -Math.PI / 2 + (i / seeds.length) * Math.PI * 2;
+    state.seeds = anchors(6);
+    state.seeds.forEach((id, i) => {
+      const a = -Math.PI / 2 + (i / state.seeds.length) * Math.PI * 2;
       state.pos.set(id, { x: CX + 300 * Math.cos(a), y: CY + 236 * Math.sin(a), from: null });
-      state.fresh.add(id);
     });
   }
 
-  // Step back removes the last opened node's exclusive discoveries, so the
-  // map shrinks the way it grew.
   function stepBack() {
-    const last = state.order.pop();
-    if (!last) return;
-    state.opened.delete(last);
-    for (const [id, p] of [...state.pos])
-      if (p.from === last && !state.opened.has(id)) state.pos.delete(id);
+    if (!state.path.length) return;
+    state.path.pop();
     state.sel = null;
     card.classList.remove('on');
   }
 
+  // Put a node under the middle of the canvas. Camera changes are animated by
+  // a CSS transition on the group, so the transform is written after paint.
+  function centreOn(id, scale) {
+    const p = state.pos.get(id);
+    if (!p) return;
+    state.scale = scale ?? Math.max(state.scale, 1.3);
+    state.tx = CX - state.scale * p.x;
+    state.ty = CY - state.scale * p.y;
+  }
+
+  let settle = null;
+
   function draw() {
-    const shown = state.pos;
-    const live = edges.filter(e =>
-      shown.has(e.a) && shown.has(e.b) && (state.opened.has(e.a) || state.opened.has(e.b)));
+    const shown = visible();
+    const h = head();
+    const paint = new Set([...shown, ...state.leaving]);
+    const live = edges.filter(e => {
+      if (!paint.has(e.a) || !paint.has(e.b)) return false;
+      // Draw the trail itself, and every spoke off the head. Nothing else.
+      const trail = state.path.includes(e.a) && state.path.includes(e.b);
+      return trail || e.a === h || e.b === h;
+    });
 
     const lines = live.map(e => {
-      const A = shown.get(e.a), B = shown.get(e.b);
+      const A = state.pos.get(e.a), B = state.pos.get(e.b);
+      if (!A || !B) return '';
       const mx = (A.x + B.x) / 2, my = (A.y + B.y) / 2;
       const cx = mx + (A.y - B.y) * 0.11, cy = my + (B.x - A.x) * 0.11;
       const isNew = state.fresh.has(e.a) || state.fresh.has(e.b);
-      return `<path class="ul-edge${e.cross ? ' cross' : ''}${isNew ? ' grew' : ''}" data-a="${esc(e.a)}" data-b="${esc(e.b)}" d="M${A.x.toFixed(1)} ${A.y.toFixed(1)} Q${cx.toFixed(1)} ${cy.toFixed(1)} ${B.x.toFixed(1)} ${B.y.toFixed(1)}" style="stroke-width:${(0.5 + e.w * 0.7).toFixed(2)}"/>`;
+      const isOut = state.leaving.has(e.a) || state.leaving.has(e.b);
+      const onTrail = state.path.includes(e.a) && state.path.includes(e.b);
+      return `<path class="ul-edge${e.cross ? ' cross' : ''}${onTrail ? ' trail' : ''}${isNew ? ' grew' : ''}${isOut ? ' going' : ''}" data-a="${esc(e.a)}" data-b="${esc(e.b)}" d="M${A.x.toFixed(1)} ${A.y.toFixed(1)} Q${cx.toFixed(1)} ${cy.toFixed(1)} ${B.x.toFixed(1)} ${B.y.toFixed(1)}" style="stroke-width:${(0.5 + e.w * 0.7).toFixed(2)}"/>`;
     }).join('');
 
-    const dots = [...shown].map(([id, p]) => {
-      const t = byId.get(id); if (!t) return '';
+    const dots = [...paint].map(id => {
+      const p = state.pos.get(id), t = byId.get(id);
+      if (!p || !t) return '';
       const r = 6 + (t.importance || 3) * 1.9;
-      const opened = state.opened.has(id);
+      const onTrail = state.path.includes(id);
       const hidden = (nbr.get(id) || []).filter(x => !shown.has(x)).length;
-      const cls = ['ul-node', t.kind, opened ? 'open' : 'frontier'];
+      const cls = ['ul-node', t.kind, onTrail ? 'open' : 'frontier'];
+      if (id === h) cls.push('head');
       if (isDone(id)) cls.push('read');
       if (state.sel === id) cls.push('sel');
       if (state.fresh.has(id)) cls.push('grew');
-      const from = p.from && shown.has(p.from) ? shown.get(p.from) : { x: p.x, y: p.y };
+      if (!shown.has(id)) cls.push('going');
+      const from = p.from && state.pos.has(p.from) ? state.pos.get(p.from) : { x: p.x, y: p.y };
       // The placement transform lives on the outer group and the entry
       // animation on the inner one, because a CSS transform would otherwise
       // overwrite the attribute and drop the node at the origin.
@@ -262,20 +295,30 @@ export async function viewUltraMap(el) {
           <circle class="hit" r="${(r + 14).toFixed(1)}"/>
           <circle class="halo" r="${(r + 7).toFixed(1)}"/>
           <circle class="core" r="${r.toFixed(1)}"/>
-          ${!opened && hidden ? `<text class="ul-more" y="3.2" text-anchor="middle">${hidden}</text>` : ''}
+          ${!onTrail && hidden ? `<text class="ul-more" y="3.2" text-anchor="middle">${hidden}</text>` : ''}
           <text class="ul-lab" y="${(r + 17).toFixed(1)}" text-anchor="middle">${esc(clip(t.title, 34))}</text>
         </g>
       </g>`;
     }).join('');
 
+    // Render with the camera where it was, then move it, so the CSS
+    // transition on the group actually has two values to animate between.
+    const was = stage.querySelector('[data-cam]')?.getAttribute('transform');
     stage.innerHTML = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Explorable map of the corpus">
-      <g data-cam><g class="ul-edges">${lines}</g><g class="ul-nodes">${dots}</g></g>
+      <g class="ul-cam" data-cam${was ? ` transform="${was}"` : ''}><g class="ul-edges">${lines}</g><g class="ul-nodes">${dots}</g></g>
     </svg>`;
+    requestAnimationFrame(apply);
 
-    const frontier = shown.size - state.opened.size;
-    count.textContent = `${state.opened.size} opened · ${frontier} waiting · ${topics.length - shown.size} still dark`;
+    const ahead = shown.size - state.path.length;
+    count.textContent = state.path.length
+      ? `${state.path.length} on the trail · ${ahead} branching off · ${topics.length - state.pos.size} never seen`
+      : `${state.seeds.length} anchors · pick one to start walking`;
+
     state.fresh.clear();
-    apply();
+    if (state.leaving.size) {
+      clearTimeout(settle);
+      settle = setTimeout(() => { state.leaving.clear(); draw(); }, 360);
+    }
   }
 
   function show(id) {
@@ -326,17 +369,25 @@ export async function viewUltraMap(el) {
     state.ty = Math.max(-H * 1.6, Math.min(H * 1.6, drag.ty + dy * k));
     apply();
   });
+  // Walking to a node retires whatever was on screen only because the
+  // previous head pointed at it. Those are held for one beat so they fade
+  // rather than vanish.
+  function step(id) {
+    const before = visible();
+    state.sel = id;
+    walkTo(id);
+    const after = visible();
+    state.leaving = new Set([...before].filter(x => !after.has(x)));
+    for (const x of after) if (!before.has(x)) state.fresh.add(x);
+    centreOn(id);
+    show(id);
+    draw();
+  }
+
   const end = e => {
     if (drag && !drag.moved) {
-      if (drag.id) {
-        state.sel = drag.id;
-        const grew = open(drag.id);
-        show(drag.id);
-        if (grew) draw(); else {
-          stage.querySelectorAll('.sel').forEach(n => n.classList.remove('sel'));
-          stage.querySelector(`.ul-node[data-id="${CSS.escape(drag.id)}"]`)?.classList.add('sel');
-        }
-      } else {
+      if (drag.id) step(drag.id);
+      else {
         state.sel = null;
         card.classList.remove('on');
         stage.querySelectorAll('.sel').forEach(n => n.classList.remove('sel'));
@@ -356,14 +407,23 @@ export async function viewUltraMap(el) {
   }, { passive: false });
 
   el.querySelectorAll('[data-act]').forEach(b => b.addEventListener('click', () => {
+    const before = visible();
     if (b.dataset.act === 'reset') reset(); else stepBack();
+    const after = visible();
+    state.leaving = new Set([...before].filter(x => !after.has(x)));
+    for (const x of after) if (!before.has(x)) state.fresh.add(x);
+    if (head()) centreOn(head()); else { state.scale = 1; state.tx = 0; state.ty = 0; }
     draw();
   }));
 
   el.querySelectorAll('[data-z]').forEach(b => b.addEventListener('click', () => {
     const z = +b.dataset.z;
-    if (z === 0) { state.scale = 1; state.tx = 0; state.ty = 0; }
-    else state.scale = Math.min(4, Math.max(0.35, state.scale * (z > 0 ? 1.25 : 0.8)));
+    if (z === 0) {
+      if (head()) centreOn(head(), 1.3); else { state.scale = 1; state.tx = 0; state.ty = 0; }
+    } else {
+      state.scale = Math.min(4, Math.max(0.35, state.scale * (z > 0 ? 1.25 : 0.8)));
+      if (head()) centreOn(head(), state.scale);
+    }
     apply();
   }));
 
