@@ -1,8 +1,408 @@
 {
  "id": "economy",
  "kind": "static",
- "label": "Economy Static",
- "blurb": "Economy module covering RBI, banking, budget, GST, and external sector.",
- "topics": [],
+ "label": "Economy & Banking",
+ "order": 5,
+ "blurb": "Central banking, the budget and the institutions that run Indian economic policy. Definitions first, because that is what the paper tests.",
+ "topics": [
+  {
+   "id": "eco-rbi",
+   "rank": 1,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The Reserve Bank, the Monetary Policy Committee and the rates that matter",
+   "date": "",
+   "category": "Economy",
+   "tags": [
+    "RBI",
+    "Monetary Policy",
+    "Repo Rate",
+    "Inflation"
+   ],
+   "hook": "One bank, six rates, a six-member committee and an inflation target written into law in 2016.",
+   "story": "The **Reserve Bank of India** was established under the **RBI Act 1934** and began operations on **1 April 1935**, on the recommendation of the **Hilton Young Commission** of 1926. It was nationalised on 1 January 1949. Headquarters are in **Mumbai**; the first Governor was **Sir Osborne Smith** and the first Indian Governor **C.D. Deshmukh**.\n\nThe **Monetary Policy Committee** was created by the Finance Act 2016 amending the RBI Act, following the **Urjit Patel Committee** report. It has **six members**: three from the RBI, including the Governor as chair and a Deputy Governor, and three appointed by the central government for four years. Decisions are by majority; the **Governor has a casting vote** in a tie. It must meet at least four times a year and in practice meets six times, every two months.\n\nThe **inflation target** is **4% CPI**, with a tolerance band of **plus or minus 2%**, set by the government in consultation with the RBI for five years at a time. If average inflation stays outside the band for three consecutive quarters, the RBI must write a report to the government explaining the failure, which happened in 2022.\n\nThe rates:\n- **Repo rate**: the rate at which the RBI lends to commercial banks against government securities. The policy rate.\n- **Reverse repo**: the rate at which banks park funds with the RBI. Now largely replaced in practice by the **Standing Deposit Facility**, introduced in April 2022, which needs no collateral.\n- **Marginal Standing Facility**: emergency overnight borrowing, usually 25 basis points above repo.\n- **Bank rate**: the long-term lending rate, aligned with the MSF, used for penal purposes.\n- **Cash Reserve Ratio**: the share of net demand and time liabilities banks must keep as cash with the RBI, earning no interest.\n- **Statutory Liquidity Ratio**: the share they must hold in cash, gold or approved securities with themselves.\n\nRaising repo, CRR or SLR tightens liquidity and is contractionary. **Open market operations** are the RBI buying or selling government securities to adjust liquidity. The RBI is the **lender of last resort**, the banker to government, the manager of foreign exchange under **FEMA 1999**, and the issuer of currency, except the one rupee note and all coins, which are issued by the **Ministry of Finance**.",
+   "facts": [
+    {
+     "k": "RBI Act",
+     "v": "1934; operations began 1 April 1935"
+    },
+    {
+     "k": "Recommended by",
+     "v": "Hilton Young Commission, 1926"
+    },
+    {
+     "k": "Nationalised",
+     "v": "1 January 1949"
+    },
+    {
+     "k": "First Indian Governor",
+     "v": "C.D. Deshmukh"
+    },
+    {
+     "k": "MPC members",
+     "v": "Six; the Governor chairs and has a casting vote"
+    },
+    {
+     "k": "Inflation target",
+     "v": "4% CPI, plus or minus 2%"
+    },
+    {
+     "k": "Policy rate",
+     "v": "Repo rate"
+    },
+    {
+     "k": "No-collateral deposit window",
+     "v": "Standing Deposit Facility, April 2022"
+    },
+    {
+     "k": "One rupee note issued by",
+     "v": "The Ministry of Finance, not the RBI"
+    }
+   ],
+   "timeline": [],
+   "why": "Passages on inflation or a rate decision expect you to know which rate is the policy rate, how many members the MPC has, and the 4% target with its band.",
+   "map": {
+    "nodes": [
+     {
+      "id": "mpc",
+      "parent": "root",
+      "tier": 1,
+      "label": "Monetary Policy Committee",
+      "kind": "org",
+      "rel": "sets the rate",
+      "note": "Six members, three from the RBI and three appointed by the government. Created by the Finance Act 2016."
+     },
+     {
+      "id": "repo",
+      "parent": "root",
+      "tier": 1,
+      "label": "Repo rate",
+      "kind": "term",
+      "rel": "the policy rate",
+      "note": "Rate at which the RBI lends to banks against government securities. Raising it is contractionary."
+     },
+     {
+      "id": "target",
+      "parent": "root",
+      "tier": 1,
+      "label": "Inflation target",
+      "kind": "concept",
+      "rel": "4% CPI",
+      "note": "Band of plus or minus 2%. Set every five years by the government in consultation with the RBI."
+     },
+     {
+      "id": "rbiact",
+      "parent": "root",
+      "tier": 1,
+      "label": "RBI Act, 1934",
+      "kind": "law",
+      "rel": "the statute",
+      "note": "Operations began 1 April 1935. Amended in 2016 to create the MPC and the inflation targeting framework."
+     },
+     {
+      "id": "crr",
+      "parent": "repo",
+      "tier": 2,
+      "label": "Cash Reserve Ratio",
+      "kind": "term",
+      "rel": "liquidity tool",
+      "note": "Share of net demand and time liabilities kept as cash with the RBI. Earns no interest."
+     },
+     {
+      "id": "slr",
+      "parent": "crr",
+      "tier": 2,
+      "label": "Statutory Liquidity Ratio",
+      "kind": "term",
+      "rel": "liquidity tool",
+      "note": "Share held by the bank itself in cash, gold or approved securities. Governed by the Banking Regulation Act 1949."
+     },
+     {
+      "id": "sdf",
+      "parent": "repo",
+      "tier": 2,
+      "label": "Standing Deposit Facility",
+      "kind": "term",
+      "rel": "since April 2022",
+      "note": "Absorbs liquidity without collateral, replacing the reverse repo as the floor of the corridor."
+     },
+     {
+      "id": "msf",
+      "parent": "repo",
+      "tier": 2,
+      "label": "Marginal Standing Facility",
+      "kind": "term",
+      "rel": "emergency window",
+      "note": "Overnight borrowing against SLR securities, usually 25 basis points above repo. Forms the ceiling of the corridor."
+     },
+     {
+      "id": "hilton",
+      "parent": "rbiact",
+      "tier": 2,
+      "label": "Hilton Young Commission",
+      "kind": "org",
+      "rel": "recommended it",
+      "note": "Royal Commission on Indian Currency and Finance, 1926, which proposed a central bank for India."
+     },
+     {
+      "id": "urjit",
+      "parent": "mpc",
+      "tier": 2,
+      "label": "Urjit Patel Committee",
+      "kind": "org",
+      "rel": "designed the framework",
+      "note": "Its 2014 report recommended CPI-based inflation targeting and a monetary policy committee."
+     },
+     {
+      "id": "deshmukh",
+      "parent": "rbiact",
+      "tier": 2,
+      "label": "C.D. Deshmukh",
+      "kind": "person",
+      "rel": "first Indian Governor",
+      "note": "Later Union Finance Minister. Signed the Bretton Woods agreements for India."
+     },
+     {
+      "id": "fema",
+      "parent": "root",
+      "tier": 2,
+      "label": "FEMA, 1999",
+      "kind": "law",
+      "rel": "forex",
+      "note": "Replaced FERA 1973. The RBI administers foreign exchange management under it."
+     },
+     {
+      "id": "omo",
+      "parent": "repo",
+      "tier": 3,
+      "label": "Open market operations",
+      "kind": "term",
+      "rel": "liquidity",
+      "note": "RBI buying or selling government securities in the secondary market to inject or absorb liquidity."
+     },
+     {
+      "id": "cpi",
+      "parent": "target",
+      "tier": 3,
+      "label": "Consumer Price Index",
+      "kind": "term",
+      "rel": "the measure",
+      "note": "Compiled by the National Statistical Office. The WPI, compiled by the Office of the Economic Adviser, is no longer the policy anchor."
+     },
+     {
+      "id": "coin",
+      "parent": "rbiact",
+      "tier": 3,
+      "label": "Currency issue",
+      "kind": "concept",
+      "rel": "divided",
+      "note": "The RBI issues all notes except the one rupee note; coins and the one rupee note come from the Ministry of Finance."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "eco-budget",
+   "rank": 2,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The Union Budget: the deficits, the funds and the constitutional articles",
+   "date": "",
+   "category": "Economy",
+   "tags": [
+    "Budget",
+    "Fiscal Deficit",
+    "Article 112",
+    "FRBM"
+   ],
+   "hook": "Three deficits that are easy to confuse, three government funds that are easier to confuse, and one date that moved in 2017.",
+   "story": "The Budget is the **Annual Financial Statement** under **Article 112**. Since 2017 it is presented on **1 February**, moved from the end of February, and the separate railway budget was merged into it the same year, ending a practice begun in 1924 on the Acworth Committee's recommendation. The first budget of independent India was presented by **R.K. Shanmukham Chetty** on 26 November 1947.\n\n**The three deficits.**\n- **Fiscal deficit** = total expenditure minus total receipts excluding borrowings. It is the government's total borrowing requirement, and the headline number.\n- **Revenue deficit** = revenue expenditure minus revenue receipts. Borrowing to meet running costs.\n- **Primary deficit** = fiscal deficit minus interest payments. It shows the current year's imbalance stripped of the legacy of past borrowing.\n- **Effective revenue deficit** = revenue deficit minus grants for creation of capital assets, introduced in 2011-12.\n\n**The three funds.**\n- **Consolidated Fund of India, Article 266(1)**: all revenues, loans raised and repayments. No money can be withdrawn without parliamentary appropriation.\n- **Public Account, Article 266(2)**: money where the government acts as a banker, such as provident funds and small savings. Withdrawals need no appropriation.\n- **Contingency Fund, Article 267**: held by the President for unforeseen expenditure, corpus of ₹30,000 crore, recouped later from the Consolidated Fund.\n\nOther articles: **Article 113** on demands for grants, **Article 114** on the Appropriation Bill, **Article 265**, no tax without authority of law, **Article 266**, **Article 280** on the Finance Commission, and **Article 148** on the CAG who audits it all.\n\nThe **FRBM Act 2003** set fiscal targets; the current framework follows the **N.K. Singh Committee** recommendation of a debt-to-GDP anchor, 40% for the Centre and 60% general government. The **escape clause** was invoked during the pandemic.\n\nTerms that recur: **vote on account** covers expenditure for a short period pending the full budget; **interim budget** is the full statement presented before an election year; **guillotine** is the Speaker putting all outstanding demands to vote; **cut motions** are policy, economy and token; **capital expenditure** creates assets while **revenue expenditure** does not.",
+   "facts": [
+    {
+     "k": "Budget article",
+     "v": "Article 112, Annual Financial Statement"
+    },
+    {
+     "k": "Presentation date",
+     "v": "1 February, since 2017"
+    },
+    {
+     "k": "Railway budget merged",
+     "v": "2017"
+    },
+    {
+     "k": "First budget of independent India",
+     "v": "R.K. Shanmukham Chetty, 26 November 1947"
+    },
+    {
+     "k": "Fiscal deficit",
+     "v": "Total expenditure minus receipts excluding borrowings"
+    },
+    {
+     "k": "Primary deficit",
+     "v": "Fiscal deficit minus interest payments"
+    },
+    {
+     "k": "Consolidated Fund",
+     "v": "Article 266(1)"
+    },
+    {
+     "k": "Contingency Fund",
+     "v": "Article 267; corpus ₹30,000 crore"
+    },
+    {
+     "k": "No tax without authority of law",
+     "v": "Article 265"
+    },
+    {
+     "k": "FRBM Act",
+     "v": "2003; N.K. Singh Committee recommended a debt-to-GDP anchor"
+    }
+   ],
+   "timeline": [],
+   "why": "Budget passages test deficit definitions and fund articles rather than numbers. The reliable trap is primary deficit against revenue deficit.",
+   "map": {
+    "nodes": [
+     {
+      "id": "a112",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 112",
+      "kind": "law",
+      "rel": "the Budget",
+      "note": "The Annual Financial Statement of estimated receipts and expenditure for a financial year."
+     },
+     {
+      "id": "fiscal",
+      "parent": "root",
+      "tier": 1,
+      "label": "Fiscal deficit",
+      "kind": "term",
+      "rel": "the headline",
+      "note": "Total expenditure minus total receipts excluding borrowings. Equal to the government’s borrowing requirement."
+     },
+     {
+      "id": "primary",
+      "parent": "fiscal",
+      "tier": 1,
+      "label": "Primary deficit",
+      "kind": "term",
+      "rel": "stripped of legacy",
+      "note": "Fiscal deficit minus interest payments. Shows the current year’s fresh imbalance."
+     },
+     {
+      "id": "cfi",
+      "parent": "root",
+      "tier": 1,
+      "label": "Consolidated Fund of India",
+      "kind": "org",
+      "rel": "Article 266(1)",
+      "note": "Holds all revenues and borrowings. Withdrawal needs parliamentary appropriation."
+     },
+     {
+      "id": "contingency",
+      "parent": "cfi",
+      "tier": 1,
+      "label": "Contingency Fund",
+      "kind": "org",
+      "rel": "Article 267",
+      "note": "At the disposal of the President for unforeseen expenditure. Corpus raised to ₹30,000 crore in 2021."
+     },
+     {
+      "id": "revenue",
+      "parent": "fiscal",
+      "tier": 2,
+      "label": "Revenue deficit",
+      "kind": "term",
+      "rel": "running costs",
+      "note": "Revenue expenditure minus revenue receipts. Borrowing to meet consumption rather than investment."
+     },
+     {
+      "id": "public",
+      "parent": "cfi",
+      "tier": 2,
+      "label": "Public Account",
+      "kind": "org",
+      "rel": "Article 266(2)",
+      "note": "Provident funds, small savings and deposits, where the government acts as banker. No appropriation needed."
+     },
+     {
+      "id": "frbm",
+      "parent": "fiscal",
+      "tier": 2,
+      "label": "FRBM Act, 2003",
+      "kind": "law",
+      "rel": "the discipline",
+      "note": "Fiscal Responsibility and Budget Management. Amended to follow a debt-to-GDP anchor after the N.K. Singh Committee."
+     },
+     {
+      "id": "a265",
+      "parent": "root",
+      "tier": 2,
+      "label": "Article 265",
+      "kind": "law",
+      "rel": "no tax without law",
+      "note": "\"No tax shall be levied or collected except by authority of law.\""
+     },
+     {
+      "id": "a266",
+      "parent": "cfi",
+      "tier": 2,
+      "label": "Article 114",
+      "kind": "law",
+      "rel": "Appropriation Bill",
+      "note": "Authorises withdrawal from the Consolidated Fund. Cannot be amended to vary the amount or destination."
+     },
+     {
+      "id": "cag",
+      "parent": "cfi",
+      "tier": 2,
+      "label": "Comptroller and Auditor General",
+      "kind": "person",
+      "rel": "audits it",
+      "note": "Article 148. Reports are laid before Parliament and examined by the Public Accounts Committee."
+     },
+     {
+      "id": "vote",
+      "parent": "a112",
+      "tier": 2,
+      "label": "Vote on account",
+      "kind": "term",
+      "rel": "stopgap",
+      "note": "Advance grant to meet expenditure for a short period pending passage of the full budget."
+     },
+     {
+      "id": "acworth",
+      "parent": "a112",
+      "tier": 3,
+      "label": "Acworth Committee",
+      "kind": "org",
+      "rel": "why railways were separate",
+      "note": "Its 1921 report led to a separate railway budget from 1924, ended in 2017."
+     },
+     {
+      "id": "guillotine",
+      "parent": "vote",
+      "tier": 3,
+      "label": "Guillotine",
+      "kind": "term",
+      "rel": "procedure",
+      "note": "The Speaker putting all outstanding demands for grants to vote together when time runs out."
+     },
+     {
+      "id": "pac",
+      "parent": "cag",
+      "tier": 3,
+      "label": "Public Accounts Committee",
+      "kind": "org",
+      "rel": "scrutiny",
+      "note": "22 members, chaired by convention by a member of the opposition. Examines CAG reports."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ],
  "passages": []
 }
