@@ -1208,6 +1208,219 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "eco-planning",
+   "rank": 7,
+   "depth": "deep",
+   "importance": 4,
+   "title": "From the Planning Commission to NITI Aayog",
+   "date": "",
+   "category": "Economy",
+   "tags": [
+    "Five Year Plans",
+    "NITI Aayog",
+    "Planning Commission",
+    "LPG Reforms"
+   ],
+   "hook": "A body with no constitutional or statutory basis directed India's investment for sixty-five years, and was abolished by a press release.",
+   "story": "The **Planning Commission** was set up by a **Cabinet resolution in March 1950**. It was neither a constitutional body nor a statutory one, and its authority came from the Prime Minister chairing it and from its control over the allocation of plan funds to states. The **National Development Council**, created in 1952 and including all Chief Ministers, formally approved the plans.\n\nTwelve **Five Year Plans** ran from 1951 to 2017. The **First (1951-56)** followed the Harrod-Domar model and put agriculture first after Partition; it met its target. The **Second (1956-61)**, built on the **Mahalanobis model**, chose heavy industry and public sector capital goods, and the **Industrial Policy Resolution of 1956** gave the state the commanding heights. The **Third** was broken by the wars of 1962 and 1965 and the drought that followed, and three **annual plans**, the plan holiday, ran from 1966 to 1969, the years of devaluation and the beginnings of the **Green Revolution**. The **Fourth** aimed at growth with stability and self-reliance; the **Fifth** carried **garibi hatao**, was cut short by the Janata government, and the **Sixth** dropped the Nehruvian frame. The **Eighth (1992-97)** was the first after the **1991 liberalisation**, and turned the state from a producer into a facilitator. The **Twelfth (2012-17)**, targeting faster, more inclusive and sustainable growth, was the last.\n\n**NITI Aayog**, the National Institution for Transforming India, replaced the Commission on **1 January 2015**, again by resolution. It does not allocate funds; that moved to the Finance Ministry, which mattered because the **Fourteenth Finance Commission** had raised the states' share of the divisible pool from 32% to 42% at the same time. NITI's stated role is cooperative and competitive federalism, and it works largely through indices and advice: the **SDG India Index**, the **Multidimensional Poverty Index**, the composite water and health indices, and the **Aspirational Districts Programme**. It is chaired by the Prime Minister, with a Vice Chairman, a Chief Executive Officer and a Governing Council of all Chief Ministers and Lieutenant Governors.",
+   "facts": [
+    {
+     "k": "Planning Commission",
+     "v": "Set up by Cabinet resolution, March 1950; neither constitutional nor statutory"
+    },
+    {
+     "k": "Plans",
+     "v": "Twelve Five Year Plans between 1951 and 2017"
+    },
+    {
+     "k": "Second Plan",
+     "v": "Mahalanobis model; heavy industry; Industrial Policy Resolution 1956"
+    },
+    {
+     "k": "Plan holiday",
+     "v": "Three annual plans, 1966-69, after wars, drought and devaluation"
+    },
+    {
+     "k": "NITI Aayog",
+     "v": "Replaced the Commission on 1 January 2015, also by resolution"
+    },
+    {
+     "k": "Fund allocation",
+     "v": "Moved to the Finance Ministry; the 14th Finance Commission raised the states' share to 42%"
+    },
+    {
+     "k": "Governing Council",
+     "v": "Prime Minister as chair, all Chief Ministers and Lieutenant Governors"
+    },
+    {
+     "k": "NITI outputs",
+     "v": "SDG India Index, Multidimensional Poverty Index, Aspirational Districts Programme"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1950",
+     "what": "Planning Commission constituted"
+    },
+    {
+     "when": "1951",
+     "what": "First Five Year Plan begins"
+    },
+    {
+     "when": "1952",
+     "what": "National Development Council created"
+    },
+    {
+     "when": "1956",
+     "what": "Second Plan and the Industrial Policy Resolution"
+    },
+    {
+     "when": "1991",
+     "what": "Liberalisation; planning reframed from the Eighth Plan"
+    },
+    {
+     "when": "2015",
+     "what": "NITI Aayog replaces the Planning Commission"
+    },
+    {
+     "when": "2017",
+     "what": "Twelfth Plan ends; no thirteenth"
+    }
+   ],
+   "why": "The examiner sets the Planning Commission against constitutional bodies to test whether you know it had no such status. The Mahalanobis-Second Plan pairing and the 2015 date are the other two certainties.",
+   "map": {
+    "nodes": [
+     {
+      "id": "ep-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Planning in India",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Sixty-five years of plans, and what replaced them."
+     },
+     {
+      "id": "ep-pc",
+      "parent": "ep-root",
+      "tier": 1,
+      "label": "Planning Commission",
+      "kind": "institution",
+      "rel": "body",
+      "note": "Created by Cabinet resolution in 1950; no statutory basis."
+     },
+     {
+      "id": "ep-ndc",
+      "parent": "ep-pc",
+      "tier": 2,
+      "label": "National Development Council",
+      "kind": "institution",
+      "rel": "approval",
+      "note": "Created 1952; all Chief Ministers approved the plans."
+     },
+     {
+      "id": "ep-plans",
+      "parent": "ep-root",
+      "tier": 1,
+      "label": "Twelve Five Year Plans",
+      "kind": "concept",
+      "rel": "series",
+      "note": "1951 to 2017."
+     },
+     {
+      "id": "ep-first",
+      "parent": "ep-plans",
+      "tier": 2,
+      "label": "First Plan",
+      "kind": "concept",
+      "rel": "plan",
+      "note": "Harrod-Domar model; agriculture first; target met."
+     },
+     {
+      "id": "ep-second",
+      "parent": "ep-plans",
+      "tier": 2,
+      "label": "Second Plan",
+      "kind": "concept",
+      "rel": "plan",
+      "note": "Mahalanobis model; heavy industry and the public sector."
+     },
+     {
+      "id": "ep-ipr",
+      "parent": "ep-second",
+      "tier": 3,
+      "label": "Industrial Policy Resolution, 1956",
+      "kind": "concept",
+      "rel": "policy",
+      "note": "Gave the state the commanding heights."
+     },
+     {
+      "id": "ep-holiday",
+      "parent": "ep-plans",
+      "tier": 2,
+      "label": "Plan holiday",
+      "kind": "event",
+      "rel": "break",
+      "note": "Three annual plans, 1966-69."
+     },
+     {
+      "id": "ep-green",
+      "parent": "ep-holiday",
+      "tier": 3,
+      "label": "Green Revolution",
+      "kind": "concept",
+      "rel": "shift",
+      "note": "High-yielding varieties from the late 1960s."
+     },
+     {
+      "id": "ep-1991",
+      "parent": "ep-plans",
+      "tier": 2,
+      "label": "1991 liberalisation",
+      "kind": "event",
+      "rel": "turn",
+      "note": "Planning reframed from the Eighth Plan onward."
+     },
+     {
+      "id": "ep-niti",
+      "parent": "ep-root",
+      "tier": 1,
+      "label": "NITI Aayog",
+      "kind": "institution",
+      "rel": "successor",
+      "note": "From 1 January 2015; advises, does not allocate."
+     },
+     {
+      "id": "ep-fc14",
+      "parent": "ep-niti",
+      "tier": 2,
+      "label": "Fourteenth Finance Commission",
+      "kind": "institution",
+      "rel": "context",
+      "note": "States' share of the divisible pool raised to 42%."
+     },
+     {
+      "id": "ep-council",
+      "parent": "ep-niti",
+      "tier": 2,
+      "label": "Governing Council",
+      "kind": "institution",
+      "rel": "structure",
+      "note": "Prime Minister with all Chief Ministers."
+     },
+     {
+      "id": "ep-index",
+      "parent": "ep-niti",
+      "tier": 2,
+      "label": "Indices and programmes",
+      "kind": "concept",
+      "rel": "output",
+      "note": "SDG India Index, MPI, Aspirational Districts."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [

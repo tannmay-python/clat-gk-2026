@@ -4,32 +4,47 @@ Newest first. Kept so that if a session dies mid-run, the next one knows exactly
 
 ## Where things stand
 
+303 topics, 2,627 map nodes, 64 passages, 320 questions.
+
 | Section | Topics | Passages | State |
 |---|---|---|---|
-| 2026-01 | 21 | 0 | partial month, no passage bank |
+| 2026-01 | 21 | 5 | complete |
 | 2026-02 | 42 | 8 | complete |
 | 2026-03 | 38 | 8 | complete |
 | 2026-04 | 41 | 8 | complete |
-| 2026-05 | 5 | 1 | badly incomplete, needs research |
-| 2026-06 | 38 | 8 | complete but thin stories |
-| 2026-07 | 30 | 6 | covers 1–25 July only |
-| polity | 17 | 2 | hand-written, good |
-| legal-cases | 11 | 1 | hand-written, good |
-| history | 6 | 1 | hand-written, needs more topics |
-| orgs | 5 | 1 | hand-written, needs more topics |
-| economy | 2 | 0 | needs expansion |
-| science-environment | 1 | 0 | needs expansion |
-| awards | 2 | 1 | needs expansion |
-| geography | 25 | 8 | survived purge, stories thin at ~163 words |
+| 2026-05 | 22 | 3 | complete |
+| 2026-06 | 38 | 8 | complete |
+| 2026-07 | 30 | 6 | covers 1–25 July, which is the month so far |
+| polity | 19 | 4 | done |
+| legal-cases | 11 | 2 | done |
+| history | 10 | 2 | done |
+| orgs | 5 | 2 | done |
+| economy | 7 | 2 | done |
+| science-environment | 5 | 2 | done |
+| awards | 4 | 1 | done |
+| geography | 10 | 3 | rewritten from scratch |
 
 ## Next up, in order
 
-1. Economy: taxation and GST, inflation and indices, external sector, planning history, banking structure
-2. Science: nuclear and defence programme, health and disease, everyday physics and chemistry the paper asks about
-3. Awards: sports honours and trophies, literature and cinema
-4. History: ancient and medieval, art and culture, post-independence India
-5. Geography: thicken existing stories
-6. Months 2026-01, 2026-05, 2026-07: need web research to complete
+1. August to December 2025, which was explicitly held back
+2. More passages: legal-cases, orgs and awards have the thinnest banks
+3. July 2026 needs the last week added once the month closes
+
+---
+
+## 2026-07-26
+
+### Geography rewritten from scratch
+The 18 remaining geography topics and 8 of its 9 passages were template output: every story opened with the same sentence, every map node read "The main idea behind X", and all eight passages were literally the same text. Purged and replaced with nine written topics — river systems and the Indus Waters Treaty, the Ghats with the Gadgil and Kasturirangan reports, soils and cropping seasons, ranges and passes, plate tectonics and the seismic zones, the monsoon drivers, Ramsar and biosphere reserves, and the islands — plus two real passages.
+
+### May 2026 researched and built
+Went from 5 topics to 22, with 3 passages. The Supreme Court going from 34 judges to 38, emergency medical care read into Article 21, the Assam UCC Bill, the RBI's ₹2.86 lakh crore transfer, India's IORA chairship, the EU carbon border mechanism, the Vietnam upgrade, the UAE trade milestone, the essential religious practices reference, Q4 growth against the PLFS number, the GST Council cuts, the lion count, DRDO's tests, IPL 2026, the 79th Cannes, the migration report, deep-sea mining and the forest goals report. A Cannes entry that actually described the 2024 festival was removed.
+
+### January passage bank
+Five passages where there had been none: the Monroe Doctrine, Article 21 and menstrual health, the repo corridor and transmission, BRICS after expansion, and sanction for prosecution.
+
+### Static gaps closed
+Medieval India and art and culture in history, planning from the Planning Commission to NITI Aayog in economy, and the digital state — Aadhaar, UPI, the DPDP Act and AI — in science, with a passage on Puttaswamy II. Seven more CLAT-format passages across polity, history, legal-cases, orgs and economy.
 
 ---
 

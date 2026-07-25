@@ -868,6 +868,224 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "sci-digital",
+   "rank": 5,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The digital state: Aadhaar, UPI, data law and the AI question",
+   "date": "",
+   "category": "Science & Technology",
+   "tags": [
+    "Aadhaar",
+    "UPI",
+    "Data Protection",
+    "Artificial Intelligence"
+   ],
+   "hook": "A biometric number, a payments rail and a data statute, each of which was litigated before it was finished.",
+   "story": "India's digital public infrastructure rests on three layers usually called **India Stack**: identity, payments and data.\n\n**Aadhaar** began in 2009 as a project of the **Unique Identification Authority of India** and ran for seven years without a statute. The **Aadhaar Act 2016** was passed as a **money bill**, which the Rajya Sabha could not amend. In **Puttaswamy II (2018)** a five-judge bench upheld the scheme by four to one, holding that the state may require Aadhaar for subsidies and for income tax under Section 139AA, but struck down **Section 57**, which had allowed private companies to demand it for services, and read down the provision on children. **Justice Chandrachud** dissented in full and held the money bill certification a fraud on the Constitution.\n\n**UPI**, launched in **2016** by the **National Payments Corporation of India**, put an interoperable layer above bank accounts and now handles the largest volume of real-time payments in the world. It has been linked to Singapore's PayNow and to systems in the UAE, France, Sri Lanka and elsewhere. The **RBI's digital rupee**, a central bank digital currency, has been in retail and wholesale pilots since 2022 and is a liability of the central bank, unlike a bank deposit or a private token.\n\nThe **Digital Personal Data Protection Act 2023** followed the privacy judgment and several withdrawn drafts. It applies to digital personal data, creates duties for **data fiduciaries**, gives rights of access, correction and erasure to **data principals**, requires consent that is free, specific and informed, and sets penalties up to **₹250 crore**. Its criticisms are the breadth of the state exemptions and its amendment of the Right to Information Act to remove the public interest override for personal information. The **Data Protection Board** enforces it. Rules were notified in stages and the Act is being brought into force gradually.\n\nOn artificial intelligence India has chosen advisories and a mission rather than a statute, and chaired the **Global Partnership on AI** summit in New Delhi in 2023.",
+   "facts": [
+    {
+     "k": "Aadhaar Act",
+     "v": "2016, passed as a money bill; the certification remains contested"
+    },
+    {
+     "k": "Puttaswamy II, 2018",
+     "v": "Upheld 4-1; Section 57 struck down, barring private demands for Aadhaar"
+    },
+    {
+     "k": "UPI",
+     "v": "Launched 2016 by NPCI; the largest real-time payments system by volume"
+    },
+    {
+     "k": "Digital rupee",
+     "v": "RBI central bank digital currency; pilots since 2022; a liability of the RBI"
+    },
+    {
+     "k": "DPDP Act",
+     "v": "2023; data fiduciaries and data principals; penalties up to ₹250 crore"
+    },
+    {
+     "k": "RTI amendment",
+     "v": "The Act removed the public interest override for personal information"
+    },
+    {
+     "k": "Regulator",
+     "v": "Data Protection Board of India"
+    },
+    {
+     "k": "AI approach",
+     "v": "Advisories and the IndiaAI Mission rather than a statute"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "2009",
+     "what": "UIDAI established"
+    },
+    {
+     "when": "2016",
+     "what": "Aadhaar Act passed; UPI launched"
+    },
+    {
+     "when": "2017",
+     "what": "Puttaswamy holds privacy a fundamental right"
+    },
+    {
+     "when": "2018",
+     "what": "Puttaswamy II upholds Aadhaar and strikes Section 57"
+    },
+    {
+     "when": "2022",
+     "what": "Digital rupee pilots begin"
+    },
+    {
+     "when": "2023",
+     "what": "Digital Personal Data Protection Act passed"
+    }
+   ],
+   "why": "Section 57 is the single most asked Aadhaar fact, and the money bill point connects straight to Article 110. For the data law, know that the regulator is a Board and that the RTI amendment is the main objection.",
+   "map": {
+    "nodes": [
+     {
+      "id": "sd-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "The digital state",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Identity, payments and data, each litigated."
+     },
+     {
+      "id": "sd-aadhaar",
+      "parent": "sd-root",
+      "tier": 1,
+      "label": "Aadhaar",
+      "kind": "concept",
+      "rel": "identity",
+      "note": "UIDAI from 2009; statute only in 2016."
+     },
+     {
+      "id": "sd-money",
+      "parent": "sd-aadhaar",
+      "tier": 2,
+      "label": "Money bill route",
+      "kind": "concept",
+      "rel": "controversy",
+      "note": "Article 110 certification the Rajya Sabha could not amend."
+     },
+     {
+      "id": "sd-put2",
+      "parent": "sd-aadhaar",
+      "tier": 2,
+      "label": "Puttaswamy II, 2018",
+      "kind": "case",
+      "rel": "ruling",
+      "note": "Upheld 4-1; Section 57 struck down."
+     },
+     {
+      "id": "sd-57",
+      "parent": "sd-put2",
+      "tier": 3,
+      "label": "Section 57",
+      "kind": "law",
+      "rel": "struck down",
+      "note": "Had let private companies demand Aadhaar."
+     },
+     {
+      "id": "sd-chandra",
+      "parent": "sd-put2",
+      "tier": 3,
+      "label": "The dissent",
+      "kind": "person",
+      "rel": "opinion",
+      "note": "Held the money bill certification a fraud on the Constitution."
+     },
+     {
+      "id": "sd-upi",
+      "parent": "sd-root",
+      "tier": 1,
+      "label": "UPI",
+      "kind": "concept",
+      "rel": "payments",
+      "note": "Launched 2016 by NPCI; largest real-time system by volume."
+     },
+     {
+      "id": "sd-npci",
+      "parent": "sd-upi",
+      "tier": 2,
+      "label": "NPCI",
+      "kind": "institution",
+      "rel": "operator",
+      "note": "Umbrella organisation for retail payments."
+     },
+     {
+      "id": "sd-cbdc",
+      "parent": "sd-root",
+      "tier": 1,
+      "label": "Digital rupee",
+      "kind": "concept",
+      "rel": "currency",
+      "note": "RBI liability; retail and wholesale pilots since 2022."
+     },
+     {
+      "id": "sd-dpdp",
+      "parent": "sd-root",
+      "tier": 1,
+      "label": "DPDP Act, 2023",
+      "kind": "law",
+      "rel": "data",
+      "note": "Consent, rights and penalties up to ₹250 crore."
+     },
+     {
+      "id": "sd-fid",
+      "parent": "sd-dpdp",
+      "tier": 2,
+      "label": "Fiduciaries and principals",
+      "kind": "concept",
+      "rel": "terms",
+      "note": "Who processes data and whose data it is."
+     },
+     {
+      "id": "sd-rti",
+      "parent": "sd-dpdp",
+      "tier": 2,
+      "label": "RTI amendment",
+      "kind": "concept",
+      "rel": "objection",
+      "note": "Removed the public interest override for personal information."
+     },
+     {
+      "id": "sd-board",
+      "parent": "sd-dpdp",
+      "tier": 2,
+      "label": "Data Protection Board",
+      "kind": "institution",
+      "rel": "regulator",
+      "note": "Adjudicates breaches and imposes penalties."
+     },
+     {
+      "id": "sd-ai",
+      "parent": "sd-root",
+      "tier": 1,
+      "label": "Artificial intelligence",
+      "kind": "concept",
+      "rel": "policy",
+      "note": "Advisories and the IndiaAI Mission; no statute yet."
+     },
+     {
+      "id": "sd-gpai",
+      "parent": "sd-ai",
+      "tier": 2,
+      "label": "Global Partnership on AI",
+      "kind": "institution",
+      "rel": "forum",
+      "note": "India chaired the New Delhi summit in 2023."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
@@ -941,6 +1159,79 @@
      ],
      "answer": 2,
      "explain": "National Space Day, declared after the landing. National Science Day is 28 February for the Raman effect; National Technology Day is 11 May for Pokhran-II."
+    }
+   ]
+  },
+  {
+   "id": "sci-p2",
+   "kind": "static",
+   "month": "science-environment",
+   "topicIds": [
+    "sci-digital"
+   ],
+   "category": "Science & Technology",
+   "tags": [
+    "Aadhaar",
+    "Privacy"
+   ],
+   "difficulty": 3,
+   "title": "The number and its limits",
+   "passage": "The programme ran for seven years before Parliament gave it a legal basis, and when the statute came it was certified as a bill of a kind the upper House could only make recommendations on. Petitioners argued that the certification was improper because the legislation did far more than authorise expenditure from the consolidated fund, and that a scheme enrolling almost the entire population on biometric data could not be built on a provision meant for taxing and spending.\n\nA five-judge bench upheld the scheme by a majority of four to one in 2018. It held that requiring the number for welfare subsidies was proportionate, because the subsidies are funded from the consolidated fund and the statute's purpose was targeted delivery. It upheld the income tax provision linking the number to permanent account numbers. It read down the section dealing with children, requiring parental consent and an option to exit on majority. And it struck down the section that had permitted any body corporate or person to demand the number under a contract, holding that private entities could not compel disclosure of biometric identity for commercial services.\n\nThe dissenting judge would have struck the whole statute down. His reasoning had two limbs: that passing it as that category of bill was a fraud on the Constitution because it bypassed the upper House on a matter squarely within its competence, and that the architecture created a permanent record of where a citizen was and what they bought, which no amount of procedural safeguard could make proportionate.\n\nThe dissent has since been cited more often than most majorities. When the question of whether such certification can be judicially reviewed at all came up again, a larger bench referred it onward rather than answering, and it has not been answered since.",
+   "questions": [
+    {
+     "q": "The category of bill referred to is:",
+     "options": [
+      "An ordinary bill",
+      "A money bill",
+      "A constitutional amendment bill",
+      "A financial bill of the second category"
+     ],
+     "answer": 1,
+     "explain": "A money bill under Article 110, on which the Rajya Sabha may only make recommendations."
+    },
+    {
+     "q": "The provision struck down concerned:",
+     "options": [
+      "Linkage with income tax",
+      "Use by private entities under a contract",
+      "Enrolment of children",
+      "Welfare subsidy delivery"
+     ],
+     "answer": 1,
+     "explain": "Section 57, which had allowed body corporates and persons to require the number."
+    },
+    {
+     "q": "The majority was:",
+     "options": [
+      "Unanimous",
+      "Four to one",
+      "Three to two",
+      "Seven to two"
+     ],
+     "answer": 1,
+     "explain": "A five-judge bench upheld the scheme four to one."
+    },
+    {
+     "q": "On the passage, the dissent's first limb was that the certification:",
+     "options": [
+      "Was procedurally correct but unwise",
+      "Bypassed the upper House and was a fraud on the Constitution",
+      "Should have been made by the President",
+      "Required a referendum"
+     ],
+     "answer": 1,
+     "explain": "The dissent held that using the money bill route on a matter within the upper House's competence was a fraud on the Constitution."
+    },
+    {
+     "q": "The question of whether such certification is reviewable was:",
+     "options": [
+      "Answered in the affirmative",
+      "Answered in the negative",
+      "Referred to a larger bench and left undecided",
+      "Held to be a political question"
+     ],
+     "answer": 2,
+     "explain": "A larger bench referred the question onward, and it remains undecided."
     }
    ]
   }

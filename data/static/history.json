@@ -1728,6 +1728,437 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "his-medieval",
+   "rank": 9,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Medieval India: five Sultanate dynasties and six Mughals",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Delhi Sultanate",
+    "Mughals",
+    "Medieval India"
+   ],
+   "hook": "A slave who became a king, a sultan who moved his capital twice and moved it back, and an emperor who could not read.",
+   "story": "The **Delhi Sultanate** ran from **1206 to 1526** through five dynasties. The **Slave or Mamluk dynasty** began with **Qutbuddin Aibak**, a general of Muhammad Ghori who had won at the **Second Battle of Tarain in 1192**; **Iltutmish** consolidated it and introduced the silver *tanka* and copper *jital*, and **Razia Sultan** briefly held the throne, the only woman to do so. **Balban** established the theory of kingship as a divine office. The **Khaljis** followed from 1290; **Alauddin Khalji** built a standing army, fixed market prices in Delhi, raised land revenue to half the produce, and repelled the Mongols. The **Tughlaqs** came in 1320; **Muhammad bin Tughlaq** shifted the capital to **Daulatabad** and back and issued a token currency that failed, and **Firoz Shah** built canals and a jizya-funded administration. The **Sayyids** and then the **Lodis** carried the Sultanate to **1526**, when **Ibrahim Lodi** lost the **First Battle of Panipat** to **Babur**.\n\nThe **Mughals** ruled in substance from 1526 to 1707 and in name to 1857. **Babur** won Panipat with artillery and the *tulughma* flanking tactic. **Humayun** lost the empire to **Sher Shah Suri**, whose brief rule produced the *rupiya*, the Grand Trunk Road as it is now known, and a land revenue survey that Akbar's officials later borrowed. **Akbar** returned after the **Second Battle of Panipat, 1556**, abolished the **jizya**, built the **mansabdari** ranking system and the **zabt** revenue settlement under Todar Mal, and founded the **Din-i-Ilahi**. **Jahangir** received the English envoy Thomas Roe. **Shah Jahan** built the Taj Mahal and lost Kandahar. **Aurangzeb** extended the empire to its greatest area, reimposed the jizya, and spent his last twenty-five years fighting the **Marathas** in the Deccan, which drained the treasury that his successors needed.\n\nTwo other powers matter. **Vijayanagara**, founded in 1336 by Harihara and Bukka, dominated the south until **Talikota in 1565**. The **Marathas** under **Shivaji**, crowned at Raigad in 1674, built a revenue system on *chauth* and *sardeshmukhi*, and their expansion ended at the **Third Battle of Panipat in 1761** against Ahmad Shah Abdali.",
+   "facts": [
+    {
+     "k": "Sultanate span",
+     "v": "1206 to 1526, through Slave, Khalji, Tughlaq, Sayyid and Lodi dynasties"
+    },
+    {
+     "k": "Second Tarain, 1192",
+     "v": "Muhammad Ghori defeats Prithviraj Chauhan, opening the way to Delhi"
+    },
+    {
+     "k": "Alauddin Khalji",
+     "v": "Standing army, market price control, revenue at half the produce"
+    },
+    {
+     "k": "Muhammad bin Tughlaq",
+     "v": "Capital shifted to Daulatabad and back; token currency failed"
+    },
+    {
+     "k": "First Panipat, 1526",
+     "v": "Babur defeats Ibrahim Lodi and founds the Mughal empire"
+    },
+    {
+     "k": "Sher Shah Suri",
+     "v": "The rupiya, the Grand Trunk Road, and the revenue survey Akbar's men reused"
+    },
+    {
+     "k": "Akbar",
+     "v": "Abolished jizya, created mansabdari and the zabt settlement under Todar Mal"
+    },
+    {
+     "k": "Third Panipat, 1761",
+     "v": "Ahmad Shah Abdali defeats the Marathas; the Sultanate of the north collapses"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1192",
+     "what": "Second Battle of Tarain"
+    },
+    {
+     "when": "1206",
+     "what": "Qutbuddin Aibak founds the Sultanate"
+    },
+    {
+     "when": "1336",
+     "what": "Vijayanagara founded"
+    },
+    {
+     "when": "1526",
+     "what": "First Battle of Panipat"
+    },
+    {
+     "when": "1556",
+     "what": "Second Battle of Panipat; Akbar's reign begins"
+    },
+    {
+     "when": "1565",
+     "what": "Talikota ends Vijayanagara's dominance"
+    },
+    {
+     "when": "1674",
+     "what": "Shivaji crowned at Raigad"
+    },
+    {
+     "when": "1707",
+     "what": "Aurangzeb dies"
+    },
+    {
+     "when": "1761",
+     "what": "Third Battle of Panipat"
+    }
+   ],
+   "why": "Panipat is asked three times over and the years are easy to swap: 1526 Babur against Lodi, 1556 Akbar's regent against Hemu, 1761 Abdali against the Marathas. The other reliable question is which ruler introduced which administrative device.",
+   "map": {
+    "nodes": [
+     {
+      "id": "hm-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Medieval India",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Three centuries of Sultanate and two of Mughal rule."
+     },
+     {
+      "id": "hm-sult",
+      "parent": "hm-root",
+      "tier": 1,
+      "label": "Delhi Sultanate",
+      "kind": "concept",
+      "rel": "period",
+      "note": "1206 to 1526, five dynasties."
+     },
+     {
+      "id": "hm-slave",
+      "parent": "hm-sult",
+      "tier": 2,
+      "label": "Slave dynasty",
+      "kind": "concept",
+      "rel": "dynasty",
+      "note": "Aibak, Iltutmish, Razia, Balban."
+     },
+     {
+      "id": "hm-razia",
+      "parent": "hm-slave",
+      "tier": 3,
+      "label": "Razia Sultan",
+      "kind": "person",
+      "rel": "ruler",
+      "note": "The only woman to sit on the Delhi throne."
+     },
+     {
+      "id": "hm-khalji",
+      "parent": "hm-sult",
+      "tier": 2,
+      "label": "Khaljis",
+      "kind": "concept",
+      "rel": "dynasty",
+      "note": "Alauddin's standing army and market controls."
+     },
+     {
+      "id": "hm-tughlaq",
+      "parent": "hm-sult",
+      "tier": 2,
+      "label": "Tughlaqs",
+      "kind": "concept",
+      "rel": "dynasty",
+      "note": "Daulatabad, the token currency, Firoz Shah's canals."
+     },
+     {
+      "id": "hm-lodi",
+      "parent": "hm-sult",
+      "tier": 2,
+      "label": "Sayyids and Lodis",
+      "kind": "concept",
+      "rel": "dynasty",
+      "note": "Ends at Panipat in 1526."
+     },
+     {
+      "id": "hm-mughal",
+      "parent": "hm-root",
+      "tier": 1,
+      "label": "Mughals",
+      "kind": "concept",
+      "rel": "period",
+      "note": "1526 to 1707 in substance, to 1857 in name."
+     },
+     {
+      "id": "hm-babur",
+      "parent": "hm-mughal",
+      "tier": 2,
+      "label": "Babur",
+      "kind": "person",
+      "rel": "founder",
+      "note": "Won Panipat with artillery and the tulughma tactic."
+     },
+     {
+      "id": "hm-sher",
+      "parent": "hm-mughal",
+      "tier": 2,
+      "label": "Sher Shah Suri",
+      "kind": "person",
+      "rel": "interruption",
+      "note": "The rupiya, the Grand Trunk Road, the revenue survey."
+     },
+     {
+      "id": "hm-akbar",
+      "parent": "hm-mughal",
+      "tier": 2,
+      "label": "Akbar",
+      "kind": "person",
+      "rel": "ruler",
+      "note": "Jizya abolished, mansabdari, zabt, Din-i-Ilahi."
+     },
+     {
+      "id": "hm-todar",
+      "parent": "hm-akbar",
+      "tier": 3,
+      "label": "Todar Mal",
+      "kind": "person",
+      "rel": "official",
+      "note": "Ran the zabt land revenue settlement."
+     },
+     {
+      "id": "hm-aurang",
+      "parent": "hm-mughal",
+      "tier": 2,
+      "label": "Aurangzeb",
+      "kind": "person",
+      "rel": "ruler",
+      "note": "Greatest extent, jizya restored, Deccan wars."
+     },
+     {
+      "id": "hm-vij",
+      "parent": "hm-root",
+      "tier": 1,
+      "label": "Vijayanagara",
+      "kind": "concept",
+      "rel": "power",
+      "note": "Founded 1336; broken at Talikota in 1565."
+     },
+     {
+      "id": "hm-maratha",
+      "parent": "hm-root",
+      "tier": 1,
+      "label": "Marathas",
+      "kind": "concept",
+      "rel": "power",
+      "note": "Shivaji crowned 1674; chauth and sardeshmukhi."
+     },
+     {
+      "id": "hm-panipat",
+      "parent": "hm-root",
+      "tier": 1,
+      "label": "Three battles of Panipat",
+      "kind": "event",
+      "rel": "pattern",
+      "note": "1526, 1556 and 1761."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-culture",
+   "rank": 11,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Art and culture: the eight dances, the schools of architecture and the lists",
+   "date": "",
+   "category": "Arts & Culture",
+   "tags": [
+    "Classical Dance",
+    "Architecture",
+    "UNESCO",
+    "Culture"
+   ],
+   "hook": "The Sangeet Natak Akademi recognises eight classical dances, and the argument about the ninth has been running for years.",
+   "story": "**Eight classical dance forms** are recognised: **Bharatanatyam** from Tamil Nadu, **Kathak** from the north, **Kathakali** and **Mohiniyattam** from Kerala, **Kuchipudi** from Andhra Pradesh, **Odissi** from Odisha, **Manipuri** from Manipur, and **Sattriya** from Assam, added in 2000. The Ministry of Culture has at times counted **Chhau** as a ninth. All trace their theory to the **Natya Shastra** of Bharata. Music divides into **Hindustani** in the north and **Carnatic** in the south, the latter shaped by the trinity of Tyagaraja, Muthuswami Dikshitar and Syama Sastri.\n\nTemple architecture divides into three styles. **Nagara** in the north has a curvilinear *shikhara* and no boundary walls, as at **Khajuraho** and **Konark**. **Dravida** in the south has a pyramidal *vimana* over the sanctum and towering **gopurams** at the gates, as at **Brihadeeswara** in Thanjavur, built by **Rajaraja Chola**. **Vesara** is the hybrid of the Deccan, as in the Hoysala temples at Belur and Halebidu. Rock-cut work runs from the Buddhist chaityas at **Ajanta** to the monolithic **Kailasa temple at Ellora**, cut top-down by the Rashtrakutas.\n\nPainting divides into the Ajanta murals, the **Mughal** miniature tradition under Akbar and Jahangir, the **Rajasthani** and **Pahari** schools including Kangra and Basohli, and the **Company** style painted for British patrons. Folk traditions with geographical indication protection include **Madhubani** from Bihar, **Warli** from Maharashtra, **Pattachitra** from Odisha and **Kalamkari** from Andhra Pradesh.\n\nTwo UNESCO lists matter. **World Heritage** covers sites; India has **44**. **Intangible Cultural Heritage** covers practices; India has **15** entries, including Vedic chanting, Kutiyattam, Ramlila, Chhau, Yoga, Kumbh Mela, Durga Puja in Kolkata and the Garba of Gujarat, inscribed in 2023.",
+   "facts": [
+    {
+     "k": "Classical dances",
+     "v": "Eight, with Sattriya added in 2000; Chhau sometimes counted a ninth"
+    },
+    {
+     "k": "Foundational text",
+     "v": "Natya Shastra of Bharata"
+    },
+    {
+     "k": "Nagara",
+     "v": "Northern style, curvilinear shikhara; Khajuraho and Konark"
+    },
+    {
+     "k": "Dravida",
+     "v": "Southern style, pyramidal vimana and gopurams; Brihadeeswara at Thanjavur"
+    },
+    {
+     "k": "Vesara",
+     "v": "Deccan hybrid; the Hoysala temples at Belur and Halebidu"
+    },
+    {
+     "k": "Kailasa, Ellora",
+     "v": "Monolithic rock-cut temple carved top-down by the Rashtrakutas"
+    },
+    {
+     "k": "World Heritage",
+     "v": "44 Indian sites"
+    },
+    {
+     "k": "Intangible Cultural Heritage",
+     "v": "15 Indian entries; Garba of Gujarat added in 2023"
+    }
+   ],
+   "timeline": [],
+   "why": "Dance-to-state and temple-to-style are the two mechanical questions, and the intangible heritage list is the current-affairs hook. Sattriya from Assam is the one most often mismatched.",
+   "map": {
+    "nodes": [
+     {
+      "id": "hc-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Art and culture",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Dance, music, architecture, painting and the UNESCO lists."
+     },
+     {
+      "id": "hc-dance",
+      "parent": "hc-root",
+      "tier": 1,
+      "label": "Eight classical dances",
+      "kind": "concept",
+      "rel": "category",
+      "note": "Recognised by the Sangeet Natak Akademi."
+     },
+     {
+      "id": "hc-bharat",
+      "parent": "hc-dance",
+      "tier": 2,
+      "label": "Bharatanatyam",
+      "kind": "concept",
+      "rel": "form",
+      "note": "Tamil Nadu; the oldest documented form."
+     },
+     {
+      "id": "hc-sattriya",
+      "parent": "hc-dance",
+      "tier": 2,
+      "label": "Sattriya",
+      "kind": "concept",
+      "rel": "form",
+      "note": "Assam, from the Vaishnava monasteries; recognised in 2000."
+     },
+     {
+      "id": "hc-natya",
+      "parent": "hc-dance",
+      "tier": 2,
+      "label": "Natya Shastra",
+      "kind": "concept",
+      "rel": "text",
+      "note": "Bharata's treatise underlying all eight."
+     },
+     {
+      "id": "hc-music",
+      "parent": "hc-root",
+      "tier": 1,
+      "label": "Hindustani and Carnatic",
+      "kind": "concept",
+      "rel": "division",
+      "note": "Northern and southern classical traditions."
+     },
+     {
+      "id": "hc-arch",
+      "parent": "hc-root",
+      "tier": 1,
+      "label": "Temple architecture",
+      "kind": "concept",
+      "rel": "category",
+      "note": "Three styles by region."
+     },
+     {
+      "id": "hc-nagara",
+      "parent": "hc-arch",
+      "tier": 2,
+      "label": "Nagara",
+      "kind": "concept",
+      "rel": "style",
+      "note": "Curvilinear shikhara; Khajuraho, Konark."
+     },
+     {
+      "id": "hc-dravida",
+      "parent": "hc-arch",
+      "tier": 2,
+      "label": "Dravida",
+      "kind": "concept",
+      "rel": "style",
+      "note": "Vimana and gopuram; Brihadeeswara at Thanjavur."
+     },
+     {
+      "id": "hc-vesara",
+      "parent": "hc-arch",
+      "tier": 2,
+      "label": "Vesara",
+      "kind": "concept",
+      "rel": "style",
+      "note": "Deccan hybrid; Hoysala temples."
+     },
+     {
+      "id": "hc-rock",
+      "parent": "hc-arch",
+      "tier": 2,
+      "label": "Rock-cut",
+      "kind": "concept",
+      "rel": "style",
+      "note": "Ajanta chaityas to the Kailasa temple at Ellora."
+     },
+     {
+      "id": "hc-paint",
+      "parent": "hc-root",
+      "tier": 1,
+      "label": "Painting schools",
+      "kind": "concept",
+      "rel": "category",
+      "note": "Mughal, Rajasthani, Pahari and Company styles."
+     },
+     {
+      "id": "hc-folk",
+      "parent": "hc-paint",
+      "tier": 2,
+      "label": "Folk traditions",
+      "kind": "concept",
+      "rel": "forms",
+      "note": "Madhubani, Warli, Pattachitra, Kalamkari."
+     },
+     {
+      "id": "hc-wh",
+      "parent": "hc-root",
+      "tier": 1,
+      "label": "World Heritage",
+      "kind": "concept",
+      "rel": "list",
+      "note": "44 Indian sites under the 1972 convention."
+     },
+     {
+      "id": "hc-ich",
+      "parent": "hc-root",
+      "tier": 1,
+      "label": "Intangible Cultural Heritage",
+      "kind": "concept",
+      "rel": "list",
+      "note": "15 Indian entries; Garba added in 2023."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
