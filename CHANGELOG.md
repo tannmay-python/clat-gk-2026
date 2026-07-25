@@ -4,7 +4,7 @@ Newest first. Kept so that if a session dies mid-run, the next one knows exactly
 
 ## Where things stand
 
-318 topics, 2,762 map nodes, 70 passages, 350 questions.
+325 topics, 2,872 map nodes, 89 passages, 445 questions.
 
 | Section | Topics | Passages | State |
 |---|---|---|---|
@@ -12,23 +12,45 @@ Newest first. Kept so that if a session dies mid-run, the next one knows exactly
 | 2026-02 | 42 | 8 | complete |
 | 2026-03 | 38 | 8 | complete |
 | 2026-04 | 41 | 8 | complete |
-| 2026-05 | 22 | 3 | complete |
+| 2026-05 | 22 | 8 | complete |
 | 2026-06 | 38 | 8 | complete |
 | 2026-07 | 30 | 6 | covers 1–25 July, which is the month so far |
-| polity | 19 | 5 | done |
-| legal-cases | 11 | 2 | thinnest passage bank |
-| history | 10 | 3 | done |
+| polity | 19 | 6 | done |
+| legal-cases | 13 | 6 | done |
+| history | 13 | 5 | done, including world history |
 | orgs | 7 | 4 | done |
-| economy | 7 | 3 | done |
-| science-environment | 5 | 2 | done |
-| awards | 6 | 2 | done |
-| geography | 10 | 3 | rewritten from scratch |
+| economy | 7 | 4 | done |
+| science-environment | 6 | 5 | done |
+| awards | 6 | 4 | done |
+| geography | 11 | 4 | done, including world geography |
 
 ## Next up, in order
 
 1. August to December 2025, which was explicitly held back
-2. More passages for legal-cases and science, which have two each
-3. July 2026 needs the last week added once the month closes
+2. January and July passage banks could go from 5 and 6 to 8
+3. orgs, economy, awards and geography could take two more passages each
+
+---
+
+## 2026-07-26, third pass
+
+### Ultra map: a walked trail
+Clicking a node now drops the branches you passed over instead of keeping them. What stays is the trail you actually clicked, drawn in brand colour, plus whatever the node at the head of it connects to. Retiring nodes are held one beat and faded rather than vanishing. The camera glides onto each node you step to, which needs the group rendered once with the old transform and once with the new so the CSS transition has two values to move between. Clicking back along the trail truncates it.
+
+### The gaps in static GK, closed
+The section had no world history and no world geography at all, and legal GK had case law with no statutes. Added:
+
+- **World history**: the American, French and Russian revolutions with what India borrowed from each; the two wars and the institutions built out of them; the Cold War, non-alignment and decolonisation
+- **World geography**: reference lines, extremes, and the chokepoints — Hormuz, Malacca, Bab-el-Mandeb, the Turkish straits, Suez and Panama
+- **Climate science**: the physics, the ozone regime that worked and the climate regime that has not
+- **Statutes**: RTI, Consumer Protection 2019, POCSO, the Domestic Violence Act, juvenile justice, mental healthcare, with their time and pecuniary limits
+- **Legal reasoning principles**: contract, tort and criminal law as the reasoning section actually uses them
+
+### Passages, from 70 to 89
+May went from 3 to 8, level with the other complete months. Legal-cases and science went from 2 and 3 to 6 and 5. New: Versailles, refusing both blocs, Suez, the Montreal Protocol, absolute liability against Rylands v. Fletcher, the right to information, the Kesavananda chain, the smoke ball case, ISRO and the Outer Space Treaty, India outside the NPT, honours under Article 18, sports trophies, GST as negotiated federalism, the Election Commission, counting judges, Article 44, the RBI surplus, IORA, and essential religious practices. All written at full CLAT length.
+
+### Lilies
+13.5% in light, 10% in dark.
 
 ---
 
