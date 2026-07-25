@@ -669,6 +669,228 @@
    "sources": []
   },
   {
+   "id": "sci-climate",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Climate science and the treaties built on it",
+   "date": "",
+   "category": "Environment",
+   "tags": [
+    "Climate Change",
+    "UNFCCC",
+    "Paris Agreement",
+    "Montreal Protocol"
+   ],
+   "hook": "One treaty on an atmospheric problem worked completely, and it is not the one anybody talks about.",
+   "story": "**The physics.** Solar radiation arrives mostly as short-wave energy, is absorbed and re-radiated by the surface as long-wave infrared, and some of that is absorbed by gases in the atmosphere and re-emitted downward. That is the **greenhouse effect**, and without it the planet's average temperature would be about 33°C lower. The problem is the enhancement, not the effect. The main greenhouse gases are **carbon dioxide**, **methane**, **nitrous oxide** and the industrial fluorinated gases; methane is far more potent per molecule but shorter-lived, which is why gases are compared on **global warming potential** over a fixed horizon. Carbon dioxide concentration has gone from about 280 parts per million before industrialisation to over 420 today.\n\n**Ozone is a separate problem** and gets confused with this one constantly. Stratospheric ozone absorbs ultraviolet radiation, and **chlorofluorocarbons** used in refrigeration were destroying it, producing the Antarctic hole. The **Vienna Convention of 1985** and the **Montreal Protocol of 1987** phased them out, and the protocol is the only UN treaty ever ratified by every member state. It worked, and the layer is recovering. The **Kigali Amendment of 2016** extended it to **hydrofluorocarbons**, which do not harm ozone but are powerful greenhouse gases; India ratified it in 2021.\n\n**The climate treaties.** The **UN Framework Convention on Climate Change** was opened at the **Rio Earth Summit in 1992** and set the principle of **common but differentiated responsibilities**. The **Kyoto Protocol of 1997** bound only developed countries, listed in **Annex I**, to targets, and created emissions trading, joint implementation and the clean development mechanism. The United States never ratified it. The **Paris Agreement of 2015**, in force from 2016, replaced binding targets with **nationally determined contributions**, which every party sets for itself and revises every five years, and set the goal of holding warming well below **2°C** while pursuing efforts to limit it to **1.5°C**. The **IPCC**, created in **1988** by the WMO and UNEP, assesses the science and does no research of its own.\n\nThe three **Rio conventions** are worth keeping straight: the UNFCCC on climate, the **Convention on Biological Diversity**, and the **Convention to Combat Desertification** of 1994. India has hosted conferences of the parties for the last two.",
+   "facts": [
+    {
+     "k": "Greenhouse effect",
+     "v": "Natural and necessary; without it the planet would be about 33°C colder"
+    },
+    {
+     "k": "Main gases",
+     "v": "Carbon dioxide, methane, nitrous oxide and fluorinated gases; compared by global warming potential"
+    },
+    {
+     "k": "Ozone is separate",
+     "v": "Vienna Convention 1985 and Montreal Protocol 1987, on CFCs"
+    },
+    {
+     "k": "Montreal Protocol",
+     "v": "The only UN treaty ratified by every member state; the layer is recovering"
+    },
+    {
+     "k": "Kigali Amendment",
+     "v": "2016, extending the protocol to hydrofluorocarbons; India ratified in 2021"
+    },
+    {
+     "k": "UNFCCC",
+     "v": "Opened at Rio in 1992; source of common but differentiated responsibilities"
+    },
+    {
+     "k": "Kyoto against Paris",
+     "v": "Kyoto bound Annex I countries; Paris uses self-set contributions"
+    },
+    {
+     "k": "Paris goal",
+     "v": "Well below 2°C, pursuing 1.5°C; the IPCC, created 1988, assesses the science"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1985",
+     "what": "Vienna Convention on the ozone layer"
+    },
+    {
+     "when": "1987",
+     "what": "Montreal Protocol"
+    },
+    {
+     "when": "1988",
+     "what": "IPCC established"
+    },
+    {
+     "when": "1992",
+     "what": "Rio Earth Summit; UNFCCC and CBD opened"
+    },
+    {
+     "when": "1997",
+     "what": "Kyoto Protocol"
+    },
+    {
+     "when": "2015",
+     "what": "Paris Agreement"
+    },
+    {
+     "when": "2016",
+     "what": "Kigali Amendment"
+    }
+   ],
+   "why": "Ozone and climate are different problems with different treaties, and swapping them is the commonest error in the whole subject. Kyoto binds and Paris does not — that distinction carries most of the rest.",
+   "map": {
+    "nodes": [
+     {
+      "id": "sc-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Climate and the treaties",
+      "kind": "concept",
+      "rel": "core",
+      "note": "The physics, and the two separate atmospheric regimes."
+     },
+     {
+      "id": "sc-green",
+      "parent": "sc-root",
+      "tier": 1,
+      "label": "Greenhouse effect",
+      "kind": "concept",
+      "rel": "physics",
+      "note": "Natural warming from long-wave absorption."
+     },
+     {
+      "id": "sc-gases",
+      "parent": "sc-green",
+      "tier": 2,
+      "label": "The gases",
+      "kind": "concept",
+      "rel": "list",
+      "note": "Carbon dioxide, methane, nitrous oxide, fluorinated gases."
+     },
+     {
+      "id": "sc-gwp",
+      "parent": "sc-gases",
+      "tier": 3,
+      "label": "Global warming potential",
+      "kind": "concept",
+      "rel": "measure",
+      "note": "Compares gases over a fixed horizon."
+     },
+     {
+      "id": "sc-ozone",
+      "parent": "sc-root",
+      "tier": 1,
+      "label": "Ozone depletion",
+      "kind": "concept",
+      "rel": "separate problem",
+      "note": "Stratospheric ozone destroyed by CFCs."
+     },
+     {
+      "id": "sc-vienna",
+      "parent": "sc-ozone",
+      "tier": 2,
+      "label": "Vienna Convention, 1985",
+      "kind": "agreement",
+      "rel": "framework",
+      "note": "The framework treaty on the ozone layer."
+     },
+     {
+      "id": "sc-montreal",
+      "parent": "sc-ozone",
+      "tier": 2,
+      "label": "Montreal Protocol, 1987",
+      "kind": "agreement",
+      "rel": "success",
+      "note": "The only treaty ratified by every UN member."
+     },
+     {
+      "id": "sc-kigali",
+      "parent": "sc-montreal",
+      "tier": 3,
+      "label": "Kigali Amendment, 2016",
+      "kind": "agreement",
+      "rel": "extension",
+      "note": "Covers hydrofluorocarbons; India ratified 2021."
+     },
+     {
+      "id": "sc-unfccc",
+      "parent": "sc-root",
+      "tier": 1,
+      "label": "UNFCCC, 1992",
+      "kind": "agreement",
+      "rel": "framework",
+      "note": "Opened at the Rio Earth Summit."
+     },
+     {
+      "id": "sc-cbdr",
+      "parent": "sc-unfccc",
+      "tier": 2,
+      "label": "Common but differentiated responsibilities",
+      "kind": "concept",
+      "rel": "principle",
+      "note": "Shared responsibility, unequal obligation."
+     },
+     {
+      "id": "sc-kyoto",
+      "parent": "sc-unfccc",
+      "tier": 2,
+      "label": "Kyoto Protocol, 1997",
+      "kind": "agreement",
+      "rel": "binding",
+      "note": "Bound Annex I countries; the US never ratified."
+     },
+     {
+      "id": "sc-paris",
+      "parent": "sc-unfccc",
+      "tier": 2,
+      "label": "Paris Agreement, 2015",
+      "kind": "agreement",
+      "rel": "current",
+      "note": "Self-set contributions; well below 2°C."
+     },
+     {
+      "id": "sc-ndc",
+      "parent": "sc-paris",
+      "tier": 3,
+      "label": "Nationally determined contributions",
+      "kind": "concept",
+      "rel": "instrument",
+      "note": "Revised every five years."
+     },
+     {
+      "id": "sc-ipcc",
+      "parent": "sc-root",
+      "tier": 1,
+      "label": "IPCC",
+      "kind": "institution",
+      "rel": "science",
+      "note": "Created 1988 by the WMO and UNEP; assesses, does not research."
+     },
+     {
+      "id": "sc-rio",
+      "parent": "sc-root",
+      "tier": 2,
+      "label": "The three Rio conventions",
+      "kind": "concept",
+      "rel": "set",
+      "note": "Climate, biodiversity and desertification."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "sci-everyday",
    "rank": 4,
    "depth": "deep",
@@ -1232,6 +1454,79 @@
      ],
      "answer": 2,
      "explain": "A larger bench referred the question onward, and it remains undecided."
+    }
+   ]
+  },
+  {
+   "id": "sci-p3",
+   "kind": "static",
+   "month": "science-environment",
+   "topicIds": [
+    "sci-climate"
+   ],
+   "category": "Environment",
+   "tags": [
+    "Montreal Protocol",
+    "Ozone"
+   ],
+   "difficulty": 3,
+   "title": "The treaty that worked",
+   "passage": "Two chemists published a paper in 1974 arguing that a family of industrial compounds, prized precisely because they were inert, non-toxic and non-flammable, would drift intact into the stratosphere, be broken apart by ultraviolet light, and release chlorine atoms that would destroy ozone catalytically, one atom taking apart thousands of molecules before being removed. The industry disputed it for a decade. Then in 1985 a British survey team reported that springtime ozone over Antarctica had fallen by about a third since the late 1970s, a depletion so large that satellite processing software had been discarding the readings as instrument error.\n\nA framework convention was signed the same year, committing nobody to anything specific. The operative agreement came two years later, and its design is the reason it succeeded where later environmental treaties have not. It set hard phase-out schedules rather than aspirational targets. It gave developing countries a grace period of ten years and a fund, financed by the industrialised parties, to pay the extra cost of switching. It allowed the schedules to be tightened by adjustment without reopening the treaty, which happened repeatedly as substitutes proved cheaper than the industry had predicted. And it controlled trade with non-parties, which made staying outside expensive.\n\nEvery member of the United Nations has ratified it, the only treaty of which that is true. Production of the controlled substances has fallen by about ninety-nine per cent, and the layer is on a path to recover to its 1980 state around the middle of this century.\n\nThe postscript is instructive. The replacement compounds were harmless to ozone but turned out to be greenhouse gases hundreds or thousands of times more potent than carbon dioxide. Rather than start again, the parties amended the same protocol in 2016 to phase those down too, using machinery built for an entirely different problem. India ratified that amendment in 2021, with a phase-down schedule running to 2047.",
+   "questions": [
+    {
+     "q": "The compounds described in the first paragraph are:",
+     "options": [
+      "Hydrofluorocarbons",
+      "Chlorofluorocarbons",
+      "Nitrogen oxides",
+      "Sulphur dioxide"
+     ],
+     "answer": 1,
+     "explain": "CFCs, whose chlorine atoms destroy stratospheric ozone catalytically."
+    },
+    {
+     "q": "The Antarctic depletion was reported in:",
+     "options": [
+      "1974",
+      "1985",
+      "1987",
+      "1992"
+     ],
+     "answer": 1,
+     "explain": "The British Antarctic Survey reported it in 1985, the year the Vienna Convention was signed."
+    },
+    {
+     "q": "The operative agreement two years later is the:",
+     "options": [
+      "Vienna Convention",
+      "Montreal Protocol",
+      "Kyoto Protocol",
+      "Kigali Amendment"
+     ],
+     "answer": 1,
+     "explain": "The Montreal Protocol, 1987."
+    },
+    {
+     "q": "On the passage, which feature is given as a reason for its success?",
+     "options": [
+      "It set aspirational targets",
+      "It allowed tightening by adjustment without reopening the treaty",
+      "It exempted developing countries permanently",
+      "It relied on voluntary industry pledges"
+     ],
+     "answer": 1,
+     "explain": "Adjustment without renegotiation, a funded grace period, hard schedules and trade controls are all listed."
+    },
+    {
+     "q": "The 2016 amendment addressed:",
+     "options": [
+      "Ozone-depleting substances not previously listed",
+      "Replacement compounds that are potent greenhouse gases",
+      "Carbon dioxide from industry",
+      "Methane from agriculture"
+     ],
+     "answer": 1,
+     "explain": "The Kigali Amendment phases down hydrofluorocarbons, which do not harm ozone but warm strongly."
     }
    ]
   }

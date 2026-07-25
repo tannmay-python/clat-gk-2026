@@ -613,6 +613,208 @@
    "sources": []
   },
   {
+   "id": "geo-world",
+   "rank": 4,
+   "depth": "deep",
+   "importance": 4,
+   "title": "World geography: the lines, the extremes and the chokepoints",
+   "date": "",
+   "category": "Geography",
+   "tags": [
+    "World Geography",
+    "Straits",
+    "Deserts",
+    "Continents"
+   ],
+   "hook": "A hundred and twenty miles of dredged channel decides the freight cost of half of Europe.",
+   "story": "**Lines.** The **equator** at 0° passes through thirteen countries, including Ecuador, Colombia, Brazil, Kenya, Uganda, Indonesia and the Democratic Republic of the Congo. The **Tropic of Cancer** at 23.5° N crosses about sixteen countries including India, and the **Tropic of Capricorn** at 23.5° S crosses ten. The **Prime Meridian** at 0° runs through Greenwich, and the **International Date Line** roughly follows 180° with deviations to keep island groups on one side.\n\n**Continents and extremes.** **Asia** is the largest continent and **Australia** the smallest; **Africa** has the most countries at 54. The largest country by area is **Russia**, the smallest **Vatican City**. The highest point is **Everest** at 8,849 m on the Nepal-China border, the lowest exposed land the shore of the **Dead Sea**, and the deepest ocean point the **Challenger Deep** in the **Mariana Trench** at about 10,900 m. The largest ocean is the **Pacific**, the largest sea the **South China Sea**, the largest lake by area the **Caspian**, the deepest lake **Baikal**, and the largest freshwater lake by area **Lake Superior**.\n\n**Rivers and deserts.** The **Nile** and the **Amazon** are the two candidates for longest river, depending on where the Amazon is measured from; the Amazon is unambiguously the largest by discharge. The **Danube** passes through the most countries, ten. The largest hot desert is the **Sahara**, the largest desert of any kind the **Antarctic** polar desert, the driest place the **Atacama**, and the largest cold desert the **Gobi**.\n\n**Chokepoints**, which is where geography turns into geopolitics. The **Strait of Hormuz** between Iran and Oman carries about a fifth of the world's oil. The **Strait of Malacca** between Malaysia and Indonesia is the shortest route from the Indian Ocean to the Pacific. **Bab-el-Mandeb** guards the southern Red Sea and the approach to Suez. The **Bosphorus and Dardanelles** connect the Black Sea to the Mediterranean under the 1936 **Montreux Convention**. The **Panama Canal**, opened in 1914 and handed to Panama in 1999, links the Atlantic to the Pacific; the **Suez Canal**, opened in 1869 and nationalised by Nasser in 1956, links the Mediterranean to the Red Sea.",
+   "facts": [
+    {
+     "k": "Equator",
+     "v": "Passes through thirteen countries; India is crossed by the Tropic of Cancer, not the equator"
+    },
+    {
+     "k": "Largest and smallest continents",
+     "v": "Asia and Australia; Africa has the most countries at 54"
+    },
+    {
+     "k": "Highest and deepest",
+     "v": "Everest 8,849 m; Challenger Deep in the Mariana Trench about 10,900 m"
+    },
+    {
+     "k": "Largest lake",
+     "v": "Caspian by area, Baikal by depth, Superior among freshwater lakes by area"
+    },
+    {
+     "k": "Longest river",
+     "v": "Nile or Amazon depending on measurement; Amazon largest by discharge; Danube crosses ten countries"
+    },
+    {
+     "k": "Deserts",
+     "v": "Sahara largest hot, Antarctica largest overall, Atacama driest, Gobi largest cold"
+    },
+    {
+     "k": "Hormuz",
+     "v": "Between Iran and Oman; about a fifth of world oil passes through"
+    },
+    {
+     "k": "Canals",
+     "v": "Suez opened 1869, nationalised 1956; Panama opened 1914, handed over 1999"
+    }
+   ],
+   "timeline": [],
+   "why": "Chokepoints are the highest-yield part of this: learn what each one separates and what it connects. The Caspian being a lake rather than a sea is the classic trick.",
+   "map": {
+    "nodes": [
+     {
+      "id": "gwo-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "World geography",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Lines, extremes and the passages that matter."
+     },
+     {
+      "id": "gwo-lines",
+      "parent": "gwo-root",
+      "tier": 1,
+      "label": "The reference lines",
+      "kind": "concept",
+      "rel": "grid",
+      "note": "Equator, tropics, Prime Meridian, Date Line."
+     },
+     {
+      "id": "gwo-cancer",
+      "parent": "gwo-lines",
+      "tier": 2,
+      "label": "Tropic of Cancer",
+      "kind": "concept",
+      "rel": "line",
+      "note": "Crosses India through eight states."
+     },
+     {
+      "id": "gwo-idl",
+      "parent": "gwo-lines",
+      "tier": 2,
+      "label": "International Date Line",
+      "kind": "concept",
+      "rel": "line",
+      "note": "Roughly 180°, bent around island groups."
+     },
+     {
+      "id": "gwo-cont",
+      "parent": "gwo-root",
+      "tier": 1,
+      "label": "Continents",
+      "kind": "concept",
+      "rel": "extremes",
+      "note": "Asia largest, Australia smallest, Africa most countries."
+     },
+     {
+      "id": "gwo-high",
+      "parent": "gwo-root",
+      "tier": 1,
+      "label": "Highest and deepest",
+      "kind": "concept",
+      "rel": "extremes",
+      "note": "Everest and the Challenger Deep."
+     },
+     {
+      "id": "gwo-lakes",
+      "parent": "gwo-root",
+      "tier": 2,
+      "label": "Lakes",
+      "kind": "concept",
+      "rel": "extremes",
+      "note": "Caspian by area, Baikal by depth, Superior among freshwater."
+     },
+     {
+      "id": "gwo-rivers",
+      "parent": "gwo-root",
+      "tier": 1,
+      "label": "Rivers",
+      "kind": "concept",
+      "rel": "extremes",
+      "note": "Nile and Amazon; Danube crosses ten countries."
+     },
+     {
+      "id": "gwo-desert",
+      "parent": "gwo-root",
+      "tier": 1,
+      "label": "Deserts",
+      "kind": "concept",
+      "rel": "extremes",
+      "note": "Sahara, Antarctica, Atacama, Gobi."
+     },
+     {
+      "id": "gwo-choke",
+      "parent": "gwo-root",
+      "tier": 1,
+      "label": "Chokepoints",
+      "kind": "concept",
+      "rel": "strategy",
+      "note": "Where geography becomes geopolitics."
+     },
+     {
+      "id": "gwo-hormuz",
+      "parent": "gwo-choke",
+      "tier": 2,
+      "label": "Strait of Hormuz",
+      "kind": "place",
+      "rel": "strait",
+      "note": "Iran and Oman; about a fifth of world oil."
+     },
+     {
+      "id": "gwo-malacca",
+      "parent": "gwo-choke",
+      "tier": 2,
+      "label": "Strait of Malacca",
+      "kind": "place",
+      "rel": "strait",
+      "note": "Indian Ocean to the Pacific."
+     },
+     {
+      "id": "gwo-bab",
+      "parent": "gwo-choke",
+      "tier": 2,
+      "label": "Bab-el-Mandeb",
+      "kind": "place",
+      "rel": "strait",
+      "note": "Southern Red Sea, on the approach to Suez."
+     },
+     {
+      "id": "gwo-bos",
+      "parent": "gwo-choke",
+      "tier": 2,
+      "label": "Bosphorus and Dardanelles",
+      "kind": "place",
+      "rel": "strait",
+      "note": "Black Sea to the Mediterranean, under the Montreux Convention."
+     },
+     {
+      "id": "gwo-suez",
+      "parent": "gwo-choke",
+      "tier": 2,
+      "label": "Suez Canal",
+      "kind": "place",
+      "rel": "canal",
+      "note": "Opened 1869, nationalised 1956."
+     },
+     {
+      "id": "gwo-panama",
+      "parent": "gwo-choke",
+      "tier": 2,
+      "label": "Panama Canal",
+      "kind": "place",
+      "rel": "canal",
+      "note": "Opened 1914, handed to Panama in 1999."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
    "id": "geo-ghats",
    "rank": 6,
    "depth": "deep",
@@ -2211,6 +2413,79 @@
      ],
      "answer": 2,
      "explain": "The passage says most but not all deficient monsoons coincided with the phase, and that a positive dipole can offset it."
+    }
+   ]
+  },
+  {
+   "id": "geo-p12",
+   "kind": "static",
+   "month": "geography",
+   "topicIds": [
+    "geo-world"
+   ],
+   "category": "Geography",
+   "tags": [
+    "Suez",
+    "Chokepoints"
+   ],
+   "difficulty": 3,
+   "title": "A hundred miles of water",
+   "passage": "It is a little over a hundred and twenty miles of dredged channel with no locks, because the two seas it joins sit at almost the same level. A French company completed it in 1869 after ten years of work and an appalling death toll among the conscripted Egyptian labourers who dug the first stages by hand. Egypt's ruler had taken a large shareholding to fund the project and was bankrupt within six years; the shares were bought by the British government in 1875, which is how a waterway in Egypt came to be controlled from London.\n\nIts importance is a matter of arithmetic. A cargo ship sailing from the Persian Gulf to Rotterdam saves roughly three thousand five hundred nautical miles against the route around the southern tip of Africa, which at commercial speeds is nine or ten days of fuel and charter. About twelve per cent of world trade by volume, and a larger share of container traffic, passes through it.\n\nIn July 1956 the Egyptian president nationalised the operating company, announcing it in a speech at Alexandria in which a code word triggered the seizure while he was still speaking. The stated reason was to fund a dam on the Nile after the United States and Britain withdrew financing for it. Britain and France, with Israel, invaded in October. They were forced to withdraw within weeks, not by military defeat but by American financial pressure and a Soviet threat, and the episode is generally taken as the moment the two European powers stopped being able to act independently of Washington. India, which had large commercial interests in the route, opposed the invasion.\n\nThe waterway has closed twice for long periods, from 1956 to 1957 and from 1967 to 1975 after the June war, when fourteen ships were trapped inside for eight years and their crews formed an association. A single grounded container ship blocked it for six days in 2021 and held up several billion dollars of trade a day, which was a useful reminder that a chokepoint is defined by what happens when it stops.",
+   "questions": [
+    {
+     "q": "The waterway described was opened in:",
+     "options": [
+      "1856",
+      "1869",
+      "1875",
+      "1914"
+     ],
+     "answer": 1,
+     "explain": "The Suez Canal opened in 1869; the Panama Canal opened in 1914."
+    },
+    {
+     "q": "It has no locks because:",
+     "options": [
+      "It is very short",
+      "The two seas are at almost the same level",
+      "It is tidal",
+      "It was cut through rock"
+     ],
+     "answer": 1,
+     "explain": "The passage gives the sea-level equivalence as the reason."
+    },
+    {
+     "q": "The nationalisation of the operating company took place in:",
+     "options": [
+      "1952",
+      "1956",
+      "1967",
+      "1975"
+     ],
+     "answer": 1,
+     "explain": "Nasser nationalised the canal company in July 1956."
+    },
+    {
+     "q": "On the passage, the invaders withdrew mainly because of:",
+     "options": [
+      "Military defeat",
+      "American financial pressure and a Soviet threat",
+      "A Security Council resolution",
+      "An Egyptian counter-attack"
+     ],
+     "answer": 1,
+     "explain": "The passage attributes the withdrawal to financial and diplomatic pressure, not defeat."
+    },
+    {
+     "q": "The alternative route it saves shipping from is around:",
+     "options": [
+      "Cape Horn",
+      "The southern tip of Africa",
+      "The Strait of Malacca",
+      "The Bering Strait"
+     ],
+     "answer": 1,
+     "explain": "The Cape of Good Hope route, roughly 3,500 nautical miles longer."
     }
    ]
   }
