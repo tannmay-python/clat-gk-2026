@@ -97,16 +97,15 @@ svg { display: block; }
 :focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 3px; }
 ::selection { background: var(--brand-soft); color: var(--ink); }
 
-/* Lily field. Six-tepal outlines, tiled, barely there — a texture you notice
-   on the second look and never while reading. */
+/* Elegant orange lily wallpaper pattern. Tiled, soft warm vectors with sweeping petals & stamens. */
 body::before {
   content: "";
   position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260' viewBox='0 0 260 260'%3E%3Cg fill='none' stroke='%23e07a2c' stroke-width='1.05' stroke-linejoin='round'%3E%3Cg transform='translate(62 58)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(60)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(180)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(300)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cg stroke-width='.75'%3E%3Cpath d='M0 -2L-9 -26'/%3E%3Cpath d='M0 -2L0 -30'/%3E%3Cpath d='M0 -2L9 -26'/%3E%3C/g%3E%3C/g%3E%3Cg transform='translate(190 186) rotate(26) scale(.66)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(60)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(180)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(300)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3C/g%3E%3Cg transform='translate(196 46) rotate(-18) scale(.38)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3C/g%3E%3Cg transform='translate(40 200) rotate(42) scale(.34)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  background-size: 260px 260px;
-  opacity: 0.075;
+  background-image: url("../lily-pattern.svg");
+  background-size: 360px 360px;
+  opacity: 0.14;
 }
-:root[data-theme="dark"] body::before { opacity: 0.062; }
+:root[data-theme="dark"] body::before { opacity: 0.09; }
 
 /* ── shell ──────────────────────────────────────────────────────────── */
 .top {
