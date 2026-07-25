@@ -1,5 +1,5 @@
 import { getManifest, getSection, getTopic } from './data.js';
-import { esc, md, meter, fmtDate, highlight, store } from './ui.js';
+import { esc, md, meter, fmtDate, highlight, store, tick, isDone, toggleDone, doneCount } from './ui.js';
 import { renderMap, wireMap } from './map.js';
 import { viewQuizSetup } from './quiz.js';
 import { viewHow } from './how.js';
@@ -82,20 +82,23 @@ async function viewHome() {
       <div class="stat"><b>${m.stats.nodes.toLocaleString('en-IN')}</b><span>map connections</span></div>
       <div class="stat"><b>${m.stats.questions}</b><span>questions in the bank</span></div>
     </div>
+    <div style="margin-top:24px;max-width:460px">${progressBar(m.topics.map(t => t.id))}</div>
   </section>
 
   <h2 style="font-size:17px;margin-bottom:12px">Months</h2>
   <div class="month-grid" style="margin-bottom:34px">
     ${months.map(s => `<a class="month-cell" href="#/s/${encodeURIComponent(s.id)}">
       <b>${esc(s.label)}</b><span>${s.topicCount} topics · ${s.passageCount * 5} questions</span>
-      <em>${esc(clip(s.blurb, 110))}</em></a>`).join('')}
+      <em>${esc(clip(s.blurb, 110))}</em>
+      ${progressBar(m.topics.filter(t => t.section === s.id).map(t => t.id), false)}</a>`).join('')}
   </div>
 
   ${statics.length ? `<h2 style="font-size:17px;margin-bottom:12px">Static GK</h2>
   <div class="month-grid" style="margin-bottom:34px">
     ${statics.map(s => `<a class="month-cell" href="#/s/${encodeURIComponent(s.id)}">
       <b>${esc(s.label)}</b><span>${s.topicCount} topics · ${s.passageCount * 5} questions</span>
-      <em>${esc(clip(s.blurb, 110))}</em></a>`).join('')}
+      <em>${esc(clip(s.blurb, 110))}</em>
+      ${progressBar(m.topics.filter(t => t.section === s.id).map(t => t.id), false)}</a>`).join('')}
   </div>` : ''}
 
   <h2 style="font-size:17px;margin-bottom:4px">If you only had a week</h2>
@@ -107,22 +110,57 @@ const clip = (s, n) => { s = String(s || ''); return s.length > n ? s.slice(0, n
 
 function row(t, m) {
   const sec = m.sections.find(s => s.id === t.section);
-  return `<a class="trow" href="#/topic/${encodeURIComponent(t.id)}">
-    <span class="rk">${t.rank}</span>
-    <span>
-      <h3>${esc(t.title)}</h3>
-      <p class="hk">${esc(t.hook || '')}</p>
-      <span class="mt">
-        <span class="chip">${esc(t.category || '')}</span>
-        ${sec ? `<span class="chip">${esc(sec.label)}</span>` : ''}
-        ${t.date ? `<span style="font-size:11.5px;color:var(--faint)">${esc(fmtDate(t.date))}</span>` : ''}
+  return `<div class="trow${isDone(t.id) ? ' done' : ''}" data-row="${esc(t.id)}">
+    ${tick(t.id)}
+    <a class="tmain" href="#/topic/${encodeURIComponent(t.id)}">
+      <span class="rk">${t.rank}</span>
+      <span>
+        <h3>${esc(t.title)}</h3>
+        <p class="hk">${esc(t.hook || '')}</p>
+        <span class="mt">
+          <span class="chip">${esc(t.category || '')}</span>
+          ${sec ? `<span class="chip">${esc(sec.label)}</span>` : ''}
+          ${t.date ? `<span style="font-size:11.5px;color:var(--faint)">${esc(fmtDate(t.date))}</span>` : ''}
+        </span>
       </span>
-    </span>
+    </a>
     <span class="rt">
       <span class="dp ${t.depth === 'deep' ? 'deep' : ''}">${esc(t.depth || '')}</span>
       ${meter(t.importance || 3)}
     </span>
-  </a>`;
+  </div>`;
+}
+
+// One delegated listener for every tick on the page, whatever view drew it.
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-tick]');
+  if (!b) return;
+  e.preventDefault();
+  const id = b.dataset.tick;
+  const on = toggleDone(id);
+  for (const el of document.querySelectorAll(`[data-tick="${CSS.escape(id)}"]`)) {
+    el.classList.toggle('on', on);
+    el.setAttribute('aria-checked', String(on));
+    el.closest('[data-row]')?.classList.toggle('done', on);
+    if (el.dataset.label) el.querySelector('span').textContent = on ? 'Read' : 'Mark as read';
+  }
+  document.querySelectorAll('[data-progress]').forEach(refreshProgress);
+});
+
+function refreshProgress(el) {
+  const ids = JSON.parse(el.dataset.progress || '[]');
+  if (!ids.length) return;
+  const n = doneCount(ids);
+  el.style.setProperty('--p', (n / ids.length * 100).toFixed(1) + '%');
+  const label = el.querySelector('[data-progress-label]');
+  if (label) label.textContent = `${n} of ${ids.length} read`;
+}
+
+function progressBar(ids, label = true) {
+  return `<div class="prog-wrap" data-progress='${JSON.stringify(ids)}' style="--p:${(doneCount(ids) / Math.max(1, ids.length) * 100).toFixed(1)}%">
+    <div class="prog-track"><i></i></div>
+    ${label ? `<span class="prog-num" data-progress-label>${doneCount(ids)} of ${ids.length} read</span>` : ''}
+  </div>`;
 }
 
 /* ── section index ────────────────────────────────────────────────── */
@@ -174,6 +212,7 @@ async function viewSection(id) {
       <h1>${esc(sec.label)}</h1>
       <p class="sub">${esc(sec.blurb || '')}</p>
       <p style="margin-top:10px;font-size:13px;color:var(--faint)">${sec.topics.length} topics, ranked. ${sec.passages ? sec.passages.length * 5 : 0} questions in the bank from this section.</p>
+      <div style="margin-top:14px;max-width:420px">${progressBar(sec.topics.map(t => t.id))}</div>
     </div>
     <div class="filters">
       <button data-c="">All</button>
@@ -222,6 +261,10 @@ async function viewTopic(id) {
       <span>Exam weight ${meter(topic.importance || 3)}</span>
       ${(topic.tags || []).slice(0, 6).map(t => `<span class="chip">${esc(t)}</span>`).join('')}
     </div>
+    <button class="donebtn${isDone(topic.id) ? ' on' : ''}" data-tick="${esc(topic.id)}" data-label="1" role="checkbox" aria-checked="${isDone(topic.id)}">
+      <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M2.5 8.5 6 12l7.5-8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>${isDone(topic.id) ? 'Read' : 'Mark as read'}</span>
+    </button>
   </header>
 
   <div class="topic-body">
@@ -303,14 +346,17 @@ async function viewSearch() {
     out.innerHTML = hits.length
       ? `<p style="font-size:13px;color:var(--muted);margin-bottom:10px">${hits.length} match${hits.length === 1 ? '' : 'es'}</p>
          <div class="tlist">${hits.map(({ t }) => `
-           <a class="trow" href="#/topic/${encodeURIComponent(t.id)}">
-             <span class="rk">${t.rank}</span>
-             <span><h3>${highlight(t.title, input.value)}</h3>
-             <p class="hk">${highlight(t.hook || '', input.value)}</p>
-             <span class="mt"><span class="chip">${esc(t.category || '')}</span>
-             <span class="chip">${esc((m.sections.find(s => s.id === t.section) || {}).label || '')}</span></span></span>
+           <div class="trow${isDone(t.id) ? ' done' : ''}" data-row="${esc(t.id)}">
+             ${tick(t.id)}
+             <a class="tmain" href="#/topic/${encodeURIComponent(t.id)}">
+               <span class="rk">${t.rank}</span>
+               <span><h3>${highlight(t.title, input.value)}</h3>
+               <p class="hk">${highlight(t.hook || '', input.value)}</p>
+               <span class="mt"><span class="chip">${esc(t.category || '')}</span>
+               <span class="chip">${esc((m.sections.find(s => s.id === t.section) || {}).label || '')}</span></span></span>
+             </a>
              <span class="rt">${meter(t.importance || 3)}</span>
-           </a>`).join('')}</div>`
+           </div>`).join('')}</div>`
       : `<div class="empty"><strong>Nothing found</strong>Try a shorter word, or a person's surname.</div>`;
   };
 

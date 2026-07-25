@@ -65,6 +65,33 @@ export function highlight(text, q) {
   return esc(text).replace(new RegExp('(' + parts.join('|') + ')', 'ig'), '<mark>$1</mark>');
 }
 
+/* ── read-tracking ──────────────────────────────────────────────────
+   One flat map of topic id to timestamp, in localStorage. */
+
+let doneMap = null;
+export function done() {
+  if (!doneMap) doneMap = store.get('done', {}) || {};
+  return doneMap;
+}
+export function isDone(id) { return !!done()[id]; }
+export function toggleDone(id) {
+  const d = done();
+  if (d[id]) delete d[id]; else d[id] = Date.now();
+  store.set('done', d);
+  return !!d[id];
+}
+export function doneCount(ids) {
+  const d = done();
+  return ids.reduce((n, id) => n + (d[id] ? 1 : 0), 0);
+}
+
+export function tick(id) {
+  const on = isDone(id);
+  return `<button class="tick${on ? ' on' : ''}" data-tick="${esc(id)}" role="checkbox" aria-checked="${on}" title="${on ? 'Read' : 'Mark as read'}" aria-label="${on ? 'Mark as unread' : 'Mark as read'}">
+    <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true"><path d="M2.5 8.5 6 12l7.5-8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>`;
+}
+
 export const store = {
   get(k, d) { try { return JSON.parse(localStorage.getItem('clatgk.' + k)) ?? d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem('clatgk.' + k, JSON.stringify(v)); } catch {} }
