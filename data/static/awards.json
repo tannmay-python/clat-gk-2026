@@ -1287,6 +1287,154 @@
      "explain": "Organisations may win the peace prize, and several have."
     }
    ]
+  },
+  {
+   "id": "awd-p3",
+   "kind": "static",
+   "month": "awards",
+   "topicIds": [
+    "awd-india"
+   ],
+   "category": "Awards & Honours",
+   "tags": [
+    "Padma Awards",
+    "Bharat Ratna",
+    "Article 18"
+   ],
+   "difficulty": 2,
+   "title": "Honours in a republic that abolished titles",
+   "passage": "One article of the Constitution abolishes titles and forbids the state to confer any, except a military or academic distinction. When the civilian awards were instituted in 1954 a question arose almost immediately about whether they survived that prohibition, and it reached the Supreme Court twice. The answer, given finally in 1995, was that they are not titles within the meaning of the article because they are not appended to the holder's name and confer no precedence or privilege. The judgment added a condition that the recipient may not use the award as a prefix or suffix, and that misuse may lead to forfeiture.\n\nThe awards were suspended twice, in 1977 and again in 1980, on the ground that they were nevertheless titles in substance, and restored on both occasions. The highest of them is conferred for exceptional service of the highest order, was originally confined to the arts, literature, science and public service, and was extended in 2011 to any field of human endeavour. It may be awarded posthumously, which was not originally permitted, and no more than three are ordinarily given in a year. The three lower awards descend in order and are announced on the eve of Republic Day; the number of those has crossed a hundred and twenty in recent years, with a stated preference for people working outside metropolitan visibility.\n\nThe gallantry decorations run on a separate ladder and are of two kinds. Three are awarded for valour in the presence of the enemy, in descending order, the first of them instituted in 1950 and awarded twenty-one times, most of them posthumously. Three others are awarded for valour away from the battlefield, and may go to civilians.\n\nNeither system involves a cash grant of any significance, and neither carries a formal precedence in the warrant of precedence except that the highest civilian award places its holder immediately after the Cabinet ministers and before the chiefs of staff.",
+   "questions": [
+    {
+     "q": "The article abolishing titles is:",
+     "options": [
+      "Article 14",
+      "Article 15",
+      "Article 18",
+      "Article 19"
+     ],
+     "answer": 2,
+     "explain": "Article 18 abolishes titles other than military and academic distinctions."
+    },
+    {
+     "q": "The Supreme Court in 1995 held that the civilian awards:",
+     "options": [
+      "Are titles and unconstitutional",
+      "Are not titles because they confer no precedence and are not appended to the name",
+      "Are titles but permitted by convention",
+      "May be used as a suffix"
+     ],
+     "answer": 1,
+     "explain": "They were held not to be titles, with a condition against use as a prefix or suffix."
+    },
+    {
+     "q": "The awards were suspended in:",
+     "options": [
+      "1962 and 1971",
+      "1977 and 1980",
+      "1984 and 1989",
+      "1992 and 1995"
+     ],
+     "answer": 1,
+     "explain": "Suspended in 1977 and again in 1980, and restored both times."
+    },
+    {
+     "q": "The highest civilian award was extended to any field of human endeavour in:",
+     "options": [
+      "1980",
+      "1995",
+      "2011",
+      "2019"
+     ],
+     "answer": 2,
+     "explain": "The 2011 change removed the restriction to arts, literature, science and public service."
+    },
+    {
+     "q": "The gallantry awards for valour in the presence of the enemy number:",
+     "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Six"
+     ],
+     "answer": 1,
+     "explain": "Three, with three further awards for valour away from the battlefield."
+    }
+   ]
+  },
+  {
+   "id": "awd-p4",
+   "kind": "static",
+   "month": "awards",
+   "topicIds": [
+    "awd-sports"
+   ],
+   "category": "Awards & Honours",
+   "tags": [
+    "Sports",
+    "Olympics",
+    "Trophies"
+   ],
+   "difficulty": 2,
+   "title": "What the trophy is for",
+   "passage": "Sports questions in a general knowledge paper are rarely about who won. They are about which competition a trophy belongs to, and the option set is built from trophies of the same shape in different sports.\n\nCricket supplies the largest cluster. The domestic first-class championship is named after a nineteenth-century prince who played for England; the one-day domestic tournament after a Maharaja; the Test series between India and Australia after two players, one from each side; and the series between India and England after two captains. The women's domestic one-day trophy is named after a former captain who later administered the game.\n\nHockey has a trophy named after a Bengali maharaja for the national championship, and India's eight Olympic golds in the sport remain the national record for any team event. Football's national championship is named after a nineteenth-century governor of Bengal, and the oldest surviving club tournament in Asia after a Calcutta business family. Badminton's international team competitions are named after an English player for men and an English player for women, and the national championship after a princely donor.\n\nThe Olympic vocabulary is worth learning as a set. The modern games were revived in 1896 at Athens on the initiative of a French educationist, and the movement is run by a committee based at Lausanne. The motto acquired a fourth word in 2021. The rings are five and stand for the inhabited continents, and their colours together with the white background were chosen because at least one appeared in every national flag of the time. India's first individual medal came in 1900, its first individual gold in 2008, and its best single-games haul in 2021.\n\nThe pattern to notice is that the naming rarely tells you the sport. Only the accompanying detail does, which is exactly what a well-set question removes.",
+   "questions": [
+    {
+     "q": "The domestic first-class cricket championship in India is the:",
+     "options": [
+      "Duleep Trophy",
+      "Ranji Trophy",
+      "Irani Cup",
+      "Deodhar Trophy"
+     ],
+     "answer": 1,
+     "explain": "The Ranji Trophy, named after Ranjitsinhji, who played for England."
+    },
+    {
+     "q": "The Test series between India and England is played for the:",
+     "options": [
+      "Border-Gavaskar Trophy",
+      "Pataudi Trophy",
+      "Frank Worrell Trophy",
+      "Basil D'Oliveira Trophy"
+     ],
+     "answer": 1,
+     "explain": "The Pataudi Trophy, named after the two captains; India and Australia play for the Border-Gavaskar Trophy."
+    },
+    {
+     "q": "The badminton team competition for men is the:",
+     "options": [
+      "Uber Cup",
+      "Thomas Cup",
+      "Sudirman Cup",
+      "Davis Cup"
+     ],
+     "answer": 1,
+     "explain": "Thomas Cup for men, Uber Cup for women; Davis Cup is tennis."
+    },
+    {
+     "q": "The modern Olympic Games were revived in:",
+     "options": [
+      "1888 at Paris",
+      "1896 at Athens",
+      "1900 at Paris",
+      "1904 at St Louis"
+     ],
+     "answer": 1,
+     "explain": "Athens, 1896, on the initiative of Pierre de Coubertin."
+    },
+    {
+     "q": "The five Olympic rings stand for:",
+     "options": [
+      "The five founding nations",
+      "The inhabited continents",
+      "The five original sports",
+      "The five host cities"
+     ],
+     "answer": 1,
+     "explain": "The rings represent the inhabited continents, and their colours with the white ground covered every flag of the time."
+    }
+   ]
   }
  ]
 }

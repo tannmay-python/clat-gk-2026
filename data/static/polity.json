@@ -4193,6 +4193,78 @@
      "explain": "Minerva Mills v. Union of India (1980) struck down the blanket immunity given by the 42nd Amendment."
     }
    ]
+  },
+  {
+   "id": "polity-p6",
+   "kind": "static",
+   "month": "polity",
+   "topicIds": [],
+   "category": "Polity & Constitution",
+   "tags": [
+    "Election Commission",
+    "Article 324",
+    "Model Code"
+   ],
+   "difficulty": 2,
+   "title": "The body that runs the largest election",
+   "passage": "The Constitution gives the superintendence, direction and control of elections to Parliament and the state legislatures, and of the offices of President and Vice President, to a single commission, and says nothing about how many people should sit on it. For most of its existence it had one. Two additional posts were created briefly in 1989, abolished, and recreated in 1993; the arrangement was challenged and upheld, and the body has been three-member since, deciding by majority.\n\nRemoval is where the asymmetry lies. The Chief Election Commissioner may be removed only in the manner and on the grounds applicable to a judge of the Supreme Court, which means an address by both Houses with a special majority. The other commissioners may be removed by the President on the recommendation of the Chief, which is a considerably weaker protection and has been criticised on the ground that a majority-deciding body whose minority members serve at the pleasure of the chairman is not really a collegiate body. Appointment was for seventy years made by the government alone. The Supreme Court intervened in 2023 and prescribed a panel of the Prime Minister, the Leader of the Opposition and the Chief Justice until Parliament legislated; Parliament legislated the following year and replaced the Chief Justice with a Union minister.\n\nThe commission's most-used instrument has no statutory force at all. The code of conduct that governs campaign behaviour from the announcement of a schedule to the declaration of results is an agreement among parties, enforced by moral authority, adverse publicity, and the commission's power to censure or to bar a campaigner for a period. Its provisions on government advertising, new schemes and the use of official machinery are the ones most often invoked.\n\nThe commission also decides disputes over party symbols under a 1968 order, recognises parties as national or state based on vote share and seats, and reports to the President on the disqualification of sitting legislators on certain grounds, where its opinion is binding.",
+   "questions": [
+    {
+     "q": "The commission derives its powers from:",
+     "options": [
+      "Article 280",
+      "Article 315",
+      "Article 324",
+      "Article 338"
+     ],
+     "answer": 2,
+     "explain": "Article 324 vests superintendence, direction and control of elections in the Election Commission."
+    },
+    {
+     "q": "The Chief Election Commissioner may be removed:",
+     "options": [
+      "By the President at pleasure",
+      "In the same manner as a Supreme Court judge",
+      "By a simple majority in the Lok Sabha",
+      "By the Election Commission itself"
+     ],
+     "answer": 1,
+     "explain": "The same procedure and grounds as for a Supreme Court judge."
+    },
+    {
+     "q": "Other Election Commissioners may be removed:",
+     "options": [
+      "Only by Parliament",
+      "By the President on the Chief Election Commissioner's recommendation",
+      "By the Supreme Court",
+      "They are irremovable"
+     ],
+     "answer": 1,
+     "explain": "Which is the asymmetry the passage identifies."
+    },
+    {
+     "q": "The Model Code of Conduct:",
+     "options": [
+      "Is a statute",
+      "Has no statutory force",
+      "Is part of the Representation of the People Act",
+      "Was inserted by a constitutional amendment"
+     ],
+     "answer": 1,
+     "explain": "It is an agreement among parties, enforced by the commission's moral and residual authority."
+    },
+    {
+     "q": "On the passage, the 2024 law differed from the Court's 2023 formula by:",
+     "options": [
+      "Adding the Leader of the Opposition",
+      "Replacing the Chief Justice with a Union minister",
+      "Removing the Prime Minister",
+      "Making the appointment subject to parliamentary approval"
+     ],
+     "answer": 1,
+     "explain": "Parliament substituted a Cabinet minister for the Chief Justice on the selection panel."
+    }
+   ]
   }
  ]
 }

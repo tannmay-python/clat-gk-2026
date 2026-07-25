@@ -1529,6 +1529,153 @@
      "explain": "The Kigali Amendment phases down hydrofluorocarbons, which do not harm ozone but warm strongly."
     }
    ]
+  },
+  {
+   "id": "sci-p4",
+   "kind": "static",
+   "month": "science-environment",
+   "topicIds": [
+    "sci-isro"
+   ],
+   "category": "Science & Technology",
+   "tags": [
+    "ISRO",
+    "Space Law"
+   ],
+   "difficulty": 2,
+   "title": "Cheap to orbit",
+   "passage": "The organisation was founded in 1969 out of a committee set up seven years earlier, and its first physicist-director argued that a poor country had no business competing in manned flight or planetary exploration for prestige, but every reason to use satellites for communication, weather and resource surveys. The early sounding rockets were carried to the launch pad on bicycles from a church in a Kerala fishing village, a detail repeated so often that it has become slightly misleading; the programme was serious from the start and the first satellite went up in 1975 on a Soviet rocket.\n\nThe workhorse launcher first flew successfully in 1994 and has since put up more than fifty foreign customers' payloads, including a single flight in 2017 carrying a hundred and four satellites. Its reliability rather than its power is the selling point. The heavier vehicle in the fleet took much longer, because the cryogenic upper stage it needed was blocked by an export control regime in the early 1990s and had to be developed domestically over two decades.\n\nThe two missions that changed the organisation's international standing were both cheap. A lunar orbiter in 2008 carried an instrument that found water molecules on the moon's surface. A Mars orbiter reached its target in 2014 at the first attempt, which no other space agency had managed, at a cost repeatedly compared to that of a feature film. A later lunar mission landed near the south pole in 2023, the first to do so.\n\nThe legal frame is often overlooked. Outer space is governed by a 1967 treaty declaring it the province of all mankind, prohibiting national appropriation and the placing of weapons of mass destruction in orbit, and making states internationally responsible for national activities including those of their private operators. India is a party to that treaty and to three of the four agreements that followed it. A domestic policy opened launch and satellite services to private companies in 2020 and created a regulator to authorise them, which is why an Indian private orbital rocket is now a plausible sentence.",
+   "questions": [
+    {
+     "q": "The satellite launcher described as the workhorse first flew successfully in:",
+     "options": [
+      "1975",
+      "1980",
+      "1994",
+      "2001"
+     ],
+     "answer": 2,
+     "explain": "The PSLV's first fully successful flight was in 1994."
+    },
+    {
+     "q": "The heavier vehicle was delayed mainly because:",
+     "options": [
+      "Of funding cuts",
+      "A cryogenic upper stage was blocked by export controls",
+      "The launch site was unsuitable",
+      "Of a series of launch failures"
+     ],
+     "answer": 1,
+     "explain": "Cryogenic engine technology had to be developed domestically after the transfer was blocked."
+    },
+    {
+     "q": "The 2014 mission was notable because it:",
+     "options": [
+      "Landed on Mars",
+      "Reached Mars orbit at the first attempt",
+      "Carried a crew",
+      "Returned samples"
+     ],
+     "answer": 1,
+     "explain": "No other agency had reached Mars orbit on its first attempt."
+    },
+    {
+     "q": "The 1967 treaty declares outer space to be:",
+     "options": [
+      "Res nullius",
+      "The common heritage of mankind",
+      "The province of all mankind",
+      "Subject to national appropriation"
+     ],
+     "answer": 2,
+     "explain": "The Outer Space Treaty uses the phrase province of all mankind; common heritage of mankind belongs to the law of the sea."
+    },
+    {
+     "q": "Under that treaty, activities of private operators are:",
+     "options": [
+      "Unregulated",
+      "The responsibility of the launching company alone",
+      "The international responsibility of the state concerned",
+      "Governed only by domestic law"
+     ],
+     "answer": 2,
+     "explain": "States bear international responsibility for national activities, including private ones."
+    }
+   ]
+  },
+  {
+   "id": "sci-p5",
+   "kind": "static",
+   "month": "science-environment",
+   "topicIds": [
+    "sci-nuclear"
+   ],
+   "category": "Science & Technology",
+   "tags": [
+    "Nuclear",
+    "NPT",
+    "Deterrence"
+   ],
+   "difficulty": 3,
+   "title": "Outside the treaty",
+   "passage": "The treaty opened for signature in 1968 and divides the world by a date. A nuclear weapon state is defined as one that manufactured and exploded a nuclear device before 1 January 1967, which makes exactly five, and they happen to be the five permanent members of the Security Council. Everyone else undertakes never to acquire such weapons, accepts safeguards on civil facilities, and receives in exchange an assurance of access to peaceful nuclear technology and a promise, in one article, that the five will pursue negotiations in good faith on disarmament.\n\nIndia declined to sign, and has said the same thing about it for fifty-five years: that a treaty which permits five states to keep weapons indefinitely while forbidding them to everyone else is discriminatory, and that the disarmament article has never been honoured. It tested a device in 1974, described as a peaceful nuclear explosion, which produced an international supply cartel designed specifically to prevent a repeat. It tested again in 1998 and declared itself a weapon state, then announced a doctrine of credible minimum deterrence with no first use against a non-nuclear state, and a commitment to massive retaliation if attacked.\n\nThe isolation ended in an unusual way. A bilateral agreement with the United States, followed by a safeguards agreement with the atomic energy agency and a one-country exemption from the supply cartel in 2008, allowed India to trade in nuclear material and technology while remaining outside the treaty and keeping its military facilities unsafeguarded. No other state has that arrangement. India has since joined three of the four export control regimes but not the cartel itself, where consensus has been withheld.\n\nTwo later instruments matter. A comprehensive test ban treaty was adopted in 1996; India refused it too, on the ground that it froze the existing hierarchy without a disarmament timetable, and the treaty has never entered into force because eight listed states including India have not ratified it. A treaty prohibiting nuclear weapons outright entered into force in 2021, supported by no state that possesses them.",
+   "questions": [
+    {
+     "q": "The treaty defines a nuclear weapon state by reference to a test before:",
+     "options": [
+      "1 January 1965",
+      "1 January 1967",
+      "1 January 1970",
+      "1 January 1974"
+     ],
+     "answer": 1,
+     "explain": "The cut-off is 1 January 1967, which fixes the number at five."
+    },
+    {
+     "q": "India's principal objection to it is that it is:",
+     "options": [
+      "Unenforceable",
+      "Discriminatory, permitting five states to retain weapons",
+      "Too intrusive in its inspections",
+      "Inconsistent with the UN Charter"
+     ],
+     "answer": 1,
+     "explain": "The passage states the discrimination objection and the unfulfilled disarmament article."
+    },
+    {
+     "q": "The 1974 test led directly to the creation of:",
+     "options": [
+      "The IAEA",
+      "The Nuclear Suppliers Group",
+      "The Missile Technology Control Regime",
+      "The Wassenaar Arrangement"
+     ],
+     "answer": 1,
+     "explain": "The Nuclear Suppliers Group was formed in response to the 1974 test."
+    },
+    {
+     "q": "The 2008 arrangement allowed India to:",
+     "options": [
+      "Join the treaty as a weapon state",
+      "Trade in nuclear material while remaining outside the treaty",
+      "Place all facilities under safeguards",
+      "Withdraw from the IAEA"
+     ],
+     "answer": 1,
+     "explain": "A one-country exemption permitted civil nuclear trade with military facilities unsafeguarded."
+    },
+    {
+     "q": "The comprehensive test ban treaty has not entered into force because:",
+     "options": [
+      "It was never adopted",
+      "Eight listed states including India have not ratified it",
+      "The Security Council vetoed it",
+      "It expired in 2016"
+     ],
+     "answer": 1,
+     "explain": "Entry into force requires ratification by all forty-four listed states."
+    }
+   ]
   }
  ]
 }

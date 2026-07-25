@@ -1644,6 +1644,80 @@
      "explain": "NITI Aayog advises and publishes; allocation moved to the Finance Ministry."
     }
    ]
+  },
+  {
+   "id": "economy-p4",
+   "kind": "static",
+   "month": "economy",
+   "topicIds": [
+    "eco-gst"
+   ],
+   "category": "Economy",
+   "tags": [
+    "GST",
+    "Article 279A",
+    "Federalism"
+   ],
+   "difficulty": 3,
+   "title": "One tax, thirty-one legislatures",
+   "passage": "Before 2017 a manufactured good crossing India could attract excise from the centre, value added tax from each state, an entry tax from a municipality, a central sales tax that the exporting state kept, and a cascade of levies on levies that nobody could compute exactly. The reform took seventeen years from the first committee report, and it required something no ordinary statute could deliver: every state surrendering the power to tax the sale of goods, and the centre surrendering the power to tax their manufacture, simultaneously.\n\nThe instrument was a constitutional amendment in 2016. It inserted a new article creating a council of the union finance minister and one minister from every state, and gave both Parliament and the state legislatures concurrent power to make laws on the new tax, with the centre alone empowered to levy it on inter-state supply and to apportion the proceeds. Voting in the council was weighted so that neither side could act alone: three-quarters of the votes cast are needed, the centre holds a third and the states two-thirds between them.\n\nThe design carries two features that trouble constitutional lawyers. The first is that the tax is destination-based, so revenue accrues where the goods are consumed rather than where they are made, which shifted money from manufacturing states to populous consuming ones and required a compensation guarantee, originally for five years, funded by a cess. The second is the status of the council's word. It was assumed to bind until the Supreme Court held in 2022, in a case about integrated tax on ocean freight, that its recommendations are persuasive only, since both Parliament and the state legislatures possess simultaneous legislative power and neither can be reduced to an executor of another body's decisions.\n\nThat ruling did not cause the system to unravel, and the council's recommendations continue to be adopted. What it did was restate what the amendment had actually done, which was to create a forum for negotiated federalism rather than a supra-legislature.",
+   "questions": [
+    {
+     "q": "The council was created by:",
+     "options": [
+      "Article 269A",
+      "Article 279A",
+      "Article 246A",
+      "Article 366(12A)"
+     ],
+     "answer": 1,
+     "explain": "Article 279A, inserted by the 101st Amendment."
+    },
+    {
+     "q": "Voting in the council requires:",
+     "options": [
+      "A simple majority",
+      "Two-thirds of votes cast",
+      "Three-fourths of votes cast",
+      "Unanimity"
+     ],
+     "answer": 2,
+     "explain": "Three-fourths of weighted votes cast, with the centre holding one-third."
+    },
+    {
+     "q": "The tax is destination-based, which means revenue accrues:",
+     "options": [
+      "Where the goods are manufactured",
+      "Where the goods are consumed",
+      "Where the company is registered",
+      "Equally between the two states"
+     ],
+     "answer": 1,
+     "explain": "Which is why manufacturing states required a compensation guarantee."
+    },
+    {
+     "q": "The 2022 judgment held that the council's recommendations are:",
+     "options": [
+      "Binding on all governments",
+      "Binding on states only",
+      "Persuasive but not binding",
+      "Binding once notified"
+     ],
+     "answer": 2,
+     "explain": "Union of India v. Mohit Minerals held them persuasive, given simultaneous legislative power."
+    },
+    {
+     "q": "On the passage, the reason the reform needed a constitutional amendment was that:",
+     "options": [
+      "It changed the rate structure",
+      "Both centre and states had to surrender existing taxing powers",
+      "It created a new court",
+      "It altered the Finance Commission"
+     ],
+     "answer": 1,
+     "explain": "The simultaneous surrender of powers could not be done by ordinary statute."
+    }
+   ]
   }
  ]
 }

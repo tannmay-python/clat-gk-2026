@@ -2487,6 +2487,154 @@
      "explain": "The DPDP Act removed the override that had permitted disclosure in the public interest."
     }
    ]
+  },
+  {
+   "id": "legal-p5",
+   "kind": "static",
+   "month": "legal-cases",
+   "topicIds": [
+    "law-kesavananda"
+   ],
+   "category": "Law & Judiciary",
+   "tags": [
+    "Basic Structure",
+    "Kesavananda",
+    "Amendment"
+   ],
+   "difficulty": 3,
+   "title": "The limit nobody wrote down",
+   "passage": "The text is not ambiguous. One article says Parliament may in exercise of its constituent power amend by way of addition, variation or repeal any provision of this Constitution in accordance with the procedure laid down. Read plainly, that permits anything, including the repeal of the chapter on fundamental rights.\n\nThe courts arrived at the opposite conclusion in stages, and reversed themselves twice on the way. An early decision in 1951 held that an amendment was not law within the meaning of the article that voids laws inconsistent with fundamental rights, so amendments could not be tested against those rights. A bench of eleven judges in 1967 reversed that, holding that an amendment was law after all and that fundamental rights were therefore beyond amendment altogether, though it applied the ruling only to the future. Parliament answered with an amendment declaring that nothing in the amending article would be subject to the voiding provision and that Parliament's power extended to any provision.\n\nThirteen judges then sat for sixty-eight days in 1972 and 1973. The petitioner was the head of a religious institution in Kerala challenging land legislation; the case became the vehicle for the constitutional question. The judgment runs to more than seven hundred pages and eleven opinions, and the operative order was signed by nine judges and disputed almost immediately. What it held was that the amending power is wide but not unlimited: Parliament may amend any article, including the chapter on rights, but may not damage or destroy the essential features of the document. Which features those are was deliberately not exhaustively listed.\n\nThe doctrine has since been used sparingly and decisively. It struck down a clause inserted during the Emergency that had placed a particular election beyond judicial review. It struck down provisions giving Parliament unlimited amending power and immunising certain laws from challenge, in a judgment holding that the balance between rights and directive principles is itself essential. And it struck down a commission for judicial appointments in 2015. Features identified along the way include judicial review, secularism, federalism, free and fair elections, separation of powers and the rule of law.",
+   "questions": [
+    {
+     "q": "The article permitting amendment is:",
+     "options": [
+      "Article 13",
+      "Article 32",
+      "Article 368",
+      "Article 370"
+     ],
+     "answer": 2,
+     "explain": "Article 368 confers the amending power and prescribes the procedure."
+    },
+    {
+     "q": "The 1967 decision holding fundamental rights unamendable is:",
+     "options": [
+      "Shankari Prasad",
+      "Sajjan Singh",
+      "Golaknath",
+      "Kesavananda Bharati"
+     ],
+     "answer": 2,
+     "explain": "Golaknath v. State of Punjab, decided by eleven judges, applied prospectively."
+    },
+    {
+     "q": "The thirteen-judge case was decided in:",
+     "options": [
+      "1967",
+      "1973",
+      "1975",
+      "1980"
+     ],
+     "answer": 1,
+     "explain": "Kesavananda Bharati v. State of Kerala, 1973."
+    },
+    {
+     "q": "On the passage, what did that judgment hold?",
+     "options": [
+      "No article may be amended",
+      "Any article may be amended but essential features may not be destroyed",
+      "Only fundamental rights may be amended",
+      "Amendments require ratification by all states"
+     ],
+     "answer": 1,
+     "explain": "The amending power is plenary in reach but limited by the basic structure."
+    },
+    {
+     "q": "The judgment holding that the balance between rights and directive principles is itself a basic feature is:",
+     "options": [
+      "Minerva Mills",
+      "Indira Gandhi v. Raj Narain",
+      "Waman Rao",
+      "I.R. Coelho"
+     ],
+     "answer": 0,
+     "explain": "Minerva Mills v. Union of India (1980) struck down clauses inserted by the 42nd Amendment."
+    }
+   ]
+  },
+  {
+   "id": "legal-p6",
+   "kind": "static",
+   "month": "legal-cases",
+   "topicIds": [
+    "law-principles"
+   ],
+   "category": "Law & Judiciary",
+   "tags": [
+    "Contract",
+    "Offer",
+    "Consideration"
+   ],
+   "difficulty": 2,
+   "title": "A smoke ball and a hundred pounds",
+   "passage": "A company advertised a device in the winter of 1891, claiming it prevented influenza, and offered a reward of a hundred pounds to any person who contracted the disease after using it three times daily for two weeks as directed. The advertisement added that a thousand pounds had been deposited with a named bank to show sincerity in the matter. A woman bought one, used it as directed, and caught influenza. She sued for the hundred pounds.\n\nThe company's defences were a catalogue of everything a first-year student is later taught. The advertisement was mere puff, not intended to create legal relations. It was an offer to the whole world and one cannot contract with the world. There had been no communication of acceptance. There was no consideration moving from her. And the terms were too vague to enforce, since no period was specified within which the illness had to occur.\n\nThe court rejected each. The deposit with the bank answered the argument about puff; a person who says he has set money aside to meet claims is not joking. An offer may indeed be made to the world at large, and it ripens into a contract with whoever comes forward and performs the conditions. In an offer of this kind, notification of acceptance before performance is dispensed with, because the offeror by implication indicates that performance is enough. Consideration was found in two places: the inconvenience of using the device as prescribed, and the benefit to the company of the sales the advertisement generated. And the vagueness objection failed because the promise could be given a reasonable construction.\n\nThe case supplies the standard illustration of a unilateral contract and of the line between an offer and an invitation to treat. Goods in a shop window, price lists and auction notices invite offers; an advertisement promising a reward on defined terms makes one.",
+   "questions": [
+    {
+     "q": "The advertisement was held to be:",
+     "options": [
+      "An invitation to treat",
+      "An offer to the world at large",
+      "A mere puff",
+      "A conditional gift"
+     ],
+     "answer": 1,
+     "explain": "An offer capable of acceptance by anyone who performed the conditions."
+    },
+    {
+     "q": "On the passage, communication of acceptance was unnecessary because:",
+     "options": [
+      "The company waived it in writing",
+      "Performance of the conditions was itself acceptance",
+      "The plaintiff had paid for the device",
+      "The offer was made in a newspaper"
+     ],
+     "answer": 1,
+     "explain": "In a unilateral offer the offeror impliedly dispenses with prior notification."
+    },
+    {
+     "q": "The deposit with the bank was relevant to the defence of:",
+     "options": [
+      "Vagueness",
+      "Mere puff",
+      "Lack of consideration",
+      "Privity"
+     ],
+     "answer": 1,
+     "explain": "It showed an intention to be legally bound."
+    },
+    {
+     "q": "Consideration was found in:",
+     "options": [
+      "The purchase price alone",
+      "The inconvenience of use and the benefit of increased sales",
+      "The bank deposit",
+      "The plaintiff's illness"
+     ],
+     "answer": 1,
+     "explain": "The court identified both a detriment to the plaintiff and a benefit to the company."
+    },
+    {
+     "q": "Which of the following is, on the passage, an invitation to treat?",
+     "options": [
+      "A reward advertisement on defined terms",
+      "Goods displayed in a shop window",
+      "A signed written offer",
+      "A promise under seal"
+     ],
+     "answer": 1,
+     "explain": "Displayed goods and price lists invite offers rather than making them."
+    }
+   ]
   }
  ],
  "order": 2
