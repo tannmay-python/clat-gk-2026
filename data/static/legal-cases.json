@@ -1,0 +1,523 @@
+{
+  "id": "legal-cases",
+  "kind": "static",
+  "label": "Landmark Supreme Court Judgments",
+  "order": 2,
+  "blurb": "Constitutional jurisprudence, fundamental rights rulings, and doctrines established by the Supreme Court of India.",
+  "topics": [
+    {
+      "id": "legal-kesavananda-bharati-1973",
+      "rank": 1,
+      "depth": "deep",
+      "importance": 5,
+      "title": "Kesavananda Bharati v. State of Kerala (1973) and the Basic Structure Doctrine",
+      "date": "1973-04-24",
+      "category": "Landmark Judgments",
+      "tags": [
+        "Basic Structure",
+        "Article 368",
+        "Kesavananda Bharati",
+        "Supreme Court",
+        "Constitutional Law"
+      ],
+      "hook": "Decided by a 13-judge bench by a 7-6 majority on 24 April 1973, establishing that Parliament cannot alter the basic structure of the Constitution under Article 368.",
+      "story": "Kesavananda Bharati Sripadagalvaru, head of the Edneer Mutt in Kerala, challenged the Kerala government's land reform acts under Article 26 (right to manage religiously owned property). The Supreme Court convened its largest-ever bench of 13 judges to review earlier judgments in Shankari Prasad (1951), Sajjan Singh (1965), and Golaknath (1967).\n\nBy a narrow 7-6 majority, Chief Justice S.M. Sikri and six other judges held that while Parliament has wide amending powers under Article 368, it cannot amend or alter the basic structure or framework of the Constitution. Chief Justice Sikri enumerated elements of basic structure including supremacy of the Constitution, republican and democratic form of government, secular character, separation of powers, and federal character.\n\nJustice H.R. Khanna provided the decisive vote, holding that 'amendment' implies preservation of the original entity's basic identity rather than its destruction. The judgment upheld the 24th Amendment (affirming Parliament's power to amend fundamental rights) but struck down part of Article 31C added by the 25th Amendment that excluded judicial review.",
+      "facts": [
+        {
+          "k": "Bench Size",
+          "v": "13 Judges (largest in Supreme Court history)"
+        },
+        {
+          "k": "Majority",
+          "v": "7-6 decision"
+        },
+        {
+          "k": "Date of Judgment",
+          "v": "24 April 1973"
+        },
+        {
+          "k": "Chief Justice",
+          "v": "S.M. Sikri"
+        },
+        {
+          "k": "Decisive Vote",
+          "v": "Justice H.R. Khanna"
+        },
+        {
+          "k": "Core Doctrine",
+          "v": "Basic Structure Doctrine"
+        },
+        {
+          "k": "Article Examined",
+          "v": "Article 368 (Amending power of Parliament)"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1951",
+          "what": "Shankari Prasad case: SC holds Parliament can amend Fundamental Rights"
+        },
+        {
+          "when": "1967",
+          "what": "Golaknath case: SC holds Parliament cannot abridge Fundamental Rights"
+        },
+        {
+          "when": "1971",
+          "what": "24th Amendment Act passed to override Golaknath"
+        },
+        {
+          "when": "1973",
+          "what": "Kesavananda Bharati verdict delivers Basic Structure Doctrine"
+        }
+      ],
+      "why": "CLAT heavily tests Kesavananda Bharati: bench size (13), majority ratio (7-6), date (24 April 1973), key judges (CJI SM Sikri, HR Khanna), and overridden cases (Golaknath).",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "Kesavananda Bharati (1973)",
+            "kind": "event",
+            "rel": "core judgment",
+            "note": "Established basic structure limits on Parliament under Article 368."
+          },
+          {
+            "id": "bench",
+            "parent": "root",
+            "tier": 1,
+            "label": "13-Judge Bench (7-6)",
+            "kind": "concept",
+            "rel": "bench size",
+            "note": "Largest bench in Indian judicial history."
+          },
+          {
+            "id": "khanna",
+            "parent": "bench",
+            "tier": 1,
+            "label": "Justice H.R. Khanna",
+            "kind": "person",
+            "rel": "decisive opinion",
+            "note": "Clipped unlimited amending power while upholding 24th Amendment."
+          },
+          {
+            "id": "sikri",
+            "parent": "bench",
+            "tier": 2,
+            "label": "CJI S.M. Sikri",
+            "kind": "person",
+            "rel": "presiding CJI",
+            "note": "Headed the 13-judge bench, retired day after verdict."
+          },
+          {
+            "id": "golaknath",
+            "parent": "root",
+            "tier": 1,
+            "label": "Golaknath (1967)",
+            "kind": "event",
+            "rel": "overruled in part",
+            "note": "11-judge bench had barred any amendment to Fundamental Rights."
+          },
+          {
+            "id": "art368",
+            "parent": "root",
+            "tier": 1,
+            "label": "Article 368",
+            "kind": "law",
+            "rel": "constitutional provision",
+            "note": "Power of Parliament to amend Constitution and procedure therefor."
+          },
+          {
+            "id": "minerva",
+            "parent": "root",
+            "tier": 2,
+            "label": "Minerva Mills (1980)",
+            "kind": "event",
+            "rel": "subsequent affirmation",
+            "note": "Reaffirmed judicial review and limited amending power as basic structure."
+          }
+        ]
+      },
+      "sources": [
+        "https://main.sci.gov.in",
+        "https://indiankanoon.org/doc/257876/"
+      ]
+    },
+    {
+      "id": "legal-maneka-gandhi-1978",
+      "rank": 2,
+      "depth": "deep",
+      "importance": 5,
+      "title": "Maneka Gandhi v. Union of India (1978) and Due Process under Article 21",
+      "date": "1978-01-25",
+      "category": "Landmark Judgments",
+      "tags": [
+        "Article 21",
+        "Maneka Gandhi",
+        "Due Process",
+        "Passports Act",
+        "Fundamental Rights"
+      ],
+      "hook": "Expanded Article 21 from mere protection against executive action to require procedure established by law to be just, fair, and reasonable.",
+      "story": "In 1977, the Janata Party government impounded Maneka Gandhi's passport under Section 10(3)(c) of the Passports Act, 1967, 'in the public interest', giving no reason. Maneka Gandhi challenged this under Article 32.\n\nA 7-judge bench of the Supreme Court held that the right to travel abroad is part of personal liberty under Article 21, overruling AK Gopalan (1950). Justice P.N. Bhagwati articulated that 'procedure established by law' under Article 21 cannot be arbitrary, fanciful, or oppressive; it must satisfy the test of reasonableness and comply with natural justice.\n\nThis verdict interlocked Articles 14, 19, and 21 as a 'Golden Triangle', requiring any law depriving personal liberty to pass all three articles.",
+      "facts": [
+        {
+          "k": "Bench Size",
+          "v": "7 Judges"
+        },
+        {
+          "k": "Key Judge",
+          "v": "Justice P.N. Bhagwati"
+        },
+        {
+          "k": "Overruled Case",
+          "v": "A.K. Gopalan v. State of Madras (1950)"
+        },
+        {
+          "k": "Golden Triangle",
+          "v": "Articles 14, 19, and 21"
+        },
+        {
+          "k": "Core Principle",
+          "v": "Procedure established by law must be just, fair, and reasonable"
+        }
+      ],
+      "why": "CLAT frequently tests the Golden Triangle (Arts 14, 19, 21), AK Gopalan overruling, right to travel abroad under Art 21, and Justice PN Bhagwati's contribution.",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "Maneka Gandhi (1978)",
+            "kind": "event",
+            "rel": "judgment",
+            "note": "Expanded Article 21 right to personal liberty."
+          },
+          {
+            "id": "golden",
+            "parent": "root",
+            "tier": 1,
+            "label": "Golden Triangle (14, 19, 21)",
+            "kind": "concept",
+            "rel": "doctrine",
+            "note": "Interlocked equality, freedom, and personal liberty."
+          },
+          {
+            "id": "gopalan",
+            "parent": "root",
+            "tier": 1,
+            "label": "AK Gopalan (1950)",
+            "kind": "event",
+            "rel": "overruled",
+            "note": "Earlier rigid interpretation of procedure established by law."
+          },
+          {
+            "id": "bhagwati",
+            "parent": "root",
+            "tier": 1,
+            "label": "Justice P.N. Bhagwati",
+            "kind": "person",
+            "rel": "author of opinion",
+            "note": "Pioneered expanded Article 21 and PIL jurisprudence."
+          }
+        ]
+      },
+      "sources": [
+        "https://main.sci.gov.in"
+      ]
+    },
+    {
+      "id": "legal-puttaswamy-2017",
+      "rank": 3,
+      "depth": "deep",
+      "importance": 5,
+      "title": "K.S. Puttaswamy v. Union of India (2017) and Right to Privacy",
+      "date": "2017-08-24",
+      "category": "Landmark Judgments",
+      "tags": [
+        "Right to Privacy",
+        "Article 21",
+        "Puttaswamy",
+        "Aadhaar",
+        "Supreme Court"
+      ],
+      "hook": "Unanimous 9-judge bench verdict holding Right to Privacy as an intrinsic part of right to life and personal liberty under Article 21.",
+      "story": "Retired High Court Judge K.S. Puttaswamy challenged the constitutional validity of the Aadhaar scheme. The Union government argued Privacy was not a fundamental right, citing M.P. Sharma (1954, 8 judges) and Kharak Singh (1962, 6 judges).\n\nA 9-judge Constitutional Bench unanimously declared Right to Privacy a fundamental right protected under Part III of the Constitution, overruling M.P. Sharma and Kharak Singh to the extent they held privacy was not protected.\n\nJustice D.Y. Chandrachud authored the lead judgment for four judges, establishing a three-fold test for state intrusion into privacy: legality (backed by law), necessity (legitimate state aim), and proportionality.",
+      "facts": [
+        {
+          "k": "Bench Size",
+          "v": "9 Judges (Unanimous 9-0)"
+        },
+        {
+          "k": "Petitioner",
+          "v": "Justice K.S. Puttaswamy (Retd)"
+        },
+        {
+          "k": "Overruled Cases",
+          "v": "M.P. Sharma (1954) & Kharak Singh (1962)"
+        },
+        {
+          "k": "Three-fold Test",
+          "v": "Legality, Need/Legitimate Aim, Proportionality"
+        },
+        {
+          "k": "Article",
+          "v": "Article 21 (Right to Life & Personal Liberty)"
+        }
+      ],
+      "why": "CLAT questions focus on 9-judge bench ratio (9-0), Justice Chandrachud's proportionality test, overruled cases, and privacy as Article 21 right.",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "Puttaswamy Privacy (2017)",
+            "kind": "event",
+            "rel": "verdict",
+            "note": "Privacy held fundamental right under Article 21."
+          },
+          {
+            "id": "bench9",
+            "parent": "root",
+            "tier": 1,
+            "label": "9-Judge Bench (9-0)",
+            "kind": "concept",
+            "rel": "bench ratio",
+            "note": "Unanimous decision by all nine judges."
+          },
+          {
+            "id": "proportionality",
+            "parent": "root",
+            "tier": 1,
+            "label": "Proportionality Test",
+            "kind": "concept",
+            "rel": "test established",
+            "note": "Legality, legitimate goal, proportional means."
+          },
+          {
+            "id": "mpsharma",
+            "parent": "root",
+            "tier": 2,
+            "label": "M.P. Sharma (1954)",
+            "kind": "event",
+            "rel": "overruled",
+            "note": "8-judge verdict that denied privacy right."
+          }
+        ]
+      },
+      "sources": [
+        "https://main.sci.gov.in"
+      ]
+    },
+    {
+      "id": "legal-sr-bommai-1994",
+      "rank": 4,
+      "depth": "medium",
+      "importance": 5,
+      "title": "S.R. Bommai v. Union of India (1994) and President's Rule under Article 356",
+      "date": "1994-03-11",
+      "category": "Landmark Judgments",
+      "tags": [
+        "Article 356",
+        "President's Rule",
+        "Federalism",
+        "SR Bommai",
+        "Secularism"
+      ],
+      "hook": "A 9-judge bench ruled that President's rule under Article 356 is subject to judicial review and floor test is the mandatory method to prove majority.",
+      "story": "S.R. Bommai's Janata Dal government in Karnataka was dismissed in 1989 under Article 356 without a floor test. The 9-judge bench held federalism and secularism are basic structure elements. Dissolution of state assembly before Parliamentary approval is illegal.",
+      "facts": [
+        {
+          "k": "Bench Size",
+          "v": "9 Judges"
+        },
+        {
+          "k": "Key Rule",
+          "v": "Floor test in Assembly is mandatory to test majority"
+        },
+        {
+          "k": "Article",
+          "v": "Article 356 (President's Rule)"
+        },
+        {
+          "k": "Basic Structure Traits",
+          "v": "Federalism and Secularism reaffirmed as basic structure"
+        }
+      ],
+      "why": "CLAT tests Article 356 limits, mandatory floor test, and federalism as basic structure.",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "S.R. Bommai (1994)",
+            "kind": "event",
+            "rel": "verdict",
+            "note": "Restrained executive misuse of Article 356."
+          },
+          {
+            "id": "floortest",
+            "parent": "root",
+            "tier": 1,
+            "label": "Floor Test Mandatory",
+            "kind": "concept",
+            "rel": "rule",
+            "note": "Majority must be tested on the floor of the House."
+          },
+          {
+            "id": "art356",
+            "parent": "root",
+            "tier": 1,
+            "label": "Article 356",
+            "kind": "law",
+            "rel": "provision",
+            "note": "State emergency / President's Rule."
+          }
+        ]
+      },
+      "sources": [
+        "https://indiankanoon.org"
+      ]
+    },
+    {
+      "id": "legal-navtej-johar-2018",
+      "rank": 5,
+      "depth": "medium",
+      "importance": 5,
+      "title": "Navtej Singh Johar v. Union of India (2018) - Decriminalisation of Section 377",
+      "date": "2018-09-06",
+      "category": "Landmark Judgments",
+      "tags": [
+        "Section 377",
+        "Navtej Johar",
+        "LGBTQ Rights",
+        "IPC",
+        "Article 14"
+      ],
+      "hook": "Unanimous 5-judge bench strikes down 157-year-old Section 377 IPC to the extent it criminalised consensual adult LGBTQ intimacy.",
+      "story": "Overruled Suresh Kumar Koushal (2013). Bench comprising CJI Dipak Misra, Justices R.F. Nariman, A.M. Khanwilkar, D.Y. Chandrachud, and Indu Malhotra held Section 377 violated Articles 14, 15, 19, and 21.",
+      "facts": [
+        {
+          "k": "Bench Size",
+          "v": "5 Judges (Unanimous)"
+        },
+        {
+          "k": "CJI",
+          "v": "Dipak Misra"
+        },
+        {
+          "k": "Overruled Verdict",
+          "v": "Suresh Koushal (2013)"
+        },
+        {
+          "k": "Statute",
+          "v": "Section 377 IPC (1860 colonial law)"
+        }
+      ],
+      "why": "CLAT tests Section 377, Navtej Johar vs Suresh Koushal, and constitutional morality concept.",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "Navtej Johar (2018)",
+            "kind": "event",
+            "rel": "judgment",
+            "note": "Decriminalised consensual samesex relations."
+          },
+          {
+            "id": "sec377",
+            "parent": "root",
+            "tier": 1,
+            "label": "Section 377 IPC",
+            "kind": "law",
+            "rel": "statute struck down",
+            "note": "Colonial era law from 1860."
+          }
+        ]
+      },
+      "sources": [
+        "https://main.sci.gov.in"
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "legal-p1",
+      "kind": "static",
+      "month": "legal-cases",
+      "topicIds": [
+        "legal-kesavananda-bharati-1973"
+      ],
+      "category": "Landmark Judgments",
+      "tags": [
+        "Kesavananda Bharati",
+        "Basic Structure"
+      ],
+      "difficulty": 2,
+      "title": "The Basic Structure Doctrine",
+      "passage": "In April 1973, a thirteen-judge bench of the Supreme Court delivered a landmark judgment in Kesavananda Bharati v. State of Kerala. By a narrow margin of seven to six, the Court ruled that while Parliament possesses broad authority under Article 368 to amend any part of the Constitution, including Fundamental Rights, this amending power is bounded. It cannot alter or destroy the basic structure or framework of the Constitution. Chief Justice S.M. Sikri and Justice H.R. Khanna observed that amendment implies variation without loss of identity. This verdict effectively overruled the rigid embargo laid down in Golaknath (1967) while preventing Parliament from becoming a constituent assembly.",
+      "questions": [
+        {
+          "q": "How many judges sat on the bench in Kesavananda Bharati v. State of Kerala?",
+          "options": [
+            "9 Judges",
+            "11 Judges",
+            "13 Judges",
+            "15 Judges"
+          ],
+          "answer": 2,
+          "explain": "Kesavananda Bharati was heard by a 13-judge bench, the largest in Indian history."
+        },
+        {
+          "q": "What was the decision ratio in the Kesavananda Bharati verdict?",
+          "options": [
+            "12-1",
+            "7-6",
+            "8-5",
+            "9-4"
+          ],
+          "answer": 1,
+          "explain": "The verdict was delivered by a 7-6 majority."
+        },
+        {
+          "q": "Which constitutional article defines the amending power of Parliament?",
+          "options": [
+            "Article 356",
+            "Article 368",
+            "Article 370",
+            "Article 32"
+          ],
+          "answer": 1,
+          "explain": "Article 368 deals with power of Parliament to amend the Constitution."
+        },
+        {
+          "q": "Which earlier judgment was partially overruled by Kesavananda Bharati?",
+          "options": [
+            "Shankari Prasad (1951)",
+            "Golaknath (1967)",
+            "Minerva Mills (1980)",
+            "Maneka Gandhi (1978)"
+          ],
+          "answer": 1,
+          "explain": "Golaknath (1967) had barred any amendment to Fundamental Rights; Kesavananda Bharati modified this position."
+        },
+        {
+          "q": "Who provided the pivotal vote in the 7-6 decision?",
+          "options": [
+            "Justice P.N. Bhagwati",
+            "Justice H.R. Khanna",
+            "Justice V.R. Krishna Iyer",
+            "Justice Y.V. Chandrachud"
+          ],
+          "answer": 1,
+          "explain": "Justice H.R. Khanna cast the crucial 7th vote formulating the basic structure limit."
+        }
+      ]
+    }
+  ]
+}

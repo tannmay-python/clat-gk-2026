@@ -4,6 +4,7 @@ import { renderMap, wireMap } from './map.js';
 import { viewQuizSetup } from './quiz.js';
 import { viewHow } from './how.js';
 import { viewMyMap } from './mymap.js';
+import { viewUltraMap } from './ultramap.js';
 
 const view = document.getElementById('view');
 
@@ -19,6 +20,7 @@ const routes = [
   [/^\/?$/, viewHome],
   [/^\/months\/?$/, () => viewSectionIndex('current')],
   [/^\/static\/?$/, () => viewSectionIndex('static')],
+  [/^\/ultramap\/?$/, () => viewUltraMap(view)],
   [/^\/s\/([^/]+)$/, (m) => viewSection(decodeURIComponent(m[1]))],
   [/^\/topic\/([^/]+)$/, (m) => viewTopic(decodeURIComponent(m[1]))],
   [/^\/quiz\/?$/, () => viewQuizSetup(view)],

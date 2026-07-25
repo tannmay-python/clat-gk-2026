@@ -1,0 +1,2783 @@
+{
+  "id": "geography",
+  "kind": "static",
+  "label": "Geography and Environment",
+  "blurb": "A comprehensive overview of physical geography and environmental conventions. This section covers rivers, climate systems, and global treaties.",
+  "topics": [
+    {
+      "id": "geography-himalayan-rivers",
+      "rank": 1,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Himalayan River Systems",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Himalayas",
+        "Rivers",
+        "Ganga"
+      ],
+      "hook": "Himalayan River Systems shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Himalayan River Systems constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Himalayan River Systems provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Himalayan River Systems by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-himalayan-rivers-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Himalayan River Systems",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Himalayan River Systems."
+          },
+          {
+            "id": "geography-himalayan-rivers-node1",
+            "parent": "geography-himalayan-rivers-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-himalayan-rivers-node2",
+            "parent": "geography-himalayan-rivers-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-himalayan-rivers-node3",
+            "parent": "geography-himalayan-rivers-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-himalayan-rivers-node4",
+            "parent": "geography-himalayan-rivers-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-peninsular-rivers",
+      "rank": 2,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Peninsular River Systems",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Peninsula",
+        "Godavari",
+        "Rivers"
+      ],
+      "hook": "Peninsular River Systems shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Peninsular River Systems constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Peninsular River Systems provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Peninsular River Systems by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-peninsular-rivers-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Peninsular River Systems",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Peninsular River Systems."
+          },
+          {
+            "id": "geography-peninsular-rivers-node1",
+            "parent": "geography-peninsular-rivers-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-peninsular-rivers-node2",
+            "parent": "geography-peninsular-rivers-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-peninsular-rivers-node3",
+            "parent": "geography-peninsular-rivers-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-peninsular-rivers-node4",
+            "parent": "geography-peninsular-rivers-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-major-dams",
+      "rank": 3,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Major Dams & Hydroelectric Projects",
+      "date": "2026-01-01",
+      "category": "Human Geography",
+      "tags": [
+        "Dams",
+        "Infrastructure"
+      ],
+      "hook": "Major Dams & Hydroelectric Projects shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Major Dams & Hydroelectric Projects constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Major Dams & Hydroelectric Projects provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Major Dams & Hydroelectric Projects by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-major-dams-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Major Dams & Hydroelectric Projects",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Major Dams & Hydroelectric Projects."
+          },
+          {
+            "id": "geography-major-dams-node1",
+            "parent": "geography-major-dams-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-major-dams-node2",
+            "parent": "geography-major-dams-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-major-dams-node3",
+            "parent": "geography-major-dams-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-major-dams-node4",
+            "parent": "geography-major-dams-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-national-parks",
+      "rank": 4,
+      "depth": "brief",
+      "importance": 4,
+      "title": "National Parks",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Conservation",
+        "Parks",
+        "Wildlife"
+      ],
+      "hook": "National Parks shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "National Parks constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of National Parks provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests National Parks by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-national-parks-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "National Parks",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind National Parks."
+          },
+          {
+            "id": "geography-national-parks-node1",
+            "parent": "geography-national-parks-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-national-parks-node2",
+            "parent": "geography-national-parks-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-national-parks-node3",
+            "parent": "geography-national-parks-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-national-parks-node4",
+            "parent": "geography-national-parks-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-tiger-reserves",
+      "rank": 5,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Tiger Reserves",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Project Tiger",
+        "Conservation"
+      ],
+      "hook": "Tiger Reserves shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Tiger Reserves constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Tiger Reserves provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Tiger Reserves by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-tiger-reserves-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Tiger Reserves",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Tiger Reserves."
+          },
+          {
+            "id": "geography-tiger-reserves-node1",
+            "parent": "geography-tiger-reserves-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-tiger-reserves-node2",
+            "parent": "geography-tiger-reserves-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-tiger-reserves-node3",
+            "parent": "geography-tiger-reserves-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-tiger-reserves-node4",
+            "parent": "geography-tiger-reserves-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-biosphere-reserves",
+      "rank": 1,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Biosphere Reserves",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "UNESCO",
+        "MAB",
+        "Reserves"
+      ],
+      "hook": "Biosphere Reserves shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Biosphere Reserves constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Biosphere Reserves provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Biosphere Reserves by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-biosphere-reserves-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Biosphere Reserves",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Biosphere Reserves."
+          },
+          {
+            "id": "geography-biosphere-reserves-node1",
+            "parent": "geography-biosphere-reserves-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-biosphere-reserves-node2",
+            "parent": "geography-biosphere-reserves-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-biosphere-reserves-node3",
+            "parent": "geography-biosphere-reserves-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-biosphere-reserves-node4",
+            "parent": "geography-biosphere-reserves-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-ramsar-sites",
+      "rank": 2,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Ramsar Sites in India",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Wetlands",
+        "Ramsar",
+        "Conservation"
+      ],
+      "hook": "Ramsar Sites in India shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Ramsar Sites in India constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Ramsar Sites in India provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Ramsar Sites in India by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-ramsar-sites-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Ramsar Sites in India",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Ramsar Sites in India."
+          },
+          {
+            "id": "geography-ramsar-sites-node1",
+            "parent": "geography-ramsar-sites-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-ramsar-sites-node2",
+            "parent": "geography-ramsar-sites-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-ramsar-sites-node3",
+            "parent": "geography-ramsar-sites-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-ramsar-sites-node4",
+            "parent": "geography-ramsar-sites-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-soil-types",
+      "rank": 3,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Soil Types & Agriculture",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Agriculture",
+        "Soils",
+        "Alluvial"
+      ],
+      "hook": "Soil Types & Agriculture shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Soil Types & Agriculture constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Soil Types & Agriculture provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Soil Types & Agriculture by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-soil-types-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Soil Types & Agriculture",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Soil Types & Agriculture."
+          },
+          {
+            "id": "geography-soil-types-node1",
+            "parent": "geography-soil-types-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-soil-types-node2",
+            "parent": "geography-soil-types-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-soil-types-node3",
+            "parent": "geography-soil-types-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-soil-types-node4",
+            "parent": "geography-soil-types-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-climate-monsoon",
+      "rank": 4,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Climate & Monsoon System",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Monsoon",
+        "Climate",
+        "Rainfall"
+      ],
+      "hook": "Climate & Monsoon System shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Climate & Monsoon System constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Climate & Monsoon System provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Climate & Monsoon System by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-climate-monsoon-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Climate & Monsoon System",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Climate & Monsoon System."
+          },
+          {
+            "id": "geography-climate-monsoon-node1",
+            "parent": "geography-climate-monsoon-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-climate-monsoon-node2",
+            "parent": "geography-climate-monsoon-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-climate-monsoon-node3",
+            "parent": "geography-climate-monsoon-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-climate-monsoon-node4",
+            "parent": "geography-climate-monsoon-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-ocean-currents",
+      "rank": 5,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Ocean Currents",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Oceans",
+        "Currents",
+        "Geography"
+      ],
+      "hook": "Ocean Currents shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Ocean Currents constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Ocean Currents provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Ocean Currents by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-ocean-currents-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Ocean Currents",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Ocean Currents."
+          },
+          {
+            "id": "geography-ocean-currents-node1",
+            "parent": "geography-ocean-currents-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-ocean-currents-node2",
+            "parent": "geography-ocean-currents-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-ocean-currents-node3",
+            "parent": "geography-ocean-currents-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-ocean-currents-node4",
+            "parent": "geography-ocean-currents-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-enso",
+      "rank": 1,
+      "depth": "brief",
+      "importance": 4,
+      "title": "El Ni\u00f1o and La Ni\u00f1a",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "ENSO",
+        "Climate",
+        "Pacific Ocean"
+      ],
+      "hook": "El Ni\u00f1o and La Ni\u00f1a shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "El Ni\u00f1o and La Ni\u00f1a constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of El Ni\u00f1o and La Ni\u00f1a provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests El Ni\u00f1o and La Ni\u00f1a by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-enso-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "El Ni\u00f1o and La Ni\u00f1a",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind El Ni\u00f1o and La Ni\u00f1a."
+          },
+          {
+            "id": "geography-enso-node1",
+            "parent": "geography-enso-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-enso-node2",
+            "parent": "geography-enso-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-enso-node3",
+            "parent": "geography-enso-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-enso-node4",
+            "parent": "geography-enso-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-mountain-passes",
+      "rank": 2,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Major Mountain Passes",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Himalayas",
+        "Passes",
+        "Transport"
+      ],
+      "hook": "Major Mountain Passes shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Major Mountain Passes constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Major Mountain Passes provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Major Mountain Passes by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-mountain-passes-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Major Mountain Passes",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Major Mountain Passes."
+          },
+          {
+            "id": "geography-mountain-passes-node1",
+            "parent": "geography-mountain-passes-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-mountain-passes-node2",
+            "parent": "geography-mountain-passes-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-mountain-passes-node3",
+            "parent": "geography-mountain-passes-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-mountain-passes-node4",
+            "parent": "geography-mountain-passes-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-peaks",
+      "rank": 3,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Major Peaks",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Everest",
+        "K2",
+        "Himalayas"
+      ],
+      "hook": "Major Peaks shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Major Peaks constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Major Peaks provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Major Peaks by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-peaks-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Major Peaks",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Major Peaks."
+          },
+          {
+            "id": "geography-peaks-node1",
+            "parent": "geography-peaks-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-peaks-node2",
+            "parent": "geography-peaks-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-peaks-node3",
+            "parent": "geography-peaks-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-peaks-node4",
+            "parent": "geography-peaks-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-paris-agreement",
+      "rank": 4,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Paris Agreement 2015",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Climate Change",
+        "UNFCCC",
+        "Paris"
+      ],
+      "hook": "Paris Agreement 2015 shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Paris Agreement 2015 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Paris Agreement 2015 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Paris Agreement 2015 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-paris-agreement-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Paris Agreement 2015",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Paris Agreement 2015."
+          },
+          {
+            "id": "geography-paris-agreement-node1",
+            "parent": "geography-paris-agreement-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-paris-agreement-node2",
+            "parent": "geography-paris-agreement-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-paris-agreement-node3",
+            "parent": "geography-paris-agreement-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-paris-agreement-node4",
+            "parent": "geography-paris-agreement-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-ramsar-1971",
+      "rank": 5,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Ramsar Convention 1971",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Wetlands",
+        "Treaty",
+        "Iran"
+      ],
+      "hook": "Ramsar Convention 1971 shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Ramsar Convention 1971 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Ramsar Convention 1971 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Ramsar Convention 1971 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-ramsar-1971-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Ramsar Convention 1971",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Ramsar Convention 1971."
+          },
+          {
+            "id": "geography-ramsar-1971-node1",
+            "parent": "geography-ramsar-1971-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-ramsar-1971-node2",
+            "parent": "geography-ramsar-1971-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-ramsar-1971-node3",
+            "parent": "geography-ramsar-1971-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-ramsar-1971-node4",
+            "parent": "geography-ramsar-1971-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-cites-1973",
+      "rank": 1,
+      "depth": "brief",
+      "importance": 4,
+      "title": "CITES 1973",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Wildlife",
+        "Trade",
+        "Conservation"
+      ],
+      "hook": "CITES 1973 shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "CITES 1973 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of CITES 1973 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests CITES 1973 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-cites-1973-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "CITES 1973",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind CITES 1973."
+          },
+          {
+            "id": "geography-cites-1973-node1",
+            "parent": "geography-cites-1973-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-cites-1973-node2",
+            "parent": "geography-cites-1973-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-cites-1973-node3",
+            "parent": "geography-cites-1973-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-cites-1973-node4",
+            "parent": "geography-cites-1973-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-cbd-1992",
+      "rank": 2,
+      "depth": "brief",
+      "importance": 4,
+      "title": "CBD 1992",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Biodiversity",
+        "Earth Summit",
+        "Rio"
+      ],
+      "hook": "CBD 1992 shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "CBD 1992 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of CBD 1992 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests CBD 1992 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-cbd-1992-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "CBD 1992",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind CBD 1992."
+          },
+          {
+            "id": "geography-cbd-1992-node1",
+            "parent": "geography-cbd-1992-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-cbd-1992-node2",
+            "parent": "geography-cbd-1992-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-cbd-1992-node3",
+            "parent": "geography-cbd-1992-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-cbd-1992-node4",
+            "parent": "geography-cbd-1992-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-montreal-protocol",
+      "rank": 3,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Montreal Protocol 1987",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Ozone",
+        "CFCs",
+        "Protocol"
+      ],
+      "hook": "Montreal Protocol 1987 shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Montreal Protocol 1987 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Montreal Protocol 1987 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Montreal Protocol 1987 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-montreal-protocol-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Montreal Protocol 1987",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Montreal Protocol 1987."
+          },
+          {
+            "id": "geography-montreal-protocol-node1",
+            "parent": "geography-montreal-protocol-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-montreal-protocol-node2",
+            "parent": "geography-montreal-protocol-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-montreal-protocol-node3",
+            "parent": "geography-montreal-protocol-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-montreal-protocol-node4",
+            "parent": "geography-montreal-protocol-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-kyoto-protocol",
+      "rank": 4,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Kyoto Protocol 1997",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "Greenhouse Gases",
+        "Emissions",
+        "Protocol"
+      ],
+      "hook": "Kyoto Protocol 1997 shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Kyoto Protocol 1997 constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Kyoto Protocol 1997 provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Kyoto Protocol 1997 by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-kyoto-protocol-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Kyoto Protocol 1997",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Kyoto Protocol 1997."
+          },
+          {
+            "id": "geography-kyoto-protocol-node1",
+            "parent": "geography-kyoto-protocol-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-kyoto-protocol-node2",
+            "parent": "geography-kyoto-protocol-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-kyoto-protocol-node3",
+            "parent": "geography-kyoto-protocol-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-kyoto-protocol-node4",
+            "parent": "geography-kyoto-protocol-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-cop-summits",
+      "rank": 5,
+      "depth": "brief",
+      "importance": 4,
+      "title": "COP climate summits",
+      "date": "2026-01-01",
+      "category": "Environment",
+      "tags": [
+        "UNFCCC",
+        "COP",
+        "Climate Action"
+      ],
+      "hook": "COP climate summits shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "COP climate summits constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of COP climate summits provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests COP climate summits by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-cop-summits-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "COP climate summits",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind COP climate summits."
+          },
+          {
+            "id": "geography-cop-summits-node1",
+            "parent": "geography-cop-summits-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-cop-summits-node2",
+            "parent": "geography-cop-summits-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-cop-summits-node3",
+            "parent": "geography-cop-summits-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-cop-summits-node4",
+            "parent": "geography-cop-summits-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-earthquakes",
+      "rank": 1,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Earthquakes and Seismic Zones",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Seismic",
+        "Tectonics",
+        "Disaster"
+      ],
+      "hook": "Earthquakes and Seismic Zones shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Earthquakes and Seismic Zones constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Earthquakes and Seismic Zones provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Earthquakes and Seismic Zones by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-earthquakes-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Earthquakes and Seismic Zones",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Earthquakes and Seismic Zones."
+          },
+          {
+            "id": "geography-earthquakes-node1",
+            "parent": "geography-earthquakes-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-earthquakes-node2",
+            "parent": "geography-earthquakes-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-earthquakes-node3",
+            "parent": "geography-earthquakes-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-earthquakes-node4",
+            "parent": "geography-earthquakes-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-plate-tectonics",
+      "rank": 2,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Plate Tectonics",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Plates",
+        "Continental Drift",
+        "Geology"
+      ],
+      "hook": "Plate Tectonics shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Plate Tectonics constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Plate Tectonics provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Plate Tectonics by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-plate-tectonics-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Plate Tectonics",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Plate Tectonics."
+          },
+          {
+            "id": "geography-plate-tectonics-node1",
+            "parent": "geography-plate-tectonics-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-plate-tectonics-node2",
+            "parent": "geography-plate-tectonics-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-plate-tectonics-node3",
+            "parent": "geography-plate-tectonics-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-plate-tectonics-node4",
+            "parent": "geography-plate-tectonics-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-western-ghats",
+      "rank": 3,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Western Ghats",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Biodiversity",
+        "Mountains",
+        "Monsoon"
+      ],
+      "hook": "Western Ghats shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Western Ghats constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Western Ghats provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Western Ghats by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-western-ghats-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Western Ghats",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Western Ghats."
+          },
+          {
+            "id": "geography-western-ghats-node1",
+            "parent": "geography-western-ghats-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-western-ghats-node2",
+            "parent": "geography-western-ghats-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-western-ghats-node3",
+            "parent": "geography-western-ghats-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-western-ghats-node4",
+            "parent": "geography-western-ghats-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-eastern-ghats",
+      "rank": 4,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Eastern Ghats",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Mountains",
+        "Geography",
+        "Rivers"
+      ],
+      "hook": "Eastern Ghats shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Eastern Ghats constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Eastern Ghats provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Eastern Ghats by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-eastern-ghats-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Eastern Ghats",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Eastern Ghats."
+          },
+          {
+            "id": "geography-eastern-ghats-node1",
+            "parent": "geography-eastern-ghats-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-eastern-ghats-node2",
+            "parent": "geography-eastern-ghats-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-eastern-ghats-node3",
+            "parent": "geography-eastern-ghats-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-eastern-ghats-node4",
+            "parent": "geography-eastern-ghats-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    },
+    {
+      "id": "geography-islands",
+      "rank": 5,
+      "depth": "brief",
+      "importance": 4,
+      "title": "Indian Islands",
+      "date": "2026-01-01",
+      "category": "Physical Geography",
+      "tags": [
+        "Andaman",
+        "Lakshadweep",
+        "Coral"
+      ],
+      "hook": "Indian Islands shapes regional ecology and policy, forming a core part of the syllabus.",
+      "story": "Indian Islands constitutes a central component of the physical and environmental geography syllabus. Examiners frequently test this area because it connects static geographical facts to current environmental and policy issues. The system operates through specific mechanisms that govern the distribution of resources, regional climate, and ecological balance across the subcontinent. Students often confuse the basic definitions with advanced applications, leading to common errors in multiple-choice questions. Understanding this topic requires memorising exact locations, dates, and the historical context of related treaties or geographic formations. The implications extend heavily to international relations and domestic policy, making it a recurring theme in competitive examinations. This is a practical subject with direct consequences on agriculture, climate patterns, and human settlement. Knowing the precise facts separates high scorers from the rest, as questions demand exact recall of provisions, locations, and mechanisms rather than broad summaries. Mastery of Indian Islands provides a foundation for answering interdisciplinary questions that blend geography with constitutional law and current affairs.",
+      "facts": [
+        {
+          "k": "Primary aspect",
+          "v": "Governs resource distribution and climate"
+        },
+        {
+          "k": "Historical context",
+          "v": "Linked to major earth processes or global treaties"
+        },
+        {
+          "k": "Exam relevance",
+          "v": "Tested for application and exact location"
+        },
+        {
+          "k": "Primary metric",
+          "v": "Affects millions of people and entire ecosystems"
+        }
+      ],
+      "why": "CLAT tests Indian Islands by asking students to identify the primary function or location. The trap is confusing it with related phenomena or incorrect treaty years.",
+      "map": {
+        "nodes": [
+          {
+            "id": "geography-islands-root",
+            "parent": "root",
+            "tier": 1,
+            "label": "Indian Islands",
+            "kind": "concept",
+            "rel": "core concept",
+            "note": "The main idea behind Indian Islands."
+          },
+          {
+            "id": "geography-islands-node1",
+            "parent": "geography-islands-root",
+            "tier": 1,
+            "label": "Core Feature",
+            "kind": "event",
+            "rel": "exhibits",
+            "note": "An observable characteristic of the geographic system."
+          },
+          {
+            "id": "geography-islands-node2",
+            "parent": "geography-islands-root",
+            "tier": 2,
+            "label": "Related Policy",
+            "kind": "law",
+            "rel": "regulated by",
+            "note": "Government or international framework managing the issue."
+          },
+          {
+            "id": "geography-islands-node3",
+            "parent": "geography-islands-node1",
+            "tier": 3,
+            "label": "Specific Location",
+            "kind": "place",
+            "rel": "found at",
+            "note": "A concrete instance tested in examinations."
+          },
+          {
+            "id": "geography-islands-node4",
+            "parent": "geography-islands-root",
+            "tier": 2,
+            "label": "Notable Person",
+            "kind": "person",
+            "rel": "associated with",
+            "note": "An individual responsible for the framework or discovery."
+          }
+        ]
+      },
+      "sources": [
+        "https://example.com/geography"
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "geography-p1",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-himalayan-rivers",
+        "geography-peninsular-rivers"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 1",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    },
+    {
+      "id": "geography-p2",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-peninsular-rivers",
+        "geography-major-dams"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 2",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    },
+    {
+      "id": "geography-p3",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-major-dams",
+        "geography-national-parks"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 3",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    },
+    {
+      "id": "geography-p4",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-national-parks",
+        "geography-tiger-reserves"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 4",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    },
+    {
+      "id": "geography-p5",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-tiger-reserves",
+        "geography-biosphere-reserves"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 5",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    },
+    {
+      "id": "geography-p6",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-biosphere-reserves",
+        "geography-ramsar-sites"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 6",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    },
+    {
+      "id": "geography-p7",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-ramsar-sites",
+        "geography-soil-types"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 7",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    },
+    {
+      "id": "geography-p8",
+      "kind": "static",
+      "month": "geography",
+      "topicIds": [
+        "geography-soil-types",
+        "geography-climate-monsoon"
+      ],
+      "category": "Physical Geography",
+      "tags": [
+        "Environment",
+        "Climate",
+        "Geography"
+      ],
+      "difficulty": 2,
+      "title": "Geographical Dynamics Passage 8",
+      "passage": "The physical environment sets the parameters for economic development and international relations across the globe. Geographical features determine agricultural output, which in turn influences political stability and trade agreements. Historically, treaties and conventions emerged to manage shared resources and mitigate environmental degradation before crises escalated. For example, wetland conservation and climate agreements require constant cooperation across national borders and legal jurisdictions. The examination of these interconnected systems reveals a complex web of dependencies that govern daily life. A disruption in one area cascades into others, altering monsoon patterns, ocean temperatures, and soil viability over time. Policymakers must balance immediate economic needs with long-term ecological sustainability, a task complicated by shifting political priorities. This tension forms the basis of many contemporary debates, legal frameworks, and international disputes seen in the news. Understanding these dynamics is essential for interpreting current affairs and statutory interpretations related to environmental law. The underlying facts remain straightforward, but their application requires careful analysis of multiple competing factors. Changes in global temperature, for instance, shift agricultural zones and redefine habitable areas, displacing populations and changing economies. The legal responses to these shifts often lag behind the physical realities, creating friction between states. This gap between law and environment provides material for academic inquiry and competitive testing in entrance examinations. Students must identify the precise mechanisms driving these changes rather than relying on broad generalisations. Mastering the factual basis of these environmental shifts allows for a clearer understanding of the resulting legal and political consequences. A solid grasp of geography therefore serves as a prerequisite for comprehending complex legal arguments regarding resource allocation.",
+      "questions": [
+        {
+          "q": "What is the primary relationship described between geographical features and political stability?",
+          "options": [
+            "Geographical features dictate legal frameworks directly without human intervention.",
+            "Geographical features determine agricultural output, which influences political stability.",
+            "Political stability alters geographical features through targeted legislation.",
+            "There is no relationship between physical geography and political stability."
+          ],
+          "answer": 1,
+          "explain": "The passage states that geographical features determine agricultural output, which influences political stability."
+        },
+        {
+          "q": "Why do treaties and conventions emerge according to the text?",
+          "options": [
+            "To promote economic dominance over developing nations.",
+            "To manage shared resources and mitigate environmental degradation.",
+            "To establish new geographical borders based on climate zones.",
+            "To standardise academic inquiry across universities."
+          ],
+          "answer": 1,
+          "explain": "The text explicitly notes that treaties emerged to manage shared resources and mitigate environmental degradation."
+        },
+        {
+          "q": "What does a disruption in one environmental area cause?",
+          "options": [
+            "Immediate economic prosperity for the affected region.",
+            "A cascade effect altering other physical systems like ocean temperatures.",
+            "A reduction in academic inquiry due to lack of data.",
+            "A simplification of legal frameworks governing resource extraction."
+          ],
+          "answer": 1,
+          "explain": "The passage explains that a disruption in one area cascades into others, altering various physical systems."
+        },
+        {
+          "q": "What provides material for academic inquiry and competitive testing?",
+          "options": [
+            "The gap between legal responses and physical environmental realities.",
+            "The immediate economic needs of policymakers in industrialised nations.",
+            "The stability of agricultural zones over the past century.",
+            "The simplicity of geographical facts and their applications."
+          ],
+          "answer": 0,
+          "explain": "The text identifies the gap between law and environment as providing material for academic inquiry."
+        },
+        {
+          "q": "Which of the following best describes the passage's view on policymakers?",
+          "options": [
+            "They ignore ecological sustainability in favour of trade agreements.",
+            "They prioritise long-term needs over short-term economic gains.",
+            "They must balance immediate economic needs with long-term ecological sustainability.",
+            "They operate independently of geographical realities when drafting laws."
+          ],
+          "answer": 2,
+          "explain": "The text states that policymakers must balance immediate economic needs with long-term ecological sustainability."
+        }
+      ]
+    }
+  ]
+}

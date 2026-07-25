@@ -1,0 +1,367 @@
+{
+  "id": "history",
+  "kind": "static",
+  "label": "Modern Indian History & Freedom Movement",
+  "order": 3,
+  "blurb": "The Indian freedom struggle, key legislations under British rule, national movements, and the path to independence.",
+  "topics": [
+    {
+      "id": "hist-inc-founding-1885",
+      "rank": 1,
+      "depth": "deep",
+      "importance": 5,
+      "title": "Founding of the Indian National Congress (1885) and the Early Phase",
+      "date": "1885-12-28",
+      "category": "History",
+      "tags": [
+        "INC",
+        "1885",
+        "Allan Octavian Hume",
+        "Womesh Chandra Bonnerjee",
+        "Freedom Struggle"
+      ],
+      "hook": "Founded in December 1885 at Bombay by A.O. Hume, with W.C. Bonnerjee as its first President, launching organised national political activity.",
+      "story": "The Indian National Congress held its first session at Gokuldas Tejpal Sanskrit College in Bombay from 28 to 31 December 1885. Seventy-two delegates attended. Retired British civil servant Allan Octavian Hume played a key role in bringing educated Indians together, often linked to the 'safety valve' theory.\n\nWomesh Chandra Bonnerjee served as the first President. Early leaders included Dadabhai Naoroji (who proposed the name Indian National Congress), Pherozeshah Mehta, Dinshaw Wacha, and Badruddin Tyabji (who became the first Muslim President in 1887 at Madras).\n\nThe early phase (1885-1905) was led by Moderates who used constitutional petitions, prayers, and resolutions. Dadabhai Naoroji authored 'Poverty and Un-British Rule in India' exposing the 'Drain of Wealth' theory.",
+      "facts": [
+        {
+          "k": "First Session Venue",
+          "v": "Gokuldas Tejpal Sanskrit College, Bombay"
+        },
+        {
+          "k": "First President",
+          "v": "Womesh Chandra Bonnerjee (W.C. Bonnerjee)"
+        },
+        {
+          "k": "Founder / Organiser",
+          "v": "Allan Octavian Hume (A.O. Hume)"
+        },
+        {
+          "k": "Delegates Attended",
+          "v": "72 delegates"
+        },
+        {
+          "k": "First Muslim President",
+          "v": "Badruddin Tyabji (1887 Madras Session)"
+        },
+        {
+          "k": "First Woman President",
+          "v": "Annie Besant (1917 Calcutta Session)"
+        },
+        {
+          "k": "First Indian Woman President",
+          "v": "Sarojini Naidu (1925 Kanpur Session)"
+        }
+      ],
+      "timeline": [
+        {
+          "when": "1885",
+          "what": "First session at Bombay; 72 delegates"
+        },
+        {
+          "when": "1886",
+          "what": "Second session at Calcutta under Dadabhai Naoroji"
+        },
+        {
+          "when": "1887",
+          "what": "Madras session under Badruddin Tyabji"
+        },
+        {
+          "when": "1907",
+          "what": "Surat Split between Moderates and Extremists"
+        }
+      ],
+      "why": "CLAT tests INC session venues, first presidents (W.C. Bonnerjee, Badruddin Tyabji, Annie Besant, Sarojini Naidu), A.O. Hume, and Drain of Wealth theory.",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "INC Founding (1885)",
+            "kind": "event",
+            "rel": "foundation",
+            "note": "72 delegates met at Bombay."
+          },
+          {
+            "id": "hume",
+            "parent": "root",
+            "tier": 1,
+            "label": "A.O. Hume",
+            "kind": "person",
+            "rel": "key founder",
+            "note": "Retired ICS officer who initiated the conference."
+          },
+          {
+            "id": "wcbonnerjee",
+            "parent": "root",
+            "tier": 1,
+            "label": "W.C. Bonnerjee",
+            "kind": "person",
+            "rel": "1st President",
+            "note": "Presided over Bombay session in Dec 1885."
+          },
+          {
+            "id": "naoroji",
+            "parent": "root",
+            "tier": 1,
+            "label": "Dadabhai Naoroji",
+            "kind": "person",
+            "rel": "Grand Old Man",
+            "note": "Formulated Drain of Wealth theory."
+          },
+          {
+            "id": "besant",
+            "parent": "root",
+            "tier": 2,
+            "label": "Annie Besant (1917)",
+            "kind": "person",
+            "rel": "1st Woman President",
+            "note": "Presided at 1917 Calcutta session."
+          },
+          {
+            "id": "naidu",
+            "parent": "root",
+            "tier": 2,
+            "label": "Sarojini Naidu (1925)",
+            "kind": "person",
+            "rel": "1st Indian Woman President",
+            "note": "Presided at 1925 Kanpur session."
+          }
+        ]
+      },
+      "sources": [
+        "https://inc.in"
+      ]
+    },
+    {
+      "id": "hist-partition-bengal-1905",
+      "rank": 2,
+      "depth": "deep",
+      "importance": 5,
+      "title": "Partition of Bengal (1905) and the Swadeshi Movement",
+      "date": "1905-10-16",
+      "category": "History",
+      "tags": [
+        "Bengal Partition",
+        "Curzon",
+        "Swadeshi Movement",
+        "Vande Mataram",
+        "1905"
+      ],
+      "hook": "Viceroy Lord Curzon partitioned Bengal in 1905, triggering the Swadeshi and Boycott Movement across India.",
+      "story": "Lord Curzon announced the partition of Bengal on 20 July 1905, taking effect on 16 October 1905. The official reason was administrative efficiency, but the political motive was dividing Hindu-Muslim unity.\n\nThe day of partition (16 Oct 1905) was observed as a day of mourning (Raksha Bandhan and fasts urged by Rabindranath Tagore). The Swadeshi Movement adopted boycott of foreign goods, promotion of indigenous industries, and national education. Bankim Chandra Chattopadhyay's 'Vande Mataram' became the anthem. Partition was annulled in 1911 by King George V at the Delhi Durbar, when the capital moved from Calcutta to Delhi.",
+      "facts": [
+        {
+          "k": "Viceroy who partitioned",
+          "v": "Lord Curzon"
+        },
+        {
+          "k": "Partition Effective Date",
+          "v": "16 October 1905"
+        },
+        {
+          "k": "Annulment Date",
+          "v": "1911 Delhi Durbar (Lord Hardinge II)"
+        },
+        {
+          "k": "Capital Shift",
+          "v": "Calcutta to Delhi announced in 1911"
+        },
+        {
+          "k": "Anthem of Movement",
+          "v": "Vande Mataram (from Anandamath by Bankim Chandra)"
+        }
+      ],
+      "why": "CLAT tests Viceroy Curzon, partition/annulment dates, capital shift (1911), Vande Mataram origin.",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "Partition of Bengal (1905)",
+            "kind": "event",
+            "rel": "event",
+            "note": "Partitioned by Lord Curzon."
+          },
+          {
+            "id": "curzon",
+            "parent": "root",
+            "tier": 1,
+            "label": "Lord Curzon",
+            "kind": "person",
+            "rel": "Viceroy",
+            "note": "Viceroy from 1899 to 1905."
+          },
+          {
+            "id": "swadeshi",
+            "parent": "root",
+            "tier": 1,
+            "label": "Swadeshi Movement",
+            "kind": "event",
+            "rel": "response",
+            "note": "Boycott of foreign goods and national education."
+          },
+          {
+            "id": "annulment",
+            "parent": "root",
+            "tier": 2,
+            "label": "1911 Delhi Durbar",
+            "kind": "event",
+            "rel": "annulment",
+            "note": "King George V annulled partition and shifted capital to Delhi."
+          }
+        ]
+      },
+      "sources": [
+        "https://britannica.com"
+      ]
+    },
+    {
+      "id": "hist-non-cooperation-1920",
+      "rank": 3,
+      "depth": "medium",
+      "importance": 5,
+      "title": "Non-Cooperation Movement (1920-22) and Chauri Chaura Incident",
+      "date": "1920-09-04",
+      "category": "History",
+      "tags": [
+        "Non-Cooperation",
+        "Gandhi",
+        "Chauri Chaura",
+        "Khilafat Movement",
+        "1920"
+      ],
+      "hook": "Launched by Mahatma Gandhi at Nagpur Congress session (1920) alongside Khilafat Movement; abruptly suspended after Chauri Chaura violence in Feb 1922.",
+      "story": "Approved at Nagpur session in Dec 1920. Called for boycott of titles, schools, courts, and foreign cloth. Merged with Khilafat Movement led by Ali Brothers (Shaukat & Mohammad Ali). On 4 Feb 1922, a mob set fire to a police station at Chauri Chaura (Gorakhpur, UP), killing 22 policemen. Gandhi called off the movement on 12 Feb 1922.",
+      "facts": [
+        {
+          "k": "Launched Year",
+          "v": "1920 (Nagpur Session)"
+        },
+        {
+          "k": "Chauri Chaura Date",
+          "v": "4 February 1922"
+        },
+        {
+          "k": "Withdrawal Date",
+          "v": "12 February 1922 (Bardoli Resolution)"
+        },
+        {
+          "k": "Allied Movement",
+          "v": "Khilafat Movement (Ali Brothers)"
+        }
+      ],
+      "why": "CLAT tests Chauri Chaura location (Gorakhpur, UP), date, Bardoli resolution, Khilafat alliance.",
+      "map": {
+        "nodes": [
+          {
+            "id": "root",
+            "parent": "root",
+            "tier": 0,
+            "label": "Non-Cooperation (1920-22)",
+            "kind": "event",
+            "rel": "movement",
+            "note": "First mass non-violent struggle."
+          },
+          {
+            "id": "chauri",
+            "parent": "root",
+            "tier": 1,
+            "label": "Chauri Chaura (1922)",
+            "kind": "event",
+            "rel": "trigger for withdrawal",
+            "note": "22 policemen killed in Gorakhpur district."
+          },
+          {
+            "id": "khilafat",
+            "parent": "root",
+            "tier": 1,
+            "label": "Khilafat Movement",
+            "kind": "event",
+            "rel": "allied movement",
+            "note": "Led by Ali Brothers to restore Ottoman Caliphate."
+          }
+        ]
+      },
+      "sources": [
+        "https://britannica.com"
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "id": "hist-p1",
+      "kind": "static",
+      "month": "history",
+      "topicIds": [
+        "hist-inc-founding-1885"
+      ],
+      "category": "History",
+      "tags": [
+        "INC",
+        "1885"
+      ],
+      "difficulty": 2,
+      "title": "The Emergence of the Congress",
+      "passage": "In late December 1885, seventy-two educated Indian delegates assembled at Gokuldas Tejpal Sanskrit College in Bombay to establish the Indian National Congress. Organised with the assistance of Allan Octavian Hume, a retired civil servant, the Congress elected barrister Womesh Chandra Bonnerjee as its inaugural President. The early political phase was dominated by Moderate leaders who relied on constitutional petitions and public speeches. Leaders like Dadabhai Naoroji exposed the economic consequences of British administration, formulating the famous Drain of Wealth theory. Over time, the organisation transformed into the vanguard of India's anti-colonial struggle.",
+      "questions": [
+        {
+          "q": "Where was the first session of the Indian National Congress held?",
+          "options": [
+            "Calcutta",
+            "Bombay",
+            "Madras",
+            "Allahabad"
+          ],
+          "answer": 1,
+          "explain": "The first session was held at Gokuldas Tejpal Sanskrit College in Bombay in Dec 1885."
+        },
+        {
+          "q": "Who presided over the first session of the Indian National Congress?",
+          "options": [
+            "Dadabhai Naoroji",
+            "W.C. Bonnerjee",
+            "A.O. Hume",
+            "Badruddin Tyabji"
+          ],
+          "answer": 1,
+          "explain": "Womesh Chandra Bonnerjee (W.C. Bonnerjee) was the first President."
+        },
+        {
+          "q": "Who authored 'Poverty and Un-British Rule in India' articulating the Drain of Wealth?",
+          "options": [
+            "Gopal Krishna Gokhale",
+            "Dadabhai Naoroji",
+            "Bal Gangadhar Tilak",
+            "R.C. Dutt"
+          ],
+          "answer": 1,
+          "explain": "Dadabhai Naoroji authored the work exposing British economic exploitation."
+        },
+        {
+          "q": "Who was the first Muslim President of the Indian National Congress?",
+          "options": [
+            "Abul Kalam Azad",
+            "Badruddin Tyabji",
+            "Syed Ahmed Khan",
+            "Muhammad Ali Jinnah"
+          ],
+          "answer": 1,
+          "explain": "Badruddin Tyabji presided over the 1887 Madras session."
+        },
+        {
+          "q": "Who was the first woman President of the Indian National Congress?",
+          "options": [
+            "Sarojini Naidu",
+            "Annie Besant",
+            "Nellie Sengupta",
+            "Vijaya Lakshmi Pandit"
+          ],
+          "answer": 1,
+          "explain": "Annie Besant presided at the 1917 Calcutta session (Sarojini Naidu was first *Indian* woman in 1925)."
+        }
+      ]
+    }
+  ]
+}

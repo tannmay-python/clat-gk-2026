@@ -1,0 +1,601 @@
+[
+  {
+    "id": "static-ir-coelho",
+    "rank": 1,
+    "depth": "medium",
+    "importance": 5,
+    "title": "I.R. Coelho v. State of Tamil Nadu (2007)",
+    "date": "2007-01-11",
+    "category": "Polity",
+    "tags": [
+      "Basic Structure",
+      "Ninth Schedule",
+      "Judicial Review"
+    ],
+    "hook": "The Supreme Court ruled that laws placed in the Ninth Schedule after April 24, 1973, are open to judicial review if they violate the basic structure.",
+    "story": "In 1951, the First Amendment to the Indian Constitution introduced Article 31B and the Ninth Schedule. This mechanism was designed to shield agricultural land reform laws from judicial review, specifically protecting them from challenges based on fundamental rights. Over the decades, Parliament aggressively expanded the use of the Ninth Schedule. Successive governments placed various laws\u2014sometimes entirely unrelated to land reforms, such as the Tamil Nadu reservation law\u2014into this schedule to grant them constitutional immunity.\n\nThe Supreme Court confronted the limits of this practice in the I.R. Coelho case in 2007. A nine-judge bench delivered a unanimous verdict regarding the relationship between the Ninth Schedule and the basic structure doctrine. The Court ruled that judicial review is an integral part of the basic structure of the Constitution. Therefore, Parliament cannot use the Ninth Schedule to completely bypass judicial scrutiny.\n\nThe Court established April 24, 1973, the date of the Kesavananda Bharati judgment, as a firm cutoff. Any law placed in the Ninth Schedule on or before this date enjoys immunity. Any law inserted after this date is open to challenge if it violates the basic structure of the Constitution. Specifically, if a post-1973 law infringes on the golden triangle of fundamental rights\u2014Articles 14, 19, and 21\u2014and thereby damages the basic structure, courts have the authority to strike it down.\n\nThis judgment dismantled the blanket immunity that the Ninth Schedule previously offered. It reaffirmed the supremacy of the Constitution over legislative action and secured the judiciary's role as the final interpreter of constitutional validity. The decision effectively reconciled the legislature's mandate to enact social justice laws with the absolute necessity of maintaining core constitutional principles.",
+    "facts": [
+      {
+        "k": "Year of judgment",
+        "v": "2007"
+      },
+      {
+        "k": "Bench size",
+        "v": "9 judges"
+      },
+      {
+        "k": "Cutoff date for immunity",
+        "v": "April 24, 1973"
+      },
+      {
+        "k": "Core issue",
+        "v": "Validity of laws in the Ninth Schedule"
+      },
+      {
+        "k": "Key principle established",
+        "v": "Judicial review of Ninth Schedule laws"
+      },
+      {
+        "k": "Relevant constitutional article",
+        "v": "Article 31B"
+      }
+    ],
+    "why": "CLAT examiners test the cutoff date (April 24, 1973) and its connection to Kesavananda Bharati. Questions often focus on the Ninth Schedule's original purpose versus its later misuse, and the specific fundamental rights (Articles 14, 19, 21) that trigger a basic structure review.",
+    "map": {
+      "nodes": [
+        {
+          "id": "ninth_schedule",
+          "parent": "root",
+          "tier": 1,
+          "label": "Ninth Schedule",
+          "kind": "law",
+          "rel": "subject matter",
+          "note": "Created by the First Amendment in 1951 to shield laws from judicial review."
+        },
+        {
+          "id": "article_31b",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 31B",
+          "kind": "law",
+          "rel": "constitutional basis",
+          "note": "Validates acts and regulations specified in the Ninth Schedule."
+        },
+        {
+          "id": "first_amendment",
+          "parent": "root",
+          "tier": 1,
+          "label": "First Amendment (1951)",
+          "kind": "law",
+          "rel": "introduced",
+          "note": "Introduced the Ninth Schedule to protect land reform laws."
+        },
+        {
+          "id": "kesavananda",
+          "parent": "root",
+          "tier": 1,
+          "label": "Kesavananda Bharati (1973)",
+          "kind": "event",
+          "rel": "cutoff date",
+          "note": "April 24, 1973, is the cutoff date for blanket immunity of Ninth Schedule laws."
+        },
+        {
+          "id": "judicial_review",
+          "parent": "root",
+          "tier": 1,
+          "label": "Judicial Review",
+          "kind": "concept",
+          "rel": "upheld",
+          "note": "Declared an integral part of the basic structure."
+        },
+        {
+          "id": "tn_reservation",
+          "parent": "ninth_schedule",
+          "tier": 2,
+          "label": "Tamil Nadu Reservation Act",
+          "kind": "law",
+          "rel": "example inclusion",
+          "note": "A 1994 law placed in the Ninth Schedule to protect its 69% reservation quota."
+        },
+        {
+          "id": "basic_structure",
+          "parent": "kesavananda",
+          "tier": 2,
+          "label": "Basic Structure Doctrine",
+          "kind": "concept",
+          "rel": "established",
+          "note": "The doctrine used to evaluate post-1973 laws in the Ninth Schedule."
+        },
+        {
+          "id": "golden_triangle",
+          "parent": "judicial_review",
+          "tier": 2,
+          "label": "Golden Triangle (Articles 14, 19, 21)",
+          "kind": "concept",
+          "rel": "infringement grounds",
+          "note": "Violation of these rights can lead to a basic structure challenge."
+        }
+      ]
+    }
+  },
+  {
+    "id": "static-l-chandra-kumar",
+    "rank": 1,
+    "depth": "medium",
+    "importance": 4,
+    "title": "L. Chandra Kumar v. Union of India (1997)",
+    "date": "1997-03-18",
+    "category": "Polity",
+    "tags": [
+      "Judicial Review",
+      "Tribunals",
+      "High Courts"
+    ],
+    "hook": "The Supreme Court struck down provisions that excluded the jurisdiction of High Courts and the Supreme Court over decisions made by administrative tribunals.",
+    "story": "The 42nd Amendment in 1976 introduced Part XIV-A to the Constitution, creating Articles 323A and 323B. These articles allowed Parliament and state legislatures to establish administrative tribunals to handle specific disputes, such as matters related to public services and taxation. A central feature of these provisions was the explicit exclusion of the jurisdiction of all courts, except the Supreme Court under Article 136, over matters handled by these tribunals. The Administrative Tribunals Act, 1985, implemented this framework.\n\nIn L. Chandra Kumar, a seven-judge bench of the Supreme Court examined the constitutional validity of this exclusion of jurisdiction. The Court held that the power of judicial review vested in the High Courts under Article 226 and in the Supreme Court under Article 32 is a part of the inviolable basic structure of the Constitution. The legislature cannot take this power away, even through a constitutional amendment.\n\nConsequently, the Court struck down clause 2(d) of Article 323A and clause 3(d) of Article 323B, along with Section 28 of the Administrative Tribunals Act, which ousted the jurisdiction of the High Courts. The judgment clarified that tribunals function as supplemental mechanisms, not substitutes for the constitutional courts. Decisions of tribunals are subject to scrutiny by a division bench of the respective High Court. Litigants cannot directly appeal a tribunal's decision to the Supreme Court under Article 136 without first approaching the High Court. This ruling restored the hierarchical structure of judicial review and ensured that High Courts retain supervisory control over administrative bodies.",
+    "facts": [
+      {
+        "k": "Year of judgment",
+        "v": "1997"
+      },
+      {
+        "k": "Bench size",
+        "v": "7 judges"
+      },
+      {
+        "k": "Relevant Amendment",
+        "v": "42nd Amendment (1976)"
+      },
+      {
+        "k": "Relevant Articles",
+        "v": "Articles 323A, 323B, 226, 32"
+      },
+      {
+        "k": "Key ruling",
+        "v": "Judicial review by High Courts and Supreme Court is part of the basic structure"
+      },
+      {
+        "k": "Status of Tribunals",
+        "v": "Supplemental to High Courts, not substitutes"
+      }
+    ],
+    "why": "CLAT tests the relationship between Articles 323A/B and Article 226. Questions frequently target the principle that tribunals cannot bypass High Court jurisdiction and that judicial review is an unamendable constitutional feature.",
+    "map": {
+      "nodes": [
+        {
+          "id": "article_323a",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 323A",
+          "kind": "law",
+          "rel": "tribunal provision",
+          "note": "Constitutional provision enabling the creation of administrative tribunals."
+        },
+        {
+          "id": "article_323b",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 323B",
+          "kind": "law",
+          "rel": "tribunal provision",
+          "note": "Enables tribunals for matters like taxation and elections."
+        },
+        {
+          "id": "forty_second_amendment",
+          "parent": "root",
+          "tier": 1,
+          "label": "42nd Amendment (1976)",
+          "kind": "law",
+          "rel": "introduced",
+          "note": "Added Part XIV-A which included the tribunal provisions."
+        },
+        {
+          "id": "article_226",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 226",
+          "kind": "law",
+          "rel": "restored power",
+          "note": "Grants High Courts the power to issue writs; restored over tribunals."
+        },
+        {
+          "id": "article_32",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 32",
+          "kind": "law",
+          "rel": "restored power",
+          "note": "Grants the Supreme Court writ jurisdiction."
+        },
+        {
+          "id": "admin_tribunals_act",
+          "parent": "root",
+          "tier": 1,
+          "label": "Administrative Tribunals Act (1985)",
+          "kind": "law",
+          "rel": "implemented",
+          "note": "The statute that established tribunals and initially excluded High Court jurisdiction."
+        },
+        {
+          "id": "high_court_jurisdiction",
+          "parent": "article_226",
+          "tier": 2,
+          "label": "High Court Jurisdiction",
+          "kind": "concept",
+          "rel": "division bench",
+          "note": "Tribunal appeals must be heard by a division bench of the High Court."
+        },
+        {
+          "id": "basic_structure_tribunals",
+          "parent": "article_32",
+          "tier": 2,
+          "label": "Basic Structure Doctrine",
+          "kind": "concept",
+          "rel": "invoked",
+          "note": "Judicial review is a basic structure feature and cannot be excluded."
+        }
+      ]
+    }
+  },
+  {
+    "id": "static-sp-gupta",
+    "rank": 1,
+    "depth": "medium",
+    "importance": 4,
+    "title": "S.P. Gupta v. Union of India (First Judges Case, 1981)",
+    "date": "1981-12-30",
+    "category": "Polity",
+    "tags": [
+      "Judiciary",
+      "PIL",
+      "Appointments"
+    ],
+    "hook": "The Supreme Court gave the executive the final word in judicial appointments and significantly relaxed locus standi to birth Public Interest Litigation in India.",
+    "story": "S.P. Gupta v. Union of India, widely known as the First Judges Case, addressed two completely distinct areas of constitutional law: the mechanics of judicial appointments and the procedural rules for accessing the courts.\n\nOn the administrative side, a seven-judge bench examined Article 124 and Article 217, which govern the appointment of Supreme Court and High Court judges. The Constitution requires the President to consult with the Chief Justice of India before making appointments. The Court ruled that consultation does not mean concurrence. If the executive and the judiciary disagreed on an appointment, the executive had the ultimate authority. This ruling tilted the balance of power decisively toward the government, a position the Court maintained until the Second Judges Case in 1993 established the collegium system.\n\nSimultaneously, the judgment transformed Indian jurisprudence by formally recognising Public Interest Litigation. Justice P.N. Bhagwati authored the majority opinion on this aspect, substantially relaxing the traditional rule of locus standi. Historically, only a person directly aggrieved by an action could approach the court. The S.P. Gupta judgment held that any public-spirited citizen or organisation acting in good faith could file a writ petition on behalf of those who, due to poverty, ignorance, or social disadvantage, could not approach the courts themselves.\n\nThe Court permitted citizens to seek redress for public wrongs by simply addressing a letter to a judge. This procedural innovation opened the doors of the Supreme Court to human rights cases, environmental disputes, and labor rights issues. While the ruling on judicial appointments was later overturned, the principles established for Public Interest Litigation remain a defining feature of the Indian legal system.",
+    "facts": [
+      {
+        "k": "Also known as",
+        "v": "First Judges Case"
+      },
+      {
+        "k": "Year of judgment",
+        "v": "1981"
+      },
+      {
+        "k": "Bench size",
+        "v": "7 judges"
+      },
+      {
+        "k": "Key ruling on appointments",
+        "v": "Consultation under Article 124 does not mean concurrence; Executive has primacy."
+      },
+      {
+        "k": "Key ruling on procedure",
+        "v": "Relaxed locus standi for Public Interest Litigation (PIL)."
+      },
+      {
+        "k": "Key judge for PIL",
+        "v": "Justice P.N. Bhagwati"
+      }
+    ],
+    "why": "Examiners test the contrast between S.P. Gupta (executive primacy) and the later collegium cases. The origin of PIL and the relaxation of locus standi by Justice Bhagwati is a highly tested static GK fact.",
+    "map": {
+      "nodes": [
+        {
+          "id": "article_124",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 124",
+          "kind": "law",
+          "rel": "appointments",
+          "note": "Governs the appointment of Supreme Court judges."
+        },
+        {
+          "id": "locus_standi",
+          "parent": "root",
+          "tier": 1,
+          "label": "Locus Standi",
+          "kind": "concept",
+          "rel": "relaxed",
+          "note": "The traditional rule requiring direct injury was loosened."
+        },
+        {
+          "id": "justice_bhagwati",
+          "parent": "root",
+          "tier": 1,
+          "label": "Justice P.N. Bhagwati",
+          "kind": "person",
+          "rel": "authored",
+          "note": "Authored the majority opinion that formalised PIL."
+        },
+        {
+          "id": "judicial_appointments",
+          "parent": "root",
+          "tier": 1,
+          "label": "Judicial Appointments",
+          "kind": "concept",
+          "rel": "mechanism",
+          "note": "The process of appointing judges which was heavily debated."
+        },
+        {
+          "id": "pil",
+          "parent": "root",
+          "tier": 1,
+          "label": "Public Interest Litigation",
+          "kind": "concept",
+          "rel": "born",
+          "note": "Formally recognised as a mechanism to seek justice for the disadvantaged."
+        },
+        {
+          "id": "consultation_vs_concurrence",
+          "parent": "article_124",
+          "tier": 2,
+          "label": "Consultation vs. Concurrence",
+          "kind": "concept",
+          "rel": "interpreted",
+          "note": "The Court ruled that the President's consultation with the CJI does not require agreement."
+        },
+        {
+          "id": "epistolary_jurisdiction",
+          "parent": "pil",
+          "tier": 2,
+          "label": "Epistolary Jurisdiction",
+          "kind": "concept",
+          "rel": "procedural innovation",
+          "note": "Allowed citizens to approach the court by simply writing a letter."
+        },
+        {
+          "id": "second_judges_case",
+          "parent": "judicial_appointments",
+          "tier": 2,
+          "label": "Second Judges Case (1993)",
+          "kind": "event",
+          "rel": "overturned by",
+          "note": "Later overturned S.P. Gupta and established the collegium system."
+        }
+      ]
+    }
+  },
+  {
+    "id": "static-romesh-thappar",
+    "rank": 1,
+    "depth": "medium",
+    "importance": 4,
+    "title": "Romesh Thappar v. State of Madras (1950)",
+    "date": "1950-05-26",
+    "category": "Polity",
+    "tags": [
+      "Free Speech",
+      "Article 19",
+      "Censorship"
+    ],
+    "hook": "The Supreme Court struck down a state ban on the entry and circulation of a journal, defining the limits of restrictions on free speech.",
+    "story": "Romesh Thappar was a Marxist intellectual who published and edited an English weekly journal named Cross Roads in Bombay. He frequently criticised the policies of Prime Minister Jawaharlal Nehru, particularly his foreign policy. In 1950, the Government of Madras used the Madras Maintenance of Public Order Act, 1949, to ban the entry, sale, and distribution of the journal within the state. The government claimed the ban was necessary to ensure public safety and maintain public order.\n\nThappar challenged the ban directly in the Supreme Court under Article 32, arguing that it violated his fundamental right to freedom of speech and expression guaranteed by Article 19(1)(a). The State of Madras defended the law by invoking Article 19(2), which at the time allowed the state to restrict free speech in relation to matters that undermined the security of the State or tended to overthrow the State.\n\nA majority of the Supreme Court, led by Justice Patanjali Sastri, ruled in favour of Thappar. The Court distinguished between ordinary breaches of public order and actions that threatened the security of the State. It concluded that the Constitution permitted restrictions only for the latter. Since the Madras Act allowed for speech to be restricted merely for public safety, it was broader than the permissible constitutional limits and thus unconstitutional.\n\nThe Court explicitly held that freedom of speech includes the freedom of propagation of ideas, which can only be achieved through circulation. The judgment was one of the primary reasons the government introduced the First Amendment in 1951, which specifically added public order as a valid ground for restricting free speech under Article 19(2).",
+    "facts": [
+      {
+        "k": "Journal name",
+        "v": "Cross Roads"
+      },
+      {
+        "k": "Petitioner",
+        "v": "Romesh Thappar"
+      },
+      {
+        "k": "Year of judgment",
+        "v": "1950"
+      },
+      {
+        "k": "Restricted under",
+        "v": "Madras Maintenance of Public Order Act, 1949"
+      },
+      {
+        "k": "Key Article",
+        "v": "Article 19(1)(a) Freedom of Speech and Expression"
+      },
+      {
+        "k": "Legal impact",
+        "v": "Prompted the First Amendment to add public order to Article 19(2)."
+      }
+    ],
+    "why": "CLAT tests the direct link between this judgment and the First Amendment of 1951. Questions focus on the distinction between public order and security of the State in the original text of the Constitution.",
+    "map": {
+      "nodes": [
+        {
+          "id": "article_19_1_a",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 19(1)(a)",
+          "kind": "law",
+          "rel": "violated",
+          "note": "Guarantees the freedom of speech and expression."
+        },
+        {
+          "id": "article_19_2",
+          "parent": "root",
+          "tier": 1,
+          "label": "Article 19(2)",
+          "kind": "law",
+          "rel": "defense invoked",
+          "note": "The state's defense which originally only covered security of the State."
+        },
+        {
+          "id": "first_amendment_speech",
+          "parent": "root",
+          "tier": 1,
+          "label": "First Amendment (1951)",
+          "kind": "law",
+          "rel": "consequence",
+          "note": "Amended Article 19(2) in response to this ruling."
+        },
+        {
+          "id": "cross_roads",
+          "parent": "root",
+          "tier": 1,
+          "label": "Cross Roads",
+          "kind": "book",
+          "rel": "banned journal",
+          "note": "The English weekly journal banned by the Government of Madras."
+        },
+        {
+          "id": "freedom_of_circulation",
+          "parent": "article_19_1_a",
+          "tier": 2,
+          "label": "Freedom of Circulation",
+          "kind": "concept",
+          "rel": "included within",
+          "note": "Court held that free speech includes the right to circulate ideas."
+        },
+        {
+          "id": "security_of_state",
+          "parent": "article_19_2",
+          "tier": 2,
+          "label": "Security of the State",
+          "kind": "concept",
+          "rel": "distinguished from",
+          "note": "Only threats of this magnitude justified restrictions at the time."
+        },
+        {
+          "id": "public_order",
+          "parent": "first_amendment_speech",
+          "tier": 2,
+          "label": "Public Order",
+          "kind": "concept",
+          "rel": "added ground",
+          "note": "Added as a restriction on free speech after the judgment."
+        },
+        {
+          "id": "romesh_thappar_person",
+          "parent": "cross_roads",
+          "tier": 2,
+          "label": "Romesh Thappar",
+          "kind": "person",
+          "rel": "editor",
+          "note": "The Marxist intellectual who published the journal."
+        }
+      ]
+    }
+  },
+  {
+    "id": "static-ks-puttaswamy-2",
+    "rank": 1,
+    "depth": "medium",
+    "importance": 5,
+    "title": "K.S. Puttaswamy II v. Union of India (Aadhaar Judgment, 2018)",
+    "date": "2018-09-26",
+    "category": "Polity",
+    "tags": [
+      "Aadhaar",
+      "Privacy",
+      "Money Bill"
+    ],
+    "hook": "The Supreme Court upheld the constitutional validity of the Aadhaar project while striking down provisions that allowed private companies to demand the ID.",
+    "story": "Following the 2017 ruling that established privacy as a fundamental right, a five-judge bench of the Supreme Court examined the validity of the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016. The petitioners argued that the mandatory collection of biometric data violated the right to privacy and that passing the Act as a Money Bill was unconstitutional.\n\nIn a 4:1 majority judgment authored by Justice A.K. Sikri, the Court upheld the overall constitutional validity of the Aadhaar Act. The Court applied a test of proportionality and found that the project served a legitimate state aim: ensuring that state welfare benefits reach the intended recipients without leakage. The Court concluded that the minimal demographic and biometric data collected by the Unique Identification Authority of India did not amount to mass surveillance.\n\nHowever, the Court significantly limited the scope of the project. It struck down Section 57 of the Act, which had allowed private corporate bodies, such as telecom operators and banks, to demand Aadhaar data. The ruling clarified that Aadhaar could be made mandatory for welfare schemes funded by the Consolidated Fund of India and for linking to PAN cards for income tax purposes. It could not be made mandatory for school admissions, CBSE exams, or opening regular bank accounts.\n\nJustice D.Y. Chandrachud delivered a sharp dissenting opinion. He argued that the Aadhaar Act was unconstitutionally passed as a Money Bill to bypass the Rajya Sabha, and that the architecture of the project fundamentally compromised individual privacy and created a surveillance state. Despite the dissent, the majority ruling cemented Aadhaar's place in state welfare mechanisms.",
+    "facts": [
+      {
+        "k": "Year of judgment",
+        "v": "2018"
+      },
+      {
+        "k": "Bench size",
+        "v": "5 judges"
+      },
+      {
+        "k": "Majority Author",
+        "v": "Justice A.K. Sikri"
+      },
+      {
+        "k": "Dissenting Judge",
+        "v": "Justice D.Y. Chandrachud"
+      },
+      {
+        "k": "Key upheld feature",
+        "v": "Mandatory for PAN cards and state welfare subsidies."
+      },
+      {
+        "k": "Key struck down feature",
+        "v": "Section 57 allowing private companies to demand Aadhaar."
+      },
+      {
+        "k": "Act passed as",
+        "v": "Money Bill (Article 110)"
+      }
+    ],
+    "why": "Examiners test the exact limits imposed by the Court\u2014specifically what Aadhaar is mandatory for (welfare, PAN) and what it isn't (bank accounts, phones). Justice Chandrachud's dissent regarding the Money Bill classification is a high-yield question.",
+    "map": {
+      "nodes": [
+        {
+          "id": "aadhaar_act",
+          "parent": "root",
+          "tier": 1,
+          "label": "Aadhaar Act (2016)",
+          "kind": "law",
+          "rel": "challenged law",
+          "note": "The central legislation enabling the Aadhaar project."
+        },
+        {
+          "id": "right_to_privacy",
+          "parent": "root",
+          "tier": 1,
+          "label": "Right to Privacy",
+          "kind": "concept",
+          "rel": "balancing",
+          "note": "The fundamental right weighed against state welfare aims."
+        },
+        {
+          "id": "proportionality_test",
+          "parent": "root",
+          "tier": 1,
+          "label": "Proportionality Test",
+          "kind": "concept",
+          "rel": "applied",
+          "note": "The legal test used to determine if the privacy infringement was justified."
+        },
+        {
+          "id": "money_bill",
+          "parent": "root",
+          "tier": 1,
+          "label": "Money Bill (Article 110)",
+          "kind": "law",
+          "rel": "legislative route",
+          "note": "The controversial classification used to pass the Act."
+        },
+        {
+          "id": "section_57",
+          "parent": "aadhaar_act",
+          "tier": 2,
+          "label": "Section 57",
+          "kind": "law",
+          "rel": "struck down",
+          "note": "Allowed private entities to demand Aadhaar; declared unconstitutional."
+        },
+        {
+          "id": "uidai",
+          "parent": "aadhaar_act",
+          "tier": 2,
+          "label": "UIDAI",
+          "kind": "org",
+          "rel": "implementing body",
+          "note": "The statutory authority mandated to collect and store biometric data."
+        },
+        {
+          "id": "puttaswamy_i",
+          "parent": "right_to_privacy",
+          "tier": 2,
+          "label": "K.S. Puttaswamy I (2017)",
+          "kind": "event",
+          "rel": "precedent",
+          "note": "The earlier 9-judge bench ruling that established privacy as a fundamental right."
+        },
+        {
+          "id": "justice_chandrachud",
+          "parent": "money_bill",
+          "tier": 2,
+          "label": "Justice D.Y. Chandrachud",
+          "kind": "person",
+          "rel": "dissented on",
+          "note": "Authored the sole dissent, arguing the Money Bill route was a fraud on the Constitution."
+        }
+      ]
+    }
+  }
+]
