@@ -406,6 +406,408 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "awd-sports",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Sports: trophies, tournaments and which sport they belong to",
+   "date": "",
+   "category": "Sports",
+   "tags": [
+    "Trophies",
+    "Olympics",
+    "Cricket",
+    "Sports"
+   ],
+   "hook": "Twenty trophy names, each attached to exactly one sport, and a handful of tournament facts that recur every year.",
+   "story": "**Trophy to sport.** Cricket: Ranji Trophy (first-class, since 1934), Duleep Trophy, Irani Cup, Vijay Hazare Trophy (one-day), Syed Mushtaq Ali Trophy (T20), Deodhar Trophy, Ashes (England-Australia), Border-Gavaskar Trophy (India-Australia). Hockey: **Agha Khan Cup**, Beighton Cup, Dhyan Chand Trophy, Rangaswami Cup, **Azlan Shah Cup**. Football: **Durand Cup**, the oldest football tournament in Asia and third oldest in the world, begun 1888; Santosh Trophy; Rovers Cup; **FIFA World Cup**; **Copa America**; **UEFA European Championship**. Badminton: **Thomas Cup** (men's team), **Uber Cup** (women's team), **Sudirman Cup** (mixed team), All England Open. Tennis: **Davis Cup** (men's team), **Billie Jean King Cup** (women's team, formerly Fed Cup), Wimbledon, US Open, French Open, Australian Open. Chess: **FIDE World Championship**, Chess Olympiad. Golf: **Ryder Cup**, Masters, Open Championship. Basketball: Naismith Trophy. Polo: Ezra Cup. Table tennis: Swaythling Cup (men), Corbillon Cup (women).\n\n**Olympics.** First modern Games, **Athens 1896**, revived by **Pierre de Coubertin**. The **International Olympic Committee** was founded in 1894 and sits at **Lausanne**. The motto was *Citius, Altius, Fortius*, to which **Communiter** was added in 2021. Five rings represent the five continents; every national flag contains at least one of the six colours including the white background. India's first individual Olympic medal was **Khashaba Jadhav's** wrestling bronze at Helsinki in 1952; the first individual gold was **Abhinav Bindra's** in shooting at Beijing 2008. India's best haul is seven medals at Tokyo 2020, where **Neeraj Chopra** won javelin gold. Hockey gave India eight Olympic golds, six of them consecutively from 1928 to 1956. **Paris 2024** was the most recent Summer Games; **Los Angeles 2028** is next, and **Milan-Cortina 2026** hosted the Winter Games.\n\n**Cricket landmarks.** The first Test was played in 1877 between Australia and England; India's first Test was in 1932 at Lord's under **C.K. Nayudu**. India won the World Cup in **1983** under Kapil Dev and **2011** under M.S. Dhoni, the T20 World Cup in **2007** and **2024**, and the Champions Trophy in 2002, 2013 and 2025. The **BCCI** was founded in 1928; the **ICC**, founded 1909 as the Imperial Cricket Conference, is headquartered in **Dubai**.",
+   "facts": [
+    {
+     "k": "Oldest football tournament in Asia",
+     "v": "Durand Cup, begun 1888"
+    },
+    {
+     "k": "Thomas Cup and Uber Cup",
+     "v": "Badminton, men’s and women’s team events"
+    },
+    {
+     "k": "Davis Cup",
+     "v": "Tennis, men’s team"
+    },
+    {
+     "k": "First modern Olympics",
+     "v": "Athens, 1896"
+    },
+    {
+     "k": "Olympic motto",
+     "v": "Citius, Altius, Fortius; Communiter added in 2021"
+    },
+    {
+     "k": "India’s first individual Olympic medal",
+     "v": "K.D. Jadhav, wrestling bronze, Helsinki 1952"
+    },
+    {
+     "k": "India’s first individual Olympic gold",
+     "v": "Abhinav Bindra, shooting, Beijing 2008"
+    },
+    {
+     "k": "India’s hockey Olympic golds",
+     "v": "Eight, six consecutively from 1928 to 1956"
+    },
+    {
+     "k": "India’s Cricket World Cup wins",
+     "v": "1983 and 2011"
+    },
+    {
+     "k": "ICC headquarters",
+     "v": "Dubai"
+    }
+   ],
+   "timeline": [],
+   "why": "Trophy-to-sport matching is the single most common sports question. The confusable pairs are Thomas and Uber, Swaythling and Corbillon, and Durand against Santosh.",
+   "map": {
+    "nodes": [
+     {
+      "id": "durand",
+      "parent": "root",
+      "tier": 1,
+      "label": "Durand Cup",
+      "kind": "award",
+      "rel": "football",
+      "note": "Begun 1888, the oldest football tournament in Asia and the third oldest in the world."
+     },
+     {
+      "id": "thomas",
+      "parent": "root",
+      "tier": 1,
+      "label": "Thomas and Uber Cups",
+      "kind": "award",
+      "rel": "badminton",
+      "note": "Thomas Cup is the men’s team championship, Uber Cup the women’s. India won the Thomas Cup for the first time in 2022."
+     },
+     {
+      "id": "davis",
+      "parent": "root",
+      "tier": 1,
+      "label": "Davis Cup",
+      "kind": "award",
+      "rel": "tennis",
+      "note": "Men’s team event, begun 1900. The women’s equivalent is the Billie Jean King Cup, formerly the Fed Cup."
+     },
+     {
+      "id": "ranji",
+      "parent": "root",
+      "tier": 1,
+      "label": "Ranji Trophy",
+      "kind": "award",
+      "rel": "cricket",
+      "note": "India’s first-class championship since 1934, named for K.S. Ranjitsinhji. Duleep and Irani are the other domestic trophies."
+     },
+     {
+      "id": "olympics",
+      "parent": "root",
+      "tier": 1,
+      "label": "Olympic Games",
+      "kind": "event",
+      "rel": "Athens 1896",
+      "note": "Revived by Pierre de Coubertin. The IOC was founded in 1894 and is headquartered at Lausanne."
+     },
+     {
+      "id": "bindra",
+      "parent": "olympics",
+      "tier": 2,
+      "label": "Abhinav Bindra",
+      "kind": "person",
+      "rel": "first individual gold",
+      "note": "10m air rifle, Beijing 2008. India’s first individual Olympic gold in any sport."
+     },
+     {
+      "id": "jadhav",
+      "parent": "olympics",
+      "tier": 2,
+      "label": "K.D. Jadhav",
+      "kind": "person",
+      "rel": "first individual medal",
+      "note": "Wrestling bronze at Helsinki 1952, the first individual Olympic medal for independent India."
+     },
+     {
+      "id": "neeraj",
+      "parent": "olympics",
+      "tier": 2,
+      "label": "Neeraj Chopra",
+      "kind": "person",
+      "rel": "javelin gold",
+      "note": "Tokyo 2020, India’s first Olympic gold in athletics. Silver at Paris 2024."
+     },
+     {
+      "id": "hockey",
+      "parent": "olympics",
+      "tier": 2,
+      "label": "Indian hockey",
+      "kind": "concept",
+      "rel": "eight golds",
+      "note": "Six consecutive golds from 1928 to 1956, with Dhyan Chand in the first three. Bronze at Tokyo 2020 and Paris 2024."
+     },
+     {
+      "id": "wc1983",
+      "parent": "ranji",
+      "tier": 2,
+      "label": "1983 World Cup",
+      "kind": "event",
+      "rel": "the turning point",
+      "note": "India beat West Indies at Lord’s under Kapil Dev. The 2011 win under M.S. Dhoni was at home, in Mumbai."
+     },
+     {
+      "id": "icc",
+      "parent": "ranji",
+      "tier": 2,
+      "label": "ICC",
+      "kind": "org",
+      "rel": "1909, Dubai",
+      "note": "Founded as the Imperial Cricket Conference by England, Australia and South Africa. Headquarters moved to Dubai in 2005."
+     },
+     {
+      "id": "motto",
+      "parent": "olympics",
+      "tier": 2,
+      "label": "Citius, Altius, Fortius",
+      "kind": "term",
+      "rel": "the motto",
+      "note": "Faster, Higher, Stronger. Communiter, meaning together, was added in 2021."
+     },
+     {
+      "id": "swaythling",
+      "parent": "thomas",
+      "tier": 3,
+      "label": "Swaythling and Corbillon Cups",
+      "kind": "award",
+      "rel": "table tennis",
+      "note": "Swaythling is the men’s team event, Corbillon the women’s, both at the World Team Championships."
+     },
+     {
+      "id": "azlan",
+      "parent": "durand",
+      "tier": 3,
+      "label": "Azlan Shah Cup",
+      "kind": "award",
+      "rel": "hockey",
+      "note": "Annual invitational tournament in Malaysia, named after the Sultan of Perak."
+     },
+     {
+      "id": "nayudu",
+      "parent": "ranji",
+      "tier": 3,
+      "label": "C.K. Nayudu",
+      "kind": "person",
+      "rel": "first Test captain",
+      "note": "Led India in its first Test at Lord’s in 1932. The C.K. Nayudu Trophy is India’s under-23 competition."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "awd-arts",
+   "rank": 4,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Cinema, literature and the arts: the awards and who gives them",
+   "date": "",
+   "category": "Awards & Honours",
+   "tags": [
+    "Cinema",
+    "Literature",
+    "Jnanpith",
+    "Dadasaheb Phalke"
+   ],
+   "hook": "Which body confers which award, and the small list of firsts that keeps appearing.",
+   "story": "**Cinema.** The **National Film Awards** are conferred by the **Directorate of Film Festivals** under the Ministry of Information and Broadcasting, instituted in 1954. The highest is the **Dadasaheb Phalke Award**, instituted in **1969**, first given to **Devika Rani**. **Dadasaheb Phalke** himself made *Raja Harishchandra* in **1913**, India's first full-length feature film; *Alam Ara* (1931) by Ardeshir Irani was the first talkie. The **Filmfare Awards** are private, begun 1954. The **International Film Festival of India** is held annually in **Goa**, begun 1952, the oldest in Asia.\n\n**Satyajit Ray** made *Pather Panchali* (1955), the first of the Apu trilogy, and received an honorary Academy Award in 1992 and the Bharat Ratna the same year. Indian Oscar wins: **Bhanu Athaiya** for costume design in *Gandhi* (1983), **A.R. Rahman** for score and song and **Resul Pookutty** for sound mixing in *Slumdog Millionaire* (2009), and in 2023 \"Naatu Naatu\" from *RRR* for original song and *The Elephant Whisperers* for documentary short. *Mother India* (1957), *Salaam Bombay!* (1988) and *Lagaan* (2001) were nominated in the foreign language category but did not win.\n\n**Literature.** The **Jnanpith Award**, instituted **1961** by the Bharatiya Jnanpith trust, is India's highest literary honour, given for work in any of the languages in the **Eighth Schedule**; the first went to **G. Sankara Kurup** for Malayalam in 1965. **Ashapoorna Devi** was the first woman recipient, in 1976. The **Sahitya Akademi Award**, instituted 1954 by the Sahitya Akademi, is given annually in 24 languages including English and Rajasthani. The **Saraswati Samman**, instituted 1991 by the K.K. Birla Foundation, and the **Vyas Samman** and **Bihari Puraskar** come from the same foundation.\n\n**The three academies**, all set up in the 1950s: **Sahitya Akademi** (1954) for letters, **Sangeet Natak Akademi** (1953) for music, dance and drama, and **Lalit Kala Akademi** (1954) for the visual arts. The **National School of Drama** was founded in 1959.\n\n**Classical dance forms**, all recognised by the Sangeet Natak Akademi, with their states: Bharatanatyam (Tamil Nadu), Kathak (Uttar Pradesh), Kathakali and Mohiniyattam (Kerala), Kuchipudi (Andhra Pradesh), Odissi (Odisha), Manipuri (Manipur) and Sattriya (Assam, recognised 2000).",
+   "facts": [
+    {
+     "k": "Dadasaheb Phalke Award instituted",
+     "v": "1969; first recipient Devika Rani"
+    },
+    {
+     "k": "India’s first feature film",
+     "v": "Raja Harishchandra, 1913"
+    },
+    {
+     "k": "India’s first talkie",
+     "v": "Alam Ara, 1931"
+    },
+    {
+     "k": "IFFI held in",
+     "v": "Goa; begun 1952, oldest in Asia"
+    },
+    {
+     "k": "Jnanpith instituted",
+     "v": "1961; first award 1965 to G. Sankara Kurup"
+    },
+    {
+     "k": "First woman Jnanpith recipient",
+     "v": "Ashapoorna Devi, 1976"
+    },
+    {
+     "k": "Sahitya Akademi",
+     "v": "1954, awards in 24 languages"
+    },
+    {
+     "k": "Sangeet Natak Akademi",
+     "v": "1953"
+    },
+    {
+     "k": "Classical dance forms",
+     "v": "Eight, Sattriya recognised in 2000"
+    },
+    {
+     "k": "First Indian Oscar winner",
+     "v": "Bhanu Athaiya, costume design, Gandhi, 1983"
+    }
+   ],
+   "timeline": [],
+   "why": "Award-to-body and dance-to-state matching are standard. The trap is treating Filmfare as a government award, and forgetting Sattriya as the eighth classical dance.",
+   "map": {
+    "nodes": [
+     {
+      "id": "phalke",
+      "parent": "root",
+      "tier": 1,
+      "label": "Dadasaheb Phalke Award",
+      "kind": "award",
+      "rel": "highest in cinema",
+      "note": "Instituted 1969, first given to Devika Rani. Conferred with the National Film Awards by the Ministry of Information and Broadcasting."
+     },
+     {
+      "id": "jnanpith",
+      "parent": "root",
+      "tier": 1,
+      "label": "Jnanpith Award",
+      "kind": "award",
+      "rel": "highest in literature",
+      "note": "Instituted 1961 by the Bharatiya Jnanpith. For work in any Eighth Schedule language. First award 1965."
+     },
+     {
+      "id": "akademis",
+      "parent": "root",
+      "tier": 1,
+      "label": "The three Akademis",
+      "kind": "org",
+      "rel": "set up in the 1950s",
+      "note": "Sangeet Natak 1953, Sahitya 1954, Lalit Kala 1954. Autonomous bodies under the Ministry of Culture."
+     },
+     {
+      "id": "dance",
+      "parent": "root",
+      "tier": 1,
+      "label": "Eight classical dances",
+      "kind": "concept",
+      "rel": "form to state",
+      "note": "Bharatanatyam Tamil Nadu, Kathak UP, Kathakali and Mohiniyattam Kerala, Kuchipudi Andhra, Odissi Odisha, Manipuri Manipur, Sattriya Assam."
+     },
+     {
+      "id": "rajah",
+      "parent": "phalke",
+      "tier": 1,
+      "label": "Raja Harishchandra (1913)",
+      "kind": "event",
+      "rel": "the first film",
+      "note": "Made by Dadasaheb Phalke, India’s first full-length feature. Alam Ara in 1931 was the first talkie."
+     },
+     {
+      "id": "ray",
+      "parent": "phalke",
+      "tier": 2,
+      "label": "Satyajit Ray",
+      "kind": "person",
+      "rel": "Pather Panchali",
+      "note": "1955, first of the Apu trilogy. Honorary Academy Award and Bharat Ratna, both in 1992."
+     },
+     {
+      "id": "oscars",
+      "parent": "ray",
+      "tier": 2,
+      "label": "Indian Oscar wins",
+      "kind": "concept",
+      "rel": "five",
+      "note": "Bhanu Athaiya 1983, A.R. Rahman and Resul Pookutty 2009, Naatu Naatu and The Elephant Whisperers 2023."
+     },
+     {
+      "id": "sahitya",
+      "parent": "akademis",
+      "tier": 2,
+      "label": "Sahitya Akademi Award",
+      "kind": "award",
+      "rel": "24 languages",
+      "note": "Instituted 1954. Includes English and Rajasthani alongside the Eighth Schedule languages."
+     },
+     {
+      "id": "kurup",
+      "parent": "jnanpith",
+      "tier": 2,
+      "label": "G. Sankara Kurup",
+      "kind": "person",
+      "rel": "first Jnanpith",
+      "note": "Malayalam poet, awarded in 1965 for Odakkuzhal."
+     },
+     {
+      "id": "ashapoorna",
+      "parent": "jnanpith",
+      "tier": 2,
+      "label": "Ashapoorna Devi",
+      "kind": "person",
+      "rel": "first woman",
+      "note": "Bengali novelist, awarded 1976 for Pratham Pratisruti."
+     },
+     {
+      "id": "iffi",
+      "parent": "rajah",
+      "tier": 2,
+      "label": "IFFI",
+      "kind": "event",
+      "rel": "Goa",
+      "note": "International Film Festival of India, begun 1952, the oldest film festival in Asia. Permanently held in Goa since 2004."
+     },
+     {
+      "id": "saraswati",
+      "parent": "jnanpith",
+      "tier": 3,
+      "label": "Saraswati Samman",
+      "kind": "award",
+      "rel": "K.K. Birla Foundation",
+      "note": "Instituted 1991 for a literary work in any Eighth Schedule language published in the last ten years."
+     },
+     {
+      "id": "sattriya",
+      "parent": "dance",
+      "tier": 3,
+      "label": "Sattriya",
+      "kind": "term",
+      "rel": "the eighth",
+      "note": "From the Vaishnavite monasteries of Assam, founded by Srimanta Sankardeva. Recognised as classical in 2000."
+     },
+     {
+      "id": "nsd",
+      "parent": "akademis",
+      "tier": 3,
+      "label": "National School of Drama",
+      "kind": "org",
+      "rel": "1959",
+      "note": "Set up in New Delhi, one of the foremost theatre training institutions in Asia."
+     },
+     {
+      "id": "eighth",
+      "parent": "jnanpith",
+      "tier": 3,
+      "label": "Eighth Schedule",
+      "kind": "law",
+      "rel": "the languages",
+      "note": "22 languages. Sindhi added by the 21st Amendment, Konkani, Manipuri and Nepali by the 71st, and Bodo, Dogri, Maithili and Santhali by the 92nd."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
