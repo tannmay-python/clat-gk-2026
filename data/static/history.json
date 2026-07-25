@@ -2159,6 +2159,699 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "his-revolutions",
+   "rank": 12,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Three revolutions and the vocabulary they left behind",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "French Revolution",
+    "American Revolution",
+    "Russian Revolution",
+    "World History"
+   ],
+   "hook": "Liberty, equality and fraternity reached the Preamble of the Indian Constitution by way of a Paris street in 1789.",
+   "story": "The **American Revolution** began over taxation without representation. The **Stamp Act of 1765** and the **Tea Act** produced the **Boston Tea Party of 1773**; fighting started at Lexington in 1775; the **Declaration of Independence**, drafted mainly by **Thomas Jefferson**, was adopted on **4 July 1776**. French intervention decided the war, which ended at Yorktown in 1781 and formally at the **Treaty of Paris, 1783**. The **Constitution of 1787** produced the first written constitution of a modern republic, with **separation of powers** taken from Montesquieu, judicial review established later by **Marbury v. Madison (1803)**, and a **Bill of Rights** added by the first ten amendments in 1791. India borrowed the fundamental rights, judicial review, the impeachment procedure and the office of Vice President from it.\n\nThe **French Revolution** began when the **Estates-General** met in **May 1789** for the first time since 1614, the Third Estate declared itself the National Assembly, and the **Bastille** fell on **14 July 1789**. The **Declaration of the Rights of Man and of the Citizen** followed in August. The monarchy was abolished in 1792, **Louis XVI** executed in 1793, and the **Reign of Terror** under **Robespierre** and the Committee of Public Safety ran until his own execution in 1794. **Napoleon** took power in 1799 and crowned himself emperor in 1804; his **Civil Code of 1804** carried the revolution's legal settlement across Europe, and his defeat at **Waterloo in 1815** was followed by the **Congress of Vienna**, which tried to restore what he had swept away. **Liberty, equality and fraternity** entered the Indian Preamble through this route.\n\nThe **Russian Revolution** came in two stages in **1917**. The **February Revolution** forced the abdication of **Tsar Nicholas II** and produced a provisional government under Kerensky that kept Russia in the war. The **October Revolution** put the **Bolsheviks** under **Lenin** in power on the promise of peace, land and bread; the **Treaty of Brest-Litovsk** took Russia out of the First World War in 1918 at heavy territorial cost. A civil war followed, the **New Economic Policy** of 1921 restored limited private trade, and the **USSR** was formed in **1922**. **Stalin** succeeded Lenin in 1924 and replaced the NEP with collectivisation and five-year plans, the model that shaped Indian planning from the Second Plan onwards.",
+   "facts": [
+    {
+     "k": "American Declaration",
+     "v": "4 July 1776, drafted mainly by Jefferson; war ended by the Treaty of Paris, 1783"
+    },
+    {
+     "k": "Borrowed from the United States",
+     "v": "Fundamental rights, judicial review, impeachment, the Vice President"
+    },
+    {
+     "k": "Bastille",
+     "v": "14 July 1789; the Estates-General had met in May for the first time since 1614"
+    },
+    {
+     "k": "Declaration of the Rights of Man",
+     "v": "August 1789; source of liberty, equality and fraternity"
+    },
+    {
+     "k": "Napoleonic Code",
+     "v": "1804; carried the revolution's legal settlement across Europe"
+    },
+    {
+     "k": "Two revolutions in 1917",
+     "v": "February forced the Tsar out; October brought the Bolsheviks in"
+    },
+    {
+     "k": "Brest-Litovsk",
+     "v": "1918; took Russia out of the First World War"
+    },
+    {
+     "k": "USSR formed",
+     "v": "1922; Stalin succeeded Lenin in 1924"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1776",
+     "what": "American Declaration of Independence"
+    },
+    {
+     "when": "1789",
+     "what": "Estates-General; fall of the Bastille"
+    },
+    {
+     "when": "1793",
+     "what": "Louis XVI executed; the Terror begins"
+    },
+    {
+     "when": "1804",
+     "what": "Napoleonic Code; Napoleon crowned emperor"
+    },
+    {
+     "when": "1815",
+     "what": "Waterloo; Congress of Vienna"
+    },
+    {
+     "when": "1917",
+     "what": "February and October revolutions in Russia"
+    },
+    {
+     "when": "1922",
+     "what": "USSR formed"
+    }
+   ],
+   "why": "Papers ask which idea India borrowed from where, so keep the American list and the French phrase separate. The 1917 trap is treating the two revolutions as one event.",
+   "map": {
+    "nodes": [
+     {
+      "id": "hr-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Three revolutions",
+      "kind": "concept",
+      "rel": "core",
+      "note": "The events that gave modern politics its vocabulary."
+     },
+     {
+      "id": "hr-us",
+      "parent": "hr-root",
+      "tier": 1,
+      "label": "American Revolution",
+      "kind": "event",
+      "rel": "revolution",
+      "note": "Taxation without representation to a written constitution."
+     },
+     {
+      "id": "hr-decl",
+      "parent": "hr-us",
+      "tier": 2,
+      "label": "Declaration of Independence",
+      "kind": "concept",
+      "rel": "document",
+      "note": "4 July 1776, drafted mainly by Jefferson."
+     },
+     {
+      "id": "hr-const",
+      "parent": "hr-us",
+      "tier": 2,
+      "label": "Constitution of 1787",
+      "kind": "law",
+      "rel": "settlement",
+      "note": "Separation of powers, a Bill of Rights from 1791."
+     },
+     {
+      "id": "hr-marbury",
+      "parent": "hr-const",
+      "tier": 3,
+      "label": "Marbury v. Madison, 1803",
+      "kind": "case",
+      "rel": "doctrine",
+      "note": "Established judicial review."
+     },
+     {
+      "id": "hr-borrow",
+      "parent": "hr-us",
+      "tier": 2,
+      "label": "What India borrowed",
+      "kind": "concept",
+      "rel": "link",
+      "note": "Fundamental rights, judicial review, impeachment, Vice President."
+     },
+     {
+      "id": "hr-fr",
+      "parent": "hr-root",
+      "tier": 1,
+      "label": "French Revolution",
+      "kind": "event",
+      "rel": "revolution",
+      "note": "From the Estates-General to the Napoleonic Code."
+     },
+     {
+      "id": "hr-bastille",
+      "parent": "hr-fr",
+      "tier": 2,
+      "label": "Fall of the Bastille",
+      "kind": "event",
+      "rel": "symbol",
+      "note": "14 July 1789."
+     },
+     {
+      "id": "hr-rights",
+      "parent": "hr-fr",
+      "tier": 2,
+      "label": "Rights of Man, 1789",
+      "kind": "concept",
+      "rel": "document",
+      "note": "Liberty, equality and fraternity."
+     },
+     {
+      "id": "hr-terror",
+      "parent": "hr-fr",
+      "tier": 2,
+      "label": "The Terror",
+      "kind": "event",
+      "rel": "phase",
+      "note": "Robespierre and the Committee of Public Safety."
+     },
+     {
+      "id": "hr-nap",
+      "parent": "hr-fr",
+      "tier": 2,
+      "label": "Napoleon",
+      "kind": "person",
+      "rel": "outcome",
+      "note": "Emperor 1804; Civil Code the same year; Waterloo 1815."
+     },
+     {
+      "id": "hr-vienna",
+      "parent": "hr-nap",
+      "tier": 3,
+      "label": "Congress of Vienna",
+      "kind": "event",
+      "rel": "reaction",
+      "note": "Attempted restoration of the old order."
+     },
+     {
+      "id": "hr-ru",
+      "parent": "hr-root",
+      "tier": 1,
+      "label": "Russian Revolution",
+      "kind": "event",
+      "rel": "revolution",
+      "note": "Two stages in 1917."
+     },
+     {
+      "id": "hr-feb",
+      "parent": "hr-ru",
+      "tier": 2,
+      "label": "February Revolution",
+      "kind": "event",
+      "rel": "stage",
+      "note": "Tsar Nicholas II abdicates; provisional government."
+     },
+     {
+      "id": "hr-oct",
+      "parent": "hr-ru",
+      "tier": 2,
+      "label": "October Revolution",
+      "kind": "event",
+      "rel": "stage",
+      "note": "Lenin and the Bolsheviks; peace, land and bread."
+     },
+     {
+      "id": "hr-brest",
+      "parent": "hr-oct",
+      "tier": 3,
+      "label": "Brest-Litovsk, 1918",
+      "kind": "agreement",
+      "rel": "exit",
+      "note": "Russia leaves the First World War."
+     },
+     {
+      "id": "hr-ussr",
+      "parent": "hr-ru",
+      "tier": 2,
+      "label": "USSR, 1922",
+      "kind": "concept",
+      "rel": "state",
+      "note": "Stalin from 1924; the planning model India later borrowed."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-worldwars",
+   "rank": 14,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The two world wars and the institutions built out of them",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "World War I",
+    "World War II",
+    "League of Nations",
+    "United Nations"
+   ],
+   "hook": "The treaty that ended the first war is widely blamed for causing the second, and the man who said so at the time was an economist nobody listened to.",
+   "story": "The **First World War** ran from **1914 to 1918**. The immediate trigger was the assassination of **Archduke Franz Ferdinand** at **Sarajevo on 28 June 1914**; the underlying causes were the alliance system, militarism, imperial rivalry and nationalism in the Balkans. The **Triple Alliance** of Germany, Austria-Hungary and Italy faced the **Triple Entente** of Britain, France and Russia, though Italy changed sides in 1915. The United States entered in 1917 after unrestricted submarine warfare and the **Zimmermann telegram**. About **1.3 million Indians** served, mostly in Mesopotamia and France. The **Armistice** came on **11 November 1918**.\n\nThe **Treaty of Versailles, 1919** imposed a war guilt clause, reparations, disarmament and territorial loss on Germany. **John Maynard Keynes** resigned from the British delegation and argued in *The Economic Consequences of the Peace* that the terms would wreck the German economy and the peace with it. The **League of Nations**, proposed in **Woodrow Wilson's Fourteen Points**, was created by the same treaty and seated at **Geneva**; the United States never joined because the Senate refused ratification, and the League had no armed force and required unanimity, which is why it failed over Manchuria in 1931 and Abyssinia in 1935.\n\nThe **Second World War** ran from the **German invasion of Poland on 1 September 1939** to the surrenders of **May and August 1945**. The **Axis** of Germany, Italy and Japan faced the **Allies**. Turning points were the **Battle of Britain**, the invasion of the Soviet Union in 1941, **Pearl Harbor** in December 1941, **Stalingrad** in 1942-43, and the **Normandy landings** of June 1944. The war ended in the Pacific after the atomic bombing of **Hiroshima on 6 August** and **Nagasaki on 9 August 1945**. Around 2.5 million Indians served, the largest volunteer army in history.\n\nThe institutions came out of the wreckage: the **United Nations Charter** signed at San Francisco in June 1945, the **Bretton Woods** institutions from 1944, the **Nuremberg** and **Tokyo** tribunals which established that individuals could be tried for crimes against humanity, the **Universal Declaration of Human Rights** in 1948, and the **Genocide Convention** the same year.",
+   "facts": [
+    {
+     "k": "Trigger of the first war",
+     "v": "Assassination of Archduke Franz Ferdinand at Sarajevo, 28 June 1914"
+    },
+    {
+     "k": "Armistice",
+     "v": "11 November 1918; about 1.3 million Indians served"
+    },
+    {
+     "k": "Versailles, 1919",
+     "v": "War guilt, reparations, disarmament; Keynes resigned and predicted disaster"
+    },
+    {
+     "k": "League of Nations",
+     "v": "From Wilson's Fourteen Points; seated at Geneva; the United States never joined"
+    },
+    {
+     "k": "Second war",
+     "v": "1 September 1939 to the surrenders of May and August 1945"
+    },
+    {
+     "k": "Atomic bombings",
+     "v": "Hiroshima 6 August and Nagasaki 9 August 1945"
+    },
+    {
+     "k": "Nuremberg and Tokyo",
+     "v": "Established individual criminal responsibility for crimes against humanity"
+    },
+    {
+     "k": "1948",
+     "v": "Universal Declaration of Human Rights and the Genocide Convention"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1914",
+     "what": "Sarajevo; war begins"
+    },
+    {
+     "when": "1917",
+     "what": "United States enters; Russia leaves after October"
+    },
+    {
+     "when": "1919",
+     "what": "Treaty of Versailles; League of Nations created"
+    },
+    {
+     "when": "1939",
+     "what": "Germany invades Poland"
+    },
+    {
+     "when": "1945",
+     "what": "Surrenders; UN Charter signed at San Francisco"
+    },
+    {
+     "when": "1948",
+     "what": "Universal Declaration and Genocide Convention"
+    }
+   ],
+   "why": "Versailles created the League, and the Charter created the UN — the pairing gets swapped constantly. The other reliable question is why the League failed: no United States, no force, and a unanimity rule.",
+   "map": {
+    "nodes": [
+     {
+      "id": "hw-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "The world wars",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Two wars and the institutional order built after them."
+     },
+     {
+      "id": "hw-ww1",
+      "parent": "hw-root",
+      "tier": 1,
+      "label": "First World War",
+      "kind": "event",
+      "rel": "war",
+      "note": "1914 to 1918."
+     },
+     {
+      "id": "hw-sara",
+      "parent": "hw-ww1",
+      "tier": 2,
+      "label": "Sarajevo, 1914",
+      "kind": "event",
+      "rel": "trigger",
+      "note": "Assassination of Archduke Franz Ferdinand."
+     },
+     {
+      "id": "hw-alliances",
+      "parent": "hw-ww1",
+      "tier": 2,
+      "label": "Alliance system",
+      "kind": "concept",
+      "rel": "cause",
+      "note": "Triple Alliance against Triple Entente."
+     },
+     {
+      "id": "hw-india1",
+      "parent": "hw-ww1",
+      "tier": 2,
+      "label": "Indian troops",
+      "kind": "concept",
+      "rel": "participation",
+      "note": "About 1.3 million served."
+     },
+     {
+      "id": "hw-versailles",
+      "parent": "hw-root",
+      "tier": 1,
+      "label": "Treaty of Versailles, 1919",
+      "kind": "agreement",
+      "rel": "settlement",
+      "note": "War guilt, reparations, disarmament."
+     },
+     {
+      "id": "hw-keynes",
+      "parent": "hw-versailles",
+      "tier": 2,
+      "label": "Keynes",
+      "kind": "person",
+      "rel": "critic",
+      "note": "Resigned and predicted the terms would fail."
+     },
+     {
+      "id": "hw-league",
+      "parent": "hw-versailles",
+      "tier": 2,
+      "label": "League of Nations",
+      "kind": "institution",
+      "rel": "body",
+      "note": "From Wilson's Fourteen Points; at Geneva."
+     },
+     {
+      "id": "hw-fail",
+      "parent": "hw-league",
+      "tier": 3,
+      "label": "Why it failed",
+      "kind": "concept",
+      "rel": "weakness",
+      "note": "No United States, no force, unanimity required."
+     },
+     {
+      "id": "hw-ww2",
+      "parent": "hw-root",
+      "tier": 1,
+      "label": "Second World War",
+      "kind": "event",
+      "rel": "war",
+      "note": "1939 to 1945."
+     },
+     {
+      "id": "hw-axis",
+      "parent": "hw-ww2",
+      "tier": 2,
+      "label": "Axis and Allies",
+      "kind": "concept",
+      "rel": "sides",
+      "note": "Germany, Italy and Japan against the Allies."
+     },
+     {
+      "id": "hw-turn",
+      "parent": "hw-ww2",
+      "tier": 2,
+      "label": "Turning points",
+      "kind": "concept",
+      "rel": "course",
+      "note": "Britain, Barbarossa, Pearl Harbor, Stalingrad, Normandy."
+     },
+     {
+      "id": "hw-bomb",
+      "parent": "hw-ww2",
+      "tier": 2,
+      "label": "Hiroshima and Nagasaki",
+      "kind": "event",
+      "rel": "end",
+      "note": "6 and 9 August 1945."
+     },
+     {
+      "id": "hw-un",
+      "parent": "hw-root",
+      "tier": 1,
+      "label": "United Nations",
+      "kind": "institution",
+      "rel": "successor",
+      "note": "Charter signed at San Francisco, June 1945."
+     },
+     {
+      "id": "hw-nuremberg",
+      "parent": "hw-root",
+      "tier": 1,
+      "label": "Nuremberg and Tokyo",
+      "kind": "institution",
+      "rel": "tribunals",
+      "note": "Individual responsibility for crimes against humanity."
+     },
+     {
+      "id": "hw-udhr",
+      "parent": "hw-root",
+      "tier": 2,
+      "label": "Universal Declaration, 1948",
+      "kind": "concept",
+      "rel": "document",
+      "note": "With the Genocide Convention the same year."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-coldwar",
+   "rank": 16,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The Cold War, non-alignment and the end of empire",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Cold War",
+    "NAM",
+    "Decolonisation",
+    "Berlin Wall"
+   ],
+   "hook": "India refused to pick a side and then organised everyone else who refused too.",
+   "story": "The **Cold War** ran from roughly **1947 to 1991** between the United States and the Soviet Union, fought through proxies, alliances and an arms race rather than directly. Its opening moves were the **Truman Doctrine** and the **Marshall Plan** of 1947, the **Berlin Blockade** and airlift of 1948-49, the founding of **NATO** in **1949** and of the **Warsaw Pact** in **1955**. The flashpoints were **Korea (1950-53)**, the **Cuban Missile Crisis (1962)**, which came closest to nuclear war and produced the hotline and the Partial Test Ban Treaty, **Vietnam**, and **Afghanistan** from 1979. It ended with the fall of the **Berlin Wall** on **9 November 1989** and the dissolution of the **Soviet Union in December 1991**.\n\n**Non-alignment** was India's answer. The ground was laid at the **Bandung Conference of 1955**, where twenty-nine Asian and African states met and adopted principles built on the **Panchsheel** agreement India and China had signed in 1954: mutual respect for sovereignty, non-aggression, non-interference, equality and peaceful coexistence. The **Non-Aligned Movement** was founded at **Belgrade in 1961** by **Nehru**, **Tito** of Yugoslavia, **Nasser** of Egypt, **Sukarno** of Indonesia and **Nkrumah** of Ghana. It now has 120 members. India hosted the summit at New Delhi in 1983. Non-alignment was never neutrality: it claimed the right to judge each question on its merits, which is how India could criticise the invasion of Suez and stay quiet on Hungary in the same year.\n\n**Decolonisation** ran alongside. India and Pakistan in **1947**, Israel and the end of the Palestine mandate in 1948, Indonesia in 1949, Ghana in **1957** as the first sub-Saharan colony to gain independence, then seventeen African states in **1960** alone, the year the General Assembly adopted the **Declaration on the Granting of Independence to Colonial Countries and Peoples**. The last major cases were the Portuguese colonies in 1975, Zimbabwe in 1980, Namibia in 1990 and the end of **apartheid** in South Africa with **Nelson Mandela's** election in **1994**.",
+   "facts": [
+    {
+     "k": "Span",
+     "v": "About 1947 to 1991; ended with the Berlin Wall in 1989 and the USSR in 1991"
+    },
+    {
+     "k": "Alliances",
+     "v": "NATO 1949, Warsaw Pact 1955"
+    },
+    {
+     "k": "Closest call",
+     "v": "Cuban Missile Crisis, 1962; produced the hotline and the Partial Test Ban Treaty"
+    },
+    {
+     "k": "Bandung, 1955",
+     "v": "Twenty-nine Asian and African states; built on Panchsheel"
+    },
+    {
+     "k": "Panchsheel, 1954",
+     "v": "Five principles agreed between India and China"
+    },
+    {
+     "k": "NAM founded",
+     "v": "Belgrade, 1961, by Nehru, Tito, Nasser, Sukarno and Nkrumah; 120 members now"
+    },
+    {
+     "k": "Ghana, 1957",
+     "v": "First sub-Saharan colony to become independent"
+    },
+    {
+     "k": "1960",
+     "v": "Seventeen African states independent; UN declaration on decolonisation adopted"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1947",
+     "what": "Truman Doctrine and Marshall Plan; Indian independence"
+    },
+    {
+     "when": "1954",
+     "what": "Panchsheel agreement"
+    },
+    {
+     "when": "1955",
+     "what": "Bandung Conference; Warsaw Pact"
+    },
+    {
+     "when": "1961",
+     "what": "NAM founded at Belgrade"
+    },
+    {
+     "when": "1962",
+     "what": "Cuban Missile Crisis"
+    },
+    {
+     "when": "1989",
+     "what": "Berlin Wall falls"
+    },
+    {
+     "when": "1991",
+     "what": "Soviet Union dissolved"
+    },
+    {
+     "when": "1994",
+     "what": "Mandela elected in South Africa"
+    }
+   ],
+   "why": "Bandung is 1955 and NAM is 1961 — separate events, and the option set will offer both. Panchsheel is India and China in 1954, not a NAM document.",
+   "map": {
+    "nodes": [
+     {
+      "id": "hc2-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "The Cold War",
+      "kind": "concept",
+      "rel": "core",
+      "note": "Two blocs, a long standoff, and the countries that refused both."
+     },
+     {
+      "id": "hc2-truman",
+      "parent": "hc2-root",
+      "tier": 1,
+      "label": "Truman Doctrine and Marshall Plan",
+      "kind": "concept",
+      "rel": "opening",
+      "note": "Containment and reconstruction aid, 1947."
+     },
+     {
+      "id": "hc2-nato",
+      "parent": "hc2-root",
+      "tier": 1,
+      "label": "NATO, 1949",
+      "kind": "institution",
+      "rel": "alliance",
+      "note": "Western military alliance."
+     },
+     {
+      "id": "hc2-warsaw",
+      "parent": "hc2-nato",
+      "tier": 2,
+      "label": "Warsaw Pact, 1955",
+      "kind": "institution",
+      "rel": "counter",
+      "note": "The Soviet bloc's answer."
+     },
+     {
+      "id": "hc2-cuba",
+      "parent": "hc2-root",
+      "tier": 1,
+      "label": "Cuban Missile Crisis, 1962",
+      "kind": "event",
+      "rel": "flashpoint",
+      "note": "Closest approach to nuclear war."
+     },
+     {
+      "id": "hc2-wall",
+      "parent": "hc2-root",
+      "tier": 1,
+      "label": "Berlin Wall, 1989",
+      "kind": "event",
+      "rel": "end",
+      "note": "Fell on 9 November; the USSR dissolved in 1991."
+     },
+     {
+      "id": "hc2-nam",
+      "parent": "hc2-root",
+      "tier": 1,
+      "label": "Non-Aligned Movement",
+      "kind": "institution",
+      "rel": "answer",
+      "note": "Founded at Belgrade in 1961."
+     },
+     {
+      "id": "hc2-bandung",
+      "parent": "hc2-nam",
+      "tier": 2,
+      "label": "Bandung, 1955",
+      "kind": "event",
+      "rel": "precursor",
+      "note": "Twenty-nine Asian and African states."
+     },
+     {
+      "id": "hc2-pancha",
+      "parent": "hc2-bandung",
+      "tier": 3,
+      "label": "Panchsheel, 1954",
+      "kind": "agreement",
+      "rel": "principles",
+      "note": "Five principles, India and China."
+     },
+     {
+      "id": "hc2-founders",
+      "parent": "hc2-nam",
+      "tier": 2,
+      "label": "The five founders",
+      "kind": "person",
+      "rel": "leaders",
+      "note": "Nehru, Tito, Nasser, Sukarno, Nkrumah."
+     },
+     {
+      "id": "hc2-1983",
+      "parent": "hc2-nam",
+      "tier": 3,
+      "label": "New Delhi summit, 1983",
+      "kind": "event",
+      "rel": "india",
+      "note": "India hosted and chaired."
+     },
+     {
+      "id": "hc2-decol",
+      "parent": "hc2-root",
+      "tier": 1,
+      "label": "Decolonisation",
+      "kind": "concept",
+      "rel": "process",
+      "note": "From 1947 to Namibia in 1990."
+     },
+     {
+      "id": "hc2-ghana",
+      "parent": "hc2-decol",
+      "tier": 2,
+      "label": "Ghana, 1957",
+      "kind": "place",
+      "rel": "first",
+      "note": "First sub-Saharan colony to become independent."
+     },
+     {
+      "id": "hc2-1960",
+      "parent": "hc2-decol",
+      "tier": 2,
+      "label": "The African year, 1960",
+      "kind": "event",
+      "rel": "wave",
+      "note": "Seventeen states independent; UN declaration adopted."
+     },
+     {
+      "id": "hc2-mandela",
+      "parent": "hc2-decol",
+      "tier": 2,
+      "label": "Mandela, 1994",
+      "kind": "person",
+      "rel": "end",
+      "note": "Apartheid ends in South Africa."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
@@ -2379,6 +3072,153 @@
      ],
      "answer": 0,
      "explain": "Todar Mal, under Akbar, in the zabt settlement."
+    }
+   ]
+  },
+  {
+   "id": "history-p4",
+   "kind": "static",
+   "month": "history",
+   "topicIds": [
+    "his-worldwars"
+   ],
+   "category": "History",
+   "tags": [
+    "Versailles",
+    "League of Nations"
+   ],
+   "difficulty": 3,
+   "title": "The peace that failed",
+   "passage": "The delegations met in a Paris suburb in 1919 with three incompatible objects. The French wanted security, which meant a Germany permanently unable to fight. The Americans wanted a settlement founded on self-determination and a new international body to keep the peace, set out in a fourteen-point programme the president had announced the previous January. The British wanted German trade to recover, because Germany had been their second-largest market, and simultaneously wanted reparations large enough to satisfy an electorate that had just been promised them.\n\nWhat emerged satisfied nobody. A clause required Germany to accept responsibility for causing all the loss and damage of the war, a formula intended as the legal basis for a reparations bill but read in Germany as a moral verdict. The army was capped at a hundred thousand men, conscription forbidden, the air force abolished, the Rhineland demilitarised and occupied. Territory went to France, Belgium, Denmark, Poland and the new Czechoslovakia; the colonies were distributed as mandates. The reparations figure was left to a commission, which fixed it two years later at a sum the German economy could not generate without an export surplus the same treaty made impossible.\n\nA member of the British Treasury delegation resigned during the conference and published a book that winter arguing that the economic clauses were unworkable, that Europe's recovery depended on Germany's, and that a peace which impoverished a great people would not last a generation. He was thirty-six, and the book made him famous.\n\nThe new international body was written into the same treaty, which turned out to be its first weakness: states that objected to the treaty objected to the organisation. The American Senate refused ratification and the country that had proposed the body never joined it. It had no armed force of its own, its Council required unanimity for substantive decisions, and its two available sanctions were moral condemnation and economic pressure. When Japan seized Manchuria in 1931 the body commissioned a report, adopted it, and watched Japan leave. When Italy invaded Abyssinia in 1935 it imposed sanctions that excluded oil. Within four years of that, the second war had begun.",
+   "questions": [
+    {
+     "q": "The fourteen-point programme was announced by:",
+     "options": [
+      "Georges Clemenceau",
+      "Woodrow Wilson",
+      "David Lloyd George",
+      "John Maynard Keynes"
+     ],
+     "answer": 1,
+     "explain": "Wilson's Fourteen Points, announced in January 1918."
+    },
+    {
+     "q": "The clause requiring Germany to accept responsibility is known as the:",
+     "options": [
+      "Reparations clause",
+      "War guilt clause",
+      "Mandate clause",
+      "Rhineland clause"
+     ],
+     "answer": 1,
+     "explain": "Article 231, the war guilt clause, was the legal basis for reparations."
+    },
+    {
+     "q": "The Treasury official who resigned and published that winter was:",
+     "options": [
+      "Maynard Keynes",
+      "Harold Nicolson",
+      "Jan Smuts",
+      "Robert Cecil"
+     ],
+     "answer": 0,
+     "explain": "John Maynard Keynes, in The Economic Consequences of the Peace."
+    },
+    {
+     "q": "On the passage, one reason the new body was weakened from the start was that:",
+     "options": [
+      "It was headquartered in Paris",
+      "It was written into a treaty many states objected to",
+      "It admitted Germany immediately",
+      "It required a two-thirds majority"
+     ],
+     "answer": 1,
+     "explain": "States hostile to the treaty were hostile to the organisation embedded in it."
+    },
+    {
+     "q": "The sanctions imposed over Abyssinia in 1935:",
+     "options": [
+      "Included oil and were effective",
+      "Excluded oil",
+      "Were never adopted",
+      "Were vetoed by France"
+     ],
+     "answer": 1,
+     "explain": "The exclusion of oil is the standard illustration of the League's weakness."
+    }
+   ]
+  },
+  {
+   "id": "history-p5",
+   "kind": "static",
+   "month": "history",
+   "topicIds": [
+    "his-coldwar"
+   ],
+   "category": "History",
+   "tags": [
+    "NAM",
+    "Bandung",
+    "Cold War"
+   ],
+   "difficulty": 2,
+   "title": "Refusing both blocs",
+   "passage": "The doctrine was worked out before it had a movement. In 1954 India and China signed an agreement on trade with Tibet whose preamble set out five principles: mutual respect for territorial integrity and sovereignty, mutual non-aggression, non-interference in each other's internal affairs, equality and mutual benefit, and peaceful coexistence. The phrase given to those five principles came from a Buddhist term, and within a year they had been adopted by a much larger gathering.\n\nThat gathering met in an Indonesian hill town in 1955. Twenty-nine states attended, most of them independent for less than a decade and several still fighting for it. They were not a bloc and did not pretend to be one; the delegates included governments closely allied to Washington and others receiving Soviet arms. What they agreed on was narrower and more durable: opposition to colonialism in all its forms, including the kind exercised by one Asian state over another, and a refusal to accept that the world's quarrels had to be organised into two camps.\n\nThe movement itself was founded six years later in Belgrade, by five leaders from five continents, and the conditions of membership were specific. A member had to follow an independent policy based on coexistence, support movements for national independence, refuse membership of a multilateral military alliance concluded in the context of great power conflict, and refuse to grant military bases to a great power.\n\nThe persistent misunderstanding is that this meant neutrality. It did not. Neutrality is a legal status in war; what was claimed here was the right to judge each dispute on its merits, which in practice meant condemning the invasion of Egypt in 1956 while saying little about the suppression of Hungary in the same weeks, a selectivity critics have never let the movement forget. The movement now has 120 members and outlived the confrontation it was designed to sit outside.",
+   "questions": [
+    {
+     "q": "The five principles of the 1954 preamble are known as:",
+     "options": [
+      "Panchsheel",
+      "Panchayat",
+      "Ahimsa",
+      "Satyagraha"
+     ],
+     "answer": 0,
+     "explain": "Panchsheel, the five principles agreed between India and China in 1954."
+    },
+    {
+     "q": "The 1955 gathering in an Indonesian hill town is the:",
+     "options": [
+      "Belgrade Conference",
+      "Bandung Conference",
+      "Colombo Conference",
+      "Havana Summit"
+     ],
+     "answer": 1,
+     "explain": "The Bandung Conference, attended by twenty-nine Asian and African states."
+    },
+    {
+     "q": "The movement itself was founded in:",
+     "options": [
+      "Bandung in 1955",
+      "Belgrade in 1961",
+      "Cairo in 1964",
+      "Havana in 1979"
+     ],
+     "answer": 1,
+     "explain": "The first Non-Aligned Movement summit was held at Belgrade in 1961."
+    },
+    {
+     "q": "On the passage, membership required a state to:",
+     "options": [
+      "Remain neutral in all wars",
+      "Refuse membership of a great-power military alliance",
+      "Break relations with both superpowers",
+      "Adopt a socialist economy"
+     ],
+     "answer": 1,
+     "explain": "Refusing alliance membership and foreign bases were explicit conditions."
+    },
+    {
+     "q": "The passage says the movement is often wrongly equated with:",
+     "options": [
+      "Socialism",
+      "Neutrality",
+      "Pacifism",
+      "Isolationism"
+     ],
+     "answer": 1,
+     "explain": "It distinguishes non-alignment from neutrality, which is a legal status in war."
     }
    ]
   }
