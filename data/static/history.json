@@ -1260,6 +1260,474 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "his-ancient",
+   "rank": 7,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Ancient India: Harappa to the Guptas",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Indus Valley",
+    "Mauryas",
+    "Guptas",
+    "Ashoka"
+   ],
+   "hook": "A civilisation with drains and no temples, an emperor who gave up war after winning one, and a dynasty whose gold coins are the standard exam question.",
+   "story": "**Indus Valley Civilisation**, roughly 2600 to 1900 BCE, Bronze Age, discovered when **Daya Ram Sahni** excavated Harappa in 1921 and **R.D. Banerji** excavated Mohenjo-daro in 1922, both under **John Marshall**. Sites and their finds: **Harappa** (granaries, cemetery R-37) on the Ravi; **Mohenjo-daro** (Great Bath, Great Granary, the bronze Dancing Girl, the Pashupati seal) on the Indus; **Lothal** (Gujarat, dockyard) on the Bhogava; **Kalibangan** (Rajasthan, ploughed field, fire altars); **Dholavira** (Gujarat, water reservoirs, the signboard, a UNESCO site since 2021); **Rakhigarhi** (Haryana, the largest site); **Chanhudaro** (the only site without a citadel). Features: grid town planning, standardised baked bricks in a 4:2:1 ratio, an elaborate drainage system, a script that remains undeciphered, and no identified temples.\n\n**Vedic period**, roughly 1500 to 600 BCE. The **Rig Veda** is the oldest, with the Gayatri Mantra and the Purusha Sukta describing the four varnas. **Satyameva Jayate** on the national emblem comes from the **Mundaka Upanishad**. Four Vedas, four Upavedas, six Vedangas, six schools of philosophy.\n\n**Mahajanapadas**, sixteen of them by 600 BCE, with **Magadha** emerging supreme. Dynasties: Haryanka (Bimbisara, Ajatashatru), Shishunaga, Nanda, then **Maurya**.\n\n**Mauryas**, 322 to 185 BCE. **Chandragupta Maurya** with **Chanakya**, whose *Arthashastra* is the standard reference; Megasthenes was the Seleucid ambassador and wrote *Indica*. **Ashoka**, who ruled from about 268 BCE, fought the **Kalinga war in 261 BCE** and turned to Buddhism afterward. His edicts, deciphered by **James Prinsep** in 1837, are mostly in **Brahmi** and Prakrit, with Kharosthi in the northwest and Greek and Aramaic at Kandahar. The **Lion Capital at Sarnath** became the national emblem, adopted 26 January 1950; the **Ashoka Chakra** with 24 spokes sits on the flag. The last Mauryan, Brihadratha, was killed by **Pushyamitra Shunga** in 185 BCE.\n\n**Guptas**, roughly 320 to 550 CE, the classical age. **Chandragupta I**, **Samudragupta** (the Allahabad Pillar inscription by Harisena), **Chandragupta II Vikramaditya** (Fa-Hien visited). **Aryabhata** wrote the *Aryabhatiya* in 499 CE; **Kalidasa** wrote *Abhijnanashakuntalam*; **Varahamihira** and **Brahmagupta** followed. Nalanda flourished; the iron pillar at Mehrauli dates from this period.",
+   "facts": [
+    {
+     "k": "Indus Valley period",
+     "v": "Roughly 2600 to 1900 BCE, Bronze Age"
+    },
+    {
+     "k": "Harappa excavated by",
+     "v": "Daya Ram Sahni, 1921"
+    },
+    {
+     "k": "Mohenjo-daro excavated by",
+     "v": "R.D. Banerji, 1922"
+    },
+    {
+     "k": "Dockyard site",
+     "v": "Lothal, Gujarat"
+    },
+    {
+     "k": "Largest Harappan site",
+     "v": "Rakhigarhi, Haryana"
+    },
+    {
+     "k": "Kalinga war",
+     "v": "261 BCE"
+    },
+    {
+     "k": "Ashokan edicts deciphered by",
+     "v": "James Prinsep, 1837"
+    },
+    {
+     "k": "National emblem",
+     "v": "Lion Capital of Ashoka at Sarnath, adopted 26 January 1950"
+    },
+    {
+     "k": "Satyameva Jayate from",
+     "v": "Mundaka Upanishad"
+    },
+    {
+     "k": "Aryabhatiya written",
+     "v": "499 CE"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "2600 BCE",
+     "what": "Mature Harappan phase"
+    },
+    {
+     "when": "1500 BCE",
+     "what": "Early Vedic period"
+    },
+    {
+     "when": "322 BCE",
+     "what": "Chandragupta Maurya founds the empire"
+    },
+    {
+     "when": "261 BCE",
+     "what": "Kalinga war"
+    },
+    {
+     "when": "185 BCE",
+     "what": "End of the Mauryas"
+    },
+    {
+     "when": "320 CE",
+     "what": "Gupta period begins"
+    },
+    {
+     "when": "499 CE",
+     "what": "Aryabhatiya"
+    }
+   ],
+   "why": "Site-to-find matching for the Indus Valley, and Ashoka’s dates, are the two reliable questions. The national emblem and its source are asked in the polity section too.",
+   "map": {
+    "nodes": [
+     {
+      "id": "ivc",
+      "parent": "root",
+      "tier": 1,
+      "label": "Indus Valley Civilisation",
+      "kind": "event",
+      "rel": "2600-1900 BCE",
+      "note": "Bronze Age. Grid planning, standardised bricks, drainage, an undeciphered script and no identified temples."
+     },
+     {
+      "id": "ashoka",
+      "parent": "root",
+      "tier": 1,
+      "label": "Ashoka",
+      "kind": "person",
+      "rel": "Mauryan emperor",
+      "note": "Fought the Kalinga war in 261 BCE and adopted Buddhism. His edicts are the earliest deciphered Indian writing."
+     },
+     {
+      "id": "sarnath",
+      "parent": "ashoka",
+      "tier": 1,
+      "label": "Lion Capital at Sarnath",
+      "kind": "concept",
+      "rel": "national emblem",
+      "note": "Adopted 26 January 1950. The Ashoka Chakra with 24 spokes appears on the national flag."
+     },
+     {
+      "id": "chanakya",
+      "parent": "root",
+      "tier": 1,
+      "label": "Chanakya",
+      "kind": "person",
+      "rel": "Arthashastra",
+      "note": "Also called Kautilya or Vishnugupta. Adviser to Chandragupta Maurya and author of the treatise on statecraft."
+     },
+     {
+      "id": "gupta",
+      "parent": "root",
+      "tier": 1,
+      "label": "Gupta empire",
+      "kind": "event",
+      "rel": "320-550 CE",
+      "note": "Called the classical age. Samudragupta, Chandragupta II, and the flowering of mathematics, astronomy and Sanskrit drama."
+     },
+     {
+      "id": "lothal",
+      "parent": "ivc",
+      "tier": 2,
+      "label": "Lothal",
+      "kind": "place",
+      "rel": "the dockyard",
+      "note": "In Gujarat on the Bhogava. The only Harappan site with a dockyard, indicating maritime trade."
+     },
+     {
+      "id": "mohenjo",
+      "parent": "ivc",
+      "tier": 2,
+      "label": "Mohenjo-daro",
+      "kind": "place",
+      "rel": "Great Bath",
+      "note": "Sindh, on the Indus. Yielded the Great Bath, the bronze Dancing Girl and the Pashupati seal."
+     },
+     {
+      "id": "dholavira",
+      "parent": "ivc",
+      "tier": 2,
+      "label": "Dholavira",
+      "kind": "place",
+      "rel": "water systems",
+      "note": "In the Rann of Kutch. Known for its reservoirs and its signboard. UNESCO World Heritage Site since 2021."
+     },
+     {
+      "id": "prinsep",
+      "parent": "ashoka",
+      "tier": 2,
+      "label": "James Prinsep",
+      "kind": "person",
+      "rel": "deciphered Brahmi",
+      "note": "1837. His work made the Ashokan edicts readable and identified Devanampiya Piyadasi as Ashoka."
+     },
+     {
+      "id": "aryabhata",
+      "parent": "gupta",
+      "tier": 2,
+      "label": "Aryabhata",
+      "kind": "person",
+      "rel": "Aryabhatiya, 499 CE",
+      "note": "Stated that the earth rotates on its axis and gave an approximation of pi. India’s first satellite was named after him."
+     },
+     {
+      "id": "kalidasa",
+      "parent": "gupta",
+      "tier": 2,
+      "label": "Kalidasa",
+      "kind": "person",
+      "rel": "Abhijnanashakuntalam",
+      "note": "Also wrote Meghaduta and Raghuvamsha. Associated with the court of Chandragupta II Vikramaditya."
+     },
+     {
+      "id": "megasthenes",
+      "parent": "chanakya",
+      "tier": 2,
+      "label": "Megasthenes",
+      "kind": "person",
+      "rel": "Indica",
+      "note": "Seleucid ambassador at Chandragupta Maurya’s court. His account survives only in quotations by later writers."
+     },
+     {
+      "id": "magadha",
+      "parent": "root",
+      "tier": 3,
+      "label": "Magadha",
+      "kind": "place",
+      "rel": "the rise",
+      "note": "One of sixteen mahajanapadas, it absorbed the rest. Capitals at Rajgir and later Pataliputra."
+     },
+     {
+      "id": "rigveda",
+      "parent": "root",
+      "tier": 3,
+      "label": "Rig Veda",
+      "kind": "book",
+      "rel": "oldest text",
+      "note": "Contains the Gayatri Mantra and the Purusha Sukta. Satyameva Jayate comes from the Mundaka Upanishad, not the Rig Veda."
+     },
+     {
+      "id": "fahien",
+      "parent": "gupta",
+      "tier": 3,
+      "label": "Fa-Hien",
+      "kind": "person",
+      "rel": "Chinese traveller",
+      "note": "Visited during Chandragupta II’s reign. Hiuen Tsang came later, under Harshavardhana in the seventh century."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-postind",
+   "rank": 8,
+   "depth": "deep",
+   "importance": 4,
+   "title": "India after 1947: reorganisation, wars and the Emergency",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Post-Independence",
+    "States Reorganisation",
+    "Wars",
+    "Prime Ministers"
+   ],
+   "hook": "Linguistic states drawn after a hunger strike, four wars, one Emergency, and the sequence of Prime Ministers the paper expects in order.",
+   "story": "**States reorganisation.** The **Dhar Commission (1948)** and the **JVP Committee (1949)** both advised against linguistic states. **Potti Sriramulu** died after a 58-day fast in December 1952, and **Andhra State** was created in October 1953, the first on linguistic lines. The **States Reorganisation Commission** under **Fazl Ali**, with K.M. Panikkar and H.N. Kunzru, reported in 1955, and the **States Reorganisation Act 1956** with the **7th Amendment** redrew the map into 14 states and 6 union territories. Later: Bombay split into Maharashtra and Gujarat in 1960; Nagaland 1963; Punjab split with Haryana in 1966; Himachal 1971; the northeastern states in 1972; Sikkim became a state by the **36th Amendment in 1975**; Chhattisgarh, Uttarakhand and Jharkhand in 2000; **Telangana in 2014**, the 29th state; Jammu and Kashmir reorganised into two union territories in 2019, leaving 28 states.\n\n**Wars.** **1947-48** with Pakistan over Kashmir, ended by a UN-brokered ceasefire on 1 January 1949 and the Line of Control's predecessor, the Ceasefire Line. **1962** with China, a defeat, after which the Henderson Brooks report was never published. **1965** with Pakistan, ended by the **Tashkent Declaration** of January 1966, signed by **Lal Bahadur Shastri**, who died there the next day. **1971**, which created Bangladesh, ended by the **Simla Agreement of July 1972** between Indira Gandhi and Zulfikar Ali Bhutto, which converted the Ceasefire Line into the **Line of Control**. **Kargil, 1999**, Operation Vijay, after which the Kargil Review Committee under K. Subrahmanyam led to the creation of the National Security Council structure and eventually the Chief of Defence Staff post in 2019.\n\n**The Emergency.** The **Allahabad High Court** set aside Indira Gandhi's 1971 election on 12 June 1975 in the case brought by **Raj Narain**. Emergency was proclaimed on **25 June 1975** on grounds of internal disturbance and revoked on 21 March 1977. The **Janata Party** won the 1977 election and **Morarji Desai** became the first non-Congress Prime Minister.\n\n**Prime Ministers in order:** Nehru, Shastri, Indira Gandhi, Morarji Desai, Charan Singh, Indira Gandhi, Rajiv Gandhi, V.P. Singh, Chandra Shekhar, P.V. Narasimha Rao, Atal Bihari Vajpayee, H.D. Deve Gowda, I.K. Gujral, Vajpayee, Manmohan Singh, Narendra Modi. **Gulzarilal Nanda** served twice as acting Prime Minister.",
+   "facts": [
+    {
+     "k": "First linguistic state",
+     "v": "Andhra State, October 1953, after Potti Sriramulu’s fast"
+    },
+    {
+     "k": "States Reorganisation Commission",
+     "v": "Fazl Ali, reported 1955"
+    },
+    {
+     "k": "States Reorganisation Act",
+     "v": "1956, with the 7th Amendment"
+    },
+    {
+     "k": "Sikkim became a state",
+     "v": "36th Amendment, 1975"
+    },
+    {
+     "k": "Telangana created",
+     "v": "2014, the 29th state"
+    },
+    {
+     "k": "Tashkent Declaration",
+     "v": "January 1966, after the 1965 war"
+    },
+    {
+     "k": "Simla Agreement",
+     "v": "July 1972; created the Line of Control"
+    },
+    {
+     "k": "Kargil conflict",
+     "v": "1999, Operation Vijay"
+    },
+    {
+     "k": "Emergency",
+     "v": "25 June 1975 to 21 March 1977"
+    },
+    {
+     "k": "First non-Congress Prime Minister",
+     "v": "Morarji Desai, 1977"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1953",
+     "what": "Andhra State created"
+    },
+    {
+     "when": "1956",
+     "what": "States Reorganisation Act"
+    },
+    {
+     "when": "1962",
+     "what": "War with China"
+    },
+    {
+     "when": "1966",
+     "what": "Tashkent Declaration"
+    },
+    {
+     "when": "1971",
+     "what": "War with Pakistan; Bangladesh created"
+    },
+    {
+     "when": "1972",
+     "what": "Simla Agreement"
+    },
+    {
+     "when": "1975",
+     "what": "Emergency proclaimed"
+    },
+    {
+     "when": "1999",
+     "what": "Kargil"
+    },
+    {
+     "when": "2014",
+     "what": "Telangana created"
+    }
+   ],
+   "why": "The Prime Ministers in order and the war-to-treaty pairs are asked directly. The trap is Tashkent for 1965 against Simla for 1971.",
+   "map": {
+    "nodes": [
+     {
+      "id": "sriramulu",
+      "parent": "root",
+      "tier": 1,
+      "label": "Potti Sriramulu",
+      "kind": "person",
+      "rel": "the fast",
+      "note": "Died after a 58-day fast in December 1952, which forced the creation of Andhra State the following year."
+     },
+     {
+      "id": "src",
+      "parent": "root",
+      "tier": 1,
+      "label": "States Reorganisation Commission",
+      "kind": "org",
+      "rel": "1953-55",
+      "note": "Chaired by Fazl Ali with K.M. Panikkar and H.N. Kunzru. Its report produced the 1956 Act and the 7th Amendment."
+     },
+     {
+      "id": "simla",
+      "parent": "root",
+      "tier": 1,
+      "label": "Simla Agreement (1972)",
+      "kind": "event",
+      "rel": "after 1971",
+      "note": "Signed by Indira Gandhi and Zulfikar Ali Bhutto. Converted the Ceasefire Line into the Line of Control and committed both sides to bilateral resolution."
+     },
+     {
+      "id": "emergency",
+      "parent": "root",
+      "tier": 1,
+      "label": "The Emergency (1975-77)",
+      "kind": "event",
+      "rel": "the rupture",
+      "note": "Proclaimed 25 June 1975 after the Allahabad High Court set aside Indira Gandhi’s election. Revoked 21 March 1977."
+     },
+     {
+      "id": "tashkent",
+      "parent": "simla",
+      "tier": 1,
+      "label": "Tashkent Declaration (1966)",
+      "kind": "event",
+      "rel": "after 1965",
+      "note": "Signed by Lal Bahadur Shastri and Ayub Khan, mediated by the Soviet Union. Shastri died in Tashkent the next day."
+     },
+     {
+      "id": "telangana",
+      "parent": "src",
+      "tier": 2,
+      "label": "Telangana (2014)",
+      "kind": "event",
+      "rel": "the 29th state",
+      "note": "Carved out of Andhra Pradesh on 2 June 2014, with Hyderabad as joint capital for ten years."
+     },
+     {
+      "id": "sikkim",
+      "parent": "src",
+      "tier": 2,
+      "label": "Sikkim (1975)",
+      "kind": "event",
+      "rel": "36th Amendment",
+      "note": "Became the 22nd state after a referendum, having been an associate state under the 35th Amendment in 1974."
+     },
+     {
+      "id": "kargil",
+      "parent": "simla",
+      "tier": 2,
+      "label": "Kargil (1999)",
+      "kind": "event",
+      "rel": "Operation Vijay",
+      "note": "Led to the Kargil Review Committee under K. Subrahmanyam and eventually to the Chief of Defence Staff post in 2019."
+     },
+     {
+      "id": "1962",
+      "parent": "tashkent",
+      "tier": 2,
+      "label": "War with China (1962)",
+      "kind": "event",
+      "rel": "the defeat",
+      "note": "Fought over Aksai Chin and NEFA. The Henderson Brooks-Bhagat report on the failure has never been published."
+     },
+     {
+      "id": "rajnarain",
+      "parent": "emergency",
+      "tier": 2,
+      "label": "Raj Narain",
+      "kind": "person",
+      "rel": "the petitioner",
+      "note": "His election petition led to the Allahabad High Court verdict of 12 June 1975 against Indira Gandhi."
+     },
+     {
+      "id": "janata",
+      "parent": "emergency",
+      "tier": 2,
+      "label": "Janata Party (1977)",
+      "kind": "org",
+      "rel": "the first alternation",
+      "note": "Won the 1977 election. Morarji Desai became the first non-Congress Prime Minister; the 44th Amendment followed."
+     },
+     {
+      "id": "pms",
+      "parent": "root",
+      "tier": 2,
+      "label": "Prime Ministers in order",
+      "kind": "concept",
+      "rel": "the sequence",
+      "note": "Nehru, Shastri, Indira, Desai, Charan Singh, Indira, Rajiv, V.P. Singh, Chandra Shekhar, Rao, Vajpayee, Deve Gowda, Gujral, Vajpayee, Manmohan Singh, Modi."
+     },
+     {
+      "id": "nanda",
+      "parent": "pms",
+      "tier": 3,
+      "label": "Gulzarilal Nanda",
+      "kind": "person",
+      "rel": "acting twice",
+      "note": "Acting Prime Minister after the deaths of Nehru in 1964 and Shastri in 1966, for thirteen days each time."
+     },
+     {
+      "id": "7th",
+      "parent": "src",
+      "tier": 3,
+      "label": "7th Amendment (1956)",
+      "kind": "event",
+      "rel": "redrew the map",
+      "note": "Gave effect to the States Reorganisation Act, creating 14 states and 6 union territories."
+     },
+     {
+      "id": "1991",
+      "parent": "pms",
+      "tier": 3,
+      "label": "1991 reforms",
+      "kind": "event",
+      "rel": "the other turning point",
+      "note": "Under P.V. Narasimha Rao with Manmohan Singh as Finance Minister, following a balance of payments crisis."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
