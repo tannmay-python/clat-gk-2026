@@ -1,9 +1,9 @@
 {
  "id": "science-environment",
  "kind": "static",
- "label": "Science, Space & Technology",
+ "label": "Science, Space & Defence",
  "order": 6,
- "blurb": "The space programme, the missions and the vehicles, written for a paper that asks which year and which rocket rather than how the physics works.",
+ "blurb": "The space programme, the nuclear and missile programme, health vocabulary and the everyday physics and chemistry the paper asks about by name.",
  "topics": [
   {
    "id": "sci-isro",
@@ -235,7 +235,714 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "sci-nuclear",
+   "rank": 2,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The nuclear and missile programme, and the treaties India refuses to sign",
+   "date": "",
+   "category": "Defence & Security",
+   "tags": [
+    "Nuclear",
+    "Pokhran",
+    "NPT",
+    "DRDO",
+    "Missiles"
+   ],
+   "hook": "Two test sites, one three-stage plan built around thorium, and a consistent refusal to join the two treaties everyone asks about.",
+   "story": "**Homi J. Bhabha** is the father of the Indian nuclear programme. The **Atomic Energy Commission** was set up in 1948 and the **Department of Atomic Energy** in 1954, reporting directly to the Prime Minister. **BARC**, the Bhabha Atomic Research Centre at Trombay, was renamed after Bhabha's death in an air crash in 1966.\n\n**Bhabha's three-stage programme** is designed around India's small uranium reserves and the world's largest thorium reserves, in the monazite sands of Kerala, Tamil Nadu and Odisha. Stage one: pressurised heavy water reactors using natural uranium, producing plutonium. Stage two: **fast breeder reactors** burning plutonium and breeding uranium-233 from a thorium blanket; the Prototype Fast Breeder Reactor at **Kalpakkam** is the test of this stage. Stage three: thorium-uranium-233 reactors for long-term self-sufficiency.\n\n**Tests.** **Pokhran-I**, 18 May 1974, codenamed **Smiling Buddha**, described officially as a peaceful nuclear explosion. It triggered the creation of the **Nuclear Suppliers Group** in 1975 and technology sanctions. **Pokhran-II**, 11 and 13 May 1998, codenamed **Operation Shakti**, five devices under **A.P.J. Abdul Kalam** and **R. Chidambaram**; **National Technology Day is 11 May**. India declared itself a nuclear weapon state, adopted a doctrine of **no first use** and **credible minimum deterrence**, and set up the **Nuclear Command Authority** in 2003, whose Political Council alone can authorise use.\n\n**Treaties India has not signed.** The **NPT (1968)** is rejected as discriminatory: it recognises as nuclear weapon states only those that tested before 1 January 1967. The **CTBT (1996)** India has not signed either. India is a member of the **MTCR** (2016), **Wassenaar Arrangement** (2017) and **Australia Group** (2018), but not the **NSG**, where China has blocked entry. The **India-US civil nuclear agreement** of 2008, the 123 Agreement, gave India an NSG waiver and separated civilian from military facilities under IAEA safeguards.\n\n**Missiles.** The **Integrated Guided Missile Development Programme**, launched 1983 under Kalam, produced **Prithvi** (surface-to-surface), **Agni** (ballistic, now to Agni-V with over 5,000 km range and MIRV capability demonstrated in 2024), **Akash** (surface-to-air), **Trishul** and **Nag** (anti-tank). **BrahMos** is a supersonic cruise missile developed jointly with Russia, named for the Brahmaputra and Moskva. **Mission Shakti**, 27 March 2019, was an anti-satellite test making India the fourth country with that capability.",
+   "facts": [
+    {
+     "k": "Father of the programme",
+     "v": "Homi J. Bhabha"
+    },
+    {
+     "k": "DAE created",
+     "v": "1954, reporting to the Prime Minister"
+    },
+    {
+     "k": "Pokhran-I",
+     "v": "18 May 1974, Smiling Buddha"
+    },
+    {
+     "k": "Pokhran-II",
+     "v": "11 and 13 May 1998, Operation Shakti"
+    },
+    {
+     "k": "National Technology Day",
+     "v": "11 May"
+    },
+    {
+     "k": "Nuclear doctrine",
+     "v": "No first use, credible minimum deterrence"
+    },
+    {
+     "k": "Treaties not signed",
+     "v": "NPT and CTBT"
+    },
+    {
+     "k": "Groups joined",
+     "v": "MTCR 2016, Wassenaar 2017, Australia Group 2018; not the NSG"
+    },
+    {
+     "k": "Three-stage plan",
+     "v": "PHWR, fast breeder, thorium-U233"
+    },
+    {
+     "k": "Anti-satellite test",
+     "v": "Mission Shakti, 27 March 2019"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1948",
+     "what": "Atomic Energy Commission"
+    },
+    {
+     "when": "1954",
+     "what": "Department of Atomic Energy"
+    },
+    {
+     "when": "1974",
+     "what": "Pokhran-I"
+    },
+    {
+     "when": "1983",
+     "what": "IGMDP launched"
+    },
+    {
+     "when": "1998",
+     "what": "Pokhran-II"
+    },
+    {
+     "when": "2008",
+     "what": "India-US civil nuclear agreement"
+    },
+    {
+     "when": "2019",
+     "what": "Mission Shakti"
+    }
+   ],
+   "why": "A passage on non-proliferation or a missile test expects the two Pokhran dates, the doctrine in two phrases, and the fact that India is outside the NPT and CTBT but inside the MTCR.",
+   "map": {
+    "nodes": [
+     {
+      "id": "bhabha",
+      "parent": "root",
+      "tier": 1,
+      "label": "Homi J. Bhabha",
+      "kind": "person",
+      "rel": "founder",
+      "note": "Set up the Atomic Energy Commission in 1948 and designed the three-stage programme. Died in an air crash at Mont Blanc in 1966."
+     },
+     {
+      "id": "pok1",
+      "parent": "root",
+      "tier": 1,
+      "label": "Pokhran-I (1974)",
+      "kind": "event",
+      "rel": "Smiling Buddha",
+      "note": "18 May 1974, described as a peaceful nuclear explosion. Led directly to the creation of the Nuclear Suppliers Group in 1975."
+     },
+     {
+      "id": "pok2",
+      "parent": "root",
+      "tier": 1,
+      "label": "Pokhran-II (1998)",
+      "kind": "event",
+      "rel": "Operation Shakti",
+      "note": "Five devices on 11 and 13 May 1998 under Kalam and Chidambaram. India declared itself a nuclear weapon state."
+     },
+     {
+      "id": "npt",
+      "parent": "root",
+      "tier": 1,
+      "label": "NPT (1968)",
+      "kind": "law",
+      "rel": "not signed",
+      "note": "Recognises as nuclear weapon states only those that tested before 1 January 1967. India calls it discriminatory."
+     },
+     {
+      "id": "threestage",
+      "parent": "bhabha",
+      "tier": 1,
+      "label": "Three-stage programme",
+      "kind": "concept",
+      "rel": "the design",
+      "note": "PHWRs producing plutonium, then fast breeders using a thorium blanket, then thorium-uranium-233 reactors."
+     },
+     {
+      "id": "kalpakkam",
+      "parent": "threestage",
+      "tier": 2,
+      "label": "Kalpakkam PFBR",
+      "kind": "place",
+      "rel": "stage two",
+      "note": "The Prototype Fast Breeder Reactor in Tamil Nadu, the test of the second stage. Operated by BHAVINI."
+     },
+     {
+      "id": "nsg",
+      "parent": "pok1",
+      "tier": 2,
+      "label": "Nuclear Suppliers Group",
+      "kind": "org",
+      "rel": "created in response",
+      "note": "Formed in 1975 after Pokhran-I. India secured a waiver in 2008 but membership is blocked by China."
+     },
+     {
+      "id": "ctbt",
+      "parent": "npt",
+      "tier": 2,
+      "label": "CTBT (1996)",
+      "kind": "law",
+      "rel": "not signed",
+      "note": "Comprehensive Nuclear-Test-Ban Treaty. Never entered into force; India, Pakistan and North Korea have not signed."
+     },
+     {
+      "id": "123",
+      "parent": "nsg",
+      "tier": 2,
+      "label": "India-US civil nuclear agreement (2008)",
+      "kind": "event",
+      "rel": "the opening",
+      "note": "The 123 Agreement, which separated civilian from military facilities under IAEA safeguards and unlocked fuel supply."
+     },
+     {
+      "id": "nca",
+      "parent": "pok2",
+      "tier": 2,
+      "label": "Nuclear Command Authority",
+      "kind": "org",
+      "rel": "2003",
+      "note": "Political Council chaired by the Prime Minister is the only body that can authorise use; an Executive Council advises it."
+     },
+     {
+      "id": "igmdp",
+      "parent": "root",
+      "tier": 2,
+      "label": "IGMDP (1983)",
+      "kind": "concept",
+      "rel": "the missile programme",
+      "note": "Led by A.P.J. Abdul Kalam. Produced Prithvi, Agni, Akash, Trishul and Nag."
+     },
+     {
+      "id": "agni",
+      "parent": "igmdp",
+      "tier": 2,
+      "label": "Agni series",
+      "kind": "term",
+      "rel": "ballistic",
+      "note": "Agni-V has a range over 5,000 km; MIRV capability was demonstrated in March 2024 as Mission Divyastra."
+     },
+     {
+      "id": "brahmos",
+      "parent": "igmdp",
+      "tier": 2,
+      "label": "BrahMos",
+      "kind": "term",
+      "rel": "cruise missile",
+      "note": "Supersonic, developed with Russia, named for the Brahmaputra and Moskva rivers. Exported to the Philippines from 2024."
+     },
+     {
+      "id": "mtcr",
+      "parent": "npt",
+      "tier": 3,
+      "label": "MTCR, Wassenaar, Australia Group",
+      "kind": "org",
+      "rel": "joined",
+      "note": "India joined the Missile Technology Control Regime in 2016, the Wassenaar Arrangement in 2017 and the Australia Group in 2018."
+     },
+     {
+      "id": "shakti",
+      "parent": "root",
+      "tier": 3,
+      "label": "Mission Shakti (2019)",
+      "kind": "event",
+      "rel": "anti-satellite",
+      "note": "27 March 2019. India became the fourth country after the US, Russia and China to demonstrate an ASAT capability."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "sci-health",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Health and disease: the vocabulary a passage assumes you have",
+   "date": "",
+   "category": "Science & Technology",
+   "tags": [
+    "Health",
+    "Vaccines",
+    "Diseases",
+    "WHO"
+   ],
+   "hook": "Which disease is caused by which agent, which vitamin deficiency causes what, and the difference between an epidemic and a pandemic.",
+   "story": "**Causative agents.** **Bacterial**: tuberculosis (*Mycobacterium tuberculosis*), cholera, typhoid, tetanus, leprosy, plague, diphtheria, whooping cough. **Viral**: influenza, COVID-19, dengue, chikungunya, polio, measles, mumps, rabies, hepatitis, AIDS, chickenpox, Japanese encephalitis, Nipah, Zika. **Protozoan**: malaria (*Plasmodium*), amoebiasis, kala-azar or visceral leishmaniasis, sleeping sickness. **Fungal**: ringworm, athlete's foot, mucormycosis. **Worm**: filariasis, ascariasis.\n\n**Vectors.** *Anopheles* mosquito carries malaria; *Aedes aegypti* carries dengue, chikungunya, yellow fever and Zika; *Culex* carries filariasis and Japanese encephalitis; sandfly carries kala-azar; tsetse fly carries sleeping sickness.\n\n**Deficiency diseases.** Vitamin A: night blindness and xerophthalmia. B1 thiamine: beriberi. B3 niacin: pellagra. B12: pernicious anaemia. Vitamin C: scurvy. Vitamin D: rickets in children, osteomalacia in adults. Vitamin K: poor blood clotting. Iodine: goitre. Iron: anaemia. Protein-energy: kwashiorkor and marasmus.\n\n**Terms.** **Endemic**: constantly present in a population or area. **Epidemic**: a sudden rise above the expected level. **Pandemic**: an epidemic across countries or continents. **Zoonotic**: transmitted from animals to humans; COVID-19, rabies, Nipah and plague are zoonoses. **Herd immunity**: indirect protection when enough of a population is immune. **Vector-borne**: transmitted through an organism rather than directly.\n\n**Milestones.** **Smallpox** was declared eradicated by the WHO in **1980**, the only human disease eliminated so far. **Rinderpest**, an animal disease, was eradicated in 2011. India was declared **polio-free in March 2014**. **Edward Jenner** developed the smallpox vaccine in 1796 using cowpox, giving us the word vaccine from *vacca*, Latin for cow. **Louis Pasteur** developed the rabies vaccine and pasteurisation. **Alexander Fleming** discovered penicillin in 1928.\n\n**Programmes.** The **Universal Immunisation Programme** covers twelve diseases nationally. **Mission Indradhanush**, launched 2014, targets partially immunised children. **Ayushman Bharat**, launched 2018, has two limbs: health and wellness centres, and the **PM Jan Arogya Yojana** giving ₹5 lakh cover per family per year, the world's largest such scheme. The **National Health Mission** combines the rural mission of 2005 with an urban one added in 2013.",
+   "facts": [
+    {
+     "k": "Malaria vector",
+     "v": "Anopheles mosquito; caused by Plasmodium, a protozoan"
+    },
+    {
+     "k": "Dengue and Zika vector",
+     "v": "Aedes aegypti"
+    },
+    {
+     "k": "Scurvy",
+     "v": "Vitamin C deficiency"
+    },
+    {
+     "k": "Beriberi",
+     "v": "Vitamin B1, thiamine"
+    },
+    {
+     "k": "Pellagra",
+     "v": "Vitamin B3, niacin"
+    },
+    {
+     "k": "Goitre",
+     "v": "Iodine deficiency"
+    },
+    {
+     "k": "Smallpox eradicated",
+     "v": "1980, by the WHO"
+    },
+    {
+     "k": "India declared polio-free",
+     "v": "March 2014"
+    },
+    {
+     "k": "Smallpox vaccine",
+     "v": "Edward Jenner, 1796"
+    },
+    {
+     "k": "Ayushman Bharat cover",
+     "v": "₹5 lakh per family per year"
+    }
+   ],
+   "timeline": [],
+   "why": "Disease-to-agent and deficiency-to-vitamin matching appear as one-mark questions. The concept question is usually endemic against epidemic against pandemic.",
+   "map": {
+    "nodes": [
+     {
+      "id": "malaria",
+      "parent": "root",
+      "tier": 1,
+      "label": "Malaria",
+      "kind": "concept",
+      "rel": "protozoan",
+      "note": "Caused by Plasmodium, carried by the female Anopheles mosquito. Ronald Ross identified the transmission cycle in Secunderabad in 1897."
+     },
+     {
+      "id": "vectors",
+      "parent": "root",
+      "tier": 1,
+      "label": "Vectors",
+      "kind": "concept",
+      "rel": "who carries what",
+      "note": "Anopheles for malaria, Aedes aegypti for dengue and Zika, Culex for filariasis, sandfly for kala-azar."
+     },
+     {
+      "id": "deficiency",
+      "parent": "root",
+      "tier": 1,
+      "label": "Deficiency diseases",
+      "kind": "concept",
+      "rel": "vitamin to disease",
+      "note": "C for scurvy, B1 for beriberi, B3 for pellagra, D for rickets, A for night blindness, iodine for goitre."
+     },
+     {
+      "id": "terms",
+      "parent": "root",
+      "tier": 1,
+      "label": "Endemic, epidemic, pandemic",
+      "kind": "term",
+      "rel": "the ladder",
+      "note": "Endemic is constant presence, epidemic is a sudden rise above expectation, pandemic is an epidemic across countries."
+     },
+     {
+      "id": "smallpox",
+      "parent": "root",
+      "tier": 1,
+      "label": "Smallpox eradication (1980)",
+      "kind": "event",
+      "rel": "the only one",
+      "note": "The only human disease eradicated. Rinderpest, an animal disease, followed in 2011."
+     },
+     {
+      "id": "jenner",
+      "parent": "smallpox",
+      "tier": 2,
+      "label": "Edward Jenner",
+      "kind": "person",
+      "rel": "the vaccine",
+      "note": "Used cowpox in 1796. The word vaccine comes from vacca, Latin for cow."
+     },
+     {
+      "id": "polio",
+      "parent": "smallpox",
+      "tier": 2,
+      "label": "India polio-free (2014)",
+      "kind": "event",
+      "rel": "the campaign",
+      "note": "Declared by the WHO in March 2014, three years after the last case in Howrah in January 2011."
+     },
+     {
+      "id": "ayushman",
+      "parent": "root",
+      "tier": 2,
+      "label": "Ayushman Bharat (2018)",
+      "kind": "concept",
+      "rel": "the scheme",
+      "note": "Health and wellness centres plus PM Jan Arogya Yojana, giving ₹5 lakh cover per family per year."
+     },
+     {
+      "id": "zoonotic",
+      "parent": "terms",
+      "tier": 2,
+      "label": "Zoonotic diseases",
+      "kind": "term",
+      "rel": "animal origin",
+      "note": "COVID-19, rabies, Nipah, plague and avian influenza all cross from animals to humans."
+     },
+     {
+      "id": "pasteur",
+      "parent": "jenner",
+      "tier": 2,
+      "label": "Louis Pasteur",
+      "kind": "person",
+      "rel": "rabies and pasteurisation",
+      "note": "Developed the rabies vaccine in 1885 and the germ theory of disease."
+     },
+     {
+      "id": "fleming",
+      "parent": "jenner",
+      "tier": 2,
+      "label": "Alexander Fleming",
+      "kind": "person",
+      "rel": "penicillin",
+      "note": "Discovered penicillin in 1928. Nobel Prize in 1945 with Florey and Chain."
+     },
+     {
+      "id": "indradhanush",
+      "parent": "ayushman",
+      "tier": 2,
+      "label": "Mission Indradhanush",
+      "kind": "concept",
+      "rel": "immunisation",
+      "note": "Launched 2014 to reach partially immunised children. The Universal Immunisation Programme covers twelve diseases."
+     },
+     {
+      "id": "ross",
+      "parent": "malaria",
+      "tier": 3,
+      "label": "Ronald Ross",
+      "kind": "person",
+      "rel": "Nobel 1902",
+      "note": "Worked in Secunderabad and Calcutta. First Nobel laureate born in India, though British."
+     },
+     {
+      "id": "nhm",
+      "parent": "ayushman",
+      "tier": 3,
+      "label": "National Health Mission",
+      "kind": "org",
+      "rel": "2005 and 2013",
+      "note": "The rural mission began in 2005; an urban mission was added in 2013 and the two were combined."
+     },
+     {
+      "id": "who",
+      "parent": "smallpox",
+      "tier": 3,
+      "label": "World Health Organization",
+      "kind": "org",
+      "rel": "1948, Geneva",
+      "note": "World Health Day is 7 April. Certifies eradication and declares public health emergencies of international concern."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "sci-everyday",
+   "rank": 4,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Everyday science: units, phenomena and who discovered what",
+   "date": "",
+   "category": "Science & Technology",
+   "tags": [
+    "Physics",
+    "Chemistry",
+    "Units",
+    "Discoveries"
+   ],
+   "hook": "Why the sky is blue, why a stick looks bent in water, and the list of scientist-to-discovery pairs that gets asked without warning.",
+   "story": "**Optical phenomena.** The sky is blue because of **Rayleigh scattering**: shorter wavelengths scatter more in the atmosphere. Sunsets are red because at a low angle light travels through more atmosphere and the blue is scattered away. A stick looks bent in water because of **refraction**, the bending of light as it passes between media of different density. A rainbow is refraction plus **dispersion** plus internal reflection in water droplets. **Total internal reflection** explains optical fibres and mirages. **Tyndall effect** is scattering by colloidal particles, which is why a beam is visible in fog.\n\n**Mechanics and heat.** **Newton's three laws**: inertia, F = ma, and action-reaction. **Archimedes' principle**: a body immersed in fluid experiences an upward force equal to the weight of the fluid displaced, which is why ships float and why ice floats with about a ninth above water. **Bernoulli's principle**: faster-moving fluid exerts lower pressure, which explains aerofoil lift and why a shower curtain moves inward. Heat moves by **conduction**, **convection** and **radiation**. Water's **anomalous expansion** below 4°C is why lakes freeze from the top and fish survive.\n\n**Sound.** Travels fastest in solids, slowest in gases, and not at all in vacuum. **Ultrasound** is above 20,000 Hz, **infrasound** below 20 Hz. The **Doppler effect** is the change in observed frequency when source and observer move relative to each other, used in radar and to measure the recession of galaxies.\n\n**Chemistry to remember.** Ordinary table salt is sodium chloride; baking soda is sodium bicarbonate; washing soda is sodium carbonate; bleaching powder is calcium hypochlorite; quicklime is calcium oxide; slaked lime is calcium hydroxide; plaster of Paris is calcium sulphate hemihydrate; marble and limestone are calcium carbonate. **Heavy water** is deuterium oxide, used as a moderator in PHWRs. **Dry ice** is solid carbon dioxide. **Aqua regia** is three parts hydrochloric to one part nitric acid, and dissolves gold. The most abundant element in the universe is **hydrogen**, in the earth's crust **oxygen**, and in the atmosphere **nitrogen** at about 78%.\n\n**Discoveries and their people.** Radioactivity, Henri Becquerel; radium and polonium, Marie and Pierre Curie; electron, J.J. Thomson; proton, Ernest Rutherford; neutron, James Chadwick; nucleus, Rutherford; periodic table, Dmitri Mendeleev; penicillin, Alexander Fleming; DNA double helix, Watson and Crick with Rosalind Franklin's data; blood circulation, William Harvey; cell, Robert Hooke; vaccination, Edward Jenner; theory of relativity, Albert Einstein; law of gravitation, Isaac Newton; Raman effect, C.V. Raman.",
+   "facts": [
+    {
+     "k": "Why the sky is blue",
+     "v": "Rayleigh scattering of shorter wavelengths"
+    },
+    {
+     "k": "Why a stick looks bent in water",
+     "v": "Refraction"
+    },
+    {
+     "k": "Ships float because of",
+     "v": "Archimedes’ principle"
+    },
+    {
+     "k": "Aerofoil lift",
+     "v": "Bernoulli’s principle"
+    },
+    {
+     "k": "Ultrasound",
+     "v": "Above 20,000 Hz"
+    },
+    {
+     "k": "Baking soda",
+     "v": "Sodium bicarbonate"
+    },
+    {
+     "k": "Washing soda",
+     "v": "Sodium carbonate"
+    },
+    {
+     "k": "Heavy water",
+     "v": "Deuterium oxide, a moderator in PHWRs"
+    },
+    {
+     "k": "Most abundant element in the atmosphere",
+     "v": "Nitrogen, about 78%"
+    },
+    {
+     "k": "Neutron discovered by",
+     "v": "James Chadwick, 1932"
+    }
+   ],
+   "timeline": [],
+   "why": "These are one-mark recall questions scattered through the section. The pairs most often confused are baking soda against washing soda, and refraction against reflection.",
+   "map": {
+    "nodes": [
+     {
+      "id": "rayleigh",
+      "parent": "root",
+      "tier": 1,
+      "label": "Rayleigh scattering",
+      "kind": "concept",
+      "rel": "why the sky is blue",
+      "note": "Shorter wavelengths scatter more. At sunset light travels through more atmosphere, so the blue is scattered away and red remains."
+     },
+     {
+      "id": "archimedes",
+      "parent": "root",
+      "tier": 1,
+      "label": "Archimedes’ principle",
+      "kind": "concept",
+      "rel": "flotation",
+      "note": "Upward force equals the weight of fluid displaced. Ice floats with about one ninth of its volume above water."
+     },
+     {
+      "id": "bernoulli",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bernoulli’s principle",
+      "kind": "concept",
+      "rel": "pressure and speed",
+      "note": "Faster fluid means lower pressure. Explains aerofoil lift, the spin of a cricket ball and atomisers."
+     },
+     {
+      "id": "salts",
+      "parent": "root",
+      "tier": 1,
+      "label": "Common compounds",
+      "kind": "concept",
+      "rel": "name to formula",
+      "note": "Baking soda is NaHCO3, washing soda Na2CO3, quicklime CaO, slaked lime Ca(OH)2, plaster of Paris CaSO4·½H2O."
+     },
+     {
+      "id": "discoveries",
+      "parent": "root",
+      "tier": 1,
+      "label": "Discoveries and discoverers",
+      "kind": "concept",
+      "rel": "matching",
+      "note": "Electron Thomson, proton Rutherford, neutron Chadwick, radioactivity Becquerel, penicillin Fleming, periodic table Mendeleev."
+     },
+     {
+      "id": "refraction",
+      "parent": "rayleigh",
+      "tier": 2,
+      "label": "Refraction",
+      "kind": "concept",
+      "rel": "bending of light",
+      "note": "Light bends when it changes medium. Causes the bent-stick illusion, rainbows and the apparent position of stars."
+     },
+     {
+      "id": "tir",
+      "parent": "refraction",
+      "tier": 2,
+      "label": "Total internal reflection",
+      "kind": "concept",
+      "rel": "optical fibre",
+      "note": "Occurs beyond the critical angle. Explains optical fibres, mirages and the sparkle of a cut diamond."
+     },
+     {
+      "id": "doppler",
+      "parent": "root",
+      "tier": 2,
+      "label": "Doppler effect",
+      "kind": "concept",
+      "rel": "frequency shift",
+      "note": "Change in observed frequency with relative motion. Used in radar, sonar and to measure galactic redshift."
+     },
+     {
+      "id": "anomalous",
+      "parent": "archimedes",
+      "tier": 2,
+      "label": "Anomalous expansion of water",
+      "kind": "concept",
+      "rel": "why lakes freeze on top",
+      "note": "Water is densest at 4°C, so ice forms at the surface and aquatic life survives beneath."
+     },
+     {
+      "id": "heavy",
+      "parent": "salts",
+      "tier": 2,
+      "label": "Heavy water",
+      "kind": "term",
+      "rel": "moderator",
+      "note": "Deuterium oxide, D2O. Used to slow neutrons in pressurised heavy water reactors, India’s first-stage design."
+     },
+     {
+      "id": "newton",
+      "parent": "archimedes",
+      "tier": 2,
+      "label": "Newton’s laws",
+      "kind": "concept",
+      "rel": "mechanics",
+      "note": "Inertia, force equals mass times acceleration, and equal and opposite reaction. Published in the Principia, 1687."
+     },
+     {
+      "id": "tyndall",
+      "parent": "rayleigh",
+      "tier": 3,
+      "label": "Tyndall effect",
+      "kind": "concept",
+      "rel": "colloids",
+      "note": "Scattering by colloidal particles, which makes a light beam visible in fog or in a dusty room."
+     },
+     {
+      "id": "aqua",
+      "parent": "salts",
+      "tier": 3,
+      "label": "Aqua regia",
+      "kind": "term",
+      "rel": "dissolves gold",
+      "note": "Three parts hydrochloric acid to one part nitric acid. Named royal water because it dissolves the noble metals."
+     },
+     {
+      "id": "abundance",
+      "parent": "salts",
+      "tier": 3,
+      "label": "Most abundant elements",
+      "kind": "concept",
+      "rel": "three answers",
+      "note": "Hydrogen in the universe, oxygen in the earth’s crust, nitrogen in the atmosphere at about 78 per cent."
+     },
+     {
+      "id": "raman",
+      "parent": "discoveries",
+      "tier": 3,
+      "label": "Raman effect",
+      "kind": "concept",
+      "rel": "1928",
+      "note": "Inelastic scattering of light, discovered 28 February 1928, now National Science Day. Nobel Prize 1930."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
- "passages": []
+ "passages": [
+  {
+   "id": "sci-p1",
+   "kind": "static",
+   "month": "science-environment",
+   "topicIds": [
+    "sci-isro"
+   ],
+   "category": "Science & Technology",
+   "tags": [
+    "ISRO",
+    "Chandrayaan"
+   ],
+   "difficulty": 2,
+   "title": "The south pole landing",
+   "passage": "On 23 August 2023 a lander separated from its propulsion module, descended for about twenty minutes, and came to rest on a part of the Moon nobody had reached before. Four countries had managed a controlled landing on the lunar surface. None had done it near the southern pole, where the terrain is broken, the sunlight arrives at a low angle, and permanently shadowed craters are thought to hold water ice. Days earlier a Russian spacecraft attempting the same region had crashed.\n\nThe mission was the country's third to the Moon and the second to attempt a landing. The first, launched in 2008, had carried an impact probe and an American instrument whose data confirmed the presence of water molecules on the lunar surface, a finding that changed how the Moon was regarded as a destination. The second, in 2019, placed an orbiter successfully but lost its lander in the final phase of descent; the orbiter continued working and relayed communications for the third mission four years later.\n\nThe third attempt changed the engineering rather than the ambition. The landing area was enlarged, the lander was strengthened to survive a harder touchdown, additional fuel was carried, and the software was rewritten so that failures in sensors or engines would not by themselves end the mission. The lander carried a small rover which travelled about a hundred metres over the following days, conducting elemental analysis of the regolith before both were put into sleep mode at the end of the lunar day. Neither woke.\n\nThe launch used the agency's heaviest vehicle, the same one that had carried the previous lunar mission. The day of the landing has since been designated a national day for space, and the touchdown site was given a name by the Prime Minister within a week.",
+   "questions": [
+    {
+     "q": "The mission described is:",
+     "options": [
+      "Chandrayaan-1",
+      "Chandrayaan-2",
+      "Chandrayaan-3",
+      "Aditya-L1"
+     ],
+     "answer": 2,
+     "explain": "Chandrayaan-3, which landed on 23 August 2023. Chandrayaan-1 was the 2008 impact mission and Chandrayaan-2 the 2019 attempt whose lander was lost; Aditya-L1 is the solar mission."
+    },
+    {
+     "q": "The rover carried by the lander was named:",
+     "options": [
+      "Vikram",
+      "Pragyan",
+      "Rohini",
+      "Aryabhata"
+     ],
+     "answer": 1,
+     "explain": "Pragyan was the rover; Vikram was the lander, named for Vikram Sarabhai. Rohini and Aryabhata were early satellites."
+    },
+    {
+     "q": "The launch vehicle referred to in the final paragraph is:",
+     "options": [
+      "PSLV",
+      "GSLV Mk II",
+      "LVM3",
+      "SSLV"
+     ],
+     "answer": 2,
+     "explain": "LVM3, formerly GSLV Mk III, the heaviest Indian launch vehicle, which also launched Chandrayaan-2."
+    },
+    {
+     "q": "The Russian mission that crashed days earlier was:",
+     "options": [
+      "Luna-25",
+      "Soyuz",
+      "Chang’e-4",
+      "Beresheet"
+     ],
+     "answer": 0,
+     "explain": "Luna-25 crashed on 19 August 2023 while attempting a landing in the same region. Chang’e-4 was Chinese and landed on the far side in 2019; Beresheet was Israeli."
+    },
+    {
+     "q": "What is now observed on 23 August?",
+     "options": [
+      "National Science Day",
+      "National Technology Day",
+      "National Space Day",
+      "World Space Week"
+     ],
+     "answer": 2,
+     "explain": "National Space Day, declared after the landing. National Science Day is 28 February for the Raman effect; National Technology Day is 11 May for Pokhran-II."
+    }
+   ]
+  }
+ ]
 }
