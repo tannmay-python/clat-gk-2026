@@ -4,31 +4,52 @@ Newest first. Kept so that if a session dies mid-run, the next one knows exactly
 
 ## Where things stand
 
-303 topics, 2,627 map nodes, 64 passages, 320 questions.
+318 topics, 2,762 map nodes, 70 passages, 350 questions.
 
 | Section | Topics | Passages | State |
 |---|---|---|---|
-| 2026-01 | 21 | 5 | complete |
+| 2026-01 | 32 | 5 | complete |
 | 2026-02 | 42 | 8 | complete |
 | 2026-03 | 38 | 8 | complete |
 | 2026-04 | 41 | 8 | complete |
 | 2026-05 | 22 | 3 | complete |
 | 2026-06 | 38 | 8 | complete |
 | 2026-07 | 30 | 6 | covers 1–25 July, which is the month so far |
-| polity | 19 | 4 | done |
-| legal-cases | 11 | 2 | done |
-| history | 10 | 2 | done |
-| orgs | 5 | 2 | done |
-| economy | 7 | 2 | done |
+| polity | 19 | 5 | done |
+| legal-cases | 11 | 2 | thinnest passage bank |
+| history | 10 | 3 | done |
+| orgs | 7 | 4 | done |
+| economy | 7 | 3 | done |
 | science-environment | 5 | 2 | done |
-| awards | 4 | 1 | done |
+| awards | 6 | 2 | done |
 | geography | 10 | 3 | rewritten from scratch |
 
 ## Next up, in order
 
 1. August to December 2025, which was explicitly held back
-2. More passages: legal-cases, orgs and awards have the thinnest banks
+2. More passages for legal-cases and science, which have two each
 3. July 2026 needs the last week added once the month closes
+
+---
+
+## 2026-07-26, later
+
+### Ultra map rebuilt as an exploration
+The old view put three hundred nodes and four hundred edges on one canvas and could not be read. It now starts with six anchors, one from each of the largest subjects, and nothing else. Clicking a node opens it: neighbours are placed on a fan pointing away from wherever the node itself came in, animate outward from their parent, and their edges draw in behind them. Unopened nodes are hollow and carry a count of what is still behind them, so the frontier is legible. Step back unwinds the last click, start over reseeds.
+
+One trap worth recording: the placement transform has to live on an outer `<g>` and the entry animation on an inner one. A CSS transform overrides the SVG attribute, so animating the same element drops every node at the origin.
+
+### Rendering fix
+Thirty-six strings across April and orgs held the two characters backslash-n where a newline belonged, so paragraphs ran together and the escape showed up mid-sentence. Repaired in the data and guarded in the markdown renderer.
+
+### January doubled
+Eleven more topics, taking it from 21 to 32: the RTE quota and the minority exemption, removal of a judge and the double majority, India past Japan to fourth by nominal GDP, non-fossil capacity past half, the G4 Council proposal, Diego Garcia and the Chagos settlement, India in the Arctic, the carbon credit scheme, Startup India at ten, the gig workers' strike and the Piprahwa relics.
+
+### Static GK deepened
+Four topics — Bretton Woods and the three pillars, the four international courts, the Nobel Prizes, and the days and observances calendar. Six passages — the 1944 conference and the two rival plans, the ICJ against the ICC, the prize the will did not create, Sher Shah's administration and what Akbar borrowed, Part IV and Minerva Mills, and planning without a statute.
+
+### Lilies
+Wallpaper opacity 7.5% to 11.5% in light, 6% to 8.5% in dark.
 
 ---
 
