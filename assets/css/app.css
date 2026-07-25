@@ -562,21 +562,48 @@ mark { background: var(--brand-soft); color: var(--brand-hi); padding: 0 1px; bo
 .ultra-stage { height: 660px; }
 .ultra-stage svg { width: 100%; height: 100%; }
 
-.ul-edge { fill: none; stroke: var(--line); opacity: 0.55; transition: opacity 160ms var(--ease), stroke 160ms var(--ease); }
-.ul-edge.cross { stroke: var(--brand-line); opacity: 0.8; }
+.ul-edge {
+  fill: none; stroke: var(--line); opacity: 0.6;
+  transition: opacity 160ms var(--ease), stroke 160ms var(--ease);
+}
+.ul-edge.cross { stroke: var(--brand-line); opacity: 0.85; }
+.ul-edge.grew { animation: ul-draw 520ms var(--ease) both; }
+
 .ul-node { cursor: pointer; }
 .ul-node .hit { fill: transparent; }
-.ul-node .core { fill: var(--ink-2); transition: fill 160ms var(--ease); }
+.ul-node .core { fill: var(--ink-2); transition: fill 180ms var(--ease), r 180ms var(--ease); }
 .ul-node.static .core { fill: var(--brand); }
-.ul-node .ring { fill: none; stroke: none; }
-.ul-node.read .ring { stroke: var(--ok); stroke-width: 1.4; }
-.ul-node.sel .ring { stroke: var(--ink); stroke-width: 2.2; }
-.ul-node, .ul-edge { transition: opacity 160ms var(--ease); }
-.ultra-stage.focus .ul-node:not(.hi) { opacity: 0.12; }
-.ultra-stage.focus .ul-edge:not(.hi) { opacity: 0.05; }
-.ultra-stage.focus .ul-edge.hi { stroke: var(--brand); opacity: 1; }
-.ul-hub { font: 620 13px/1 var(--sans); fill: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; pointer-events: none; }
-.ul-hub-n { font-weight: 500; fill: var(--faint); text-transform: none; letter-spacing: 0; }
+.ul-node .halo { fill: none; stroke: none; }
+.ul-node.read .halo { stroke: var(--ok); stroke-width: 1.4; }
+.ul-node.sel .halo { stroke: var(--ink); stroke-width: 2.2; }
+
+/* Unopened nodes read as hollow, with a count of what is still behind them. */
+.ul-node.frontier .core { fill: var(--bg); stroke: var(--ink-2); stroke-width: 1.6; stroke-dasharray: 2.4 2.4; }
+.ul-node.frontier.static .core { stroke: var(--brand); }
+.ul-node.frontier .ul-lab { fill: var(--faint); }
+.ul-node.frontier:hover .core { fill: var(--brand-soft); stroke-dasharray: none; }
+.ul-node.open .core { filter: drop-shadow(0 1px 3px oklch(0 0 0 / 0.22)); }
+
+.ul-lab {
+  font: 560 13.5px/1 var(--sans); fill: var(--muted);
+  paint-order: stroke; stroke: var(--bg); stroke-width: 3.6px; stroke-linejoin: round;
+  pointer-events: none;
+}
+.ul-node.open .ul-lab { fill: var(--ink); font-weight: 620; }
+.ul-more { font: 640 11px/1 var(--sans); fill: var(--muted); pointer-events: none; }
+.ul-node.grew .ul-in { animation: ul-pop 420ms var(--ease) both; }
+
+@keyframes ul-pop {
+  from { opacity: 0; transform: translate(var(--fx, 0), var(--fy, 0)) scale(0.35); }
+  to   { opacity: 1; transform: translate(0, 0) scale(1); }
+}
+@keyframes ul-draw { from { opacity: 0; stroke-dasharray: 0 460; } to { stroke-dasharray: 460 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .ul-node.grew .ul-in, .ul-edge.grew { animation: none; }
+}
+
+.ul-links .dark { display: flex; gap: 7px; align-items: baseline; font-size: 12.5px; padding: 3px 0; color: var(--faint); font-style: italic; }
+.ul-links .dark i { flex: none; width: 6px; height: 6px; border-radius: 50%; border: 1px dashed var(--line); background: none; }
 
 .ultra-card {
   position: absolute; left: 14px; bottom: 14px; width: min(330px, calc(100% - 28px));
@@ -604,6 +631,7 @@ mark { background: var(--brand-soft); color: var(--brand-hi); padding: 0 1px; bo
 .ultra-key span { display: flex; align-items: center; gap: 6px; }
 .ultra-key .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-2); }
 .ultra-key .dot.sta { background: var(--brand); }
+.ultra-key .dot.fro { background: none; border: 1.5px dashed var(--ink-2); }
 .ultra-key .ln { width: 16px; height: 0; border-top: 1.6px solid var(--line); }
 .ultra-key .ln.cross { border-color: var(--brand-line); }
 @media (max-width: 780px) {
