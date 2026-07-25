@@ -1,0 +1,487 @@
+{
+ "id": "awards",
+ "kind": "static",
+ "label": "Awards & Honours",
+ "order": 7,
+ "blurb": "Civilian and gallantry honours in order of precedence, and the international prizes with the Indian winners the paper expects you to name.",
+ "topics": [
+  {
+   "id": "awd-india",
+   "rank": 1,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Indian civilian and gallantry honours",
+   "date": "",
+   "category": "Awards & Honours",
+   "tags": [
+    "Bharat Ratna",
+    "Padma Awards",
+    "Gallantry",
+    "National Awards"
+   ],
+   "hook": "Four civilian awards in order, three gallantry awards in wartime and three in peacetime, and one constitutional rule about how none of them may be used.",
+   "story": "**Civilian awards**, instituted in **1954**, in descending order: **Bharat Ratna**, then the Padma awards, **Padma Vibhushan**, **Padma Bhushan** and **Padma Shri**. Bharat Ratna is limited to a maximum of three in a year and has no monetary grant; recipients rank seventh in the **Table of Precedence**. The first recipients in 1954 were **C. Rajagopalachari, Sarvepalli Radhakrishnan and C.V. Raman**. The first posthumous award went to **Lal Bahadur Shastri** in 1966. The youngest recipient is **Sachin Tendulkar**, awarded in 2014 at 40, and the first sportsperson. **Mother Teresa** (1980) and **Nelson Mandela** (1990) are among the non-Indian recipients; Mandela and **Khan Abdul Ghaffar Khan** (1987) are the two non-citizens.\n\nBecause of **Article 18**, which abolishes titles, these awards cannot be used as prefixes or suffixes to a name. That rule was tested in *Balaji Raghavan v. Union of India* (1996), where the Supreme Court upheld the awards as recognitions of merit rather than titles of nobility. The awards were suspended twice, in 1977-80 and 1992-95.\n\n**Gallantry awards, wartime**, in order: **Param Vir Chakra**, **Maha Vir Chakra**, **Vir Chakra**. All three were instituted on 26 January 1950 with effect from 15 August 1947. The PVC was designed by **Savitri Khanolkar**, a Swiss-born woman married to an Indian officer. The first recipient was **Major Somnath Sharma**, posthumously, for Badgam in Kashmir in November 1947. Twenty-one have been awarded, most posthumously.\n\n**Gallantry awards, peacetime**, in order: **Ashoka Chakra**, **Kirti Chakra**, **Shaurya Chakra**.\n\nOther national honours: **Jeevan Raksha Padak** for saving life, **Sarvottam Jeevan Raksha Padak** the highest of that series. Sporting honours: the **Major Dhyan Chand Khel Ratna**, renamed from Rajiv Gandhi Khel Ratna in 2021, the highest sporting award; the **Arjuna Award** for outstanding performance; the **Dronacharya Award** for coaches; and the **Dhyan Chand Award** for lifetime achievement. **National Sports Day** is 29 August, Dhyan Chand's birthday.",
+   "facts": [
+    {
+     "k": "Civilian awards instituted",
+     "v": "1954"
+    },
+    {
+     "k": "Order",
+     "v": "Bharat Ratna, Padma Vibhushan, Padma Bhushan, Padma Shri"
+    },
+    {
+     "k": "Bharat Ratna maximum per year",
+     "v": "Three"
+    },
+    {
+     "k": "First recipients",
+     "v": "C. Rajagopalachari, S. Radhakrishnan, C.V. Raman"
+    },
+    {
+     "k": "First posthumous Bharat Ratna",
+     "v": "Lal Bahadur Shastri, 1966"
+    },
+    {
+     "k": "Youngest and first sportsperson",
+     "v": "Sachin Tendulkar, 2014"
+    },
+    {
+     "k": "Highest wartime gallantry award",
+     "v": "Param Vir Chakra"
+    },
+    {
+     "k": "First PVC",
+     "v": "Major Somnath Sharma, posthumously, 1947"
+    },
+    {
+     "k": "Highest peacetime gallantry award",
+     "v": "Ashoka Chakra"
+    },
+    {
+     "k": "Highest sporting award",
+     "v": "Major Dhyan Chand Khel Ratna"
+    }
+   ],
+   "timeline": [],
+   "why": "Order of precedence is the question. Learn the civilian four and the two gallantry threes in order, and remember Article 18 forbids using them as titles.",
+   "map": {
+    "nodes": [
+     {
+      "id": "br",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bharat Ratna",
+      "kind": "award",
+      "rel": "highest civilian",
+      "note": "Instituted 1954. Maximum three a year. No monetary grant. Seventh in the Table of Precedence."
+     },
+     {
+      "id": "padma",
+      "parent": "br",
+      "tier": 1,
+      "label": "Padma awards",
+      "kind": "award",
+      "rel": "the next three",
+      "note": "Padma Vibhushan, Padma Bhushan, Padma Shri, announced on Republic Day and conferred around March or April."
+     },
+     {
+      "id": "pvc",
+      "parent": "root",
+      "tier": 1,
+      "label": "Param Vir Chakra",
+      "kind": "award",
+      "rel": "highest wartime",
+      "note": "Instituted 26 January 1950, effective from 15 August 1947. Designed by Savitri Khanolkar. 21 awarded."
+     },
+     {
+      "id": "ashoka",
+      "parent": "root",
+      "tier": 1,
+      "label": "Ashoka Chakra",
+      "kind": "award",
+      "rel": "highest peacetime",
+      "note": "Peacetime equivalent of the Param Vir Chakra, followed by the Kirti Chakra and Shaurya Chakra."
+     },
+     {
+      "id": "a18",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 18",
+      "kind": "law",
+      "rel": "the constraint",
+      "note": "Abolishes titles. Awards cannot be used as prefixes or suffixes to a name."
+     },
+     {
+      "id": "balaji",
+      "parent": "a18",
+      "tier": 2,
+      "label": "Balaji Raghavan (1996)",
+      "kind": "event",
+      "rel": "upheld them",
+      "note": "The Supreme Court held the awards are recognitions of merit, not titles of nobility, but reiterated they must not be used as titles."
+     },
+     {
+      "id": "somnath",
+      "parent": "pvc",
+      "tier": 2,
+      "label": "Major Somnath Sharma",
+      "kind": "person",
+      "rel": "first PVC",
+      "note": "4 Kumaon. Killed at Badgam near Srinagar on 3 November 1947 delaying a Pakistani tribal advance."
+     },
+     {
+      "id": "khanolkar",
+      "parent": "pvc",
+      "tier": 2,
+      "label": "Savitri Khanolkar",
+      "kind": "person",
+      "rel": "designed it",
+      "note": "Born Eva Yvonne Maday de Maros in Switzerland; married an Indian army officer and designed the PVC and other medals."
+     },
+     {
+      "id": "sachin",
+      "parent": "br",
+      "tier": 2,
+      "label": "Sachin Tendulkar",
+      "kind": "person",
+      "rel": "youngest",
+      "note": "Awarded in 2014 at the age of 40, the first sportsperson to receive the Bharat Ratna."
+     },
+     {
+      "id": "khel",
+      "parent": "root",
+      "tier": 2,
+      "label": "Major Dhyan Chand Khel Ratna",
+      "kind": "award",
+      "rel": "highest sporting",
+      "note": "Renamed from the Rajiv Gandhi Khel Ratna in August 2021."
+     },
+     {
+      "id": "arjuna",
+      "parent": "khel",
+      "tier": 2,
+      "label": "Arjuna Award",
+      "kind": "award",
+      "rel": "performance",
+      "note": "For outstanding performance over four years. The Dronacharya Award goes to coaches."
+     },
+     {
+      "id": "teresa",
+      "parent": "br",
+      "tier": 3,
+      "label": "Mother Teresa",
+      "kind": "person",
+      "rel": "1980",
+      "note": "Also Nobel Peace Prize 1979. Founded the Missionaries of Charity in Calcutta in 1950."
+     },
+     {
+      "id": "mandela",
+      "parent": "br",
+      "tier": 3,
+      "label": "Nelson Mandela",
+      "kind": "person",
+      "rel": "1990",
+      "note": "One of two non-citizens to receive the Bharat Ratna, along with Khan Abdul Ghaffar Khan in 1987."
+     },
+     {
+      "id": "dhyan",
+      "parent": "khel",
+      "tier": 3,
+      "label": "National Sports Day",
+      "kind": "event",
+      "rel": "29 August",
+      "note": "Dhyan Chand’s birthday. He won hockey gold at the 1928, 1932 and 1936 Olympics."
+     },
+     {
+      "id": "suspend",
+      "parent": "br",
+      "tier": 3,
+      "label": "Suspensions",
+      "kind": "concept",
+      "rel": "twice",
+      "note": "The awards were suspended from 1977 to 1980 under the Janata government and from 1992 to 1995 during litigation."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "awd-world",
+   "rank": 2,
+   "depth": "deep",
+   "importance": 5,
+   "title": "International prizes and the Indians who have won them",
+   "date": "",
+   "category": "Awards & Honours",
+   "tags": [
+    "Nobel",
+    "Booker",
+    "Oscars",
+    "Ramon Magsaysay"
+   ],
+   "hook": "Six Nobel categories, one that is not technically a Nobel, and a short list of Indian winners that gets asked in full.",
+   "story": "The **Nobel Prizes** were established by **Alfred Nobel's** will of 1895 and first awarded in **1901** in five categories: Physics, Chemistry, Physiology or Medicine, Literature and Peace. **Economics** was added in **1969**, funded by the Swedish central bank, and is formally the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, which is why it is not strictly a Nobel Prize. All are awarded in **Stockholm** except the Peace Prize, which is awarded in **Oslo** by a committee appointed by the Norwegian parliament. Prizes are announced in October and presented on **10 December**, the anniversary of Nobel's death. They cannot be awarded posthumously, a rule from 1974, and no more than three people may share one.\n\n**Indian and India-linked laureates.** **Rabindranath Tagore**, Literature, **1913**, the first Asian Nobel laureate, for *Gitanjali*. **C.V. Raman**, Physics, **1930**, for the Raman effect, the first Asian science laureate. **Har Gobind Khorana**, Medicine, 1968, US citizen. **Mother Teresa**, Peace, 1979. **Subrahmanyan Chandrasekhar**, Physics, 1983, US citizen. **Amartya Sen**, Economics, 1998, for welfare economics. **V.S. Naipaul**, Literature, 2001, of Indian descent, Trinidad-born. **Venkatraman Ramakrishnan**, Chemistry, 2009. **Kailash Satyarthi**, Peace, 2014, shared with Malala Yousafzai. **Abhijit Banerjee**, Economics, 2019, shared with Esther Duflo and Michael Kremer.\n\n**Booker Prize.** For fiction in English published in the UK or Ireland. Indian winners: **V.S. Naipaul** (1971), **Salman Rushdie** (1981, *Midnight's Children*, which also won the Booker of Bookers), **Arundhati Roy** (1997, *The God of Small Things*), **Kiran Desai** (2006, *The Inheritance of Loss*), **Aravind Adiga** (2008, *The White Tiger*). The separate **International Booker Prize** went to **Geetanjali Shree** for *Tomb of Sand*, translated by Daisy Rockwell, in **2022**, the first Hindi work to win, and to **Banu Mushtaq** for *Heart Lamp* in **2025**, the first Kannada work.\n\nOthers: the **Ramon Magsaysay Award**, the \"Asian Nobel\", instituted in the Philippines in 1957; the **Pulitzer Prize** for American journalism and letters; the **Fields Medal**, mathematics, every four years for those under 40, won by **Manjul Bhargava** in 2014; the **Abel Prize**, mathematics; the **Oscars**, where **Bhanu Athaiya** won Costume Design for *Gandhi* in 1983, **Satyajit Ray** received an honorary award in 1992, **A.R. Rahman** and **Resul Pookutty** won for *Slumdog Millionaire* in 2009, and **RRR**'s \"Naatu Naatu\" and the documentary **The Elephant Whisperers** won in 2023.",
+   "facts": [
+    {
+     "k": "Nobel Prizes first awarded",
+     "v": "1901"
+    },
+    {
+     "k": "Economics added",
+     "v": "1969, funded by the Swedish central bank"
+    },
+    {
+     "k": "Peace Prize awarded in",
+     "v": "Oslo; the rest in Stockholm"
+    },
+    {
+     "k": "Presented on",
+     "v": "10 December"
+    },
+    {
+     "k": "First Asian Nobel laureate",
+     "v": "Rabindranath Tagore, Literature, 1913"
+    },
+    {
+     "k": "First Asian science laureate",
+     "v": "C.V. Raman, Physics, 1930"
+    },
+    {
+     "k": "Booker for Midnight’s Children",
+     "v": "Salman Rushdie, 1981"
+    },
+    {
+     "k": "First Hindi International Booker",
+     "v": "Geetanjali Shree, Tomb of Sand, 2022"
+    },
+    {
+     "k": "First Kannada International Booker",
+     "v": "Banu Mushtaq, Heart Lamp, 2025"
+    },
+    {
+     "k": "Fields Medal, Indian-origin winner",
+     "v": "Manjul Bhargava, 2014"
+    }
+   ],
+   "timeline": [],
+   "why": "Prize-to-person-to-year matching is asked directly. The two traps are the Economics prize not being a true Nobel, and the Peace Prize being awarded in Oslo rather than Stockholm.",
+   "map": {
+    "nodes": [
+     {
+      "id": "nobel",
+      "parent": "root",
+      "tier": 1,
+      "label": "Nobel Prizes",
+      "kind": "award",
+      "rel": "from 1901",
+      "note": "Five original categories. Announced in October, presented 10 December, no posthumous awards since 1974."
+     },
+     {
+      "id": "tagore",
+      "parent": "nobel",
+      "tier": 1,
+      "label": "Rabindranath Tagore",
+      "kind": "person",
+      "rel": "1913, Literature",
+      "note": "First Asian laureate, for Gitanjali. Wrote the national anthems of India and Bangladesh. Renounced his knighthood after Jallianwala Bagh."
+     },
+     {
+      "id": "raman",
+      "parent": "nobel",
+      "tier": 1,
+      "label": "C.V. Raman",
+      "kind": "person",
+      "rel": "1930, Physics",
+      "note": "For the Raman effect, discovered 28 February 1928, now National Science Day."
+     },
+     {
+      "id": "booker",
+      "parent": "root",
+      "tier": 1,
+      "label": "Booker Prize",
+      "kind": "award",
+      "rel": "fiction",
+      "note": "For fiction in English published in the UK or Ireland. Five Indian or Indian-origin winners."
+     },
+     {
+      "id": "econ",
+      "parent": "nobel",
+      "tier": 1,
+      "label": "Economics prize",
+      "kind": "award",
+      "rel": "not a true Nobel",
+      "note": "Instituted 1969 by Sveriges Riksbank. Amartya Sen won in 1998 and Abhijit Banerjee in 2019."
+     },
+     {
+      "id": "rushdie",
+      "parent": "booker",
+      "tier": 2,
+      "label": "Salman Rushdie",
+      "kind": "person",
+      "rel": "1981",
+      "note": "Midnight’s Children, which also won the Booker of Bookers in 1993 and the Best of the Booker in 2008."
+     },
+     {
+      "id": "roy",
+      "parent": "booker",
+      "tier": 2,
+      "label": "Arundhati Roy",
+      "kind": "person",
+      "rel": "1997",
+      "note": "The God of Small Things, her first novel."
+     },
+     {
+      "id": "geetanjali",
+      "parent": "booker",
+      "tier": 2,
+      "label": "Geetanjali Shree",
+      "kind": "person",
+      "rel": "2022",
+      "note": "Tomb of Sand, translated by Daisy Rockwell. First Hindi work to win the International Booker."
+     },
+     {
+      "id": "satyarthi",
+      "parent": "nobel",
+      "tier": 2,
+      "label": "Kailash Satyarthi",
+      "kind": "person",
+      "rel": "2014, Peace",
+      "note": "Shared with Malala Yousafzai. Founded Bachpan Bachao Andolan in 1980."
+     },
+     {
+      "id": "sen",
+      "parent": "econ",
+      "tier": 2,
+      "label": "Amartya Sen",
+      "kind": "person",
+      "rel": "1998",
+      "note": "For welfare economics and social choice theory. Also developed the capability approach behind the Human Development Index."
+     },
+     {
+      "id": "magsaysay",
+      "parent": "root",
+      "tier": 2,
+      "label": "Ramon Magsaysay Award",
+      "kind": "award",
+      "rel": "the Asian Nobel",
+      "note": "Instituted 1957 in the Philippines. Indian recipients include Vinoba Bhave, the first, in 1958."
+     },
+     {
+      "id": "oscars",
+      "parent": "root",
+      "tier": 2,
+      "label": "Academy Awards",
+      "kind": "award",
+      "rel": "cinema",
+      "note": "Bhanu Athaiya, 1983; Satyajit Ray honorary, 1992; A.R. Rahman and Resul Pookutty, 2009; Naatu Naatu and The Elephant Whisperers, 2023."
+     },
+     {
+      "id": "fields",
+      "parent": "root",
+      "tier": 3,
+      "label": "Fields Medal",
+      "kind": "award",
+      "rel": "mathematics",
+      "note": "Every four years, for mathematicians under 40. Manjul Bhargava won in 2014."
+     },
+     {
+      "id": "alfred",
+      "parent": "nobel",
+      "tier": 3,
+      "label": "Alfred Nobel",
+      "kind": "person",
+      "rel": "the founder",
+      "note": "Swedish chemist who invented dynamite. His 1895 will endowed the prizes."
+     },
+     {
+      "id": "jnanpith",
+      "parent": "root",
+      "tier": 3,
+      "label": "Jnanpith Award",
+      "kind": "award",
+      "rel": "Indian literature",
+      "note": "India’s highest literary honour, instituted 1961. First awarded to G. Sankara Kurup in Malayalam in 1965."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ],
+ "passages": [
+  {
+   "id": "awards-p1",
+   "kind": "static",
+   "month": "awards",
+   "topicIds": [
+    "awd-world",
+    "awd-india"
+   ],
+   "category": "Awards & Honours",
+   "tags": [
+    "Nobel",
+    "Booker"
+   ],
+   "difficulty": 1,
+   "title": "Prizes and precedence",
+   "passage": "The prizes endowed by a Swedish chemist's will were first awarded in 1901 in five fields. A sixth, in economic sciences, was added almost seven decades later and funded not by the original endowment but by the Swedish central bank, which is why purists insist it is not properly one of them at all. Five of the six are decided in Stockholm; the peace prize alone is decided and presented in the Norwegian capital, by a committee appointed by that country's parliament, an arrangement the founder specified without ever explaining why. All are presented on the anniversary of his death in December. Since a rule change in 1974 they cannot be awarded to the dead, and no prize may be divided among more than three people.\n\nThe first Asian to receive one was a Bengali poet honoured in 1913 for a collection he had himself translated into English. Seventeen years later a physicist working in Calcutta became the first Asian to win in a scientific category, for an effect in light scattering he had observed on a voyage home from England; the date of that observation is now marked in India as a national day of science.\n\nIndia's own honours system dates from 1954 and is organised in four grades, the highest of which is limited to three recipients in a year and carries no money. Because the Constitution abolishes titles, none of them may be attached to the holder's name as a prefix or suffix, a restriction the Supreme Court reaffirmed in 1996 while rejecting a challenge to the awards themselves. Wartime gallantry has its own three-step ladder, instituted in 1950 with retrospective effect to independence, the highest step of which has been awarded twenty-one times, mostly to the dead.",
+   "questions": [
+    {
+     "q": "The sixth prize referred to in the first paragraph was instituted in:",
+     "options": [
+      "1901",
+      "1945",
+      "1969",
+      "1974"
+     ],
+     "answer": 2,
+     "explain": "The Sveriges Riksbank Prize in Economic Sciences was instituted in 1969. 1974 is the year the rule against posthumous awards took effect."
+    },
+    {
+     "q": "The physicist described in the second paragraph is:",
+     "options": [
+      "Homi Bhabha",
+      "C.V. Raman",
+      "S. Chandrasekhar",
+      "Har Gobind Khorana"
+     ],
+     "answer": 1,
+     "explain": "C.V. Raman, Physics 1930, for the Raman effect observed on 28 February 1928, now National Science Day. Chandrasekhar won in 1983 as a US citizen."
+    },
+    {
+     "q": "Which article of the Constitution creates the restriction described in the final paragraph?",
+     "options": [
+      "Article 14",
+      "Article 18",
+      "Article 19",
+      "Article 51A"
+     ],
+     "answer": 1,
+     "explain": "Article 18 abolishes titles. Balaji Raghavan v. Union of India (1996) upheld the awards while reiterating that they cannot be used as titles."
+    },
+    {
+     "q": "The highest wartime gallantry award referred to in the passage is the:",
+     "options": [
+      "Ashoka Chakra",
+      "Param Vir Chakra",
+      "Maha Vir Chakra",
+      "Kirti Chakra"
+     ],
+     "answer": 1,
+     "explain": "The Param Vir Chakra, awarded 21 times. The Ashoka Chakra is the highest peacetime gallantry award; the Kirti Chakra is second in that peacetime series."
+    },
+    {
+     "q": "On the passage, which statement is correct?",
+     "options": [
+      "All six prizes are decided in Stockholm",
+      "The peace prize is decided by the Swedish parliament",
+      "The peace prize is decided in Oslo by a committee appointed by the Norwegian parliament",
+      "The prizes may be shared by any number of people"
+     ],
+     "answer": 2,
+     "explain": "The passage states the peace prize alone is decided and presented in the Norwegian capital by a committee appointed by that country’s parliament, and that no prize may be divided among more than three people."
+    }
+   ]
+  }
+ ]
+}

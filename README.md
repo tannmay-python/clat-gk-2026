@@ -8,7 +8,10 @@ Private study material. Facts are drawn from news reporting and published curren
 
 - **Months.** Each month is 36–42 topics in ranked order, with a five-segment exam-weight meter. Deep topics get 550–850 words, medium ones 250–400, brief ones a paragraph.
 - **Connection maps.** Every topic carries a radial map of what it links to: the historical precedent, the institution and its founding year, the people, the constitutional hook. Ring distance is degrees of separation, tier is how likely an examiner is to reach for it. Click any node for the fact attached.
-- **Static GK.** Polity, history, economy, organisations, awards, sports, science — the permanent half of the syllabus.
+- **Static GK.** Polity and the Constitution, landmark judgments and legal vocabulary, modern Indian history, world organisations and treaties, economy and banking, geography and environment, space and technology, awards and honours.
+- **Ultra map.** The whole corpus on one canvas, clustered by subject, drawing only the links that exist in the data. The static-to-current crossings can be isolated on their own.
+- **Personal map.** A blank sheet you fill in yourself, rendered by the same engine as the topic maps.
+- **Read tracking.** A checkbox on every topic, with progress bars on the overview and each section.
 - **Quiz engine.** Pick a question count, current or static or both, specific months, specific subjects, difficulty. It samples a fresh set from the passage bank every time, in CLAT format: a passage, then five questions with four options. Scored with the real marking scheme, with an explanation on every question.
 
 ## Running it

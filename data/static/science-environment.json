@@ -1,8 +1,241 @@
 {
  "id": "science-environment",
  "kind": "static",
- "label": "Science, Tech, Awards & Sports",
- "blurb": "A comprehensive review of India's space and nuclear programmes, global awards, and major international sports tournaments.",
- "topics": [],
+ "label": "Science, Space & Technology",
+ "order": 6,
+ "blurb": "The space programme, the missions and the vehicles, written for a paper that asks which year and which rocket rather than how the physics works.",
+ "topics": [
+  {
+   "id": "sci-isro",
+   "rank": 1,
+   "depth": "deep",
+   "importance": 5,
+   "title": "ISRO: the missions, the launch vehicles and the people",
+   "date": "",
+   "category": "Science & Technology",
+   "tags": [
+    "ISRO",
+    "Chandrayaan",
+    "Mangalyaan",
+    "Gaganyaan",
+    "Launch Vehicles"
+   ],
+   "hook": "Chandrayaan-3 made India the first country to land near the lunar south pole, and the fourth to soft-land at all. The rest of the programme is a list worth memorising.",
+   "story": "**ISRO** was formed on **15 August 1969**, succeeding INCOSPAR which **Vikram Sarabhai** had set up in 1962. Sarabhai is called the father of the Indian space programme; the first sounding rocket flew from **Thumba** in Kerala in 1963. Headquarters are in **Bengaluru**; the main launch site is the **Satish Dhawan Space Centre at Sriharikota**, Andhra Pradesh. The current chairman is **V. Narayanan**, who took over in January 2025 from S. Somanath.\n\n**Satellites and firsts.** **Aryabhata**, India's first satellite, launched by the Soviet Union in 1975. **Rohini RS-1**, 1980, the first launched by an Indian vehicle, the SLV-3, under **A.P.J. Abdul Kalam** as project director. **INSAT** for communications, **IRS** for remote sensing, **NavIC** for regional navigation.\n\n**Launch vehicles.** **PSLV**, the workhorse, which in February 2017 launched **104 satellites** in a single flight, a record at the time. **GSLV**, which uses a cryogenic upper stage, indigenous from 2014. **LVM3**, formerly GSLV Mk III, the heaviest, which launched Chandrayaan-2 and Chandrayaan-3 and is planned for Gaganyaan. **SSLV**, for small satellites, first successful flight 2023.\n\n**Planetary missions.** **Chandrayaan-1 (2008)** confirmed water molecules on the Moon through the Moon Impact Probe and NASA's M3 instrument. **Mangalyaan**, the Mars Orbiter Mission, launched 5 November 2013 and inserted into Mars orbit on **24 September 2014**, made India the first country to reach Mars on its first attempt, and the cheapest such mission at about ₹450 crore. **Chandrayaan-2 (2019)** lost the Vikram lander but its orbiter still works. **Chandrayaan-3** landed on **23 August 2023** near the lunar south pole, with the **Vikram** lander and **Pragyan** rover; the date is now observed as **National Space Day**. **Aditya-L1**, launched 2 September 2023, reached the L1 Lagrange point in January 2024 to study the Sun.\n\n**Gaganyaan** is the crewed programme, with four Indian Air Force test pilots announced as astronaut-designates in February 2024, one of whom, Group Captain Shubhanshu Shukla, flew to the International Space Station on a commercial mission in 2025.",
+   "facts": [
+    {
+     "k": "ISRO formed",
+     "v": "15 August 1969"
+    },
+    {
+     "k": "Father of the Indian space programme",
+     "v": "Vikram Sarabhai"
+    },
+    {
+     "k": "Headquarters",
+     "v": "Bengaluru; launch site Sriharikota"
+    },
+    {
+     "k": "First Indian satellite",
+     "v": "Aryabhata, 1975"
+    },
+    {
+     "k": "First satellite on an Indian vehicle",
+     "v": "Rohini RS-1, 1980, on SLV-3"
+    },
+    {
+     "k": "PSLV record",
+     "v": "104 satellites in one launch, February 2017"
+    },
+    {
+     "k": "Mars Orbiter Mission",
+     "v": "Launched 5 November 2013, orbit 24 September 2014"
+    },
+    {
+     "k": "Chandrayaan-3 landing",
+     "v": "23 August 2023, near the lunar south pole"
+    },
+    {
+     "k": "National Space Day",
+     "v": "23 August"
+    },
+    {
+     "k": "Solar mission",
+     "v": "Aditya-L1, launched 2 September 2023"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1962",
+     "what": "INCOSPAR set up under Vikram Sarabhai"
+    },
+    {
+     "when": "1969",
+     "what": "ISRO formed"
+    },
+    {
+     "when": "1975",
+     "what": "Aryabhata"
+    },
+    {
+     "when": "1980",
+     "what": "Rohini on SLV-3"
+    },
+    {
+     "when": "2008",
+     "what": "Chandrayaan-1"
+    },
+    {
+     "when": "2014",
+     "what": "Mars orbit insertion"
+    },
+    {
+     "when": "2023",
+     "what": "Chandrayaan-3 and Aditya-L1"
+    }
+   ],
+   "why": "Space passages are common and the questions are factual: which vehicle, which year, which landing site. Chandrayaan-3 and the south pole is the single most likely question.",
+   "map": {
+    "nodes": [
+     {
+      "id": "sarabhai",
+      "parent": "root",
+      "tier": 1,
+      "label": "Vikram Sarabhai",
+      "kind": "person",
+      "rel": "founder",
+      "note": "Set up INCOSPAR in 1962 and founded the Physical Research Laboratory at Ahmedabad in 1947. Died in 1971."
+     },
+     {
+      "id": "ch3",
+      "parent": "root",
+      "tier": 1,
+      "label": "Chandrayaan-3 (2023)",
+      "kind": "event",
+      "rel": "the landing",
+      "note": "Landed 23 August 2023 near the lunar south pole. Vikram lander, Pragyan rover. India became the fourth country to soft-land."
+     },
+     {
+      "id": "mom",
+      "parent": "root",
+      "tier": 1,
+      "label": "Mars Orbiter Mission",
+      "kind": "event",
+      "rel": "Mangalyaan",
+      "note": "Launched 5 November 2013, Mars orbit 24 September 2014. First country to succeed on its first attempt."
+     },
+     {
+      "id": "pslv",
+      "parent": "root",
+      "tier": 1,
+      "label": "PSLV",
+      "kind": "term",
+      "rel": "the workhorse",
+      "note": "Polar Satellite Launch Vehicle. Launched 104 satellites on a single flight in February 2017."
+     },
+     {
+      "id": "sriharikota",
+      "parent": "root",
+      "tier": 1,
+      "label": "Satish Dhawan Space Centre",
+      "kind": "place",
+      "rel": "launch site",
+      "note": "At Sriharikota, Andhra Pradesh. Named after ISRO’s second chairman."
+     },
+     {
+      "id": "kalam",
+      "parent": "root",
+      "tier": 2,
+      "label": "A.P.J. Abdul Kalam",
+      "kind": "person",
+      "rel": "SLV-3",
+      "note": "Project director for SLV-3, which put Rohini in orbit in 1980. Later President of India, 2002 to 2007."
+     },
+     {
+      "id": "ch1",
+      "parent": "ch3",
+      "tier": 2,
+      "label": "Chandrayaan-1 (2008)",
+      "kind": "event",
+      "rel": "found water",
+      "note": "Its Moon Impact Probe and NASA’s M3 instrument confirmed water molecules on the lunar surface."
+     },
+     {
+      "id": "ch2",
+      "parent": "ch3",
+      "tier": 2,
+      "label": "Chandrayaan-2 (2019)",
+      "kind": "event",
+      "rel": "partial",
+      "note": "The Vikram lander crashed but the orbiter continues to function and relayed data for Chandrayaan-3."
+     },
+     {
+      "id": "aditya",
+      "parent": "root",
+      "tier": 2,
+      "label": "Aditya-L1",
+      "kind": "event",
+      "rel": "solar mission",
+      "note": "Launched 2 September 2023, reached the Sun-Earth L1 Lagrange point in January 2024."
+     },
+     {
+      "id": "lvm3",
+      "parent": "pslv",
+      "tier": 2,
+      "label": "LVM3",
+      "kind": "term",
+      "rel": "the heavy lifter",
+      "note": "Formerly GSLV Mk III. Launched Chandrayaan-2 and Chandrayaan-3 and is planned for Gaganyaan."
+     },
+     {
+      "id": "gagan",
+      "parent": "root",
+      "tier": 2,
+      "label": "Gaganyaan",
+      "kind": "event",
+      "rel": "crewed programme",
+      "note": "Four Indian Air Force test pilots named as astronaut-designates in February 2024."
+     },
+     {
+      "id": "navic",
+      "parent": "root",
+      "tier": 2,
+      "label": "NavIC",
+      "kind": "term",
+      "rel": "navigation",
+      "note": "Indian regional navigation satellite system, formerly IRNSS. Covers India and 1,500 km around it."
+     },
+     {
+      "id": "gslv",
+      "parent": "pslv",
+      "tier": 3,
+      "label": "GSLV",
+      "kind": "term",
+      "rel": "cryogenic",
+      "note": "Uses a cryogenic upper stage, indigenous from the January 2014 flight after the technology was denied under MTCR pressure in the 1990s."
+     },
+     {
+      "id": "thumba",
+      "parent": "sarabhai",
+      "tier": 3,
+      "label": "Thumba",
+      "kind": "place",
+      "rel": "the first launch",
+      "note": "Thumba Equatorial Rocket Launching Station in Kerala, from which the first sounding rocket flew in 1963."
+     },
+     {
+      "id": "nsd",
+      "parent": "ch3",
+      "tier": 3,
+      "label": "National Space Day",
+      "kind": "event",
+      "rel": "23 August",
+      "note": "Declared after the Chandrayaan-3 landing; the landing site is named Shiv Shakti Point."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ],
  "passages": []
 }
