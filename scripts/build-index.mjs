@@ -9,6 +9,46 @@ import { fileURLToPath } from 'node:url';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dirs = [['months', 'current'], ['static', 'static']];
 
+// Different writers reached for different names for the same subject. The app
+// filters and the ultra map cluster by category, so they have to agree.
+const CANON = {
+  'polity': 'Polity & Constitution', 'polity & constitution': 'Polity & Constitution',
+  'constitutional law': 'Polity & Constitution', 'governance': 'Polity & Constitution',
+  'polity & elections': 'Polity & Constitution', 'election law': 'Polity & Constitution',
+  'elections': 'Polity & Constitution',
+  'judiciary': 'Law & Judiciary', 'law & judiciary': 'Law & Judiciary', 'legal': 'Law & Judiciary',
+  'law': 'Law & Judiciary', 'legal gk': 'Law & Judiciary',
+  'international relations': 'International Relations', 'world politics': 'International Relations',
+  'neighbourhood': 'International Relations', 'diplomacy': 'International Relations',
+  'international organisations': 'International Organisations',
+  'international organizations': 'International Organisations',
+  'economy': 'Economy', 'international trade': 'Economy', 'banking': 'Economy',
+  'business': 'Economy', 'economy & banking': 'Economy',
+  'science & tech': 'Science & Technology', 'science & technology': 'Science & Technology',
+  'science and technology': 'Science & Technology', 'technology': 'Science & Technology',
+  'science & space': 'Science & Technology', 'space': 'Science & Technology', 'aviation': 'Science & Technology',
+  'science': 'Science & Technology',
+  'environment': 'Environment', 'ecology': 'Environment', 'climate': 'Environment',
+  'geography': 'Geography', 'physical geography': 'Geography',
+  'history': 'History', 'modern history': 'History', 'ancient history': 'History',
+  'art & culture': 'Arts & Culture', 'arts & culture': 'Arts & Culture', 'culture': 'Arts & Culture',
+  'awards': 'Awards & Honours', 'awards & culture': 'Awards & Honours', 'honours': 'Awards & Honours',
+  'awards & honours': 'Awards & Honours',
+  'sports': 'Sports',
+  'defence': 'Defence & Security', 'security': 'Defence & Security',
+  'internal security': 'Defence & Security', 'defence & security': 'Defence & Security',
+  'government schemes': 'Government Schemes', 'schemes': 'Government Schemes',
+  'appointments': 'Appointments',
+  'obituary': 'Obituaries', 'obituaries': 'Obituaries',
+  'international observance': 'Days & Observances', 'days': 'Days & Observances',
+  'education policy': 'Society & Education', 'education': 'Society & Education',
+  'health': 'Society & Education', 'society': 'Society & Education',
+  'polity & governance': 'Polity & Constitution', 'polity & judiciary': 'Law & Judiciary',
+  'international law': 'Law & Judiciary', 'human geography': 'Geography',
+  'economy & technology': 'Economy', 'disasters': 'Environment'
+};
+const canon = c => CANON[String(c || '').toLowerCase().trim()] || (c || 'Other');
+
 const sections = [], topics = [], passages = [];
 const problems = [];
 let nodeCount = 0;
@@ -54,9 +94,12 @@ for (const [dir, kind] of dirs) {
         title: x.title || x.id,
         hook: x.hook || '',
         date: x.date || '',
-        category: x.category || 'Other',
+        category: canon(x.category),
         tags: x.tags || [],
-        nodes: n
+        nodes: n,
+        // explicit cross-references, so the ultra map draws real links and not
+        // just tag coincidence
+        refs: [...new Set((x.map?.nodes || []).map(k => k.topicRef).filter(Boolean))]
       });
     }
 
@@ -72,7 +115,7 @@ for (const [dir, kind] of dirs) {
       }
       passages.push({
         id: x.id, section: id, kind: x.kind || kind,
-        category: x.category || 'Other',
+        category: canon(x.category),
         tags: x.tags || [],
         difficulty: x.difficulty ?? 2,
         topicIds: x.topicIds || [],
