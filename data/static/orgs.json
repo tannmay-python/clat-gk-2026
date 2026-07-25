@@ -1,121 +1,519 @@
 {
-  "id": "orgs",
-  "kind": "static",
-  "label": "World Organisations & Treaties",
-  "order": 4,
-  "blurb": "The UN system, the regional blocs and minilaterals that fill up every current-affairs paper, the development banks, and the treaties an examiner reaches for the moment a news topic touches climate, arms control or human rights.",
-  "topics": [
+ "id": "orgs",
+ "kind": "static",
+ "label": "World Organisations & Treaties",
+ "order": 4,
+ "blurb": "The UN system, the regional blocs and minilaterals that fill up every current-affairs paper, the development banks, and the treaties an examiner reaches for the moment a news topic touches climate, arms control or human rights.",
+ "topics": [
+  {
+   "id": "orgs-united-nations",
+   "rank": 1,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The United Nations: Charter, six organs, and 193 members",
+   "date": "1945-10-24",
+   "category": "International Organisations",
+   "tags": [
+    "United Nations",
+    "UN Charter",
+    "San Francisco Conference",
+    "UN Day"
+   ],
+   "hook": "The UN Charter was signed in San Francisco in 1945 by 51 states and set up six organs; eighty years later membership has nearly quadrupled to 193, one of those six organs has gone dormant, and the whole structure is the base layer for almost every other body this section covers.",
+   "story": "Fifty countries sent delegates to San Francisco in April 1945, while the Second World War was still being fought in the Pacific. Over two months they negotiated a charter meant to succeed the League of Nations, the Geneva-based body that had failed to stop that war after emerging from the wreckage of the First. They signed the United Nations Charter on 26 June 1945; Poland, absent from the conference, signed later and is still counted among the 51 original members. The Charter took effect on 24 October 1945, once China, France, the Soviet Union, the United Kingdom, the United States and a majority of the other signatories had ratified it. That date is marked every year as UN Day.\\n\\nThe Charter created six principal organs. The General Assembly is the one-country-one-vote plenary where every member state gets a seat, even though its resolutions are not binding the way Security Council decisions are. The Security Council is the only organ that can issue orders binding on all members, and its five permanent members can each veto a resolution outright. The Economic and Social Council, ECOSOC, coordinates the UN's economic, social and cultural work through 54 elected members and a set of functional and regional commissions. The International Court of Justice, seated at the Peace Palace in The Hague, settles legal disputes between states. The Secretariat, headed by the Secretary-General, runs day-to-day administration from UN Headquarters in New York, built on land in Manhattan that John D. Rockefeller Jr. bought and donated in 1946.\\n\\nThe sixth organ, the Trusteeship Council, is the one students forget, because it has not functioned since 1 November 1994. It existed to supervise territories, mostly former colonies, moving toward self-government. When Palau, the last of the original eleven UN trust territories, became independent in October 1994, the Council's job was done. It still exists on paper: abolishing it formally would need a two-thirds vote of the General Assembly plus ratification by all five permanent Security Council members, a bar nobody has bothered to clear. Examiners like this fact because it reads like a trap. Five organs work; one is switched off; the Charter never says the Council is dissolved, only that it has suspended operations.\\n\\nMembership has grown from 51 to 193 as decolonisation, the breakup of the Soviet Union and Yugoslavia, and newer independence movements added states through the second half of the twentieth century and into this one. South Sudan, independent from Sudan in July 2011, was the most recent admission and is the answer to \\\"which country most recently joined the UN.\\\" Two entities hold non-member observer status without full membership: the Holy See and the State of Palestine.\\n\\nThe UN is a system rather than one body. The six organs sit at the centre, and around them are the specialised agencies, funds and programmes covered elsewhere in this section, from WHO and UNESCO to UNICEF and the World Bank, each with its own founding treaty, headquarters and head, but reporting in some fashion back to ECOSOC or the General Assembly. A passage on the UN rarely asks only for the founding date; it tests whether a student can place an agency correctly inside this structure or explain why the Trusteeship Council is inactive rather than abolished.",
+   "facts": [
     {
-      "id": "orgs-united-nations",
-      "rank": 1,
-      "depth": "deep",
-      "importance": 5,
-      "title": "The United Nations: Charter, six organs, and 193 members",
-      "date": "1945-10-24",
-      "category": "International Organisations",
-      "tags": ["United Nations", "UN Charter", "San Francisco Conference", "UN Day"],
-      "hook": "The UN Charter was signed in San Francisco in 1945 by 51 states and set up six organs; eighty years later membership has nearly quadrupled to 193, one of those six organs has gone dormant, and the whole structure is the base layer for almost every other body this section covers.",
-      "story": "Fifty countries sent delegates to San Francisco in April 1945, while the Second World War was still being fought in the Pacific. Over two months they negotiated a charter meant to succeed the League of Nations, the Geneva-based body that had failed to stop that war after emerging from the wreckage of the First. They signed the United Nations Charter on 26 June 1945; Poland, absent from the conference, signed later and is still counted among the 51 original members. The Charter took effect on 24 October 1945, once China, France, the Soviet Union, the United Kingdom, the United States and a majority of the other signatories had ratified it. That date is marked every year as UN Day.\\n\\nThe Charter created six principal organs. The General Assembly is the one-country-one-vote plenary where every member state gets a seat, even though its resolutions are not binding the way Security Council decisions are. The Security Council is the only organ that can issue orders binding on all members, and its five permanent members can each veto a resolution outright. The Economic and Social Council, ECOSOC, coordinates the UN's economic, social and cultural work through 54 elected members and a set of functional and regional commissions. The International Court of Justice, seated at the Peace Palace in The Hague, settles legal disputes between states. The Secretariat, headed by the Secretary-General, runs day-to-day administration from UN Headquarters in New York, built on land in Manhattan that John D. Rockefeller Jr. bought and donated in 1946.\\n\\nThe sixth organ, the Trusteeship Council, is the one students forget, because it has not functioned since 1 November 1994. It existed to supervise territories, mostly former colonies, moving toward self-government. When Palau, the last of the original eleven UN trust territories, became independent in October 1994, the Council's job was done. It still exists on paper: abolishing it formally would need a two-thirds vote of the General Assembly plus ratification by all five permanent Security Council members, a bar nobody has bothered to clear. Examiners like this fact because it reads like a trap. Five organs work; one is switched off; the Charter never says the Council is dissolved, only that it has suspended operations.\\n\\nMembership has grown from 51 to 193 as decolonisation, the breakup of the Soviet Union and Yugoslavia, and newer independence movements added states through the second half of the twentieth century and into this one. South Sudan, independent from Sudan in July 2011, was the most recent admission and is the answer to \\\"which country most recently joined the UN.\\\" Two entities hold non-member observer status without full membership: the Holy See and the State of Palestine.\\n\\nThe UN is a system rather than one body. The six organs sit at the centre, and around them are the specialised agencies, funds and programmes covered elsewhere in this section, from WHO and UNESCO to UNICEF and the World Bank, each with its own founding treaty, headquarters and head, but reporting in some fashion back to ECOSOC or the General Assembly. A passage on the UN rarely asks only for the founding date; it tests whether a student can place an agency correctly inside this structure or explain why the Trusteeship Council is inactive rather than abolished.",
-      "facts": [
-        { "k": "Charter signed", "v": "26 June 1945, San Francisco Conference (UN Conference on International Organization)" },
-        { "k": "Charter in force", "v": "24 October 1945, now marked as UN Day" },
-        { "k": "Original signatories", "v": "51 states (Poland signed later, still an original member)" },
-        { "k": "Current member states", "v": "193; South Sudan (July 2011) was the last to join" },
-        { "k": "Non-member observers", "v": "Holy See and State of Palestine" },
-        { "k": "Six principal organs", "v": "General Assembly, Security Council, ECOSOC, Trusteeship Council, ICJ, Secretariat" },
-        { "k": "Trusteeship Council status", "v": "Suspended operations 1 November 1994, after Palau's independence" },
-        { "k": "ECOSOC size", "v": "54 elected member states" },
-        { "k": "Predecessor body", "v": "League of Nations, founded 1920, dissolved 1946" },
-        { "k": "UN Headquarters", "v": "New York, on land donated by John D. Rockefeller Jr. in 1946" },
-        { "k": "ICJ seat", "v": "Peace Palace, The Hague" }
-      ],
-      "why": "The Trusteeship Council question is the classic trap: most students assume a defunct-sounding organ has been abolished when it has only suspended operations. Expect direct recall questions on UN Day's date, the last country admitted, or which organ has 54 members, and passage questions that ask you to place a named agency inside the six-organ structure.",
-      "map": {
-        "nodes": [
-          { "id": "san-francisco", "parent": "root", "tier": 1, "kind": "event", "label": "San Francisco Conference, 1945", "rel": "founding conference", "note": "50 states negotiated the Charter over two months in April-June 1945; Poland signed later as the 51st original member." },
-          { "id": "charter", "parent": "root", "tier": 1, "kind": "law", "label": "UN Charter", "rel": "founding treaty", "note": "Signed 26 June 1945, entered into force 24 October 1945, the date now marked as UN Day." },
-          { "id": "unsc-node", "parent": "root", "tier": 1, "kind": "org", "label": "Security Council", "rel": "organ", "note": "Only UN organ whose resolutions are binding on all members under Article 25.", "topicRef": "orgs-unsc" },
-          { "id": "unga-node", "parent": "root", "tier": 1, "kind": "org", "label": "General Assembly", "rel": "organ", "note": "One country, one vote; 193 members meet annually from September." },
-          { "id": "icj-node", "parent": "root", "tier": 1, "kind": "org", "label": "International Court of Justice", "rel": "organ", "note": "Seated at the Peace Palace, The Hague, since 1946; settles disputes between states.", "topicRef": "orgs-icj-icc" },
-          { "id": "sg-node", "parent": "root", "tier": 1, "kind": "org", "label": "Secretariat", "rel": "organ", "note": "Administrative arm led by the Secretary-General, headquartered in New York.", "topicRef": "orgs-secretaries-general" },
-          { "id": "ecosoc-node", "parent": "root", "tier": 2, "kind": "org", "label": "ECOSOC", "rel": "organ", "note": "54 elected members coordinate UN economic, social and cultural work through functional and regional commissions." },
-          { "id": "trusteeship", "parent": "root", "tier": 2, "kind": "concept", "label": "Trusteeship Council", "rel": "suspended organ", "note": "Inactive since 1 November 1994 after Palau's independence; formal abolition needs a two-thirds UNGA vote plus P5 ratification." },
-          { "id": "league-of-nations", "parent": "charter", "tier": 2, "kind": "org", "label": "League of Nations", "rel": "predecessor", "note": "Founded 1920 in Geneva, failed to prevent the Second World War, formally dissolved in 1946." },
-          { "id": "un-day", "parent": "charter", "tier": 2, "kind": "event", "label": "UN Day, 24 October", "rel": "commemorates", "note": "Marks the date the Charter entered into force after ratification by the required majority including all wartime great powers." },
-          { "id": "south-sudan", "parent": "root", "tier": 2, "kind": "place", "label": "South Sudan", "rel": "newest member", "note": "Joined July 2011 after independence from Sudan, the 193rd and most recent UN member." },
-          { "id": "rockefeller", "parent": "sg-node", "tier": 2, "kind": "person", "label": "John D. Rockefeller Jr.", "rel": "donated HQ land", "note": "Bought and donated the Manhattan site for UN Headquarters in 1946." },
-          { "id": "ww2-backdrop", "parent": "san-francisco", "tier": 3, "kind": "event", "label": "Second World War", "rel": "backdrop", "note": "The conference ran while fighting continued in the Pacific theatre; the UN was designed to prevent a third global war." },
-          { "id": "palau", "parent": "trusteeship", "tier": 3, "kind": "place", "label": "Palau", "rel": "last trust territory", "note": "Became independent in October 1994, the last of eleven original UN trust territories to do so." },
-          { "id": "holy-see", "parent": "unga-node", "tier": 3, "kind": "place", "label": "Holy See", "rel": "non-member observer", "note": "Along with the State of Palestine, holds permanent observer status without full UN membership." },
-          { "id": "charter-amendment", "parent": "charter", "tier": 3, "kind": "law", "label": "Charter amendment rule", "rel": "governs reform", "note": "Any Charter amendment needs a two-thirds General Assembly vote and ratification by all five permanent Security Council members." },
-          { "id": "specialised-agencies", "parent": "ecosoc-node", "tier": 3, "kind": "concept", "label": "Specialised agencies", "rel": "linked bodies", "note": "WHO, UNESCO, ILO and other agencies report through ECOSOC despite having independent charters and budgets." },
-          { "id": "decolonisation", "parent": "south-sudan", "tier": 3, "kind": "concept", "label": "Decolonisation wave", "rel": "membership growth", "note": "Membership nearly quadrupled from 51 to 193 as former colonies gained independence through the twentieth century." },
-          { "id": "geneva-contrast", "parent": "league-of-nations", "tier": 3, "kind": "place", "label": "Geneva", "rel": "League's seat", "note": "The League of Nations was headquartered in Geneva, unlike the UN's choice of New York for its main seat." },
-          { "id": "article25", "parent": "unsc-node", "tier": 3, "kind": "law", "label": "Article 25", "rel": "binding force", "note": "UN Charter provision that obliges member states to accept and carry out Security Council decisions." }
-        ]
-      },
-      "sources": [
-        "https://www.un.org/en/about-us/un-charter",
-        "https://www.un.org/en/about-us/history-of-the-un",
-        "https://legalclarity.org/list-of-un-countries-all-193-member-states/",
-        "https://archives.un.org/en/content/25th-anniversary-suspension-trusteeship-council"
-      ]
+     "k": "Charter signed",
+     "v": "26 June 1945, San Francisco Conference (UN Conference on International Organization)"
     },
     {
-      "id": "orgs-unsc",
-      "rank": 2,
-      "depth": "deep",
-      "importance": 5,
-      "title": "The Security Council: the veto, the P5, and India's push for a seat",
-      "date": "1945-10-24",
-      "category": "International Organisations",
-      "tags": ["UN Security Council", "veto", "P5", "India UNSC bid"],
-      "hook": "Fifteen countries sit on the Security Council, but only five can single-handedly stop it from acting, and that veto power has shaped nearly every major international crisis since 1945, including India's decades-long campaign for a permanent seat of its own.",
-      "story": "The Security Council is the only UN organ whose decisions member states are legally bound to carry out, under Article 25 of the Charter. It has 15 seats: five permanent members and ten elected non-permanent members serving staggered two-year terms with no immediate re-election. The permanent five, the P5, are the United States, the United Kingdom, France, Russia and China, the powers the 1945 Charter recognised as the war's victors. Russia inherited the Soviet Union's seat automatically when the USSR dissolved in 1991; nobody voted on the succession, it simply carried over. China's seat has a trickier history. Until 1971, the seat nominally reserved for \\\"China\\\" was held by the Republic of China, the government that had retreated to Taiwan after the 1949 revolution. UN General Assembly Resolution 2758, passed on 25 October 1971, transferred recognition to the People's Republic of China and expelled the Taipei government's representatives, a fact examiners like because it tests whether a student knows the seat changed hands mid-Cold War rather than at founding.\\n\\nEach P5 member can veto any substantive resolution with a single negative vote, whatever the other 14 members decide. Procedural questions cannot be vetoed. The veto has been cast more than 300 times since 1945. The Soviet Union and then Russia account for the largest single share; the United States has used it most often since the 1970s, frequently to block resolutions critical of Israel. The Cold War years produced the bulk of vetoes; the 1990s and early 2000s saw a lull before the rate climbed again over Syria and, more recently, Gaza and Ukraine.\\n\\nNon-permanent seats rotate by region: three for Africa, two for Asia-Pacific, two for Latin America and the Caribbean, two for Western Europe and Others, and one for Eastern Europe. For the 2025-26 term the ten elected seats are held by Bahrain, Colombia, the Democratic Republic of the Congo, Denmark, Greece, Latvia, Liberia, Pakistan, Panama and Somalia. India has sat on the Council eight times as a non-permanent member, most recently in 2021-22, and in July 2026 formally opened a campaign, nicknamed SHANTI, for the 2028-29 term, contesting the Asia-Pacific seat against Tajikistan.\\n\\nIndia's larger ambition is a permanent seat. Along with Brazil, Germany and Japan, it forms the G4, four countries that support each other's bids for permanent membership and have pushed for reform that would expand the Council toward 25 seats, adding new permanent members from Asia-Pacific, Africa, Latin America and Western Europe. Nobody has resolved whether new permanent members would carry the veto, and existing P5 states have shown little appetite for diluting a power only they hold. Through the intergovernmental negotiations running into 2026, India has rejected proposals for permanent seats without veto rights, arguing that a two-tier permanent membership defeats the point of reform. A CLAT passage on this topic is likely to test the China-1971 detail, the veto mechanics, or India's specific objection to a veto-less seat, since all three are easy to misremember as simpler than they are.",
-      "facts": [
-        { "k": "Council size", "v": "15 seats: 5 permanent (P5) + 10 elected, two-year terms" },
-        { "k": "P5 members", "v": "United States, United Kingdom, France, Russia, China" },
-        { "k": "China's seat transfer", "v": "UNGA Resolution 2758, 25 October 1971, from Republic of China (Taiwan) to People's Republic of China" },
-        { "k": "Russia's seat", "v": "Inherited automatically from the USSR on its 1991 dissolution" },
-        { "k": "Veto mechanic", "v": "Any single P5 negative vote blocks a substantive resolution; used 300+ times since 1945" },
-        { "k": "2025-26 elected members", "v": "Bahrain, Colombia, DR Congo, Denmark, Greece, Latvia, Liberia, Pakistan, Panama, Somalia" },
-        { "k": "India's non-permanent terms", "v": "8 terms, most recent 2021-22" },
-        { "k": "India's 2028-29 bid", "v": "Campaign named SHANTI, launched July 2026, contesting Tajikistan for the Asia-Pacific seat" },
-        { "k": "G4 nations", "v": "India, Brazil, Germany, Japan, backing each other's permanent-seat bids" },
-        { "k": "Binding authority", "v": "Only the Security Council can bind all UN members, under Article 25 of the Charter" }
-      ],
-      "why": "This is one of the highest-yield UN topics in the syllabus. Expect direct questions on which country holds the veto, the exact year China's seat changed hands, or how many times India has served as a non-permanent member. A passage angle would connect the veto to a live news event, such as a blocked resolution on Gaza or Ukraine, and ask what a veto does and does not require.",
-      "map": {
-        "nodes": [
-          { "id": "p5", "parent": "root", "tier": 1, "kind": "concept", "label": "P5", "rel": "permanent members", "note": "US, UK, France, Russia, China; each holds an individual veto over substantive resolutions." },
-          { "id": "veto", "parent": "root", "tier": 1, "kind": "concept", "label": "Veto power", "rel": "defining feature", "note": "Cast 300+ times since 1945; USSR/Russia and the US are the most frequent users." },
-          { "id": "resolution-2758", "parent": "root", "tier": 1, "kind": "law", "label": "UNGA Resolution 2758 (1971)", "rel": "transferred China's seat", "note": "Passed 25 October 1971, moved China's UN recognition from Taipei to Beijing." },
-          { "id": "article25-node", "parent": "root", "tier": 1, "kind": "law", "label": "Article 25", "rel": "binding force", "note": "Obliges all UN member states to accept and carry out Security Council decisions, unique among UN organs." },
-          { "id": "g4", "parent": "root", "tier": 1, "kind": "concept", "label": "G4 nations", "rel": "seek permanent seats", "note": "India, Brazil, Germany and Japan back each other's bids for permanent Council membership." },
-          { "id": "un-charter-ref", "parent": "root", "tier": 1, "kind": "law", "label": "UN Charter", "rel": "founding document", "note": "The Security Council is one of the six organs the 1945 Charter created.", "topicRef": "orgs-united-nations" },
-          { "id": "russia-succession", "parent": "p5", "tier": 2, "kind": "event", "label": "Soviet-Russian succession, 1991", "rel": "seat continuity", "note": "Russia took over the USSR's permanent seat automatically on the Soviet Union's dissolution, without a UN vote." },
-          { "id": "non-permanent-seats", "parent": "root", "tier": 2, "kind": "concept", "label": "Regional seat allocation", "rel": "rotation rule", "note": "Ten elected seats split by region: 3 Africa, 2 Asia-Pacific, 2 Latin America/Caribbean, 2 Western Europe and Others, 1 Eastern Europe." },
-          { "id": "india-terms", "parent": "g4", "tier": 2, "kind": "concept", "label": "India's 8 UNSC terms", "rel": "track record", "note": "Most recent term 2021-22; India has never held a permanent seat." },
-          { "id": "shanti-campaign", "parent": "india-terms", "tier": 2, "kind": "event", "label": "SHANTI campaign", "rel": "2028-29 bid", "note": "India formally launched its campaign for the 2028-29 non-permanent seat in July 2026, against Tajikistan." },
-          { "id": "cold-war-vetoes", "parent": "veto", "tier": 2, "kind": "event", "label": "Cold War veto era", "rel": "peak usage", "note": "The majority of Security Council vetoes were cast during the Cold War, mostly by the USSR." },
-          { "id": "us-vetoes", "parent": "veto", "tier": 2, "kind": "event", "label": "US vetoes on Israel", "rel": "recent pattern", "note": "Since the 1970s the US has used its veto most often to block resolutions critical of Israel." },
-          { "id": "council-reform", "parent": "g4", "tier": 3, "kind": "concept", "label": "Council reform proposals", "rel": "expansion plan", "note": "G4-backed reform would expand the Council toward 25 seats with new permanent members from Asia-Pacific, Africa and Latin America." },
-          { "id": "veto-less-seats", "parent": "council-reform", "tier": 3, "kind": "concept", "label": "Veto-less permanent seats", "rel": "rejected compromise", "note": "India has rejected proposals for permanent membership without veto rights as defeating the purpose of reform." },
-          { "id": "taiwan-node", "parent": "resolution-2758", "tier": 3, "kind": "place", "label": "Taipei", "rel": "lost the seat", "note": "The Republic of China government held China's UN seat from 1945 until its 1971 expulsion." },
-          { "id": "tajikistan", "parent": "shanti-campaign", "tier": 3, "kind": "place", "label": "Tajikistan", "rel": "rival bidder", "note": "Competing with India for the Asia-Pacific group's 2028-29 non-permanent seat." },
-          { "id": "2025-26-members", "parent": "non-permanent-seats", "tier": 3, "kind": "concept", "label": "2025-26 elected members", "rel": "current roster", "note": "Bahrain, Colombia, DR Congo, Denmark, Greece, Latvia, Liberia, Pakistan, Panama, Somalia." },
-          { "id": "procedural-vote", "parent": "veto", "tier": 3, "kind": "term", "label": "Procedural vs substantive votes", "rel": "veto limit", "note": "The veto applies only to substantive resolutions; procedural questions cannot be vetoed by a P5 member." },
-          { "id": "unsc-icc-tension", "parent": "article25-node", "tier": 3, "kind": "concept", "label": "Council referral power", "rel": "links to ICC", "note": "The Security Council can refer situations to the International Criminal Court even in states that are not ICC members.", "staticRef": "orgs#orgs-icj-icc" },
-          { "id": "gaza-ukraine", "parent": "us-vetoes", "tier": 3, "kind": "event", "label": "Gaza and Ukraine vetoes", "rel": "recent examples", "note": "Both conflicts produced multiple vetoed Security Council resolutions through the mid-2020s." }
-        ]
-      },
-      "sources": [
-        "https://main.un.org/securitycouncil/en/content/current-members",
-        "https://betterworldcampaign.org/peace-and-security/un-explained-the-history-of-the-united-nations-security-council-veto",
-        "https://www.cfr.org/backgrounders/un-security-council",
-        "https://www.manoramayearbook.in/current-affairs/india/2026/07/14/india-launches-campaign-for-non-permanent-seat-at-unsc.html"
-      ]
+     "k": "Charter in force",
+     "v": "24 October 1945, now marked as UN Day"
+    },
+    {
+     "k": "Original signatories",
+     "v": "51 states (Poland signed later, still an original member)"
+    },
+    {
+     "k": "Current member states",
+     "v": "193; South Sudan (July 2011) was the last to join"
+    },
+    {
+     "k": "Non-member observers",
+     "v": "Holy See and State of Palestine"
+    },
+    {
+     "k": "Six principal organs",
+     "v": "General Assembly, Security Council, ECOSOC, Trusteeship Council, ICJ, Secretariat"
+    },
+    {
+     "k": "Trusteeship Council status",
+     "v": "Suspended operations 1 November 1994, after Palau's independence"
+    },
+    {
+     "k": "ECOSOC size",
+     "v": "54 elected member states"
+    },
+    {
+     "k": "Predecessor body",
+     "v": "League of Nations, founded 1920, dissolved 1946"
+    },
+    {
+     "k": "UN Headquarters",
+     "v": "New York, on land donated by John D. Rockefeller Jr. in 1946"
+    },
+    {
+     "k": "ICJ seat",
+     "v": "Peace Palace, The Hague"
     }
-  ],
-  "passages": []
+   ],
+   "why": "The Trusteeship Council question is the classic trap: most students assume a defunct-sounding organ has been abolished when it has only suspended operations. Expect direct recall questions on UN Day's date, the last country admitted, or which organ has 54 members, and passage questions that ask you to place a named agency inside the six-organ structure.",
+   "map": {
+    "nodes": [
+     {
+      "id": "san-francisco",
+      "parent": "root",
+      "tier": 1,
+      "kind": "event",
+      "label": "San Francisco Conference, 1945",
+      "rel": "founding conference",
+      "note": "50 states negotiated the Charter over two months in April-June 1945; Poland signed later as the 51st original member."
+     },
+     {
+      "id": "charter",
+      "parent": "root",
+      "tier": 1,
+      "kind": "law",
+      "label": "UN Charter",
+      "rel": "founding treaty",
+      "note": "Signed 26 June 1945, entered into force 24 October 1945, the date now marked as UN Day."
+     },
+     {
+      "id": "unsc-node",
+      "parent": "root",
+      "tier": 1,
+      "kind": "org",
+      "label": "Security Council",
+      "rel": "organ",
+      "note": "Only UN organ whose resolutions are binding on all members under Article 25.",
+      "topicRef": "orgs-unsc"
+     },
+     {
+      "id": "unga-node",
+      "parent": "root",
+      "tier": 1,
+      "kind": "org",
+      "label": "General Assembly",
+      "rel": "organ",
+      "note": "One country, one vote; 193 members meet annually from September."
+     },
+     {
+      "id": "icj-node",
+      "parent": "root",
+      "tier": 1,
+      "kind": "org",
+      "label": "International Court of Justice",
+      "rel": "organ",
+      "note": "Seated at the Peace Palace, The Hague, since 1946; settles disputes between states.",
+      "topicRef": "orgs-icj-icc"
+     },
+     {
+      "id": "sg-node",
+      "parent": "root",
+      "tier": 1,
+      "kind": "org",
+      "label": "Secretariat",
+      "rel": "organ",
+      "note": "Administrative arm led by the Secretary-General, headquartered in New York.",
+      "topicRef": "orgs-secretaries-general"
+     },
+     {
+      "id": "ecosoc-node",
+      "parent": "root",
+      "tier": 2,
+      "kind": "org",
+      "label": "ECOSOC",
+      "rel": "organ",
+      "note": "54 elected members coordinate UN economic, social and cultural work through functional and regional commissions."
+     },
+     {
+      "id": "trusteeship",
+      "parent": "root",
+      "tier": 2,
+      "kind": "concept",
+      "label": "Trusteeship Council",
+      "rel": "suspended organ",
+      "note": "Inactive since 1 November 1994 after Palau's independence; formal abolition needs a two-thirds UNGA vote plus P5 ratification."
+     },
+     {
+      "id": "league-of-nations",
+      "parent": "charter",
+      "tier": 2,
+      "kind": "org",
+      "label": "League of Nations",
+      "rel": "predecessor",
+      "note": "Founded 1920 in Geneva, failed to prevent the Second World War, formally dissolved in 1946."
+     },
+     {
+      "id": "un-day",
+      "parent": "charter",
+      "tier": 2,
+      "kind": "event",
+      "label": "UN Day, 24 October",
+      "rel": "commemorates",
+      "note": "Marks the date the Charter entered into force after ratification by the required majority including all wartime great powers."
+     },
+     {
+      "id": "south-sudan",
+      "parent": "root",
+      "tier": 2,
+      "kind": "place",
+      "label": "South Sudan",
+      "rel": "newest member",
+      "note": "Joined July 2011 after independence from Sudan, the 193rd and most recent UN member."
+     },
+     {
+      "id": "rockefeller",
+      "parent": "sg-node",
+      "tier": 2,
+      "kind": "person",
+      "label": "John D. Rockefeller Jr.",
+      "rel": "donated HQ land",
+      "note": "Bought and donated the Manhattan site for UN Headquarters in 1946."
+     },
+     {
+      "id": "ww2-backdrop",
+      "parent": "san-francisco",
+      "tier": 3,
+      "kind": "event",
+      "label": "Second World War",
+      "rel": "backdrop",
+      "note": "The conference ran while fighting continued in the Pacific theatre; the UN was designed to prevent a third global war."
+     },
+     {
+      "id": "palau",
+      "parent": "trusteeship",
+      "tier": 3,
+      "kind": "place",
+      "label": "Palau",
+      "rel": "last trust territory",
+      "note": "Became independent in October 1994, the last of eleven original UN trust territories to do so."
+     },
+     {
+      "id": "holy-see",
+      "parent": "unga-node",
+      "tier": 3,
+      "kind": "place",
+      "label": "Holy See",
+      "rel": "non-member observer",
+      "note": "Along with the State of Palestine, holds permanent observer status without full UN membership."
+     },
+     {
+      "id": "charter-amendment",
+      "parent": "charter",
+      "tier": 3,
+      "kind": "law",
+      "label": "Charter amendment rule",
+      "rel": "governs reform",
+      "note": "Any Charter amendment needs a two-thirds General Assembly vote and ratification by all five permanent Security Council members."
+     },
+     {
+      "id": "specialised-agencies",
+      "parent": "ecosoc-node",
+      "tier": 3,
+      "kind": "concept",
+      "label": "Specialised agencies",
+      "rel": "linked bodies",
+      "note": "WHO, UNESCO, ILO and other agencies report through ECOSOC despite having independent charters and budgets."
+     },
+     {
+      "id": "decolonisation",
+      "parent": "south-sudan",
+      "tier": 3,
+      "kind": "concept",
+      "label": "Decolonisation wave",
+      "rel": "membership growth",
+      "note": "Membership nearly quadrupled from 51 to 193 as former colonies gained independence through the twentieth century."
+     },
+     {
+      "id": "geneva-contrast",
+      "parent": "league-of-nations",
+      "tier": 3,
+      "kind": "place",
+      "label": "Geneva",
+      "rel": "League's seat",
+      "note": "The League of Nations was headquartered in Geneva, unlike the UN's choice of New York for its main seat."
+     },
+     {
+      "id": "article25",
+      "parent": "unsc-node",
+      "tier": 3,
+      "kind": "law",
+      "label": "Article 25",
+      "rel": "binding force",
+      "note": "UN Charter provision that obliges member states to accept and carry out Security Council decisions."
+     }
+    ]
+   },
+   "sources": [
+    "https://www.un.org/en/about-us/un-charter",
+    "https://www.un.org/en/about-us/history-of-the-un",
+    "https://legalclarity.org/list-of-un-countries-all-193-member-states/",
+    "https://archives.un.org/en/content/25th-anniversary-suspension-trusteeship-council"
+   ]
+  },
+  {
+   "id": "orgs-unsc",
+   "rank": 2,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The Security Council: the veto, the P5, and India's push for a seat",
+   "date": "1945-10-24",
+   "category": "International Organisations",
+   "tags": [
+    "UN Security Council",
+    "veto",
+    "P5",
+    "India UNSC bid"
+   ],
+   "hook": "Fifteen countries sit on the Security Council, but only five can single-handedly stop it from acting, and that veto power has shaped nearly every major international crisis since 1945, including India's decades-long campaign for a permanent seat of its own.",
+   "story": "The Security Council is the only UN organ whose decisions member states are legally bound to carry out, under Article 25 of the Charter. It has 15 seats: five permanent members and ten elected non-permanent members serving staggered two-year terms with no immediate re-election. The permanent five, the P5, are the United States, the United Kingdom, France, Russia and China, the powers the 1945 Charter recognised as the war's victors. Russia inherited the Soviet Union's seat automatically when the USSR dissolved in 1991; nobody voted on the succession, it simply carried over. China's seat has a trickier history. Until 1971, the seat nominally reserved for \\\"China\\\" was held by the Republic of China, the government that had retreated to Taiwan after the 1949 revolution. UN General Assembly Resolution 2758, passed on 25 October 1971, transferred recognition to the People's Republic of China and expelled the Taipei government's representatives, a fact examiners like because it tests whether a student knows the seat changed hands mid-Cold War rather than at founding.\\n\\nEach P5 member can veto any substantive resolution with a single negative vote, whatever the other 14 members decide. Procedural questions cannot be vetoed. The veto has been cast more than 300 times since 1945. The Soviet Union and then Russia account for the largest single share; the United States has used it most often since the 1970s, frequently to block resolutions critical of Israel. The Cold War years produced the bulk of vetoes; the 1990s and early 2000s saw a lull before the rate climbed again over Syria and, more recently, Gaza and Ukraine.\\n\\nNon-permanent seats rotate by region: three for Africa, two for Asia-Pacific, two for Latin America and the Caribbean, two for Western Europe and Others, and one for Eastern Europe. For the 2025-26 term the ten elected seats are held by Bahrain, Colombia, the Democratic Republic of the Congo, Denmark, Greece, Latvia, Liberia, Pakistan, Panama and Somalia. India has sat on the Council eight times as a non-permanent member, most recently in 2021-22, and in July 2026 formally opened a campaign, nicknamed SHANTI, for the 2028-29 term, contesting the Asia-Pacific seat against Tajikistan.\\n\\nIndia's larger ambition is a permanent seat. Along with Brazil, Germany and Japan, it forms the G4, four countries that support each other's bids for permanent membership and have pushed for reform that would expand the Council toward 25 seats, adding new permanent members from Asia-Pacific, Africa, Latin America and Western Europe. Nobody has resolved whether new permanent members would carry the veto, and existing P5 states have shown little appetite for diluting a power only they hold. Through the intergovernmental negotiations running into 2026, India has rejected proposals for permanent seats without veto rights, arguing that a two-tier permanent membership defeats the point of reform. A CLAT passage on this topic is likely to test the China-1971 detail, the veto mechanics, or India's specific objection to a veto-less seat, since all three are easy to misremember as simpler than they are.",
+   "facts": [
+    {
+     "k": "Council size",
+     "v": "15 seats: 5 permanent (P5) + 10 elected, two-year terms"
+    },
+    {
+     "k": "P5 members",
+     "v": "United States, United Kingdom, France, Russia, China"
+    },
+    {
+     "k": "China's seat transfer",
+     "v": "UNGA Resolution 2758, 25 October 1971, from Republic of China (Taiwan) to People's Republic of China"
+    },
+    {
+     "k": "Russia's seat",
+     "v": "Inherited automatically from the USSR on its 1991 dissolution"
+    },
+    {
+     "k": "Veto mechanic",
+     "v": "Any single P5 negative vote blocks a substantive resolution; used 300+ times since 1945"
+    },
+    {
+     "k": "2025-26 elected members",
+     "v": "Bahrain, Colombia, DR Congo, Denmark, Greece, Latvia, Liberia, Pakistan, Panama, Somalia"
+    },
+    {
+     "k": "India's non-permanent terms",
+     "v": "8 terms, most recent 2021-22"
+    },
+    {
+     "k": "India's 2028-29 bid",
+     "v": "Campaign named SHANTI, launched July 2026, contesting Tajikistan for the Asia-Pacific seat"
+    },
+    {
+     "k": "G4 nations",
+     "v": "India, Brazil, Germany, Japan, backing each other's permanent-seat bids"
+    },
+    {
+     "k": "Binding authority",
+     "v": "Only the Security Council can bind all UN members, under Article 25 of the Charter"
+    }
+   ],
+   "why": "This is one of the highest-yield UN topics in the syllabus. Expect direct questions on which country holds the veto, the exact year China's seat changed hands, or how many times India has served as a non-permanent member. A passage angle would connect the veto to a live news event, such as a blocked resolution on Gaza or Ukraine, and ask what a veto does and does not require.",
+   "map": {
+    "nodes": [
+     {
+      "id": "p5",
+      "parent": "root",
+      "tier": 1,
+      "kind": "concept",
+      "label": "P5",
+      "rel": "permanent members",
+      "note": "US, UK, France, Russia, China; each holds an individual veto over substantive resolutions."
+     },
+     {
+      "id": "veto",
+      "parent": "root",
+      "tier": 1,
+      "kind": "concept",
+      "label": "Veto power",
+      "rel": "defining feature",
+      "note": "Cast 300+ times since 1945; USSR/Russia and the US are the most frequent users."
+     },
+     {
+      "id": "resolution-2758",
+      "parent": "root",
+      "tier": 1,
+      "kind": "law",
+      "label": "UNGA Resolution 2758 (1971)",
+      "rel": "transferred China's seat",
+      "note": "Passed 25 October 1971, moved China's UN recognition from Taipei to Beijing."
+     },
+     {
+      "id": "article25-node",
+      "parent": "root",
+      "tier": 1,
+      "kind": "law",
+      "label": "Article 25",
+      "rel": "binding force",
+      "note": "Obliges all UN member states to accept and carry out Security Council decisions, unique among UN organs."
+     },
+     {
+      "id": "g4",
+      "parent": "root",
+      "tier": 1,
+      "kind": "concept",
+      "label": "G4 nations",
+      "rel": "seek permanent seats",
+      "note": "India, Brazil, Germany and Japan back each other's bids for permanent Council membership."
+     },
+     {
+      "id": "un-charter-ref",
+      "parent": "root",
+      "tier": 1,
+      "kind": "law",
+      "label": "UN Charter",
+      "rel": "founding document",
+      "note": "The Security Council is one of the six organs the 1945 Charter created.",
+      "topicRef": "orgs-united-nations"
+     },
+     {
+      "id": "russia-succession",
+      "parent": "p5",
+      "tier": 2,
+      "kind": "event",
+      "label": "Soviet-Russian succession, 1991",
+      "rel": "seat continuity",
+      "note": "Russia took over the USSR's permanent seat automatically on the Soviet Union's dissolution, without a UN vote."
+     },
+     {
+      "id": "non-permanent-seats",
+      "parent": "root",
+      "tier": 2,
+      "kind": "concept",
+      "label": "Regional seat allocation",
+      "rel": "rotation rule",
+      "note": "Ten elected seats split by region: 3 Africa, 2 Asia-Pacific, 2 Latin America/Caribbean, 2 Western Europe and Others, 1 Eastern Europe."
+     },
+     {
+      "id": "india-terms",
+      "parent": "g4",
+      "tier": 2,
+      "kind": "concept",
+      "label": "India's 8 UNSC terms",
+      "rel": "track record",
+      "note": "Most recent term 2021-22; India has never held a permanent seat."
+     },
+     {
+      "id": "shanti-campaign",
+      "parent": "india-terms",
+      "tier": 2,
+      "kind": "event",
+      "label": "SHANTI campaign",
+      "rel": "2028-29 bid",
+      "note": "India formally launched its campaign for the 2028-29 non-permanent seat in July 2026, against Tajikistan."
+     },
+     {
+      "id": "cold-war-vetoes",
+      "parent": "veto",
+      "tier": 2,
+      "kind": "event",
+      "label": "Cold War veto era",
+      "rel": "peak usage",
+      "note": "The majority of Security Council vetoes were cast during the Cold War, mostly by the USSR."
+     },
+     {
+      "id": "us-vetoes",
+      "parent": "veto",
+      "tier": 2,
+      "kind": "event",
+      "label": "US vetoes on Israel",
+      "rel": "recent pattern",
+      "note": "Since the 1970s the US has used its veto most often to block resolutions critical of Israel."
+     },
+     {
+      "id": "council-reform",
+      "parent": "g4",
+      "tier": 3,
+      "kind": "concept",
+      "label": "Council reform proposals",
+      "rel": "expansion plan",
+      "note": "G4-backed reform would expand the Council toward 25 seats with new permanent members from Asia-Pacific, Africa and Latin America."
+     },
+     {
+      "id": "veto-less-seats",
+      "parent": "council-reform",
+      "tier": 3,
+      "kind": "concept",
+      "label": "Veto-less permanent seats",
+      "rel": "rejected compromise",
+      "note": "India has rejected proposals for permanent membership without veto rights as defeating the purpose of reform."
+     },
+     {
+      "id": "taiwan-node",
+      "parent": "resolution-2758",
+      "tier": 3,
+      "kind": "place",
+      "label": "Taipei",
+      "rel": "lost the seat",
+      "note": "The Republic of China government held China's UN seat from 1945 until its 1971 expulsion."
+     },
+     {
+      "id": "tajikistan",
+      "parent": "shanti-campaign",
+      "tier": 3,
+      "kind": "place",
+      "label": "Tajikistan",
+      "rel": "rival bidder",
+      "note": "Competing with India for the Asia-Pacific group's 2028-29 non-permanent seat."
+     },
+     {
+      "id": "2025-26-members",
+      "parent": "non-permanent-seats",
+      "tier": 3,
+      "kind": "concept",
+      "label": "2025-26 elected members",
+      "rel": "current roster",
+      "note": "Bahrain, Colombia, DR Congo, Denmark, Greece, Latvia, Liberia, Pakistan, Panama, Somalia."
+     },
+     {
+      "id": "procedural-vote",
+      "parent": "veto",
+      "tier": 3,
+      "kind": "term",
+      "label": "Procedural vs substantive votes",
+      "rel": "veto limit",
+      "note": "The veto applies only to substantive resolutions; procedural questions cannot be vetoed by a P5 member."
+     },
+     {
+      "id": "unsc-icc-tension",
+      "parent": "article25-node",
+      "tier": 3,
+      "kind": "concept",
+      "label": "Council referral power",
+      "rel": "links to ICC",
+      "note": "The Security Council can refer situations to the International Criminal Court even in states that are not ICC members.",
+      "staticRef": "orgs#orgs-icj-icc"
+     },
+     {
+      "id": "gaza-ukraine",
+      "parent": "us-vetoes",
+      "tier": 3,
+      "kind": "event",
+      "label": "Gaza and Ukraine vetoes",
+      "rel": "recent examples",
+      "note": "Both conflicts produced multiple vetoed Security Council resolutions through the mid-2020s."
+     }
+    ]
+   },
+   "sources": [
+    "https://main.un.org/securitycouncil/en/content/current-members",
+    "https://betterworldcampaign.org/peace-and-security/un-explained-the-history-of-the-united-nations-security-council-veto",
+    "https://www.cfr.org/backgrounders/un-security-council",
+    "https://www.manoramayearbook.in/current-affairs/india/2026/07/14/india-launches-campaign-for-non-permanent-seat-at-unsc.html"
+   ]
+  }
+ ],
+ "passages": []
 }
