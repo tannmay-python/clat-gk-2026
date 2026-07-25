@@ -2,7 +2,7 @@
  "id": "2026-05",
  "kind": "current",
  "label": "May 2026",
- "blurb": "The Iran war reached the Strait of Hormuz, India signed a 10-year Chabahar port deal, Payal Kapadia won at Cannes, and Supreme Court delivered key rulings.",
+ "blurb": "The Iran war reached the Strait of Hormuz and the EU carbon border tax went live. At home the Cabinet cleared four more Supreme Court judges, the Court read emergency medical care into Article 21, Assam passed a uniform civil code, and the RBI handed the Centre ₹2.86 lakh crore.",
  "topics": [
   {
    "id": "2026-05-iran-hormuz-oil-shock",
@@ -1937,6 +1937,1084 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "may26-erp",
+   "rank": 13,
+   "depth": "medium",
+   "importance": 4,
+   "title": "The essential religious practices doctrine comes back up",
+   "date": "2026-05",
+   "category": "Judiciary",
+   "tags": [
+    "Article 25",
+    "Sabarimala",
+    "Shirur Mutt"
+   ],
+   "hook": "A court that decides which parts of a religion are essential is doing theology, and it has been doing it since 1954.",
+   "story": "The Supreme Court returned in May to the **essential religious practices** test while dealing with the pending **Sabarimala** review reference, and restated the limit: the doctrine protects only what is essential to a religion, leaving secular activity associated with religion open to state regulation.\n\nThe doctrine comes from **Commissioner, Hindu Religious Endowments v. Lakshmindra Thirtha Swamiar of Shirur Mutt (1954)**, where the Court held that what constitutes an essential part of a religion is to be decided with reference to the doctrines of that religion itself. In practice courts have decided it themselves, reading scripture and expert evidence, which is the standing criticism: **Article 25** protects freedom of conscience and the right to profess, practise and propagate religion subject to public order, morality, health and the other Part III rights, and **Article 25(2)(a)** expressly allows the state to regulate secular activity associated with religious practice.\n\nThe test has produced uneven results. **Ananda Marga** was denied the right to perform the tandava dance in public. Excommunication by the Dai of the Dawoodi Bohras was upheld in 1962 and is again under challenge. In **Shayara Bano (2017)** the majority struck down instant triple talaq without resting on the doctrine, while one opinion held it was not an essential practice. In **Indian Young Lawyers Association (2018)** a majority held the exclusion of women of menstruating age from Sabarimala was not an essential practice and violated Articles 25 and 14. The **2019 review** did not decide the case; it referred a set of broader questions on the interplay of religious freedom, equality and constitutional morality to a nine-judge bench, which has not yet ruled.",
+   "facts": [
+    {
+     "k": "Origin",
+     "v": "Shirur Mutt, 1954: essentiality judged by the religion's own doctrines"
+    },
+    {
+     "k": "Article 25",
+     "v": "Freedom of religion, subject to public order, morality, health and other Part III rights"
+    },
+    {
+     "k": "Article 25(2)(a)",
+     "v": "Lets the state regulate secular activity associated with religion"
+    },
+    {
+     "k": "Sabarimala, 2018",
+     "v": "Exclusion held not essential and violative of Articles 25 and 14"
+    },
+    {
+     "k": "2019 review",
+     "v": "Referred wider questions to a nine-judge bench; still undecided"
+    },
+    {
+     "k": "Standing criticism",
+     "v": "Courts end up deciding theology rather than rights"
+    }
+   ],
+   "timeline": [],
+   "why": "The pairing to hold is Shirur Mutt 1954 with the doctrine, and 2018 with Sabarimala. Note that the 2019 order referred questions and did not overrule the 2018 judgment.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5p-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Essential religious practices",
+      "kind": "concept",
+      "rel": "core",
+      "note": "The test that decides what Article 25 actually protects."
+     },
+     {
+      "id": "m5p-shirur",
+      "parent": "m5p-root",
+      "tier": 1,
+      "label": "Shirur Mutt, 1954",
+      "kind": "case",
+      "rel": "origin",
+      "note": "Essentiality judged by the religion's own doctrines."
+     },
+     {
+      "id": "m5p-25",
+      "parent": "m5p-root",
+      "tier": 1,
+      "label": "Article 25",
+      "kind": "law",
+      "rel": "right",
+      "note": "Profess, practise and propagate, subject to public order and morality."
+     },
+     {
+      "id": "m5p-sec",
+      "parent": "m5p-25",
+      "tier": 2,
+      "label": "Article 25(2)(a)",
+      "kind": "law",
+      "rel": "carve-out",
+      "note": "State may regulate secular activity linked to religion."
+     },
+     {
+      "id": "m5p-sab",
+      "parent": "m5p-root",
+      "tier": 1,
+      "label": "Sabarimala, 2018",
+      "kind": "case",
+      "rel": "application",
+      "note": "Exclusion of women held not essential; Articles 25 and 14 breached."
+     },
+     {
+      "id": "m5p-rev",
+      "parent": "m5p-sab",
+      "tier": 2,
+      "label": "2019 reference",
+      "kind": "event",
+      "rel": "pending",
+      "note": "Nine-judge bench asked wider questions; not yet answered."
+     },
+     {
+      "id": "m5p-shayara",
+      "parent": "m5p-root",
+      "tier": 2,
+      "label": "Shayara Bano, 2017",
+      "kind": "case",
+      "rel": "parallel",
+      "note": "Instant triple talaq struck down; the doctrine split the bench."
+     },
+     {
+      "id": "m5p-bohra",
+      "parent": "m5p-root",
+      "tier": 2,
+      "label": "Dawoodi Bohra excommunication",
+      "kind": "case",
+      "rel": "line",
+      "note": "Upheld in 1962, under challenge again."
+     },
+     {
+      "id": "m5p-crit",
+      "parent": "m5p-root",
+      "tier": 2,
+      "label": "The theology objection",
+      "kind": "concept",
+      "rel": "critique",
+      "note": "Judges deciding what a faith requires."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-gdp-q4",
+   "rank": 16,
+   "depth": "brief",
+   "importance": 4,
+   "title": "Q4 growth at 7.2% and the unemployment number beside it",
+   "date": "2026-05",
+   "category": "Economy",
+   "tags": [
+    "GDP",
+    "PLFS",
+    "NSO"
+   ],
+   "hook": "Two numbers released within days of each other, measured by two different offices, and only one of them is easy to argue about.",
+   "story": "The **National Statistics Office** put growth for the fourth quarter of **2025-26** at about **7.2%**, keeping India the fastest growing major economy. Quarterly estimates come from the NSO under the Ministry of Statistics and Programme Implementation, which issues advance estimates in January, provisional estimates in May and revisions afterwards; the base year for the series is **2011-12**, with a revision to 2022-23 under way.\n\nThe **Periodic Labour Force Survey**, run by the same ministry, reported unemployment at about **5%**. PLFS has been monthly for urban areas and now reports rural figures monthly too, and it measures on two definitions: **usual status**, over a year, and **current weekly status**, over the preceding week. The survey also showed rural workers moving out of agriculture towards manufacturing and services.\n\nThe two numbers are read together because the standing criticism of Indian growth is that it has not produced proportionate employment. Growth is measured by value added, which rises fastest in capital-intensive sectors, while employment sits in construction, agriculture and small trade.",
+   "facts": [
+    {
+     "k": "Q4 growth",
+     "v": "About 7.2% for the fourth quarter of 2025-26"
+    },
+    {
+     "k": "Who measures",
+     "v": "National Statistics Office, under MoSPI; base year 2011-12"
+    },
+    {
+     "k": "Unemployment",
+     "v": "About 5% on PLFS"
+    },
+    {
+     "k": "PLFS definitions",
+     "v": "Usual status over a year, current weekly status over a week"
+    },
+    {
+     "k": "Shift",
+     "v": "Rural workers moving from agriculture into manufacturing and services"
+    }
+   ],
+   "timeline": [],
+   "why": "Know which body publishes which number: NSO for GDP, PLFS for employment, both under MoSPI. The base year of the GDP series is a standard recall question.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5g-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Growth and jobs",
+      "kind": "event",
+      "rel": "core",
+      "note": "Q4 GDP at 7.2% and PLFS unemployment at 5%."
+     },
+     {
+      "id": "m5g-nso",
+      "parent": "m5g-root",
+      "tier": 1,
+      "label": "National Statistics Office",
+      "kind": "institution",
+      "rel": "source",
+      "note": "Publishes the quarterly GDP estimates under MoSPI."
+     },
+     {
+      "id": "m5g-base",
+      "parent": "m5g-nso",
+      "tier": 2,
+      "label": "Base year 2011-12",
+      "kind": "concept",
+      "rel": "method",
+      "note": "Series base, with a revision under way."
+     },
+     {
+      "id": "m5g-plfs",
+      "parent": "m5g-root",
+      "tier": 1,
+      "label": "Periodic Labour Force Survey",
+      "kind": "institution",
+      "rel": "source",
+      "note": "India's employment survey, now monthly."
+     },
+     {
+      "id": "m5g-status",
+      "parent": "m5g-plfs",
+      "tier": 2,
+      "label": "Usual and current weekly status",
+      "kind": "concept",
+      "rel": "definition",
+      "note": "Two reference periods giving two rates."
+     },
+     {
+      "id": "m5g-jobless",
+      "parent": "m5g-root",
+      "tier": 2,
+      "label": "Jobless growth",
+      "kind": "concept",
+      "rel": "debate",
+      "note": "Value added grows fastest where employment does not."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-gst-ev",
+   "rank": 18,
+   "depth": "brief",
+   "importance": 3,
+   "title": "The GST Council cuts rates on EV batteries and medical devices",
+   "date": "2026-05",
+   "category": "Economy",
+   "tags": [
+    "GST Council",
+    "Article 279A",
+    "Electric Vehicles"
+   ],
+   "hook": "The one constitutional body where the Centre holds a third of the votes and can still be outvoted, in theory.",
+   "story": "The **GST Council** reduced rates on **electric vehicle batteries** and on a set of **medical devices**, both moves aimed at adoption rather than revenue.\n\nThe Council is a constitutional body created by **Article 279A**, inserted by the **101st Amendment** in 2016. It is chaired by the **Union Finance Minister**, with the Minister of State for Finance and one minister from each state. Decisions need a **three-fourths majority** of weighted votes; the Centre holds **one-third** of the total and the states together **two-thirds**, so neither side can act alone. Quorum is half the members.\n\nIts recommendations were long treated as binding in practice. In **Mohit Minerals (2022)**, dealing with integrated GST on ocean freight, the Supreme Court held that the Council's recommendations are **persuasive and not binding**, since both Parliament and state legislatures have simultaneous power to legislate on GST. The finding unsettled the assumption that the Council speaks with a single enforceable voice, though in practice its decisions are still adopted.",
+   "facts": [
+    {
+     "k": "Decision",
+     "v": "Lower GST on electric vehicle batteries and several medical devices"
+    },
+    {
+     "k": "Constitutional basis",
+     "v": "Article 279A, inserted by the 101st Amendment, 2016"
+    },
+    {
+     "k": "Composition",
+     "v": "Union Finance Minister as chair, MoS Finance, one minister per state"
+    },
+    {
+     "k": "Voting",
+     "v": "Three-fourths of weighted votes; Centre one-third, states two-thirds"
+    },
+    {
+     "k": "Mohit Minerals, 2022",
+     "v": "Council recommendations are persuasive, not binding"
+    }
+   ],
+   "timeline": [],
+   "why": "The voting split is the most asked fact and the easiest to invert. Mohit Minerals is the case to attach to any question on whether the Council can bind a state.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5t-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "GST rate cuts",
+      "kind": "event",
+      "rel": "core",
+      "note": "EV batteries and medical devices moved to lower slabs."
+     },
+     {
+      "id": "m5t-279a",
+      "parent": "m5t-root",
+      "tier": 1,
+      "label": "Article 279A",
+      "kind": "law",
+      "rel": "basis",
+      "note": "Created the Council through the 101st Amendment."
+     },
+     {
+      "id": "m5t-comp",
+      "parent": "m5t-279a",
+      "tier": 2,
+      "label": "Composition",
+      "kind": "concept",
+      "rel": "structure",
+      "note": "Union Finance Minister chairs; every state has a minister."
+     },
+     {
+      "id": "m5t-vote",
+      "parent": "m5t-279a",
+      "tier": 2,
+      "label": "Three-fourths rule",
+      "kind": "concept",
+      "rel": "voting",
+      "note": "Centre one-third, states two-thirds of weighted votes."
+     },
+     {
+      "id": "m5t-mohit",
+      "parent": "m5t-root",
+      "tier": 1,
+      "label": "Mohit Minerals, 2022",
+      "kind": "case",
+      "rel": "limit",
+      "note": "Recommendations persuasive, not binding."
+     },
+     {
+      "id": "m5t-ev",
+      "parent": "m5t-root",
+      "tier": 2,
+      "label": "Electric vehicles",
+      "kind": "concept",
+      "rel": "policy",
+      "note": "Rate cut aimed at adoption, with FAME and PM E-DRIVE alongside."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-gir-lions",
+   "rank": 20,
+   "depth": "brief",
+   "importance": 3,
+   "title": "The Asiatic lion count reaches 891",
+   "date": "2026-05",
+   "category": "Environment",
+   "tags": [
+    "Gir",
+    "Asiatic Lion",
+    "Wildlife"
+   ],
+   "hook": "Every Asiatic lion alive is descended from a population that dropped to perhaps twenty animals in one forest in Gujarat.",
+   "story": "The Gujarat forest department's estimation put the **Asiatic lion** population at **891**, up from 674 at the previous count in 2020. The lion survives in the wild only in and around the **Gir** forest in Saurashtra, and more than half the population now lives outside the protected area, in farmland, coastal scrub and near the Girnar hills.\n\nThe species is **Panthera leo persica**, listed as **Endangered** by the IUCN and placed in the highest protection schedule of the **Wildlife (Protection) Act 1972**. **Project Lion** was announced in 2020, along the lines of Project Tiger, and the state runs the count on a block-by-block direct sighting method rather than by camera trap.\n\nConcentration in one place is the risk. The **canine distemper virus** killed dozens of lions in 2018 and the same disease nearly wiped out the Serengeti population in 1994. The Supreme Court ordered in **2013** that some lions be translocated to **Kuno** in Madhya Pradesh; Gujarat did not comply, and Kuno was later used for the African cheetah introduction instead.",
+   "facts": [
+    {
+     "k": "Count",
+     "v": "891, up from 674 in 2020"
+    },
+    {
+     "k": "Range",
+     "v": "Gir and the surrounding landscape in Saurashtra; over half live outside protected areas"
+    },
+    {
+     "k": "Status",
+     "v": "Endangered on the IUCN list; highest schedule of the Wildlife (Protection) Act"
+    },
+    {
+     "k": "Project Lion",
+     "v": "Announced 2020, modelled on Project Tiger"
+    },
+    {
+     "k": "Kuno order",
+     "v": "Supreme Court directed translocation in 2013; not carried out"
+    }
+   ],
+   "timeline": [],
+   "why": "The trap is Kuno: the 2013 order was about lions, and the cheetahs that went there in 2022 were a different programme entirely.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5l-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Asiatic lion count 891",
+      "kind": "event",
+      "rel": "core",
+      "note": "Gujarat estimation, up from 674 in 2020."
+     },
+     {
+      "id": "m5l-gir",
+      "parent": "m5l-root",
+      "tier": 1,
+      "label": "Gir",
+      "kind": "place",
+      "rel": "habitat",
+      "note": "The only wild population, in Saurashtra."
+     },
+     {
+      "id": "m5l-out",
+      "parent": "m5l-gir",
+      "tier": 2,
+      "label": "Beyond the park",
+      "kind": "concept",
+      "rel": "spread",
+      "note": "More than half now live outside protected areas."
+     },
+     {
+      "id": "m5l-wpa",
+      "parent": "m5l-root",
+      "tier": 1,
+      "label": "Wildlife (Protection) Act, 1972",
+      "kind": "law",
+      "rel": "protection",
+      "note": "Highest schedule; the parent conservation statute."
+     },
+     {
+      "id": "m5l-proj",
+      "parent": "m5l-root",
+      "tier": 1,
+      "label": "Project Lion",
+      "kind": "scheme",
+      "rel": "programme",
+      "note": "Announced 2020, on the Project Tiger model."
+     },
+     {
+      "id": "m5l-cdv",
+      "parent": "m5l-root",
+      "tier": 2,
+      "label": "Canine distemper",
+      "kind": "concept",
+      "rel": "risk",
+      "note": "Killed dozens in 2018; devastated the Serengeti in 1994."
+     },
+     {
+      "id": "m5l-kuno",
+      "parent": "m5l-root",
+      "tier": 2,
+      "label": "Kuno",
+      "kind": "place",
+      "rel": "translocation",
+      "note": "Ordered in 2013, never done; later used for cheetahs."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-drdo",
+   "rank": 22,
+   "depth": "brief",
+   "importance": 3,
+   "title": "DRDO tests a glide weapon and an Agni-5 variant",
+   "date": "2026-05",
+   "category": "Defence",
+   "tags": [
+    "DRDO",
+    "Agni-5",
+    "MIRV",
+    "Missiles"
+   ],
+   "hook": "A missile that splits into several warheads on separate paths is one weapon on paper and several problems for an interceptor.",
+   "story": "The Defence Research and Development Organisation tested **TARA**, described as India's first indigenous precision glide weapon, and a variant of the **Agni-5** intermediate range ballistic missile.\n\nA glide weapon is released from an aircraft and glides to the target without an engine, guided by satellite and inertial navigation, which lets the launch aircraft stay outside air defence range. India already fields the **SAAW** and the **Gaurav** long-range glide bomb in this class.\n\n**Agni-5** has a range beyond 5,000 km and was first tested with **MIRV** capability in **Mission Divyastra** in March 2024. MIRV, or multiple independently targetable re-entry vehicles, lets one missile carry several warheads aimed at separate targets, which complicates missile defence and is why only a handful of countries have demonstrated it. India's declared nuclear posture remains **credible minimum deterrence** with **no first use**, set out after the 1998 Pokhran-II tests and formalised in the 2003 doctrine, which reserves the right to retaliate massively and also to respond to a chemical or biological attack.\n\nDefence production reached about **₹1.54 lakh crore** in 2024-25, with exports rising sharply from a low base.",
+   "facts": [
+    {
+     "k": "TARA",
+     "v": "Indigenous precision glide weapon, first tested May 2026"
+    },
+    {
+     "k": "Agni-5",
+     "v": "Range beyond 5,000 km; MIRV capability shown in Mission Divyastra, March 2024"
+    },
+    {
+     "k": "MIRV",
+     "v": "Several independently targeted warheads on one missile"
+    },
+    {
+     "k": "Doctrine",
+     "v": "Credible minimum deterrence and no first use, formalised in 2003"
+    },
+    {
+     "k": "Production",
+     "v": "About ₹1.54 lakh crore of defence production in 2024-25"
+    }
+   ],
+   "timeline": [],
+   "why": "Mission Divyastra and MIRV go together and are asked as a pair. No first use is the doctrine fact most often set against a wrong option.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5d-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "DRDO tests",
+      "kind": "event",
+      "rel": "core",
+      "note": "TARA glide weapon and an Agni-5 variant."
+     },
+     {
+      "id": "m5d-tara",
+      "parent": "m5d-root",
+      "tier": 1,
+      "label": "TARA",
+      "kind": "concept",
+      "rel": "weapon",
+      "note": "Indigenous precision glide weapon, released from aircraft."
+     },
+     {
+      "id": "m5d-agni",
+      "parent": "m5d-root",
+      "tier": 1,
+      "label": "Agni-5",
+      "kind": "concept",
+      "rel": "missile",
+      "note": "Range beyond 5,000 km."
+     },
+     {
+      "id": "m5d-mirv",
+      "parent": "m5d-agni",
+      "tier": 2,
+      "label": "MIRV",
+      "kind": "concept",
+      "rel": "capability",
+      "note": "Several warheads on separate paths from one missile."
+     },
+     {
+      "id": "m5d-divya",
+      "parent": "m5d-mirv",
+      "tier": 3,
+      "label": "Mission Divyastra, 2024",
+      "kind": "event",
+      "rel": "test",
+      "note": "First Indian MIRV demonstration."
+     },
+     {
+      "id": "m5d-doct",
+      "parent": "m5d-root",
+      "tier": 1,
+      "label": "No first use",
+      "kind": "concept",
+      "rel": "doctrine",
+      "note": "Credible minimum deterrence, formalised in 2003."
+     },
+     {
+      "id": "m5d-prod",
+      "parent": "m5d-root",
+      "tier": 2,
+      "label": "Defence production",
+      "kind": "concept",
+      "rel": "industry",
+      "note": "About ₹1.54 lakh crore in 2024-25, exports rising."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-ipl",
+   "rank": 24,
+   "depth": "brief",
+   "importance": 3,
+   "title": "RCB take a second consecutive IPL title",
+   "date": "2026-05",
+   "category": "Sports",
+   "tags": [
+    "IPL",
+    "Cricket",
+    "RCB"
+   ],
+   "hook": "A franchise that lost three finals in seventeen years has now won two in a row.",
+   "story": "**Royal Challengers Bengaluru** beat **Gujarat Titans** by five wickets in the final on **31 May 2026** to win a second consecutive Indian Premier League title, after ending an eighteen-season wait in 2025. **Virat Kohli** was player of the match in the final with an unbeaten 75 from 42 balls.\n\nThe season ran from **28 March to 31 May**. **Vaibhav Sooryavanshi** took the **Orange Cap** for most runs and the Emerging Player award; **Kagiso Rabada** of Gujarat Titans took the **Purple Cap** with 29 wickets.\n\nThe IPL is run by the **Board of Control for Cricket in India**, which is not a government body but a society registered under state law, held to be amenable to writ jurisdiction in **BCCI v. Cricket Association of Bihar (2015)** because it discharges public functions. The **Lodha Committee** reforms that followed reshaped its constitution, including a cooling-off period between terms.",
+   "facts": [
+    {
+     "k": "Final",
+     "v": "RCB beat Gujarat Titans by five wickets on 31 May 2026"
+    },
+    {
+     "k": "Title",
+     "v": "RCB's second, and second in succession after 2025"
+    },
+    {
+     "k": "Orange Cap",
+     "v": "Vaibhav Sooryavanshi, who also took the Emerging Player award"
+    },
+    {
+     "k": "Purple Cap",
+     "v": "Kagiso Rabada, 29 wickets"
+    },
+    {
+     "k": "Governance",
+     "v": "BCCI held amenable to writ jurisdiction in 2015; Lodha reforms followed"
+    }
+   ],
+   "timeline": [],
+   "why": "Sports questions in CLAT usually pair a trophy with a sport or a winner with a year. The BCCI governance point is the legal angle worth carrying across.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5ipl-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "IPL 2026",
+      "kind": "event",
+      "rel": "core",
+      "note": "RCB win a second consecutive title."
+     },
+     {
+      "id": "m5ipl-final",
+      "parent": "m5ipl-root",
+      "tier": 1,
+      "label": "The final",
+      "kind": "event",
+      "rel": "result",
+      "note": "Beat Gujarat Titans by five wickets on 31 May."
+     },
+     {
+      "id": "m5ipl-kohli",
+      "parent": "m5ipl-final",
+      "tier": 2,
+      "label": "Virat Kohli",
+      "kind": "person",
+      "rel": "player of the match",
+      "note": "Unbeaten 75 from 42 balls."
+     },
+     {
+      "id": "m5ipl-orange",
+      "parent": "m5ipl-root",
+      "tier": 1,
+      "label": "Orange Cap",
+      "kind": "concept",
+      "rel": "award",
+      "note": "Vaibhav Sooryavanshi, also Emerging Player."
+     },
+     {
+      "id": "m5ipl-purple",
+      "parent": "m5ipl-root",
+      "tier": 1,
+      "label": "Purple Cap",
+      "kind": "concept",
+      "rel": "award",
+      "note": "Kagiso Rabada, 29 wickets."
+     },
+     {
+      "id": "m5ipl-bcci",
+      "parent": "m5ipl-root",
+      "tier": 2,
+      "label": "BCCI",
+      "kind": "institution",
+      "rel": "governance",
+      "note": "Held amenable to writ jurisdiction in 2015."
+     },
+     {
+      "id": "m5ipl-lodha",
+      "parent": "m5ipl-bcci",
+      "tier": 3,
+      "label": "Lodha Committee",
+      "kind": "institution",
+      "rel": "reform",
+      "note": "Rewrote the board's constitution and terms."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-cannes79",
+   "rank": 26,
+   "depth": "brief",
+   "importance": 3,
+   "title": "Cristian Mungiu wins a second Palme d'Or",
+   "date": "2026-05",
+   "category": "Awards",
+   "tags": [
+    "Cannes",
+    "Palme d'Or",
+    "Film"
+   ],
+   "hook": "Only ten directors have won the Palme d'Or twice, and the tenth did it nineteen years after the first.",
+   "story": "**Fjord**, directed by the Romanian **Cristian Mungiu** and starring Sebastian Stan and Renate Reinsve, won the **Palme d'Or** at the **79th Festival de Cannes**, which closed on 23 May 2026. Mungiu had won in 2007 for **4 Months, 3 Weeks and 2 Days**, and becomes the tenth director to take the prize twice.\n\nCannes has run since **1946** and awards the Palme d'Or for the best film in competition, with the **Grand Prix** as the runner-up prize and the **Jury Prize** below it. The Indian record at the festival is short: **Chetan Anand's Neecha Nagar** shared the top prize at the first edition in 1946, **Payal Kapadia's All We Imagine as Light** took the Grand Prix in 2024, and the same director had won the Golden Eye documentary prize in 2021.\n\nCannes sits alongside **Berlin**, which awards the Golden Bear, and **Venice**, the oldest of the three, which awards the Golden Lion.",
+   "facts": [
+    {
+     "k": "Palme d'Or",
+     "v": "Fjord, directed by Cristian Mungiu, at the 79th festival"
+    },
+    {
+     "k": "Repeat winner",
+     "v": "Mungiu's second, after 4 Months, 3 Weeks and 2 Days in 2007"
+    },
+    {
+     "k": "Festival",
+     "v": "Running since 1946; Grand Prix is the second prize, Jury Prize the third"
+    },
+    {
+     "k": "Indian record",
+     "v": "Neecha Nagar shared the top prize in 1946; All We Imagine as Light took the Grand Prix in 2024"
+    },
+    {
+     "k": "The other two",
+     "v": "Berlin awards the Golden Bear, Venice the Golden Lion"
+    }
+   ],
+   "timeline": [],
+   "why": "The festival-to-award pairing is the standard question: Palme d'Or at Cannes, Golden Bear at Berlin, Golden Lion at Venice. Note that Payal Kapadia won the Grand Prix, not the Palme d'Or.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5cn-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "79th Cannes",
+      "kind": "event",
+      "rel": "core",
+      "note": "Fjord takes the Palme d'Or."
+     },
+     {
+      "id": "m5cn-mungiu",
+      "parent": "m5cn-root",
+      "tier": 1,
+      "label": "Cristian Mungiu",
+      "kind": "person",
+      "rel": "director",
+      "note": "Tenth director to win the Palme d'Or twice."
+     },
+     {
+      "id": "m5cn-2007",
+      "parent": "m5cn-mungiu",
+      "tier": 2,
+      "label": "4 Months, 3 Weeks and 2 Days",
+      "kind": "concept",
+      "rel": "first win",
+      "note": "Palme d'Or in 2007."
+     },
+     {
+      "id": "m5cn-prizes",
+      "parent": "m5cn-root",
+      "tier": 1,
+      "label": "The prize ladder",
+      "kind": "concept",
+      "rel": "structure",
+      "note": "Palme d'Or, then Grand Prix, then Jury Prize."
+     },
+     {
+      "id": "m5cn-india",
+      "parent": "m5cn-root",
+      "tier": 1,
+      "label": "Indian wins",
+      "kind": "concept",
+      "rel": "record",
+      "note": "Neecha Nagar 1946; All We Imagine as Light, Grand Prix 2024."
+     },
+     {
+      "id": "m5cn-payal",
+      "parent": "m5cn-india",
+      "tier": 2,
+      "label": "Payal Kapadia",
+      "kind": "person",
+      "rel": "director",
+      "note": "Grand Prix in 2024; Golden Eye in 2021."
+     },
+     {
+      "id": "m5cn-others",
+      "parent": "m5cn-root",
+      "tier": 2,
+      "label": "Berlin and Venice",
+      "kind": "concept",
+      "rel": "comparison",
+      "note": "Golden Bear and Golden Lion."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-migration",
+   "rank": 28,
+   "depth": "brief",
+   "importance": 3,
+   "title": "World Migration Report 2026: India leads on diaspora and remittances",
+   "date": "2026-05",
+   "category": "International Relations",
+   "tags": [
+    "Migration",
+    "IOM",
+    "Remittances",
+    "Diaspora"
+   ],
+   "hook": "The largest flow of money into India from abroad is not investment. It is people sending money home.",
+   "story": "The **World Migration Report 2026**, published by the **International Organization for Migration**, confirmed India as the country with the **largest diaspora** and the **largest recipient of remittances**. Indian remittance receipts have been above **$100 billion** a year since 2022, ahead of Mexico and China, and exceed India's annual foreign direct investment inflows. The largest sources are the United States, the United Arab Emirates and the other Gulf states.\n\nIOM was founded in 1951 and became a **related organisation of the United Nations** in 2016, joining the UN system without becoming a specialised agency. The report also recorded that climate-related disasters triggered millions of internal displacements, a category counted separately from cross-border migration and dominated by South Asia and East Asia.\n\nIndia's own framework distinguishes **non-resident Indians**, who are citizens, from **Overseas Citizens of India**, a status created in 2005 that gives lifelong visa-free entry and most economic rights but no vote and no public office. Dual citizenship is not permitted.",
+   "facts": [
+    {
+     "k": "Publisher",
+     "v": "International Organization for Migration, a UN related organisation since 2016"
+    },
+    {
+     "k": "Diaspora",
+     "v": "India's is the world's largest"
+    },
+    {
+     "k": "Remittances",
+     "v": "Above $100 billion a year since 2022, more than annual FDI inflows"
+    },
+    {
+     "k": "Main sources",
+     "v": "United States, United Arab Emirates and the Gulf"
+    },
+    {
+     "k": "Status categories",
+     "v": "NRI is a citizen; OCI is not, and cannot vote or hold public office"
+    }
+   ],
+   "timeline": [],
+   "why": "The remittance figure and the OCI distinction are the two things asked. Remember that India does not allow dual citizenship, which is what OCI status works around.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5m-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "World Migration Report 2026",
+      "kind": "event",
+      "rel": "core",
+      "note": "India first on diaspora and on remittances."
+     },
+     {
+      "id": "m5m-iom",
+      "parent": "m5m-root",
+      "tier": 1,
+      "label": "IOM",
+      "kind": "institution",
+      "rel": "publisher",
+      "note": "Founded 1951; a UN related organisation from 2016."
+     },
+     {
+      "id": "m5m-rem",
+      "parent": "m5m-root",
+      "tier": 1,
+      "label": "Remittances",
+      "kind": "concept",
+      "rel": "flow",
+      "note": "Above $100 billion a year, exceeding FDI inflows."
+     },
+     {
+      "id": "m5m-gulf",
+      "parent": "m5m-rem",
+      "tier": 2,
+      "label": "Gulf and United States",
+      "kind": "place",
+      "rel": "sources",
+      "note": "Where most of the money originates."
+     },
+     {
+      "id": "m5m-climate",
+      "parent": "m5m-root",
+      "tier": 2,
+      "label": "Climate displacement",
+      "kind": "concept",
+      "rel": "category",
+      "note": "Counted separately; mostly internal, mostly in Asia."
+     },
+     {
+      "id": "m5m-oci",
+      "parent": "m5m-root",
+      "tier": 1,
+      "label": "OCI and NRI",
+      "kind": "concept",
+      "rel": "status",
+      "note": "OCI created 2005; no vote, no public office, no dual citizenship."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-seabed",
+   "rank": 30,
+   "depth": "brief",
+   "importance": 2,
+   "title": "Deep-sea mining and the authority nobody wants to obey",
+   "date": "2026-05",
+   "category": "Environment",
+   "tags": [
+    "Deep Sea Mining",
+    "ISA",
+    "UNCLOS",
+    "Samudrayaan"
+   ],
+   "hook": "The seabed beyond national jurisdiction is legally the common heritage of mankind, which is a strong phrase with a weak enforcement mechanism.",
+   "story": "Demand for battery metals has revived interest in mining polymetallic nodules from the deep ocean floor, and the **International Seabed Authority** criticised United States efforts to fast-track permits outside its process.\n\nThe Authority was created by the **UN Convention on the Law of the Sea**, which came into force in 1994, and administers the **Area**, the seabed beyond national jurisdiction, declared the **common heritage of mankind**. It has issued exploration contracts but has not finalised the exploitation regulations, the so-called mining code, and several states have called for a moratorium until the ecological effects are understood. The **United States has not ratified UNCLOS**, which is the gap the fast-track permits exploit.\n\nIndia holds exploration rights over about **75,000 sq km** in the **Central Indian Ocean Basin** for polymetallic nodules and a further area on the **Carlsberg Ridge** for sulphides. The **Deep Ocean Mission**, approved in 2021, includes **Samudrayaan**, a crewed submersible called **Matsya-6000** designed to reach 6,000 metres.",
+   "facts": [
+    {
+     "k": "Body",
+     "v": "International Seabed Authority, created under UNCLOS; seat at Kingston, Jamaica"
+    },
+    {
+     "k": "The Area",
+     "v": "Seabed beyond national jurisdiction, the common heritage of mankind"
+    },
+    {
+     "k": "Gap",
+     "v": "The exploitation regulations are unfinished; the United States has not ratified UNCLOS"
+    },
+    {
+     "k": "India's claim",
+     "v": "About 75,000 sq km in the Central Indian Ocean Basin"
+    },
+    {
+     "k": "Deep Ocean Mission",
+     "v": "Approved 2021; Samudrayaan and the Matsya-6000 submersible"
+    }
+   ],
+   "timeline": [],
+   "why": "Common heritage of mankind is the phrase to attach to the Area, and the fact that the United States has not ratified UNCLOS explains most of the story.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5s-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Deep-sea mining",
+      "kind": "event",
+      "rel": "core",
+      "note": "Battery demand revives interest; the ISA objects to unilateral permits."
+     },
+     {
+      "id": "m5s-isa",
+      "parent": "m5s-root",
+      "tier": 1,
+      "label": "International Seabed Authority",
+      "kind": "institution",
+      "rel": "regulator",
+      "note": "Created by UNCLOS; seat at Kingston."
+     },
+     {
+      "id": "m5s-area",
+      "parent": "m5s-isa",
+      "tier": 2,
+      "label": "The Area",
+      "kind": "concept",
+      "rel": "status",
+      "note": "Seabed beyond national jurisdiction; common heritage of mankind."
+     },
+     {
+      "id": "m5s-code",
+      "parent": "m5s-isa",
+      "tier": 2,
+      "label": "The mining code",
+      "kind": "concept",
+      "rel": "gap",
+      "note": "Exploitation regulations still unfinished."
+     },
+     {
+      "id": "m5s-us",
+      "parent": "m5s-root",
+      "tier": 2,
+      "label": "United States",
+      "kind": "place",
+      "rel": "outsider",
+      "note": "Has not ratified UNCLOS; issuing its own permits."
+     },
+     {
+      "id": "m5s-india",
+      "parent": "m5s-root",
+      "tier": 1,
+      "label": "India's exploration rights",
+      "kind": "concept",
+      "rel": "claim",
+      "note": "About 75,000 sq km in the Central Indian Ocean Basin."
+     },
+     {
+      "id": "m5s-dom",
+      "parent": "m5s-india",
+      "tier": 2,
+      "label": "Deep Ocean Mission",
+      "kind": "scheme",
+      "rel": "programme",
+      "note": "Approved 2021; Samudrayaan and Matsya-6000."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "may26-forests",
+   "rank": 32,
+   "depth": "brief",
+   "importance": 2,
+   "title": "The Global Forest Goals Report counts the loss",
+   "date": "2026-05",
+   "category": "Environment",
+   "tags": [
+    "Forests",
+    "UN",
+    "Deforestation"
+   ],
+   "hook": "The world agreed in 2015 to increase forest area. Ten years on, forty million hectares had gone the other way.",
+   "story": "The **Global Forest Goals Report 2026**, published under the **United Nations Forum on Forests**, recorded a loss of more than **40 million hectares** of forest between 2015 and 2025, driven by agricultural expansion, climate change, wildfires and illegal logging. The Forum sits under the Economic and Social Council and oversees the **UN Strategic Plan for Forests 2017-2030**, whose first goal is to reverse forest loss.\n\nForest data in India comes from the **India State of Forest Report**, published every two years by the **Forest Survey of India** at Dehradun. India reports forest and tree cover at roughly a quarter of its area, against a **National Forest Policy 1988** target of a third, and the count is contested because plantations and orchards are included in what is measured from satellite.\n\nThe governing statutes are the **Forest (Conservation) Act 1980**, renamed the Van Sanrakshan Evam Samvardhan Adhiniyam in 2023, and the **Forest Rights Act 2006**, which recognises individual and community rights of forest-dwelling Scheduled Tribes and other traditional forest dwellers.",
+   "facts": [
+    {
+     "k": "Loss",
+     "v": "Over 40 million hectares of forest between 2015 and 2025"
+    },
+    {
+     "k": "Publisher",
+     "v": "UN Forum on Forests, under the Economic and Social Council"
+    },
+    {
+     "k": "Indian data",
+     "v": "India State of Forest Report, biennial, from the Forest Survey of India at Dehradun"
+    },
+    {
+     "k": "Target",
+     "v": "A third of the geographical area under the National Forest Policy 1988"
+    },
+    {
+     "k": "Statutes",
+     "v": "Forest (Conservation) Act 1980, renamed in 2023, and the Forest Rights Act 2006"
+    }
+   ],
+   "timeline": [],
+   "why": "The Forest Survey of India and the biennial report are the recall facts. The 1988 policy target of one third is the number set against the reported quarter.",
+   "map": {
+    "nodes": [
+     {
+      "id": "m5f-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Global Forest Goals Report 2026",
+      "kind": "event",
+      "rel": "core",
+      "note": "Over 40 million hectares lost in a decade."
+     },
+     {
+      "id": "m5f-unff",
+      "parent": "m5f-root",
+      "tier": 1,
+      "label": "UN Forum on Forests",
+      "kind": "institution",
+      "rel": "publisher",
+      "note": "Under ECOSOC; runs the Strategic Plan for Forests."
+     },
+     {
+      "id": "m5f-causes",
+      "parent": "m5f-root",
+      "tier": 2,
+      "label": "Drivers",
+      "kind": "concept",
+      "rel": "causes",
+      "note": "Agriculture, climate change, wildfire, illegal logging."
+     },
+     {
+      "id": "m5f-isfr",
+      "parent": "m5f-root",
+      "tier": 1,
+      "label": "India State of Forest Report",
+      "kind": "institution",
+      "rel": "data",
+      "note": "Biennial, from the Forest Survey of India at Dehradun."
+     },
+     {
+      "id": "m5f-policy",
+      "parent": "m5f-isfr",
+      "tier": 2,
+      "label": "National Forest Policy 1988",
+      "kind": "concept",
+      "rel": "target",
+      "note": "One third of the geographical area under forest."
+     },
+     {
+      "id": "m5f-fca",
+      "parent": "m5f-root",
+      "tier": 1,
+      "label": "Forest (Conservation) Act, 1980",
+      "kind": "law",
+      "rel": "statute",
+      "note": "Renamed Van Sanrakshan Evam Samvardhan Adhiniyam in 2023."
+     },
+     {
+      "id": "m5f-fra",
+      "parent": "m5f-root",
+      "tier": 1,
+      "label": "Forest Rights Act, 2006",
+      "kind": "law",
+      "rel": "statute",
+      "note": "Recognises rights of forest-dwelling communities."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
@@ -2010,6 +3088,152 @@
      ],
      "answer": 0,
      "explain": "CLAT passage questions focus on specific names, dates, statutory articles, and treaty clauses."
+    }
+   ]
+  },
+  {
+   "id": "may26-p2",
+   "kind": "static",
+   "month": "2026-05",
+   "topicIds": [
+    "may26-emergency-care"
+   ],
+   "category": "Judiciary",
+   "tags": [
+    "Article 21",
+    "Health"
+   ],
+   "difficulty": 2,
+   "title": "The right that keeps growing",
+   "passage": "The provision runs to a single sentence and says only that no person shall be deprived of life or personal liberty except according to procedure established by law. For the first twenty-eight years it was read narrowly, and a majority of the Court held during the Emergency that even the right to move a court for enforcement could be suspended. The turn came in 1978, when the Court held that the procedure contemplated by the article could not be any procedure a legislature chose to enact, but had to be fair, just and reasonable. That reading converted a procedural safeguard into a source of substantive entitlements, and the entitlements have accumulated ever since.\n\nSome were recognised early. A person who is arrested has to be told why, has to be produced before a magistrate, and cannot be kept in solitary confinement or in fetters as a matter of routine. A pavement dweller evicted without notice was held to lose a right to livelihood that the article protected, because a person deprived of the means of living is deprived of life itself. Later cases added a clean environment, a speedy trial, legal aid, shelter, and education for children, the last of which Parliament eventually wrote into a separate article of its own.\n\nThe recent additions have run into private conduct. In May 2026 the Court held that a person in a medical emergency has a right to immediate treatment that binds private hospitals directly, not merely the state, and that no formality of documentation or payment may stand in the way. Two earlier judgments had pointed there: one in 1989 holding that a doctor's obligation to preserve life admits of no procedural excuse, and one in 1996 awarding compensation where a man with head injuries was turned away by a series of state hospitals.",
+   "questions": [
+    {
+     "q": "The provision described is:",
+     "options": [
+      "Article 14",
+      "Article 19",
+      "Article 21",
+      "Article 32"
+     ],
+     "answer": 2,
+     "explain": "Article 21, life and personal liberty."
+    },
+    {
+     "q": "The 1978 decision that changed its reading is:",
+     "options": [
+      "ADM Jabalpur",
+      "Maneka Gandhi",
+      "Kesavananda Bharati",
+      "A.K. Gopalan"
+     ],
+     "answer": 1,
+     "explain": "Maneka Gandhi v. Union of India held that the procedure must be fair, just and reasonable."
+    },
+    {
+     "q": "The right to education for children was later placed in:",
+     "options": [
+      "Article 21A",
+      "Article 45",
+      "Article 15(4)",
+      "Article 39(f)"
+     ],
+     "answer": 0,
+     "explain": "Article 21A, inserted by the 86th Amendment in 2002."
+    },
+    {
+     "q": "On the passage, what is new about the May 2026 ruling?",
+     "options": [
+      "It created a right to health for the first time",
+      "It bound private hospitals directly",
+      "It applied only to government hospitals",
+      "It made treatment free of cost"
+     ],
+     "answer": 1,
+     "explain": "The passage says the obligation binds private hospitals directly rather than through the state."
+    },
+    {
+     "q": "The 1996 judgment referred to awarded:",
+     "options": [
+      "An injunction",
+      "Compensation",
+      "A declaration only",
+      "Criminal sanction against the doctors"
+     ],
+     "answer": 1,
+     "explain": "Paschim Banga Khet Mazdoor Samity awarded compensation for the denial of emergency treatment."
+    }
+   ]
+  },
+  {
+   "id": "may26-p3",
+   "kind": "static",
+   "month": "2026-05",
+   "topicIds": [
+    "may26-cbam"
+   ],
+   "category": "Economy",
+   "tags": [
+    "CBAM",
+    "Trade"
+   ],
+   "difficulty": 3,
+   "title": "A tariff by another name",
+   "passage": "From the start of 2026 an importer bringing steel, aluminium, cement, fertiliser, electricity or hydrogen into the European Union has had to buy certificates covering the greenhouse gases emitted in making those goods, priced against the bloc's own carbon market. A transitional phase from late 2023 had required only that the emissions be reported. Any carbon price already paid where the goods were produced is deducted from what the importer owes.\n\nThe stated purpose is to stop carbon leakage, the movement of emissions-intensive production to countries with looser rules, which would leave the bloc's own industry undercut and the atmosphere no better off. The objection from developing exporters is that the measure is unilateral, that it was designed without their participation, and that it sits badly with a principle written into the climate convention of 1992 and repeated since: that states share a responsibility for the climate but not an equal one, given their different historical contributions and different capacities.\n\nThere is also a trade law argument, that a charge calculated on the production method rather than on the product itself may fall foul of the rules on national treatment and most favoured nation. India has raised the point in a WTO committee without filing a formal dispute, and has said it would consider a countervailing levy of its own.\n\nThe more interesting response has been domestic. If a producer pays a carbon price at home, that payment reduces the certificate cost at the border. A country that taxes its own emissions therefore keeps the revenue that would otherwise cross to Brussels, which is an argument for a domestic carbon market made entirely on grounds of national self-interest.",
+   "questions": [
+    {
+     "q": "The mechanism described covers:",
+     "options": [
+      "All imports into the European Union",
+      "Six emissions-intensive categories of goods",
+      "Only steel and aluminium",
+      "Only goods from developing countries"
+     ],
+     "answer": 1,
+     "explain": "Iron and steel, aluminium, cement, fertiliser, electricity and hydrogen."
+    },
+    {
+     "q": "The principle the objection rests on is:",
+     "options": [
+      "Polluter pays",
+      "Common but differentiated responsibilities",
+      "The precautionary principle",
+      "Sustainable development"
+     ],
+     "answer": 1,
+     "explain": "Common but differentiated responsibilities, from the 1992 UNFCCC."
+    },
+    {
+     "q": "The stated purpose of the measure is to prevent:",
+     "options": [
+      "Currency manipulation",
+      "Carbon leakage",
+      "Dumping",
+      "Transfer pricing"
+     ],
+     "answer": 1,
+     "explain": "Carbon leakage, the shifting of emissions-intensive production to laxer jurisdictions."
+    },
+    {
+     "q": "On the passage, a domestic carbon price benefits the exporting country because:",
+     "options": [
+      "It exempts exports from the mechanism entirely",
+      "It reduces the certificate cost and keeps the revenue at home",
+      "It triggers a WTO exemption",
+      "It lowers the European carbon price"
+     ],
+     "answer": 1,
+     "explain": "The deduction means the money is collected at home instead of at the European border."
+    },
+    {
+     "q": "The trade law objection is that the charge is calculated on:",
+     "options": [
+      "The value of the goods",
+      "The production method rather than the product",
+      "The importer's nationality",
+      "The distance travelled"
+     ],
+     "answer": 1,
+     "explain": "A process-based charge raises national treatment and most favoured nation questions."
     }
    ]
   }
