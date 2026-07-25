@@ -1,9 +1,1340 @@
 {
  "id": "history",
  "kind": "static",
- "label": "Modern Indian History & Freedom Movement",
+ "label": "Modern Indian History",
  "order": 3,
- "blurb": "The Indian freedom struggle, key legislations under British rule, national movements, and the path to independence.",
- "topics": [],
- "passages": []
+ "blurb": "From Plassey to Partition, ranked by exam frequency. Dates, sessions, pacts and the people who were actually in the room.",
+ "topics": [
+  {
+   "id": "his-gandhi-movements",
+   "rank": 1,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Gandhi’s three mass movements and what triggered each",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Gandhi",
+    "Non-Cooperation",
+    "Civil Disobedience",
+    "Quit India"
+   ],
+   "hook": "Non-Cooperation in 1920, Civil Disobedience in 1930, Quit India in 1942. Three movements, three triggers, three different ways of ending.",
+   "story": "Gandhi returned from South Africa in **1915**. His first Indian campaigns were local: **Champaran (1917)** against indigo planters in Bihar, his first satyagraha in India; **Ahmedabad mill workers (1918)**, his first hunger strike; and **Kheda (1918)** against revenue collection after crop failure, his first non-cooperation.\n\n**Non-Cooperation, 1920-22.** Triggered by the **Rowlatt Act (1919)**, which allowed detention without trial and was called the black act, and by the **Jallianwala Bagh massacre of 13 April 1919**, where General Dyer's troops fired on a crowd at Amritsar. The Khilafat grievance over the treatment of the Ottoman Caliph after the First World War brought Muslim leaders, the Ali brothers, into alliance. Adopted at the Nagpur session of 1920. Boycott of schools, courts, councils, foreign cloth and titles. Gandhi returned his Kaiser-i-Hind medal. It ended abruptly when a crowd burned a police station at **Chauri Chaura** in Gorakhpur on **5 February 1922**, killing 22 policemen; Gandhi suspended the movement on 12 February, to the anger of Motilal Nehru, C.R. Das and Subhas Bose.\n\n**Civil Disobedience, 1930-34.** Triggered by the **Simon Commission (1927)**, an all-white statutory commission with no Indian member, met with \"Simon Go Back\"; by the rejection of the **Nehru Report (1928)**; and by the **Lahore session of December 1929**, which declared **Purna Swaraj** and fixed 26 January 1930 as Independence Day. Gandhi launched it with the **Dandi March**, 12 March to 6 April 1930, walking 240 miles from Sabarmati to break the salt law. Suspended by the **Gandhi-Irwin Pact of March 1931**, resumed after the second Round Table Conference failed, and called off in 1934.\n\n**Quit India, 1942.** Triggered by the failure of the **Cripps Mission** and the advance of Japan. The resolution was passed in Bombay on **8 August 1942**; \"Do or Die\" was the slogan. The entire leadership was arrested within hours, and the movement was leaderless and largely spontaneous. Aruna Asaf Ali hoisted the flag at Gowalia Tank; Jayaprakash Narayan, Ram Manohar Lohia and Usha Mehta, who ran an underground radio, led from below.",
+   "facts": [
+    {
+     "k": "First satyagraha in India",
+     "v": "Champaran, 1917"
+    },
+    {
+     "k": "Rowlatt Act",
+     "v": "1919, detention without trial"
+    },
+    {
+     "k": "Jallianwala Bagh",
+     "v": "13 April 1919, Amritsar, General Dyer"
+    },
+    {
+     "k": "Non-Cooperation adopted",
+     "v": "Nagpur session, 1920"
+    },
+    {
+     "k": "Chauri Chaura",
+     "v": "5 February 1922, Gorakhpur"
+    },
+    {
+     "k": "Purna Swaraj declared",
+     "v": "Lahore session, December 1929"
+    },
+    {
+     "k": "Dandi March",
+     "v": "12 March to 6 April 1930, 240 miles, Sabarmati to Dandi"
+    },
+    {
+     "k": "Quit India resolution",
+     "v": "8 August 1942, Bombay"
+    },
+    {
+     "k": "Quit India slogan",
+     "v": "Do or Die"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1917",
+     "what": "Champaran"
+    },
+    {
+     "when": "1919",
+     "what": "Rowlatt Act and Jallianwala Bagh"
+    },
+    {
+     "when": "1920",
+     "what": "Non-Cooperation begins at Nagpur"
+    },
+    {
+     "when": "1922",
+     "what": "Chauri Chaura, movement suspended"
+    },
+    {
+     "when": "1929",
+     "what": "Lahore session, Purna Swaraj"
+    },
+    {
+     "when": "1930",
+     "what": "Dandi March"
+    },
+    {
+     "when": "1931",
+     "what": "Gandhi-Irwin Pact"
+    },
+    {
+     "when": "1942",
+     "what": "Quit India"
+    }
+   ],
+   "why": "The reliable question is which event triggered which movement, and which movement was called off after which incident. Chauri Chaura and the Gandhi-Irwin Pact are the two the paper reaches for.",
+   "map": {
+    "nodes": [
+     {
+      "id": "rowlatt",
+      "parent": "root",
+      "tier": 1,
+      "label": "Rowlatt Act (1919)",
+      "kind": "law",
+      "rel": "trigger",
+      "note": "Anarchical and Revolutionary Crimes Act. Detention without trial. \"No vakil, no appeal, no daleel.\""
+     },
+     {
+      "id": "jallian",
+      "parent": "root",
+      "tier": 1,
+      "label": "Jallianwala Bagh (1919)",
+      "kind": "event",
+      "rel": "trigger",
+      "note": "13 April 1919, Baisakhi. General Reginald Dyer ordered firing on an enclosed crowd. Tagore returned his knighthood in protest."
+     },
+     {
+      "id": "chauri",
+      "parent": "root",
+      "tier": 1,
+      "label": "Chauri Chaura (1922)",
+      "kind": "event",
+      "rel": "ended Non-Cooperation",
+      "note": "5 February 1922, Gorakhpur district. A mob burned a police station killing 22 policemen. Gandhi suspended the movement a week later."
+     },
+     {
+      "id": "dandi",
+      "parent": "root",
+      "tier": 1,
+      "label": "Dandi March (1930)",
+      "kind": "event",
+      "rel": "launched Civil Disobedience",
+      "note": "240 miles over 24 days with 78 followers, from Sabarmati Ashram to Dandi, to make salt in breach of the salt law."
+     },
+     {
+      "id": "quit",
+      "parent": "root",
+      "tier": 1,
+      "label": "Quit India (1942)",
+      "kind": "event",
+      "rel": "the last movement",
+      "note": "8 August 1942, Gowalia Tank, Bombay. Leadership arrested within hours under Operation Zero Hour."
+     },
+     {
+      "id": "khilafat",
+      "parent": "rowlatt",
+      "tier": 2,
+      "label": "Khilafat Movement",
+      "kind": "event",
+      "rel": "allied cause",
+      "note": "Led by the Ali brothers, Shaukat and Mohammad Ali, over the treatment of the Ottoman Caliph. Ended when Turkey abolished the Caliphate in 1924."
+     },
+     {
+      "id": "simon",
+      "parent": "dandi",
+      "tier": 2,
+      "label": "Simon Commission (1927)",
+      "kind": "event",
+      "rel": "trigger",
+      "note": "Seven British members, no Indian. Lala Lajpat Rai was injured in a lathi charge at Lahore protesting it and died weeks later."
+     },
+     {
+      "id": "lahore",
+      "parent": "dandi",
+      "tier": 2,
+      "label": "Lahore session (1929)",
+      "kind": "event",
+      "rel": "declared Purna Swaraj",
+      "note": "Presided over by Jawaharlal Nehru. Fixed 26 January 1930 as Independence Day, the date reused in 1950."
+     },
+     {
+      "id": "irwin",
+      "parent": "dandi",
+      "tier": 2,
+      "label": "Gandhi-Irwin Pact (1931)",
+      "kind": "event",
+      "rel": "suspended it",
+      "note": "Signed 5 March 1931. Political prisoners released, salt-making allowed for personal use, Gandhi to attend the Second Round Table Conference."
+     },
+     {
+      "id": "cripps",
+      "parent": "quit",
+      "tier": 2,
+      "label": "Cripps Mission (1942)",
+      "kind": "event",
+      "rel": "trigger",
+      "note": "Offered dominion status after the war. Gandhi called it \"a post-dated cheque on a crashing bank\"."
+     },
+     {
+      "id": "champaran",
+      "parent": "root",
+      "tier": 2,
+      "label": "Champaran (1917)",
+      "kind": "event",
+      "rel": "the first",
+      "note": "Against the tinkathia system forcing indigo cultivation. Rajendra Prasad and J.B. Kripalani assisted."
+     },
+     {
+      "id": "aruna",
+      "parent": "quit",
+      "tier": 2,
+      "label": "Aruna Asaf Ali",
+      "kind": "person",
+      "rel": "led in 1942",
+      "note": "Hoisted the Congress flag at Gowalia Tank after the leadership was arrested. Called the heroine of the 1942 movement."
+     },
+     {
+      "id": "usha",
+      "parent": "quit",
+      "tier": 3,
+      "label": "Usha Mehta",
+      "kind": "person",
+      "rel": "underground radio",
+      "note": "Ran the Congress Radio secretly from Bombay during Quit India."
+     },
+     {
+      "id": "nagpur",
+      "parent": "root",
+      "tier": 3,
+      "label": "Nagpur session (1920)",
+      "kind": "event",
+      "rel": "adopted the programme",
+      "note": "Also restructured the Congress with provincial committees on linguistic lines and a working committee."
+     },
+     {
+      "id": "bose",
+      "parent": "chauri",
+      "tier": 3,
+      "label": "Subhas Chandra Bose",
+      "kind": "person",
+      "rel": "opposed the suspension",
+      "note": "Along with Motilal Nehru and C.R. Das, criticised Gandhi for calling off Non-Cooperation. Later founded the Forward Bloc in 1939."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-1857",
+   "rank": 2,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The Revolt of 1857 and the end of Company rule",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "1857",
+    "Revolt",
+    "Company Rule",
+    "Government of India Act 1858"
+   ],
+   "hook": "Started by sepoys over a rifle cartridge, spread into a rebellion of dispossessed rulers, and ended with the Crown taking India over directly.",
+   "story": "The immediate cause was the **Enfield P-53 rifle**, whose cartridges were greased with animal fat and had to be bitten open. **Mangal Pandey** of the 34th Bengal Native Infantry attacked his officers at **Barrackpore on 29 March 1857** and was hanged on 8 April. The revolt proper began at **Meerut on 10 May 1857**, and the sepoys marched to Delhi and proclaimed the Mughal emperor **Bahadur Shah Zafar** as their leader.\n\nDeeper causes: the **Doctrine of Lapse** under Dalhousie, which annexed Satara, Jhansi and Nagpur; the annexation of **Awadh in 1856** on grounds of misgovernment, which affected a large share of the Bengal Army's recruits; the **General Service Enlistment Act 1856** requiring sepoys to serve overseas; land settlements that dispossessed talukdars; and resentment at missionary activity and social legislation.\n\nCentres and leaders: **Delhi**, Bahadur Shah Zafar with General Bakht Khan; **Kanpur**, Nana Sahib with Tantia Tope; **Lucknow**, Begum Hazrat Mahal; **Jhansi**, Rani Lakshmibai, who died fighting near Gwalior on 18 June 1858; **Bareilly**, Khan Bahadur Khan; **Bihar**, Kunwar Singh of Jagdishpur, then in his seventies; **Faizabad**, Maulvi Ahmadullah Shah.\n\nThe revolt failed. It was confined largely to the north, the Punjab and the south stayed quiet, the Sikh and Gurkha regiments sided with the British, and the leaders had no common programme. Bahadur Shah Zafar was tried and exiled to Rangoon, where he died in 1862, the last Mughal emperor.\n\nThe consequence was the **Government of India Act 1858**. The East India Company was abolished, the Board of Control and Court of Directors were replaced by a **Secretary of State for India** with a Council of fifteen, and the Governor-General became **Viceroy**, the first being **Lord Canning**. **Queen Victoria's Proclamation of 1 November 1858**, read at Allahabad, promised non-interference in religion, the end of annexation, and equality of Indians in public office. The army was reorganised on a one-to-two European-to-Indian ratio, artillery kept in British hands, and recruitment shifted to declared \"martial races\".",
+   "facts": [
+    {
+     "k": "Immediate cause",
+     "v": "Greased cartridges of the Enfield P-53 rifle"
+    },
+    {
+     "k": "First act",
+     "v": "Mangal Pandey at Barrackpore, 29 March 1857"
+    },
+    {
+     "k": "Revolt began",
+     "v": "Meerut, 10 May 1857"
+    },
+    {
+     "k": "Symbolic leader",
+     "v": "Bahadur Shah Zafar, last Mughal emperor"
+    },
+    {
+     "k": "Kanpur",
+     "v": "Nana Sahib and Tantia Tope"
+    },
+    {
+     "k": "Lucknow",
+     "v": "Begum Hazrat Mahal"
+    },
+    {
+     "k": "Jhansi",
+     "v": "Rani Lakshmibai, died 18 June 1858"
+    },
+    {
+     "k": "Consequence",
+     "v": "Government of India Act 1858; Company rule ended"
+    },
+    {
+     "k": "First Viceroy",
+     "v": "Lord Canning"
+    },
+    {
+     "k": "Queen Victoria’s Proclamation",
+     "v": "1 November 1858, at Allahabad"
+    }
+   ],
+   "timeline": [],
+   "why": "Expect leader-and-centre matching, and the distinction between the immediate cause and the underlying ones. The Act of 1858 and the title Viceroy are the standard follow-up.",
+   "map": {
+    "nodes": [
+     {
+      "id": "meerut",
+      "parent": "root",
+      "tier": 1,
+      "label": "Meerut, 10 May 1857",
+      "kind": "event",
+      "rel": "the start",
+      "note": "Sepoys of the 3rd Light Cavalry mutinied after 85 were jailed for refusing the cartridges, and marched on Delhi."
+     },
+     {
+      "id": "pandey",
+      "parent": "root",
+      "tier": 1,
+      "label": "Mangal Pandey",
+      "kind": "person",
+      "rel": "the first act",
+      "note": "29 March 1857 at Barrackpore. Hanged on 8 April 1857."
+     },
+     {
+      "id": "zafar",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bahadur Shah Zafar",
+      "kind": "person",
+      "rel": "proclaimed leader",
+      "note": "Last Mughal emperor, a poet in Urdu and Persian. Tried in 1858 and exiled to Rangoon, where he died in 1862."
+     },
+     {
+      "id": "gia1858",
+      "parent": "root",
+      "tier": 1,
+      "label": "Government of India Act, 1858",
+      "kind": "law",
+      "rel": "the consequence",
+      "note": "Abolished the East India Company, created the Secretary of State for India, and made the Governor-General a Viceroy."
+     },
+     {
+      "id": "lapse",
+      "parent": "root",
+      "tier": 1,
+      "label": "Doctrine of Lapse",
+      "kind": "concept",
+      "rel": "underlying cause",
+      "note": "Dalhousie’s policy annexing states without a natural heir. Satara 1848, Jhansi and Nagpur 1854. Abandoned after 1858."
+     },
+     {
+      "id": "canning",
+      "parent": "gia1858",
+      "tier": 2,
+      "label": "Lord Canning",
+      "kind": "person",
+      "rel": "first Viceroy",
+      "note": "Governor-General from 1856, first Viceroy from 1858. Called \"Clemency Canning\" for opposing indiscriminate reprisals."
+     },
+     {
+      "id": "victoria",
+      "parent": "gia1858",
+      "tier": 2,
+      "label": "Queen Victoria’s Proclamation",
+      "kind": "event",
+      "rel": "the promise",
+      "note": "1 November 1858. Non-interference in religion, no further annexation, equality in public employment. Called the Magna Carta of Indian liberties."
+     },
+     {
+      "id": "lakshmi",
+      "parent": "root",
+      "tier": 2,
+      "label": "Rani Lakshmibai",
+      "kind": "person",
+      "rel": "Jhansi",
+      "note": "Her state was annexed under the Doctrine of Lapse in 1854. Died in action near Gwalior, 18 June 1858."
+     },
+     {
+      "id": "nana",
+      "parent": "root",
+      "tier": 2,
+      "label": "Nana Sahib",
+      "kind": "person",
+      "rel": "Kanpur",
+      "note": "Adopted son of Peshwa Baji Rao II, denied his pension. Tantia Tope was his general, captured and hanged in 1859."
+     },
+     {
+      "id": "hazrat",
+      "parent": "root",
+      "tier": 2,
+      "label": "Begum Hazrat Mahal",
+      "kind": "person",
+      "rel": "Lucknow",
+      "note": "Led the revolt in Awadh in the name of her son Birjis Qadr, and later took refuge in Nepal."
+     },
+     {
+      "id": "awadh",
+      "parent": "lapse",
+      "tier": 2,
+      "label": "Annexation of Awadh (1856)",
+      "kind": "event",
+      "rel": "underlying cause",
+      "note": "Annexed on grounds of misgovernment. A large part of the Bengal Army was recruited from Awadh, which spread resentment through the ranks."
+     },
+     {
+      "id": "kunwar",
+      "parent": "root",
+      "tier": 3,
+      "label": "Kunwar Singh",
+      "kind": "person",
+      "rel": "Bihar",
+      "note": "Zamindar of Jagdishpur, in his seventies, who led the revolt in Bihar and died in April 1858."
+     },
+     {
+      "id": "army",
+      "parent": "gia1858",
+      "tier": 3,
+      "label": "Army reorganisation",
+      "kind": "concept",
+      "rel": "after 1857",
+      "note": "Ratio of European to Indian troops raised, artillery reserved to Europeans, and recruitment concentrated on \"martial races\"."
+     },
+     {
+      "id": "martial",
+      "parent": "army",
+      "tier": 3,
+      "label": "Martial race theory",
+      "kind": "concept",
+      "rel": "recruitment policy",
+      "note": "Sikhs, Gurkhas, Rajputs and Punjabi Muslims favoured after 1857 because their regiments had stayed loyal."
+     },
+     {
+      "id": "savarkar",
+      "parent": "root",
+      "tier": 3,
+      "label": "V.D. Savarkar",
+      "kind": "person",
+      "rel": "named it",
+      "note": "His 1909 book called the revolt \"The Indian War of Independence, 1857\". British writers called it a sepoy mutiny."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-congress",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 5,
+   "title": "The Congress: founding, the sessions that matter, and the 1907 split",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Indian National Congress",
+    "Sessions",
+    "Moderates",
+    "Extremists"
+   ],
+   "hook": "Founded by a retired British civil servant in 1885, split at Surat in 1907, reunited at Lucknow in 1916, and led by a different person almost every year.",
+   "story": "The Indian National Congress was founded in **December 1885** at Gokuldas Tejpal Sanskrit College, **Bombay**, by **A.O. Hume**, a retired Scottish member of the Indian Civil Service. Its first session had 72 delegates and was presided over by **W.C. Bonnerjee**. The Viceroy at the time was **Lord Dufferin**. The \"safety valve\" theory, that Hume founded it with British approval to channel discontent, comes from Lala Lajpat Rai and is contested.\n\n**Moderates, 1885 to 1905.** Dadabhai Naoroji, Gopal Krishna Gokhale, Surendranath Banerjee, Pherozeshah Mehta, W.C. Bonnerjee. Their method was petition, prayer and protest; their achievement was the economic critique of empire. **Dadabhai Naoroji**, the Grand Old Man of India, developed the **drain of wealth** theory in *Poverty and Un-British Rule in India* (1901), and was the first Indian elected to the British House of Commons, in 1892, for Central Finsbury.\n\n**Extremists, 1905 to 1920.** Lal-Bal-Pal: **Lala Lajpat Rai**, **Bal Gangadhar Tilak** and **Bipin Chandra Pal**, with Aurobindo Ghosh. Tilak's line, \"Swaraj is my birthright and I shall have it\", is the most quoted sentence of the period. The trigger was the **Partition of Bengal**, announced by Curzon in July 1905 and effective 16 October 1905, which produced the **Swadeshi and Boycott** movement. The partition was annulled in 1911, when the capital also moved from Calcutta to Delhi.\n\n**Sessions worth memorising.** 1885 Bombay, W.C. Bonnerjee, the first. 1886 Calcutta, Dadabhai Naoroji. 1887 Madras, Badruddin Tyabji, the first Muslim president. 1907 **Surat**, the split between Moderates and Extremists. 1916 **Lucknow**, reunion of the two factions and the **Lucknow Pact** with the Muslim League, accepting separate electorates. 1917 Calcutta, **Annie Besant**, the first woman president. 1920 Nagpur, Non-Cooperation adopted. 1924 Belgaum, the only session Gandhi presided over. 1925 Kanpur, **Sarojini Naidu**, the first Indian woman president. 1929 **Lahore**, Jawaharlal Nehru, Purna Swaraj. 1938 Haripura and 1939 Tripuri, **Subhas Chandra Bose**, who won at Tripuri against Gandhi's candidate Pattabhi Sitaramayya and then resigned, founding the **Forward Bloc** in 1939.",
+   "facts": [
+    {
+     "k": "Founded",
+     "v": "December 1885, Bombay"
+    },
+    {
+     "k": "Founder",
+     "v": "A.O. Hume"
+    },
+    {
+     "k": "First president",
+     "v": "W.C. Bonnerjee"
+    },
+    {
+     "k": "Viceroy at the founding",
+     "v": "Lord Dufferin"
+    },
+    {
+     "k": "First Muslim president",
+     "v": "Badruddin Tyabji, 1887"
+    },
+    {
+     "k": "First woman president",
+     "v": "Annie Besant, 1917"
+    },
+    {
+     "k": "First Indian woman president",
+     "v": "Sarojini Naidu, 1925"
+    },
+    {
+     "k": "Split",
+     "v": "Surat session, 1907"
+    },
+    {
+     "k": "Reunion",
+     "v": "Lucknow session, 1916, with the Lucknow Pact"
+    },
+    {
+     "k": "Only session Gandhi presided over",
+     "v": "Belgaum, 1924"
+    }
+   ],
+   "timeline": [],
+   "why": "Session, year, place and president is a four-part matching question that appears constantly. Learn the ten listed here and you cover most of what is ever asked.",
+   "map": {
+    "nodes": [
+     {
+      "id": "hume",
+      "parent": "root",
+      "tier": 1,
+      "label": "A.O. Hume",
+      "kind": "person",
+      "rel": "founded it",
+      "note": "Retired Scottish ICS officer, ornithologist. General Secretary of the Congress for its first twenty-two years."
+     },
+     {
+      "id": "surat",
+      "parent": "root",
+      "tier": 1,
+      "label": "Surat split (1907)",
+      "kind": "event",
+      "rel": "the break",
+      "note": "Moderates and Extremists split over the presidency and the pace of agitation. They reunited only in 1916."
+     },
+     {
+      "id": "lucknow",
+      "parent": "root",
+      "tier": 1,
+      "label": "Lucknow session and Pact (1916)",
+      "kind": "event",
+      "rel": "the reunion",
+      "note": "Reunited the factions and produced the Congress-League pact, in which the Congress accepted separate electorates."
+     },
+     {
+      "id": "naoroji",
+      "parent": "root",
+      "tier": 1,
+      "label": "Dadabhai Naoroji",
+      "kind": "person",
+      "rel": "Grand Old Man",
+      "note": "Drain of wealth theory. First Indian in the British House of Commons, 1892. Congress president three times."
+     },
+     {
+      "id": "tilak",
+      "parent": "surat",
+      "tier": 1,
+      "label": "Bal Gangadhar Tilak",
+      "kind": "person",
+      "rel": "Extremist leader",
+      "note": "\"Swaraj is my birthright and I shall have it.\" Started Kesari and Maratha, and the Ganapati and Shivaji festivals."
+     },
+     {
+      "id": "bengal",
+      "parent": "tilak",
+      "tier": 2,
+      "label": "Partition of Bengal (1905)",
+      "kind": "event",
+      "rel": "the trigger",
+      "note": "Announced by Curzon in July 1905, effective 16 October. Annulled in 1911 along with the shift of the capital to Delhi."
+     },
+     {
+      "id": "swadeshi",
+      "parent": "bengal",
+      "tier": 2,
+      "label": "Swadeshi and Boycott",
+      "kind": "concept",
+      "rel": "the response",
+      "note": "Boycott of British goods, promotion of Indian industry, and national education. Rabindranath Tagore wrote Amar Sonar Bangla in this period."
+     },
+     {
+      "id": "gokhale",
+      "parent": "naoroji",
+      "tier": 2,
+      "label": "Gopal Krishna Gokhale",
+      "kind": "person",
+      "rel": "Moderate leader",
+      "note": "Founded the Servants of India Society in 1905. Gandhi called him his political guru."
+     },
+     {
+      "id": "besant",
+      "parent": "root",
+      "tier": 2,
+      "label": "Annie Besant",
+      "kind": "person",
+      "rel": "first woman president",
+      "note": "1917 Calcutta session. Founded the Home Rule League in 1916 alongside Tilak’s."
+     },
+     {
+      "id": "bose",
+      "parent": "root",
+      "tier": 2,
+      "label": "Subhas Chandra Bose",
+      "kind": "person",
+      "rel": "Tripuri crisis",
+      "note": "Won the 1939 presidency against Gandhi’s candidate Pattabhi Sitaramayya, then resigned and founded the Forward Bloc."
+     },
+     {
+      "id": "lajpat",
+      "parent": "tilak",
+      "tier": 2,
+      "label": "Lala Lajpat Rai",
+      "kind": "person",
+      "rel": "Punjab Kesari",
+      "note": "Injured in a lathi charge protesting the Simon Commission at Lahore in October 1928 and died weeks later."
+     },
+     {
+      "id": "bonnerjee",
+      "parent": "hume",
+      "tier": 3,
+      "label": "W.C. Bonnerjee",
+      "kind": "person",
+      "rel": "first president",
+      "note": "Presided over the first session of 72 delegates at Gokuldas Tejpal Sanskrit College, Bombay."
+     },
+     {
+      "id": "tyabji",
+      "parent": "bonnerjee",
+      "tier": 3,
+      "label": "Badruddin Tyabji",
+      "kind": "person",
+      "rel": "first Muslim president",
+      "note": "Presided at Madras in 1887. Later a judge of the Bombay High Court."
+     },
+     {
+      "id": "naidu",
+      "parent": "besant",
+      "tier": 3,
+      "label": "Sarojini Naidu",
+      "kind": "person",
+      "rel": "Nightingale of India",
+      "note": "First Indian woman Congress president, Kanpur 1925. Later the first woman Governor of an Indian province, United Provinces."
+     },
+     {
+      "id": "lahore",
+      "parent": "root",
+      "tier": 3,
+      "label": "Lahore session (1929)",
+      "kind": "event",
+      "rel": "Purna Swaraj",
+      "note": "Presided over by Jawaharlal Nehru. The tricolour was unfurled on the banks of the Ravi at midnight on 31 December 1929."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-independence",
+   "rank": 4,
+   "depth": "deep",
+   "importance": 5,
+   "title": "From Cripps to Partition: the missions, plans and the Act of 1947",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Partition",
+    "Mountbatten",
+    "Cabinet Mission",
+    "Indian Independence Act"
+   ],
+   "hook": "Four attempts to settle the constitutional question in five years, and the one that finally worked did it by dividing the country.",
+   "story": "**August Offer, 1940.** Made by Viceroy Linlithgow. Dominion status after the war and an expanded Executive Council. Rejected by both the Congress and the League.\n\n**Cripps Mission, March 1942.** Sir Stafford Cripps offered dominion status after the war and the right of provinces to opt out of the union. Gandhi's verdict, \"a post-dated cheque\", is the standard quotation. Its failure led directly to Quit India.\n\n**Wavell Plan and Simla Conference, June 1945.** Proposed an Executive Council with equal Hindu and Muslim representation. Collapsed when **Jinnah** insisted the League alone could nominate Muslim members.\n\n**Cabinet Mission, March 1946.** Three members: **Pethick-Lawrence** (Secretary of State), **Stafford Cripps** and **A.V. Alexander**. It rejected Pakistan and proposed a three-tier federation with provinces grouped into sections, a weak centre handling defence, foreign affairs and communications, and a Constituent Assembly. Both parties accepted it initially with different interpretations, then the League withdrew and called **Direct Action Day on 16 August 1946**, which set off the Great Calcutta Killings. The Constituent Assembly nevertheless met on 9 December 1946 under this plan.\n\n**Mountbatten Plan, 3 June 1947.** Louis Mountbatten arrived in March 1947 as the last Viceroy, replacing Wavell, with a mandate to transfer power by June 1948; he advanced the date to August 1947. The plan provided for partition, referendums in the North West Frontier Province and Sylhet, and the right of princely states to accede to either dominion.\n\n**Indian Independence Act 1947.** Received royal assent on **18 July 1947**. Created two independent dominions from **15 August 1947**, ended British paramountcy over the princely states, and made each dominion's Constituent Assembly its legislature. The **Radcliffe Line**, drawn by **Cyril Radcliffe** who had never visited India before, divided Punjab and Bengal; the awards were published on 17 August, two days after independence.\n\nIntegration of the princely states was managed by **Sardar Vallabhbhai Patel** with **V.P. Menon**. Three held out: **Junagadh**, settled by plebiscite in February 1948; **Hyderabad**, taken by Operation Polo in September 1948; and **Jammu and Kashmir**, which acceded on 26 October 1947 after a Pakistani tribal invasion.",
+   "facts": [
+    {
+     "k": "Cripps Mission",
+     "v": "March 1942"
+    },
+    {
+     "k": "Gandhi on Cripps",
+     "v": "\"A post-dated cheque\""
+    },
+    {
+     "k": "Cabinet Mission members",
+     "v": "Pethick-Lawrence, Stafford Cripps, A.V. Alexander"
+    },
+    {
+     "k": "Direct Action Day",
+     "v": "16 August 1946"
+    },
+    {
+     "k": "Mountbatten Plan",
+     "v": "3 June 1947"
+    },
+    {
+     "k": "Indian Independence Act",
+     "v": "Assent 18 July 1947, effective 15 August 1947"
+    },
+    {
+     "k": "Boundary Commission chairman",
+     "v": "Cyril Radcliffe"
+    },
+    {
+     "k": "Hyderabad",
+     "v": "Operation Polo, September 1948"
+    },
+    {
+     "k": "Jammu and Kashmir acceded",
+     "v": "26 October 1947"
+    },
+    {
+     "k": "Last Viceroy",
+     "v": "Louis Mountbatten; first Governor-General of independent India"
+    }
+   ],
+   "timeline": [
+    {
+     "when": "1940",
+     "what": "August Offer"
+    },
+    {
+     "when": "1942",
+     "what": "Cripps Mission and Quit India"
+    },
+    {
+     "when": "1945",
+     "what": "Wavell Plan and Simla Conference"
+    },
+    {
+     "when": "1946",
+     "what": "Cabinet Mission; Direct Action Day, 16 August"
+    },
+    {
+     "when": "1947",
+     "what": "Mountbatten Plan, 3 June; Independence, 15 August"
+    },
+    {
+     "when": "1948",
+     "what": "Junagadh plebiscite; Operation Polo in Hyderabad"
+    }
+   ],
+   "why": "Mission-to-year matching is a standard question, and so is who was in the Cabinet Mission. The trap is confusing the Cripps Mission with the Cabinet Mission, both of which included Stafford Cripps.",
+   "map": {
+    "nodes": [
+     {
+      "id": "cabmis",
+      "parent": "root",
+      "tier": 1,
+      "label": "Cabinet Mission (1946)",
+      "kind": "event",
+      "rel": "the last federal plan",
+      "note": "Rejected Pakistan, proposed grouping of provinces and a weak centre. The Constituent Assembly was elected under it."
+     },
+     {
+      "id": "mount",
+      "parent": "root",
+      "tier": 1,
+      "label": "Mountbatten Plan (3 June 1947)",
+      "kind": "event",
+      "rel": "partition",
+      "note": "Provided for two dominions, referendums in NWFP and Sylhet, and freedom for princely states to accede."
+     },
+     {
+      "id": "act1947",
+      "parent": "root",
+      "tier": 1,
+      "label": "Indian Independence Act, 1947",
+      "kind": "law",
+      "rel": "the statute",
+      "note": "Royal assent 18 July 1947. Two dominions from 15 August, end of paramountcy, Constituent Assemblies made sovereign legislatures."
+     },
+     {
+      "id": "radcliffe",
+      "parent": "root",
+      "tier": 1,
+      "label": "Radcliffe Line",
+      "kind": "concept",
+      "rel": "the border",
+      "note": "Drawn by Cyril Radcliffe in five weeks. Awards published on 17 August 1947, after independence."
+     },
+     {
+      "id": "cripps",
+      "parent": "root",
+      "tier": 1,
+      "label": "Cripps Mission (1942)",
+      "kind": "event",
+      "rel": "the failure",
+      "note": "Offered dominion status after the war with a provincial opt-out. Its rejection led directly to Quit India."
+     },
+     {
+      "id": "jinnah",
+      "parent": "cabmis",
+      "tier": 2,
+      "label": "Muhammad Ali Jinnah",
+      "kind": "person",
+      "rel": "League leader",
+      "note": "Called Direct Action Day on 16 August 1946. First Governor-General of Pakistan."
+     },
+     {
+      "id": "direct",
+      "parent": "cabmis",
+      "tier": 2,
+      "label": "Direct Action Day",
+      "kind": "event",
+      "rel": "16 August 1946",
+      "note": "Led to the Great Calcutta Killings and communal violence in Noakhali and Bihar."
+     },
+     {
+      "id": "patel",
+      "parent": "act1947",
+      "tier": 2,
+      "label": "Sardar Vallabhbhai Patel",
+      "kind": "person",
+      "rel": "integrated the states",
+      "note": "Deputy Prime Minister and Home Minister, working with V.P. Menon. 565 princely states integrated."
+     },
+     {
+      "id": "hyd",
+      "parent": "patel",
+      "tier": 2,
+      "label": "Hyderabad",
+      "kind": "place",
+      "rel": "Operation Polo",
+      "note": "Police action in September 1948 against the Nizam, whose Razakars had resisted accession."
+     },
+     {
+      "id": "jk",
+      "parent": "patel",
+      "tier": 2,
+      "label": "Jammu and Kashmir",
+      "kind": "place",
+      "rel": "Instrument of Accession",
+      "note": "Signed by Maharaja Hari Singh on 26 October 1947 after a tribal invasion from Pakistan. Led to Article 370."
+     },
+     {
+      "id": "wavell",
+      "parent": "cabmis",
+      "tier": 2,
+      "label": "Wavell Plan (1945)",
+      "kind": "event",
+      "rel": "the failed conference",
+      "note": "Simla Conference collapsed when Jinnah demanded the sole right to nominate Muslim members."
+     },
+     {
+      "id": "junagadh",
+      "parent": "patel",
+      "tier": 3,
+      "label": "Junagadh",
+      "kind": "place",
+      "rel": "plebiscite",
+      "note": "The Nawab acceded to Pakistan; a plebiscite in February 1948 overwhelmingly favoured India."
+     },
+     {
+      "id": "nehru",
+      "parent": "act1947",
+      "tier": 3,
+      "label": "Jawaharlal Nehru",
+      "kind": "person",
+      "rel": "first Prime Minister",
+      "note": "Delivered the \"tryst with destiny\" speech at midnight on 14 August 1947."
+     },
+     {
+      "id": "mountgg",
+      "parent": "mount",
+      "tier": 3,
+      "label": "Mountbatten as Governor-General",
+      "kind": "person",
+      "rel": "stayed on",
+      "note": "Continued as Governor-General of India until June 1948. C. Rajagopalachari succeeded him as the last Governor-General."
+     },
+     {
+      "id": "august",
+      "parent": "cripps",
+      "tier": 3,
+      "label": "August Offer (1940)",
+      "kind": "event",
+      "rel": "the first attempt",
+      "note": "Made by Linlithgow. Rejected by both Congress and the League."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-company",
+   "rank": 5,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Company rule: Plassey, Buxar, and how land revenue was settled",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Plassey",
+    "Buxar",
+    "Permanent Settlement",
+    "Charter Acts"
+   ],
+   "hook": "A battle won by bribery in 1757, a battle won properly in 1764, and three revenue systems that shaped rural India for two centuries.",
+   "story": "**Battle of Plassey, 23 June 1757.** **Robert Clive** defeated **Siraj-ud-Daulah**, Nawab of Bengal, after buying off his commander **Mir Jafar**, who was installed in his place. The fighting was slight; the consequence was that the Company became the effective power in Bengal.\n\n**Battle of Buxar, 22 October 1764.** Hector Munro defeated the combined forces of **Mir Qasim**, **Shuja-ud-Daulah** of Awadh and the Mughal emperor **Shah Alam II**. This was the decisive military victory. The **Treaty of Allahabad (1765)** gave the Company the **Diwani**, the right to collect revenue in Bengal, Bihar and Orissa, in exchange for an annual payment to the emperor. The result was the **dual government** in Bengal, revenue with the Company and administration with the Nawab, which Warren Hastings ended in 1772.\n\n**Regulating Act 1773.** The first parliamentary intervention. Made the Governor of Bengal the **Governor-General of Bengal**, the first being **Warren Hastings**, with a council of four, and set up a Supreme Court at Calcutta in 1774. **Pitt's India Act 1784** created the **Board of Control**, establishing dual control by the Company and the Crown.\n\n**Charter Acts.** 1813 ended the Company's monopoly of Indian trade except in tea and with China, and allowed missionaries in. 1833 ended commercial activity entirely, made the Governor-General of Bengal the **Governor-General of India**, the first being **William Bentinck**, and provided for a Law Commission, which produced Macaulay's penal code. 1853 introduced open competition for the civil service.\n\n**Land revenue systems.** The **Permanent Settlement**, introduced by **Cornwallis in 1793** in Bengal, Bihar and Orissa, fixed the revenue demand in perpetuity and made zamindars proprietors; covering about 19% of British India, it produced absentee landlordism. The **Ryotwari system**, associated with **Thomas Munro** in Madras and **Alexander Read**, settled revenue directly with the cultivator and covered about 51%. The **Mahalwari system**, introduced by **Holt Mackenzie** in 1822 in the North-Western Provinces and revised by **William Bentinck**, settled with the village or mahal collectively and covered about 30%.",
+   "facts": [
+    {
+     "k": "Battle of Plassey",
+     "v": "23 June 1757; Clive against Siraj-ud-Daulah"
+    },
+    {
+     "k": "Battle of Buxar",
+     "v": "22 October 1764"
+    },
+    {
+     "k": "Treaty of Allahabad",
+     "v": "1765; Diwani of Bengal, Bihar and Orissa"
+    },
+    {
+     "k": "First Governor-General of Bengal",
+     "v": "Warren Hastings, under the Regulating Act 1773"
+    },
+    {
+     "k": "First Governor-General of India",
+     "v": "William Bentinck, under the Charter Act 1833"
+    },
+    {
+     "k": "Permanent Settlement",
+     "v": "Cornwallis, 1793, Bengal"
+    },
+    {
+     "k": "Ryotwari system",
+     "v": "Thomas Munro, Madras and Bombay"
+    },
+    {
+     "k": "Mahalwari system",
+     "v": "Holt Mackenzie, 1822, North-Western Provinces"
+    },
+    {
+     "k": "Board of Control created by",
+     "v": "Pitt’s India Act, 1784"
+    }
+   ],
+   "timeline": [],
+   "why": "Plassey against Buxar is the classic trap: Plassey made the Company powerful, Buxar made it legitimate. Revenue systems are matched to their author and region.",
+   "map": {
+    "nodes": [
+     {
+      "id": "plassey",
+      "parent": "root",
+      "tier": 1,
+      "label": "Battle of Plassey (1757)",
+      "kind": "event",
+      "rel": "the beginning",
+      "note": "23 June 1757. Clive defeated Siraj-ud-Daulah after Mir Jafar defected. Mir Jafar became Nawab."
+     },
+     {
+      "id": "buxar",
+      "parent": "root",
+      "tier": 1,
+      "label": "Battle of Buxar (1764)",
+      "kind": "event",
+      "rel": "the decisive one",
+      "note": "22 October 1764. Defeated Mir Qasim, Shuja-ud-Daulah and Shah Alam II together."
+     },
+     {
+      "id": "allahabad",
+      "parent": "buxar",
+      "tier": 1,
+      "label": "Treaty of Allahabad (1765)",
+      "kind": "event",
+      "rel": "legal title",
+      "note": "Granted the Company the Diwani of Bengal, Bihar and Orissa in return for an annual tribute to Shah Alam II."
+     },
+     {
+      "id": "permanent",
+      "parent": "root",
+      "tier": 1,
+      "label": "Permanent Settlement (1793)",
+      "kind": "concept",
+      "rel": "revenue",
+      "note": "Cornwallis fixed the demand in perpetuity and made zamindars proprietors. About 19% of British India."
+     },
+     {
+      "id": "ryotwari",
+      "parent": "permanent",
+      "tier": 1,
+      "label": "Ryotwari system",
+      "kind": "concept",
+      "rel": "revenue",
+      "note": "Settlement directly with the cultivator, associated with Thomas Munro in Madras. About 51% of British India."
+     },
+     {
+      "id": "mahalwari",
+      "parent": "permanent",
+      "tier": 2,
+      "label": "Mahalwari system",
+      "kind": "concept",
+      "rel": "revenue",
+      "note": "Village-level settlement introduced by Holt Mackenzie in 1822 and revised under Bentinck. About 30%."
+     },
+     {
+      "id": "regulating",
+      "parent": "root",
+      "tier": 2,
+      "label": "Regulating Act, 1773",
+      "kind": "law",
+      "rel": "first intervention",
+      "note": "Created the Governor-General of Bengal and a Supreme Court at Calcutta. Warren Hastings was the first holder."
+     },
+     {
+      "id": "pitts",
+      "parent": "regulating",
+      "tier": 2,
+      "label": "Pitt’s India Act, 1784",
+      "kind": "law",
+      "rel": "dual control",
+      "note": "Created the Board of Control, giving the Crown authority over political matters while the Company kept commerce."
+     },
+     {
+      "id": "charter1833",
+      "parent": "regulating",
+      "tier": 2,
+      "label": "Charter Act, 1833",
+      "kind": "law",
+      "rel": "centralisation",
+      "note": "Made Bentinck Governor-General of India, ended the Company’s commercial functions, and provided for a Law Commission."
+     },
+     {
+      "id": "clive",
+      "parent": "plassey",
+      "tier": 2,
+      "label": "Robert Clive",
+      "kind": "person",
+      "rel": "won Plassey",
+      "note": "Twice Governor of Bengal. Introduced the dual government in 1765. Impeached in Britain and died in 1774."
+     },
+     {
+      "id": "hastings",
+      "parent": "regulating",
+      "tier": 2,
+      "label": "Warren Hastings",
+      "kind": "person",
+      "rel": "first Governor-General",
+      "note": "Ended dual government in 1772. Impeached in Britain in a trial that lasted from 1788 to 1795 and ended in acquittal."
+     },
+     {
+      "id": "macaulay",
+      "parent": "charter1833",
+      "tier": 2,
+      "label": "Macaulay’s Minute (1835)",
+      "kind": "event",
+      "rel": "education",
+      "note": "Argued for English education. Bentinck’s resolution made English the medium of instruction and the language of the higher courts."
+     },
+     {
+      "id": "dual",
+      "parent": "allahabad",
+      "tier": 3,
+      "label": "Dual government",
+      "kind": "concept",
+      "rel": "1765 to 1772",
+      "note": "Revenue with the Company, administration with the Nawab. Neither was accountable, and the Bengal famine of 1770 followed."
+     },
+     {
+      "id": "bentinck",
+      "parent": "charter1833",
+      "tier": 3,
+      "label": "William Bentinck",
+      "kind": "person",
+      "rel": "reformer",
+      "note": "Abolished sati in 1829 with Raja Ram Mohan Roy’s support, and suppressed thuggee."
+     },
+     {
+      "id": "cornwallis",
+      "parent": "permanent",
+      "tier": 3,
+      "label": "Lord Cornwallis",
+      "kind": "person",
+      "rel": "the settlement",
+      "note": "Also created the Cornwallis Code and separated revenue from judicial functions. Called the father of the Indian civil service."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "his-reform",
+   "rank": 6,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Social and religious reform movements and their founders",
+   "date": "",
+   "category": "History",
+   "tags": [
+    "Social Reform",
+    "Raja Ram Mohan Roy",
+    "Arya Samaj",
+    "Brahmo Samaj"
+   ],
+   "hook": "A matching question waiting to happen: nine movements, nine founders, nine years, and the reforms each of them pushed through.",
+   "story": "**Brahmo Samaj**, founded by **Raja Ram Mohan Roy** in **1828** in Calcutta, originally as the Brahmo Sabha. Monotheistic, against idolatry and caste. Roy campaigned successfully for the abolition of **sati**, which Bentinck banned by regulation in **1829**. Debendranath Tagore and later **Keshab Chandra Sen** led it; Sen's faction pushed the **Native Marriage Act 1872**, which set minimum marriage ages.\n\n**Prarthana Samaj**, Bombay, **1867**, founded by Atmaram Pandurang and led by **M.G. Ranade** and R.G. Bhandarkar. Focused on widow remarriage and women's education rather than doctrine.\n\n**Arya Samaj**, founded by **Swami Dayanand Saraswati** in **1875** in Bombay. Slogan: \"Back to the Vedas\". Rejected idol worship, child marriage and untouchability, and began **shuddhi**, reconversion. His book is *Satyarth Prakash*.\n\n**Ramakrishna Mission**, founded by **Swami Vivekananda** in **1897** at Belur, in memory of his teacher **Ramakrishna Paramahansa**. Vivekananda's address to the **Parliament of Religions in Chicago on 11 September 1893** is the standard reference.\n\n**Theosophical Society**, founded in New York in **1875** by **Madame H.P. Blavatsky** and **Colonel H.S. Olcott**, moved its headquarters to **Adyar, Madras, in 1882**. **Annie Besant** later led it and founded the Central Hindu College at Banaras in 1898, which grew into Banaras Hindu University under Madan Mohan Malaviya.\n\n**Aligarh Movement**, **Sir Syed Ahmad Khan**, who founded the Mohammedan Anglo-Oriental College at Aligarh in **1875**, later Aligarh Muslim University. Argued for modern education and against Muslim participation in the Congress.\n\n**Satyashodhak Samaj**, founded by **Jyotiba Phule** in **1873** in Pune, against Brahminical dominance. With **Savitribai Phule** he opened the first school for girls in Pune in 1848. His book is *Gulamgiri* (1873).\n\n**Self-Respect Movement**, **E.V. Ramasamy, Periyar**, Tamil Nadu, **1925**. **Sri Narayana Guru** led the Ezhava movement in Kerala with the slogan \"One caste, one religion, one God for man\"; the **Vaikom Satyagraha** of 1924-25 over temple-road access grew out of it.\n\nLegislation to remember: **Sati abolished 1829**; **Hindu Widows' Remarriage Act 1856**, pushed by **Ishwar Chandra Vidyasagar**; **Age of Consent Act 1891**; **Sharda Act 1929**, raising the marriage age to 14 for girls and 18 for boys.",
+   "facts": [
+    {
+     "k": "Brahmo Samaj",
+     "v": "Raja Ram Mohan Roy, 1828"
+    },
+    {
+     "k": "Sati abolished",
+     "v": "1829, under Lord William Bentinck"
+    },
+    {
+     "k": "Arya Samaj",
+     "v": "Swami Dayanand Saraswati, 1875, \"Back to the Vedas\""
+    },
+    {
+     "k": "Ramakrishna Mission",
+     "v": "Swami Vivekananda, 1897, Belur"
+    },
+    {
+     "k": "Vivekananda at Chicago",
+     "v": "11 September 1893, Parliament of Religions"
+    },
+    {
+     "k": "Theosophical Society",
+     "v": "1875 New York; Adyar headquarters from 1882"
+    },
+    {
+     "k": "Aligarh Movement",
+     "v": "Sir Syed Ahmad Khan, MAO College 1875"
+    },
+    {
+     "k": "Satyashodhak Samaj",
+     "v": "Jyotiba Phule, 1873, Pune"
+    },
+    {
+     "k": "Widow Remarriage Act",
+     "v": "1856, Ishwar Chandra Vidyasagar"
+    },
+    {
+     "k": "Sharda Act",
+     "v": "1929, marriage age 14 for girls and 18 for boys"
+    }
+   ],
+   "timeline": [],
+   "why": "Founder-movement-year matching is asked almost every year, often paired with one social legislation date. Learn Roy with 1828 and sati with 1829, and the rest follows.",
+   "map": {
+    "nodes": [
+     {
+      "id": "roy",
+      "parent": "root",
+      "tier": 1,
+      "label": "Raja Ram Mohan Roy",
+      "kind": "person",
+      "rel": "Brahmo Samaj",
+      "note": "Founded the Brahmo Sabha in 1828. Campaigned against sati. Called the father of the Indian Renaissance. Died at Bristol in 1833."
+     },
+     {
+      "id": "dayanand",
+      "parent": "root",
+      "tier": 1,
+      "label": "Swami Dayanand Saraswati",
+      "kind": "person",
+      "rel": "Arya Samaj",
+      "note": "Founded 1875. \"Back to the Vedas\". Wrote Satyarth Prakash and began the shuddhi reconversion movement."
+     },
+     {
+      "id": "vivek",
+      "parent": "root",
+      "tier": 1,
+      "label": "Swami Vivekananda",
+      "kind": "person",
+      "rel": "Ramakrishna Mission",
+      "note": "Founded 1897 at Belur. His Chicago address of 11 September 1893 opened with \"Sisters and brothers of America\"."
+     },
+     {
+      "id": "phule",
+      "parent": "root",
+      "tier": 1,
+      "label": "Jyotiba Phule",
+      "kind": "person",
+      "rel": "Satyashodhak Samaj",
+      "note": "Founded 1873. Opened the first school for girls in Pune in 1848 with Savitribai Phule. Wrote Gulamgiri."
+     },
+     {
+      "id": "sati",
+      "parent": "roy",
+      "tier": 1,
+      "label": "Abolition of sati (1829)",
+      "kind": "event",
+      "rel": "the first reform",
+      "note": "Bengal Sati Regulation, passed under Lord William Bentinck with Roy’s support."
+     },
+     {
+      "id": "syed",
+      "parent": "root",
+      "tier": 2,
+      "label": "Sir Syed Ahmad Khan",
+      "kind": "person",
+      "rel": "Aligarh Movement",
+      "note": "Founded the Mohammedan Anglo-Oriental College in 1875, which became Aligarh Muslim University in 1920."
+     },
+     {
+      "id": "vidyasagar",
+      "parent": "sati",
+      "tier": 2,
+      "label": "Ishwar Chandra Vidyasagar",
+      "kind": "person",
+      "rel": "widow remarriage",
+      "note": "Drove the Hindu Widows’ Remarriage Act 1856 and campaigned against child marriage and polygamy."
+     },
+     {
+      "id": "theo",
+      "parent": "root",
+      "tier": 2,
+      "label": "Theosophical Society",
+      "kind": "org",
+      "rel": "1875",
+      "note": "Founded in New York by Blavatsky and Olcott, headquarters at Adyar from 1882. Annie Besant later president."
+     },
+     {
+      "id": "periyar",
+      "parent": "phule",
+      "tier": 2,
+      "label": "E.V. Ramasamy Periyar",
+      "kind": "person",
+      "rel": "Self-Respect Movement",
+      "note": "Founded 1925 in Tamil Nadu. Anti-caste and rationalist; later founded the Dravidar Kazhagam."
+     },
+     {
+      "id": "narayana",
+      "parent": "phule",
+      "tier": 2,
+      "label": "Sri Narayana Guru",
+      "kind": "person",
+      "rel": "Ezhava movement",
+      "note": "\"One caste, one religion, one God for man.\" Founded the SNDP Yogam in Kerala in 1903."
+     },
+     {
+      "id": "vaikom",
+      "parent": "narayana",
+      "tier": 2,
+      "label": "Vaikom Satyagraha (1924-25)",
+      "kind": "event",
+      "rel": "temple roads",
+      "note": "Campaign for lower-caste access to roads around the Vaikom temple in Travancore. Gandhi visited in 1925."
+     },
+     {
+      "id": "prarthana",
+      "parent": "roy",
+      "tier": 2,
+      "label": "Prarthana Samaj",
+      "kind": "org",
+      "rel": "1867",
+      "note": "Bombay, founded by Atmaram Pandurang, led by M.G. Ranade and R.G. Bhandarkar."
+     },
+     {
+      "id": "sharda",
+      "parent": "vidyasagar",
+      "tier": 3,
+      "label": "Sharda Act (1929)",
+      "kind": "law",
+      "rel": "child marriage",
+      "note": "Child Marriage Restraint Act. Marriage age set at 14 for girls and 18 for boys, raised later."
+     },
+     {
+      "id": "besant",
+      "parent": "theo",
+      "tier": 3,
+      "label": "Annie Besant",
+      "kind": "person",
+      "rel": "Theosophist and Congress president",
+      "note": "Founded the Home Rule League in 1916 and the Central Hindu College at Banaras in 1898."
+     },
+     {
+      "id": "keshab",
+      "parent": "roy",
+      "tier": 3,
+      "label": "Keshab Chandra Sen",
+      "kind": "person",
+      "rel": "split the Brahmos",
+      "note": "His faction secured the Native Marriage Act 1872, setting minimum ages for marriage."
+     }
+    ]
+   },
+   "sources": []
+  }
+ ],
+ "passages": [
+  {
+   "id": "history-p1",
+   "kind": "static",
+   "month": "history",
+   "topicIds": [
+    "his-gandhi-movements"
+   ],
+   "category": "History",
+   "tags": [
+    "Non-Cooperation",
+    "Chauri Chaura"
+   ],
+   "difficulty": 2,
+   "title": "The movement called off",
+   "passage": "The movement launched at the end of 1920 was the first attempt to make Indian nationalism a mass affair rather than a conversation between lawyers. Its programme was withdrawal: students left government schools, lawyers gave up practice, voters boycotted the new councils, and foreign cloth was burned in public. Two grievances had brought an unusual coalition together. One was a wartime security law that permitted detention without trial, and the massacre at Amritsar that followed the protests against it. The other was the treatment of the Ottoman Caliph after the war, which mobilised Muslim opinion behind a leadership that had until then kept its distance from the Congress.\n\nFor about eighteen months the movement grew. Then, in February 1922, a procession in a small town in the United Provinces was fired upon by police, turned on the police station, and burned it with twenty-two policemen inside. Within a week the leader of the movement had suspended it entirely, arguing that a people not yet capable of discipline under provocation could not be trusted with a mass campaign. He was arrested the following month, tried for sedition, and sentenced to six years.\n\nThe suspension split the leadership. Two senior figures who had given up lucrative legal practices to join the campaign formed a new party to contest the very council elections the movement had boycotted, on the argument that obstruction from inside the councils was better than nothing at all. A younger leader from Bengal never forgave the decision and would spend the next two decades arguing that the struggle needed methods the leadership was unwilling to countenance.\n\nThe alliance that had made the movement possible did not survive either. The grievance that had brought it about was resolved not in India but in Turkey, where the Caliphate was abolished in 1924 by a government with no interest in Indian opinion.",
+   "questions": [
+    {
+     "q": "The town where the police station was burned in February 1922 is:",
+     "options": [
+      "Chauri Chaura",
+      "Champaran",
+      "Kheda",
+      "Bardoli"
+     ],
+     "answer": 0,
+     "explain": "Chauri Chaura in Gorakhpur district, on 5 February 1922. Champaran and Kheda were 1917-18 satyagrahas; Bardoli was the 1928 no-tax campaign led by Vallabhbhai Patel."
+    },
+    {
+     "q": "The wartime security law referred to in the first paragraph is the:",
+     "options": [
+      "Vernacular Press Act",
+      "Rowlatt Act",
+      "Government of India Act 1919",
+      "Defence of India Act 1962"
+     ],
+     "answer": 1,
+     "explain": "The Rowlatt Act of 1919, popularly summarised as \"no vakil, no appeal, no daleel\". The protests against it led to the Jallianwala Bagh massacre on 13 April 1919."
+    },
+    {
+     "q": "The new party formed by the two senior figures described in the third paragraph was the:",
+     "options": [
+      "Forward Bloc",
+      "Swaraj Party",
+      "Independence for India League",
+      "Congress Socialist Party"
+     ],
+     "answer": 1,
+     "explain": "The Swaraj Party, founded in 1923 by Motilal Nehru and C.R. Das to contest council elections. The Forward Bloc was founded by Subhas Chandra Bose in 1939."
+    },
+    {
+     "q": "The younger leader from Bengal referred to in the same paragraph is most likely:",
+     "options": [
+      "Bipin Chandra Pal",
+      "Rabindranath Tagore",
+      "Subhas Chandra Bose",
+      "Surendranath Banerjee"
+     ],
+     "answer": 2,
+     "explain": "Subhas Chandra Bose, who criticised the suspension and later broke with Gandhi over methods, eventually leading the Indian National Army."
+    },
+    {
+     "q": "Which statement about the alliance described in the passage is accurate?",
+     "options": [
+      "It ended when the Congress withdrew from it in 1922",
+      "It ended because the Caliphate was abolished in Turkey in 1924",
+      "It was never formally agreed to by Muslim leaders",
+      "It continued until the Lucknow Pact of 1916"
+     ],
+     "answer": 1,
+     "explain": "The Khilafat cause collapsed when Mustafa Kemal’s government abolished the Caliphate in 1924. The Lucknow Pact of 1916 predates this movement entirely."
+    }
+   ]
+  }
+ ]
 }
