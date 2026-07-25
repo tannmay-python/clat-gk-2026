@@ -3236,6 +3236,376 @@
      "explain": "A process-based charge raises national treatment and most favoured nation questions."
     }
    ]
+  },
+  {
+   "id": "may26-p4",
+   "kind": "static",
+   "month": "2026-05",
+   "topicIds": [
+    "may26-sc-strength"
+   ],
+   "category": "Polity",
+   "tags": [
+    "Supreme Court",
+    "Collegium",
+    "Article 124"
+   ],
+   "difficulty": 3,
+   "title": "Counting judges",
+   "passage": "The number is not in the Constitution. The relevant article provides for a Chief Justice and such number of other judges as Parliament may by law prescribe, and fixes a floor of seven until Parliament acts. The court opened in 1950 with eight judges including the Chief Justice, and Parliament has legislated seven times since to raise the ceiling, most recently to thirty-four in 2019 and now to thirty-eight.\n\nEach increase has been justified on the same ground and followed by the same result. The argument is arrears; the counter-argument, made every time, is that the arrears are not at the top. Something like eighty thousand matters are pending before the apex court, over sixty lakh before the High Courts, and more than four and a half crore before the district judiciary, where an ordinary litigant actually waits. Adding four judges to a court that already sits mostly in benches of two also multiplies the number of two-judge decisions, which multiplies conflicts between them, which produces references to larger benches, which is itself a source of delay.\n\nNothing in the change touches how the judges arrive. That process is not in the Constitution either. The text says appointments are made by the President after consultation with such judges as he considers necessary, and for decades consultation meant what it says. Three decisions between 1981 and 1998 converted consultation into concurrence and then into a recommendation by the Chief Justice acting with a plurality of senior colleagues, an arrangement the Constitution nowhere describes. Parliament tried to replace it in 2014 with a commission including the Law Minister and two eminent persons; a five-judge bench struck down both the amendment and the Act the following year, holding that the primacy of the judiciary in appointments is part of the basic structure.\n\nWhat remains is a memorandum of procedure the two sides have never finalised, a recurring quarrel about names returned and resent, and now four more vacancies to fill by the same route.",
+   "questions": [
+    {
+     "q": "The floor fixed by the Constitution until Parliament legislates is:",
+     "options": [
+      "Five other judges",
+      "Seven other judges",
+      "Ten other judges",
+      "Thirteen other judges"
+     ],
+     "answer": 1,
+     "explain": "Article 124(1) provides for a Chief Justice and seven other judges until Parliament prescribes more."
+    },
+    {
+     "q": "On the passage, the main objection to raising the number is that:",
+     "options": [
+      "It costs too much",
+      "The backlog is in the lower courts, not the apex court",
+      "The Constitution forbids it",
+      "It requires a constitutional amendment"
+     ],
+     "answer": 1,
+     "explain": "The passage locates the real backlog in the district judiciary."
+    },
+    {
+     "q": "The three decisions between 1981 and 1998 are collectively known as the:",
+     "options": [
+      "Judges cases",
+      "Basic structure cases",
+      "Emergency cases",
+      "Election cases"
+     ],
+     "answer": 0,
+     "explain": "The First, Second and Third Judges cases, which created the collegium."
+    },
+    {
+     "q": "The 2014 body Parliament tried to create was the:",
+     "options": [
+      "National Judicial Commission",
+      "National Judicial Appointments Commission",
+      "Judicial Standards Commission",
+      "Judicial Accountability Authority"
+     ],
+     "answer": 1,
+     "explain": "The NJAC, established by the 99th Amendment and struck down in 2015."
+    },
+    {
+     "q": "The ground on which it was struck down was that:",
+     "options": [
+      "It violated Article 14",
+      "Judicial primacy in appointments is part of the basic structure",
+      "It was passed as a money bill",
+      "It lacked presidential assent"
+     ],
+     "answer": 1,
+     "explain": "The Fourth Judges case held judicial primacy in appointments to be a basic feature."
+    }
+   ]
+  },
+  {
+   "id": "may26-p5",
+   "kind": "static",
+   "month": "2026-05",
+   "topicIds": [
+    "may26-assam-ucc"
+   ],
+   "category": "Polity",
+   "tags": [
+    "Uniform Civil Code",
+    "Article 44",
+    "Personal Law"
+   ],
+   "difficulty": 3,
+   "title": "An endeavour, not a command",
+   "passage": "The provision is one sentence long and sits in the part of the Constitution that courts may not enforce. It says the state shall endeavour to secure for the citizens a uniform civil code throughout the territory of India. The Constituent Assembly debated it for a day. Members from the minority benches moved amendments requiring the prior consent of the communities affected; the amendments were defeated, but the chairman of the drafting committee told the House in reply that the article was permissive, that it merely gave the state power it might never exercise, and that no future government would be so unwise as to impose a code on an unwilling population.\n\nSeventy-five years later two state legislatures have done what the Union has not. The route is a matter of legislative lists: personal law, including marriage, divorce, infants and minors, adoption, wills, intestacy and succession, appears in the concurrent list, so a state may legislate on it. Where a state law conflicts with an existing central law, it prevails within that state if it has been reserved for and received the assent of the President.\n\nThe state that went first exempted its scheduled tribes, and the second faced the same question in a sharper form, having a substantial population governed by customary law under a schedule of the Constitution that gives autonomous district councils power over marriage and inheritance among themselves.\n\nThe argument for is judicial. Courts have twice pressed the point in maintenance and conversion cases, observing that a common code would help national integration and remove contradictions based on conflicting ideologies. The argument against rests on the freedom to profess and practise religion, and on the observation that the one territory often described as already having such a code inherited it from a colonial power in 1867 and applies it with several community-specific exceptions, which makes it a poor advertisement for uniformity.",
+   "questions": [
+    {
+     "q": "The provision described is:",
+     "options": [
+      "Article 25",
+      "Article 37",
+      "Article 44",
+      "Article 48"
+     ],
+     "answer": 2,
+     "explain": "Article 44, a Directive Principle of State Policy."
+    },
+    {
+     "q": "The chairman of the drafting committee who replied in the debate was:",
+     "options": [
+      "Rajendra Prasad",
+      "B.R. Ambedkar",
+      "K.M. Munshi",
+      "Alladi Krishnaswami Ayyar"
+     ],
+     "answer": 1,
+     "explain": "Ambedkar chaired the drafting committee and answered the amendments on Article 44."
+    },
+    {
+     "q": "A state may legislate on personal law because it appears in the:",
+     "options": [
+      "Union List",
+      "State List",
+      "Concurrent List",
+      "Residuary powers"
+     ],
+     "answer": 2,
+     "explain": "Entry 5 of the Concurrent List covers marriage, divorce, adoption and succession."
+    },
+    {
+     "q": "A state law repugnant to a central law prevails in that state if:",
+     "options": [
+      "It is passed by a two-thirds majority",
+      "It receives the assent of the President",
+      "It is ratified by half the states",
+      "It is notified in the Gazette"
+     ],
+     "answer": 1,
+     "explain": "Article 254(2) requires reservation for and assent of the President."
+    },
+    {
+     "q": "The territory described as already having such a code:",
+     "options": [
+      "Has a modern uniform code applying to all",
+      "Applies a code inherited in 1867 with community-specific exceptions",
+      "Has no personal law at all",
+      "Follows the central law entirely"
+     ],
+     "answer": 1,
+     "explain": "Goa applies the Portuguese Civil Code of 1867 with several exceptions."
+    }
+   ]
+  },
+  {
+   "id": "may26-p6",
+   "kind": "static",
+   "month": "2026-05",
+   "topicIds": [
+    "may26-rbi-surplus"
+   ],
+   "category": "Economy",
+   "tags": [
+    "RBI",
+    "Surplus",
+    "Section 47"
+   ],
+   "difficulty": 2,
+   "title": "What a central bank does with its profit",
+   "passage": "It is routinely called a dividend and it is not one. A central bank has no shareholders in the ordinary sense; the governing statute of 1934 simply provides that after making provision for bad and doubtful debts, depreciation in assets, contributions to staff and superannuation funds and all other matters for which provision is customarily made, the balance of the profits shall be paid to the central government.\n\nThe profits come from three places. The bank holds a large portfolio of government securities and earns interest on them. It holds foreign assets and earns a return on those. And it buys and sells foreign currency in the market, booking the difference between the historical rate at which the dollars were acquired and the rate at which they are sold, which in a year of heavy intervention can be the largest single item.\n\nHow much is retained rather than paid over is not left to discretion. A committee that reported in 2019 recommended a framework under which the bank holds a contingent risk buffer within a band expressed as a percentage of its balance sheet, to absorb monetary and financial stability risks; the framework was revised in 2025 and the band widened. Whatever sits above the level chosen within that band flows to the government. A large transfer therefore reflects two separate things: a profitable year, and a decision about how much cushion to keep.\n\nFor the budget the money appears under non-tax revenue, alongside dividends from public sector undertakings and receipts from spectrum. A transfer above what was assumed gives the government room to spend more or to hold the deficit below target without cutting anything, which is why the figure is watched. The standing objection is that a government which builds its arithmetic around this line becomes interested in how large the buffer is, and a central bank whose cushion is set by someone with an interest in it being small has a problem it cannot solve with monetary policy.",
+   "questions": [
+    {
+     "q": "The transfer is made under:",
+     "options": [
+      "Section 7 of the RBI Act",
+      "Section 47 of the RBI Act",
+      "The Banking Regulation Act",
+      "The FRBM Act"
+     ],
+     "answer": 1,
+     "explain": "Section 47 provides for surplus profits to be paid to the central government."
+    },
+    {
+     "q": "Which is NOT given in the passage as a source of the bank's profits?",
+     "options": [
+      "Interest on government securities",
+      "Returns on foreign assets",
+      "Gains on foreign exchange sales",
+      "Fees charged to commercial banks"
+     ],
+     "answer": 3,
+     "explain": "The passage lists the first three only."
+    },
+    {
+     "q": "The 2019 committee recommended a framework centred on:",
+     "options": [
+      "An inflation target",
+      "A contingent risk buffer as a band of the balance sheet",
+      "A fixed dividend ratio",
+      "A cap on foreign exchange reserves"
+     ],
+     "answer": 1,
+     "explain": "The economic capital framework recommended by the Bimal Jalan Committee."
+    },
+    {
+     "q": "In the Union Budget the transfer appears as:",
+     "options": [
+      "Tax revenue",
+      "Non-tax revenue",
+      "Capital receipts",
+      "Borrowings"
+     ],
+     "answer": 1,
+     "explain": "Non-tax revenue, with PSU dividends and spectrum receipts."
+    },
+    {
+     "q": "The objection stated in the last paragraph is essentially about:",
+     "options": [
+      "Inflation",
+      "Central bank independence",
+      "Exchange rate policy",
+      "Tax buoyancy"
+     ],
+     "answer": 1,
+     "explain": "That a government dependent on the transfer acquires an interest in the size of the buffer."
+    }
+   ]
+  },
+  {
+   "id": "may26-p7",
+   "kind": "static",
+   "month": "2026-05",
+   "topicIds": [
+    "may26-iora"
+   ],
+   "category": "International Relations",
+   "tags": [
+    "IORA",
+    "Indian Ocean",
+    "Maritime"
+   ],
+   "difficulty": 2,
+   "title": "An association with no teeth, on purpose",
+   "passage": "Twenty-three states sit around one ocean and belong to a body founded in 1997 on a Mauritian initiative, with a secretariat on that island. The only qualification for membership is a coastline on the ocean in question, which is why the membership includes states at war with each other's allies, states of wildly different size, and states with almost nothing in common beyond salt water. One applicant has been kept out for two decades because admission requires consensus and one member will not give it.\n\nThe body works through six priority areas: maritime safety and security, trade and investment facilitation, fisheries management, disaster risk management, academic and scientific cooperation, and tourism, with the blue economy and women's economic empowerment running across all of them. It has no security function, no standing force, and no dispute mechanism. That is usually described as a weakness; it is at least as accurate to call it the condition on which a membership this heterogeneous holds together at all.\n\nIndia took the rotating chair for the 2025 to 2027 term. Its own framing of the region has moved twice. A doctrine announced at Mauritius in 2015 gave the acronym for security and growth for all in the region, and was recast a decade later under a longer name extending the same idea to Africa and the wider global south. Alongside it India runs a fusion centre near Delhi that shares merchant shipping tracks with partner navies, and a five-country security conclave with its immediate maritime neighbours.\n\nThe context is competition it cannot name in a communiqué. Port investment and naval deployment by a state that is only a dialogue partner, the disruption and partial reopening of the Red Sea route, and a corridor agreed at a summit in New Delhi in 2023 that would run from Indian ports through the Gulf to Europe all cross the same water, and none of them are on the agenda of the six priority areas.",
+   "questions": [
+    {
+     "q": "The body described was founded in:",
+     "options": [
+      "1985",
+      "1997",
+      "2003",
+      "2015"
+     ],
+     "answer": 1,
+     "explain": "The Indian Ocean Rim Association was founded in 1997, with its secretariat in Mauritius."
+    },
+    {
+     "q": "The sole qualification for membership is:",
+     "options": [
+      "Membership of the Commonwealth",
+      "A coastline on the Indian Ocean",
+      "A minimum trade volume",
+      "Signature of UNCLOS"
+     ],
+     "answer": 1,
+     "explain": "Any sovereign state of the Indian Ocean rim may apply."
+    },
+    {
+     "q": "On the passage, the absence of a security function is best described as:",
+     "options": [
+      "An oversight",
+      "The condition on which a diverse membership holds together",
+      "A temporary gap",
+      "A consequence of underfunding"
+     ],
+     "answer": 1,
+     "explain": "The passage explicitly reframes the weakness as an enabling condition."
+    },
+    {
+     "q": "The 2015 doctrine and its later recasting are:",
+     "options": [
+      "SAGAR and MAHASAGAR",
+      "Act East and Look East",
+      "Neighbourhood First and Act West",
+      "Blue Economy and Deep Ocean"
+     ],
+     "answer": 0,
+     "explain": "SAGAR, announced at Mauritius in 2015, recast as MAHASAGAR in 2025."
+    },
+    {
+     "q": "The corridor agreed at a New Delhi summit in 2023 is the:",
+     "options": [
+      "Chennai-Vladivostok corridor",
+      "India-Middle East-Europe Economic Corridor",
+      "Northern Sea Route",
+      "International North-South Transport Corridor"
+     ],
+     "answer": 1,
+     "explain": "IMEC, agreed at the G20 summit in New Delhi."
+    }
+   ]
+  },
+  {
+   "id": "may26-p8",
+   "kind": "static",
+   "month": "2026-05",
+   "topicIds": [
+    "may26-erp"
+   ],
+   "category": "Judiciary",
+   "tags": [
+    "Essential Religious Practices",
+    "Article 25",
+    "Sabarimala"
+   ],
+   "difficulty": 3,
+   "title": "Judges deciding what a religion requires",
+   "passage": "The test was invented in 1954, in a case about a mutt in the Madras presidency whose head objected to a statute placing its endowments under a government commissioner. The court held that what constitutes an essential part of a religion is to be ascertained with reference to the doctrines of that religion itself, and that the protection extends to practices as much as to belief. The sentence has been quoted ever since. What has happened in practice is the opposite of what it says: courts, not communities, decide, and they do it by reading scripture, hearing experts and forming a view about which observances a faith could survive the loss of.\n\nThe constitutional text invites some of this. The article guarantees freedom of conscience and the right to profess, practise and propagate religion, but subjects it to public order, morality, health and the other fundamental rights, and then expressly saves any law regulating or restricting economic, financial, political or other secular activity associated with religious practice. Something has to distinguish the religious core from the secular shell, and the test is what the court reached for.\n\nThe results have been uneven. A sect was refused the right to perform a dance with skulls in public processions. The power of a religious head to excommunicate was upheld in 1962 and is under challenge again. A ban on a form of unilateral divorce was struck down in 2017, with the plurality avoiding the test and one opinion resting on it. And in 2018 a majority held that excluding women of a particular age group from a temple was not essential to the faith and violated the guarantees of religious freedom and equality alike.\n\nThat last judgment was not overruled by what followed. A review in 2019 declined to decide the case and instead referred a set of broader questions — about the interplay of religious freedom with equality, about constitutional morality, about whether a court should be deciding any of this — to a bench of nine judges. Seven years on, those questions have not been answered, and every case in the area is argued in their shadow.",
+   "questions": [
+    {
+     "q": "The 1954 case that produced the test concerned:",
+     "options": [
+      "A temple entry ban",
+      "A mutt whose endowments were placed under a commissioner",
+      "A conversion statute",
+      "An excommunication"
+     ],
+     "answer": 1,
+     "explain": "Commissioner, Hindu Religious Endowments v. Lakshmindra Thirtha Swamiar of Shirur Mutt."
+    },
+    {
+     "q": "The article guaranteeing freedom of religion also permits the state to regulate:",
+     "options": [
+      "All religious practice",
+      "Secular activity associated with religious practice",
+      "Only financial activity",
+      "Nothing at all"
+     ],
+     "answer": 1,
+     "explain": "Article 25(2)(a) saves laws regulating economic, financial, political or other secular activity."
+    },
+    {
+     "q": "On the passage, the standing criticism of the test is that:",
+     "options": [
+      "It is too narrow",
+      "Courts rather than communities end up deciding what is essential",
+      "It applies only to Hinduism",
+      "It cannot be applied to new religions"
+     ],
+     "answer": 1,
+     "explain": "The passage says practice has inverted what the 1954 sentence prescribed."
+    },
+    {
+     "q": "The 2019 review of the 2018 temple judgment:",
+     "options": [
+      "Overruled it",
+      "Upheld it expressly",
+      "Referred broader questions to a nine-judge bench",
+      "Dismissed the review as not maintainable"
+     ],
+     "answer": 2,
+     "explain": "It referred questions onward without deciding the case."
+    },
+    {
+     "q": "The 2018 judgment held the exclusion violated:",
+     "options": [
+      "Only Article 25",
+      "Only Article 14",
+      "Both religious freedom and equality",
+      "Article 21 alone"
+     ],
+     "answer": 2,
+     "explain": "The majority found breaches of Articles 25 and 14."
+    }
+   ]
   }
  ]
 }
