@@ -379,9 +379,11 @@ main { max-width: var(--shell); margin: 0 auto; padding: 26px 20px 96px; }
 .mp-node.sel circle:not(.hit) { stroke: var(--ink); stroke-width: 2.5; }
 .map-stage.focus .mp-node:not(.hi) { opacity: 0.16; }
 .map-stage.focus .mp-edge:not(.hi) { opacity: 0.1; }
-.mp-node, .mp-edge { transition: opacity 160ms var(--ease); }
-.mp-hub { cursor: pointer; transition: transform 160ms var(--ease), opacity 160ms var(--ease); }
-.mp-hub:hover { transform: scale(1.12); }
+.mp-node { transition: transform 320ms cubic-bezier(0.22, 1, 0.36, 1), opacity 260ms var(--ease); }
+.mp-spoke { transition: opacity 260ms var(--ease); stroke: var(--brand-line); stroke-width: 1.2; }
+.mp-hub { cursor: pointer; transition: transform 180ms var(--ease), opacity 180ms var(--ease); }
+.mp-hub:hover { transform: scale(1.1); }
+.mp-hub.expanded .hub-bg { stroke: var(--ink); stroke-width: 2.5; }
 .mp-node:hover .node-lbl { opacity: 1; font-weight: 640; fill: var(--brand); }
 
 .map-detail {

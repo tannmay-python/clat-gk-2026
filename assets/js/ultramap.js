@@ -1,16 +1,16 @@
-// Ultra Map. Consolidates all current & static topics into a clean, cluster-based interactive map.
-// Displays section hubs, top-weighted anchor topics, and explicit cross-links without visual clutter.
+// Ultra Map. Progressive Reveal Engine.
+// Hubs are displayed cleanly on initial view. Clicking a hub expands its topic nodes.
 
 import { getManifest, getSection } from './data.js';
 import { esc, meter } from './ui.js';
 
-const W = 2200, H = 1400, CX = 1100, CY = 700;
+const W = 2000, H = 1300, CX = 1000, CY = 650;
 
 export async function viewUltraMap(el) {
   el.innerHTML = `
   <div class="page-head">
     <h1>Ultra Map</h1>
-    <p class="sub">Explore how current affairs link to static GK roots. Select a section hub or click any node for details.</p>
+    <p class="sub">Click any section hub to expand its topic constellation and explore connections across static GK and current affairs.</p>
   </div>
   <div class="skel" style="height:600px;border-radius:12px"></div>`;
 
@@ -61,17 +61,16 @@ function layoutClusters(sections, topics) {
   const hubs = [];
   const nodes = [];
 
-  // Inner ring of hubs for Static GK
-  const R_static = 320;
+  // Inner circle of static hubs
+  const R_static = 300;
   staticSecs.forEach((s, i) => {
     const angle = (i / Math.max(1, staticSecs.length)) * Math.PI * 2 - Math.PI / 2;
     const hx = CX + R_static * Math.cos(angle) * 1.3;
     const hy = CY + R_static * Math.sin(angle);
     hubs.push({ id: s.id, label: s.label, kind: 'static', x: hx, y: hy, count: s.topicCount });
 
-    // Cluster topics around hub
     const secTopics = topics.filter(t => t.sectionId === s.id);
-    const subRadius = 140;
+    const subRadius = 130;
     secTopics.forEach((t, j) => {
       const tAngle = angle + ((j - secTopics.length / 2) / Math.max(1, secTopics.length)) * 0.95;
       const dist = subRadius + (t.rank % 3) * 28;
@@ -79,13 +78,15 @@ function layoutClusters(sections, topics) {
         ...t,
         x: hx + dist * Math.cos(tAngle),
         y: hy + dist * Math.sin(tAngle),
+        hubX: hx,
+        hubY: hy,
         hubId: s.id
       });
     });
   });
 
-  // Outer ring of hubs for Current Affairs Months
-  const R_current = 620;
+  // Outer circle of current hubs
+  const R_current = 580;
   currentSecs.forEach((s, i) => {
     const angle = (i / Math.max(1, currentSecs.length)) * Math.PI * 2 - Math.PI / 2;
     const hx = CX + R_current * Math.cos(angle) * 1.35;
@@ -93,7 +94,7 @@ function layoutClusters(sections, topics) {
     hubs.push({ id: s.id, label: s.label, kind: 'current', x: hx, y: hy, count: s.topicCount });
 
     const secTopics = topics.filter(t => t.sectionId === s.id);
-    const subRadius = 160;
+    const subRadius = 150;
     secTopics.forEach((t, j) => {
       const tAngle = angle + ((j - secTopics.length / 2) / Math.max(1, secTopics.length)) * 0.85;
       const dist = subRadius + (t.rank % 4) * 32;
@@ -101,6 +102,8 @@ function layoutClusters(sections, topics) {
         ...t,
         x: hx + dist * Math.cos(tAngle),
         y: hy + dist * Math.sin(tAngle),
+        hubX: hx,
+        hubY: hy,
         hubId: s.id
       });
     });
@@ -119,21 +122,18 @@ function drawUltraMap(el, m, hubs, nodes, edges, topicMap) {
   el.innerHTML = `
   <div class="page-head" style="margin-bottom:14px">
     <h1>Ultra Map</h1>
-    <p class="sub">Structured cluster map connecting <b>${nodes.length}</b> topics across <b>${hubs.length}</b> static and current sections.</p>
+    <p class="sub">Progressive Reveal: Click any section hub to expand its topics. Click a topic for facts & cross-links.</p>
   </div>
 
   <div class="mapwrap" data-ultramap style="height: 700px">
     <div class="map-bar">
       <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-        <input class="input" style="width:200px;padding:4px 10px;font-size:13px" placeholder="Filter title or tag…" data-um-search>
+        <input class="input" style="width:190px;padding:4px 10px;font-size:13px" placeholder="Filter title or tag…" data-um-search>
         <select class="input" style="width:160px;padding:4px 8px;font-size:12.5px" data-um-sec>
-          <option value="">All Section Hubs</option>
+          <option value="">Select Section Hub</option>
           ${hubs.map(h => `<option value="${esc(h.id)}">${esc(h.label)} (${h.count})</option>`).join('')}
         </select>
-        <select class="input" style="width:150px;padding:4px 8px;font-size:12.5px" data-um-cat>
-          <option value="">All Categories</option>
-          ${categories.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('')}
-        </select>
+        <button class="btn sm" data-um-toggle-all>Expand All</button>
       </div>
       <div class="map-tools">
         <button data-z="-1" title="Zoom out">&minus;</button>
@@ -155,37 +155,39 @@ function drawUltraMap(el, m, hubs, nodes, edges, topicMap) {
 }
 
 function buildSvg(hubs, nodes, edges, nodeById, hubById) {
-  // 1. Spoke lines from Hub to member topics
+  // Spoke lines
   const spokeLines = [];
   for (const n of nodes) {
     const h = hubById.get(n.hubId);
     if (!h) continue;
-    spokeLines.push(`<line class="mp-edge t3" data-spoke-hub="${esc(h.id)}" data-spoke-node="${esc(n.id)}" x1="${h.x.toFixed(1)}" y1="${h.y.toFixed(1)}" x2="${n.x.toFixed(1)}" y2="${n.y.toFixed(1)}" opacity="0.25"/>`);
+    spokeLines.push(`<line class="mp-spoke" data-spoke-hub="${esc(h.id)}" data-spoke-node="${esc(n.id)}" x1="${h.x.toFixed(1)}" y1="${h.y.toFixed(1)}" x2="${n.x.toFixed(1)}" y2="${n.y.toFixed(1)}" opacity="0"/>`);
   }
 
-  // 2. Explicit cross-link edges
+  // Cross-link edges
   const edgeLines = [];
   for (const e of edges) {
     const s = nodeById.get(e.source), t = nodeById.get(e.target);
     if (!s || !t) continue;
-    edgeLines.push(`<line class="mp-edge t1" data-edge-s="${esc(s.id)}" data-edge-t="${esc(t.id)}" x1="${s.x.toFixed(1)}" y1="${s.y.toFixed(1)}" x2="${t.x.toFixed(1)}" y2="${t.y.toFixed(1)}" stroke-dasharray="3 3" opacity="0.6"/>`);
+    edgeLines.push(`<line class="mp-edge t1" data-edge-s="${esc(s.id)}" data-edge-t="${esc(t.id)}" x1="${s.x.toFixed(1)}" y1="${s.y.toFixed(1)}" x2="${t.x.toFixed(1)}" y2="${t.y.toFixed(1)}" stroke-dasharray="3 3" opacity="0"/>`);
   }
 
-  // 3. Render Hub Nodes (prominent section headers)
+  // Section Hub Marks
   const hubMarks = [];
   for (const h of hubs) {
     const isStatic = h.kind === 'static';
-    const r = 20;
+    const r = 24;
     hubMarks.push(
       `<g class="mp-hub ${isStatic ? 'static-hub' : 'current-hub'}" data-hub="${esc(h.id)}" transform="translate(${h.x.toFixed(1)} ${h.y.toFixed(1)})">` +
-      `<circle r="${r}" fill="${isStatic ? 'var(--brand)' : 'var(--ink)'}" opacity="0.9"/>` +
-      `<text x="0" y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">${h.count}</text>` +
-      `<text x="0" y="${r + 14}" text-anchor="middle" font-size="12.5" font-weight="650" fill="var(--ink)">${esc(h.label)}</text>` +
+      `<circle class="hit" r="${r + 10}"/>` +
+      `<circle class="hub-bg" r="${r}" fill="${isStatic ? 'var(--brand)' : 'var(--ink)'}"/>` +
+      `<text x="0" y="-2" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">${h.count}</text>` +
+      `<text class="hub-state" x="0" y="10" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-size="10" font-weight="600">+</text>` +
+      `<text x="0" y="${r + 16}" text-anchor="middle" font-size="13" font-weight="650" fill="var(--ink)">${esc(h.label)}</text>` +
       `</g>`
     );
   }
 
-  // 4. Render Topic Nodes (clean dots, labels rendered ONLY for top ranks or on hover/focus to prevent text collisions)
+  // Topic Node Marks (Collapsed at hub center initially)
   const nodeMarks = [];
   for (const n of nodes) {
     const isStatic = n.kind === 'static';
@@ -194,23 +196,22 @@ function buildSvg(hubs, nodes, edges, nodeById, hubById) {
     const right = n.x >= CX;
     const dx = right ? r + 6 : -(r + 6);
     const anchor = right ? 'start' : 'end';
-    const shortLabel = n.title.length > 24 ? n.title.slice(0, 22) + '…' : n.title;
+    const shortLabel = n.title.length > 26 ? n.title.slice(0, 24) + '…' : n.title;
 
     nodeMarks.push(
-      `<g class="mp-node ${isTop ? 't1' : 't2'}" data-node="${esc(n.id)}" data-hub="${esc(n.hubId)}" data-cat="${esc(n.category || '')}" tabindex="0" transform="translate(${n.x.toFixed(1)} ${n.y.toFixed(1)})">` +
+      `<g class="mp-node ${isTop ? 't1' : 't2'} collapsed" data-node="${esc(n.id)}" data-hub="${esc(n.hubId)}" data-cat="${esc(n.category || '')}" tabindex="0" transform="translate(${n.hubX.toFixed(1)} ${n.hubY.toFixed(1)})" opacity="0">` +
       `<circle class="hit" r="${Math.max(14, r + 8)}"/>` +
       `<circle r="${r.toFixed(1)}" fill="${isStatic ? 'var(--brand)' : 'var(--muted)'}"/>` +
-      `${isTop ? `<text class="node-lbl" x="${dx}" y="3" text-anchor="${anchor}" font-size="11" fill="var(--ink-2)">${esc(shortLabel)}</text>` : ''}` +
-      `<title>${esc(n.title)} (${esc(n.sectionLabel)})</title>` +
+      `<text class="node-lbl" x="${dx}" y="3" text-anchor="${anchor}" font-size="11.5" fill="var(--ink-2)" opacity="0.9">${esc(shortLabel)}</text>` +
       `</g>`
     );
   }
 
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">
     <g data-cam>
-      <!-- Background Guide Circles -->
-      <circle cx="${CX}" cy="${CY}" r="320" fill="none" stroke="var(--line-soft)" stroke-dasharray="6 6" opacity="0.5"/>
-      <circle cx="${CX}" cy="${CY}" r="620" fill="none" stroke="var(--line-soft)" stroke-dasharray="4 4" opacity="0.3"/>
+      <!-- Concentric guide rings -->
+      <circle cx="${CX}" cy="${CY}" r="300" fill="none" stroke="var(--line-soft)" stroke-dasharray="6 6" opacity="0.4"/>
+      <circle cx="${CX}" cy="${CY}" r="580" fill="none" stroke="var(--line-soft)" stroke-dasharray="4 4" opacity="0.3"/>
       
       <g data-spokes>${spokeLines.join('')}</g>
       <g data-edges>${edgeLines.join('')}</g>
@@ -229,7 +230,9 @@ function wireUltraMap(scope, hubs, nodes, edges, nodeById, hubById, topicMap) {
   const body = wrap.querySelector('[data-detail-body]');
   const inputSearch = wrap.querySelector('[data-um-search]');
   const selectSec = wrap.querySelector('[data-um-sec]');
-  const selectCat = wrap.querySelector('[data-um-cat]');
+  const btnToggleAll = wrap.querySelector('[data-um-toggle-all]');
+
+  const expandedHubs = new Set();
 
   let scale = 1, tx = 0, ty = 0;
   const apply = () => {
@@ -286,7 +289,7 @@ function wireUltraMap(scope, hubs, nodes, edges, nodeById, hubById, topicMap) {
   const endDrag = e => {
     if (drag && !drag.moved) {
       if (drag.node) selectNode(drag.node);
-      else if (drag.hub) selectHub(drag.hub);
+      else if (drag.hub) toggleHub(drag.hub);
     }
     drag = null;
     stage.classList.remove('drag');
@@ -294,19 +297,83 @@ function wireUltraMap(scope, hubs, nodes, edges, nodeById, hubById, topicMap) {
   };
   stage.addEventListener('pointerup', endDrag);
 
-  function selectHub(hubId) {
-    selectSec.value = hubId;
-    filterNodes();
+  function toggleHub(hubId) {
+    if (expandedHubs.has(hubId)) expandedHubs.delete(hubId);
+    else expandedHubs.add(hubId);
+    updateVisibility();
+
     const h = hubById.get(hubId);
-    if (!h) return;
-    body.innerHTML = `
-      <div class="k">${esc(h.kind === 'static' ? 'Static Section' : 'Current Affairs Month')}</div>
-      <h5>${esc(h.label)}</h5>
-      <p style="margin-top:6px;font-size:13px;color:var(--muted)">Contains ${h.count} ranked topics.</p>
-      <div style="margin-top:14px">
-        <a class="btn primary sm" href="#/s/${encodeURIComponent(h.id)}">Open section view &rarr;</a>
-      </div>`;
-    detail.classList.add('on');
+    if (h && expandedHubs.has(hubId)) {
+      body.innerHTML = `
+        <div class="k">${esc(h.kind === 'static' ? 'Static Section' : 'Current Affairs Month')}</div>
+        <h5>${esc(h.label)}</h5>
+        <p style="margin-top:6px;font-size:13px;color:var(--muted)">Revealed ${h.count} topics. Click any topic dot for facts.</p>
+        <div style="margin-top:14px">
+          <a class="btn primary sm" href="#/s/${encodeURIComponent(h.id)}">Open section page &rarr;</a>
+        </div>`;
+      detail.classList.add('on');
+    }
+  }
+
+  let allExpanded = false;
+  btnToggleAll.addEventListener('click', () => {
+    allExpanded = !allExpanded;
+    btnToggleAll.textContent = allExpanded ? 'Collapse All' : 'Expand All';
+    if (allExpanded) {
+      hubs.forEach(h => expandedHubs.add(h.id));
+    } else {
+      expandedHubs.clear();
+    }
+    updateVisibility();
+  });
+
+  function updateVisibility() {
+    const q = inputSearch.value.trim().toLowerCase();
+
+    // 1. Update Hub Icons & Opacity
+    stage.querySelectorAll('[data-hub]').forEach(hG => {
+      const hid = hG.dataset.hub;
+      const isOpen = expandedHubs.has(hid);
+      const stateTxt = hG.querySelector('.hub-state');
+      if (stateTxt) stateTxt.textContent = isOpen ? '−' : '+';
+      hG.classList.toggle('expanded', isOpen);
+    });
+
+    // 2. Animate Node Positions & Opacity
+    stage.querySelectorAll('[data-node]').forEach(g => {
+      const id = g.dataset.node;
+      const n = nodeById.get(id);
+      if (!n) return;
+
+      const isOpen = expandedHubs.has(n.hubId) || (q && (n.title.toLowerCase().includes(q) || (n.tags || []).some(t => t.toLowerCase().includes(q))));
+
+      if (isOpen) {
+        g.setAttribute('transform', `translate(${n.x.toFixed(1)}, ${n.y.toFixed(1)})`);
+        g.style.opacity = '1';
+        g.style.pointerEvents = 'auto';
+      } else {
+        g.setAttribute('transform', `translate(${n.hubX.toFixed(1)}, ${n.hubY.toFixed(1)})`);
+        g.style.opacity = '0';
+        g.style.pointerEvents = 'none';
+      }
+    });
+
+    // 3. Update Spokes
+    stage.querySelectorAll('[data-spoke-hub]').forEach(line => {
+      const hid = line.dataset.spokeHub;
+      const isOpen = expandedHubs.has(hid);
+      line.style.opacity = isOpen ? '0.35' : '0';
+    });
+
+    // 4. Update Cross-link Edges
+    stage.querySelectorAll('[data-edge-s]').forEach(line => {
+      const sId = line.dataset.edgeS, tId = line.dataset.edgeT;
+      const sNode = nodeById.get(sId), tNode = nodeById.get(tId);
+      if (!sNode || !tNode) return;
+      const sOpen = expandedHubs.has(sNode.hubId);
+      const tOpen = expandedHubs.has(tNode.hubId);
+      line.style.opacity = (sOpen && tOpen) ? '0.7' : '0';
+    });
   }
 
   function selectNode(id) {
@@ -341,44 +408,21 @@ function wireUltraMap(scope, hubs, nodes, edges, nodeById, hubById, topicMap) {
     detail.classList.add('on');
   }
 
-  // Filter handler
-  const filterNodes = () => {
-    const q = inputSearch.value.trim().toLowerCase();
-    const secId = selectSec.value;
-    const cat = selectCat.value;
+  selectSec.addEventListener('change', e => {
+    const hid = e.target.value;
+    if (hid) {
+      expandedHubs.add(hid);
+      updateVisibility();
+      selectHub(hid);
+    }
+  });
 
-    stage.querySelectorAll('[data-node]').forEach(g => {
-      const id = g.dataset.node;
-      const n = nodeById.get(id);
-      if (!n) return;
-      let ok = true;
-      if (secId && n.hubId !== secId) ok = false;
-      if (cat && n.category !== cat) ok = false;
-      if (q && !n.title.toLowerCase().includes(q) && !(n.tags || []).some(t => t.toLowerCase().includes(q))) ok = false;
-
-      g.style.opacity = ok ? '1' : '0.08';
-      g.style.pointerEvents = ok ? 'auto' : 'none';
-    });
-
-    stage.querySelectorAll('[data-hub]').forEach(hG => {
-      const hid = hG.dataset.hub;
-      const ok = !secId || secId === hid;
-      hG.style.opacity = ok ? '1' : '0.2';
-    });
-
-    stage.querySelectorAll('[data-spoke-hub]').forEach(line => {
-      const hid = line.dataset.spokeHub;
-      const ok = !secId || secId === hid;
-      line.style.opacity = ok ? '0.25' : '0.03';
-    });
-  };
-
-  inputSearch.addEventListener('input', filterNodes);
-  selectSec.addEventListener('change', filterNodes);
-  selectCat.addEventListener('change', filterNodes);
+  inputSearch.addEventListener('input', () => updateVisibility());
 
   wrap.querySelector('[data-close]').addEventListener('click', () => {
     detail.classList.remove('on');
     stage.querySelectorAll('.sel').forEach(el => el.classList.remove('sel'));
   });
+
+  updateVisibility();
 }
