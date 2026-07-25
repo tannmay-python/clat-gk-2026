@@ -517,3 +517,31 @@ mark { background: var(--brand-soft); color: var(--brand-hi); padding: 0 1px; bo
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
 }
+
+/* ── personal map ───────────────────────────────────────────────────── */
+.mymap-grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 28px; align-items: start; }
+.mymap-side { display: flex; flex-direction: column; gap: 16px; position: sticky; top: 74px; }
+.nodeform { padding: 14px; display: flex; flex-direction: column; gap: 12px; }
+.nodeform .ta { height: auto; padding: 9px 11px; line-height: 1.5; resize: vertical; font-family: var(--sans); }
+.formrow { display: flex; gap: 8px; }
+.nodelist { max-height: 320px; overflow-y: auto; }
+.nodeitem {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 9px 14px; border-bottom: 1px solid var(--line-soft); font-size: 13px;
+}
+.nodeitem:last-child { border-bottom: 0; }
+.nodeitem b { display: block; font-weight: 560; }
+.nodeitem i { font-style: normal; font-size: 11.5px; color: var(--faint); }
+.nodeitem .acts { display: flex; gap: 4px; flex: none; }
+.mini {
+  padding: 3px 8px; border-radius: var(--r-sm); border: 1px solid var(--line);
+  font-size: 11.5px; font-weight: 540; color: var(--muted); transition: all var(--t);
+}
+.mini:hover { color: var(--ink); border-color: var(--faint); }
+.mini.danger:hover { color: var(--bad); border-color: var(--bad); }
+.btn.danger { color: var(--bad); }
+.btn.danger:hover { border-color: var(--bad); }
+@media (max-width: 1040px) {
+  .mymap-grid { grid-template-columns: 1fr; }
+  .mymap-side { position: static; }
+}

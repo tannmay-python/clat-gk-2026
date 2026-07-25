@@ -3,6 +3,7 @@ import { esc, md, meter, fmtDate, highlight, store, tick, isDone, toggleDone, do
 import { renderMap, wireMap } from './map.js';
 import { viewQuizSetup } from './quiz.js';
 import { viewHow } from './how.js';
+import { viewMyMap } from './mymap.js';
 
 const view = document.getElementById('view');
 
@@ -22,6 +23,7 @@ const routes = [
   [/^\/topic\/([^/]+)$/, (m) => viewTopic(decodeURIComponent(m[1]))],
   [/^\/quiz\/?$/, () => viewQuizSetup(view)],
   [/^\/search\/?$/, viewSearch],
+  [/^\/mymap\/?$/, () => viewMyMap(view)],
   [/^\/how\/?$/, () => { view.innerHTML = viewHow(); }]
 ];
 
