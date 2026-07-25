@@ -402,7 +402,887 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "eco-gst",
+   "rank": 3,
+   "depth": "deep",
+   "importance": 5,
+   "title": "Taxation: direct, indirect, and how GST rearranged everything",
+   "date": "",
+   "category": "Economy",
+   "tags": [
+    "GST",
+    "Taxation",
+    "Direct Tax",
+    "Indirect Tax"
+   ],
+   "hook": "One tax replaced seventeen, needed a constitutional amendment to exist, and is run by a council where the Centre alone cannot pass anything.",
+   "story": "**Direct taxes** are paid by the person on whom they are levied and cannot be passed on: income tax, corporate tax, capital gains tax. The **Central Board of Direct Taxes** administers them. **Indirect taxes** are collected from one person but borne by another, chiefly the consumer: GST, customs duty, excise on the few goods still outside GST. The **Central Board of Indirect Taxes and Customs** administers those. India has historically collected more from indirect taxes, which are **regressive** because they fall on consumption regardless of income, while direct taxes are **progressive**.\n\n**GST** came into force on **1 July 2017**, enabled by the **101st Constitutional Amendment (2016)**, which inserted **Article 246A** giving both Parliament and state legislatures concurrent power to tax goods and services, **Article 269A** on inter-state supply, and **Article 279A** creating the **GST Council**. It subsumed central excise, service tax, additional customs duties, state VAT, entry tax, luxury tax, entertainment tax and octroi. Outside GST: petroleum crude, petrol, diesel, aviation turbine fuel, natural gas, alcohol for human consumption, electricity and stamp duty.\n\n**The GST Council** is chaired by the Union Finance Minister, with the Union Minister of State for Finance and one minister from each state. Decisions need a **three-fourths weighted majority**, with the Centre holding one third of the weight and all states together two thirds, so neither side can act alone. In *Mohit Minerals* (2022) the Supreme Court held that Council recommendations are **persuasive, not binding**, since both Union and states have simultaneous legislative power.\n\n**Structure.** Four main slabs, 5%, 12%, 18% and 28%, with special rates of 0.25% on rough diamonds and 3% on gold, and a compensation cess on demerit and luxury goods. **CGST** and **SGST** are levied together on intra-state supply; **IGST** on inter-state supply and imports, collected by the Centre and apportioned. GST is a **destination-based consumption tax**, so revenue accrues where the good is consumed, not where it is produced, which is why manufacturing states resisted it.\n\nOther terms: **cess** is a tax for a specific purpose and is not shareable with states; **surcharge** is a tax on tax, also not shared, which is why the states object when the Centre leans on both. **Laffer curve**, **ad valorem**, **specific duty** and **tax buoyancy** recur in passages.",
+   "facts": [
+    {
+     "k": "GST in force",
+     "v": "1 July 2017"
+    },
+    {
+     "k": "Enabling amendment",
+     "v": "101st Constitutional Amendment, 2016"
+    },
+    {
+     "k": "Concurrent taxing power",
+     "v": "Article 246A"
+    },
+    {
+     "k": "GST Council",
+     "v": "Article 279A; three-fourths weighted majority"
+    },
+    {
+     "k": "Centre’s voting weight",
+     "v": "One third; states together two thirds"
+    },
+    {
+     "k": "Council recommendations",
+     "v": "Persuasive, not binding, per Mohit Minerals, 2022"
+    },
+    {
+     "k": "Main slabs",
+     "v": "5, 12, 18 and 28 per cent"
+    },
+    {
+     "k": "Kept outside GST",
+     "v": "Petroleum products, alcohol for human consumption, electricity, stamp duty"
+    },
+    {
+     "k": "Type of tax",
+     "v": "Destination-based consumption tax"
+    },
+    {
+     "k": "Cess and surcharge",
+     "v": "Not shared with states"
+    }
+   ],
+   "timeline": [],
+   "why": "A passage on state finances or a Council meeting will test the voting weights and whether recommendations bind. The classic recall question is which goods stayed outside GST.",
+   "map": {
+    "nodes": [
+     {
+      "id": "a246a",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 246A",
+      "kind": "law",
+      "rel": "the power",
+      "note": "Inserted by the 101st Amendment. Gives Parliament and state legislatures simultaneous power to tax goods and services."
+     },
+     {
+      "id": "council",
+      "parent": "root",
+      "tier": 1,
+      "label": "GST Council",
+      "kind": "org",
+      "rel": "Article 279A",
+      "note": "Chaired by the Union Finance Minister. Three-fourths weighted majority; Centre one third, states two thirds."
+     },
+     {
+      "id": "mohit",
+      "parent": "council",
+      "tier": 1,
+      "label": "Mohit Minerals (2022)",
+      "kind": "event",
+      "rel": "not binding",
+      "note": "Held Council recommendations are persuasive only, since both levels of government have simultaneous power."
+     },
+     {
+      "id": "slabs",
+      "parent": "root",
+      "tier": 1,
+      "label": "The four slabs",
+      "kind": "concept",
+      "rel": "structure",
+      "note": "5, 12, 18 and 28 per cent, plus 0.25% on rough diamonds, 3% on gold and a compensation cess on demerit goods."
+     },
+     {
+      "id": "destination",
+      "parent": "root",
+      "tier": 1,
+      "label": "Destination-based tax",
+      "kind": "concept",
+      "rel": "the design",
+      "note": "Revenue accrues where consumption happens, not where production does. Manufacturing states were compensated for five years."
+     },
+     {
+      "id": "igst",
+      "parent": "slabs",
+      "tier": 2,
+      "label": "CGST, SGST and IGST",
+      "kind": "term",
+      "rel": "the split",
+      "note": "CGST and SGST on intra-state supply; IGST on inter-state supply and imports, collected centrally and apportioned."
+     },
+     {
+      "id": "outside",
+      "parent": "root",
+      "tier": 2,
+      "label": "Kept outside GST",
+      "kind": "concept",
+      "rel": "the exclusions",
+      "note": "Petroleum crude, petrol, diesel, ATF, natural gas, alcohol for human consumption, electricity and stamp duty."
+     },
+     {
+      "id": "direct",
+      "parent": "root",
+      "tier": 1,
+      "label": "Direct and indirect taxes",
+      "kind": "concept",
+      "rel": "the distinction",
+      "note": "Direct taxes cannot be shifted and are progressive; indirect taxes are borne by the consumer and are regressive."
+     },
+     {
+      "id": "cbdt",
+      "parent": "direct",
+      "tier": 2,
+      "label": "CBDT and CBIC",
+      "kind": "org",
+      "rel": "administration",
+      "note": "Central Board of Direct Taxes and Central Board of Indirect Taxes and Customs, both under the Department of Revenue."
+     },
+     {
+      "id": "cess",
+      "parent": "direct",
+      "tier": 2,
+      "label": "Cess and surcharge",
+      "kind": "term",
+      "rel": "not shared",
+      "note": "A cess is earmarked for a purpose; a surcharge is a tax on tax. Neither enters the divisible pool the Finance Commission distributes."
+     },
+     {
+      "id": "fc",
+      "parent": "cess",
+      "tier": 2,
+      "label": "Finance Commission",
+      "kind": "org",
+      "rel": "divides the pool",
+      "note": "Article 280. The Fifteenth Finance Commission set the states’ share of central taxes at 41 per cent."
+     },
+     {
+      "id": "a101",
+      "parent": "root",
+      "tier": 2,
+      "label": "101st Amendment (2016)",
+      "kind": "event",
+      "rel": "made it possible",
+      "note": "Also inserted Article 269A on inter-state supply and provided for compensation to states for five years."
+     },
+     {
+      "id": "vat",
+      "parent": "outside",
+      "tier": 3,
+      "label": "Value Added Tax",
+      "kind": "term",
+      "rel": "what it replaced",
+      "note": "State VAT was introduced from 2005 and replaced sales tax. GST subsumed it in 2017."
+     },
+     {
+      "id": "laffer",
+      "parent": "direct",
+      "tier": 3,
+      "label": "Laffer curve",
+      "kind": "concept",
+      "rel": "tax theory",
+      "note": "The proposition that beyond a point higher tax rates reduce total revenue by discouraging activity."
+     },
+     {
+      "id": "buoyancy",
+      "parent": "direct",
+      "tier": 3,
+      "label": "Tax buoyancy",
+      "kind": "term",
+      "rel": "measure",
+      "note": "The responsiveness of tax revenue to growth in GDP. Buoyancy above one means revenue grows faster than the economy."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "eco-indices",
+   "rank": 4,
+   "depth": "deep",
+   "importance": 4,
+   "title": "Measuring the economy: GDP, inflation and the indices that rank India",
+   "date": "",
+   "category": "Economy",
+   "tags": [
+    "GDP",
+    "Inflation",
+    "CPI",
+    "HDI",
+    "Indices"
+   ],
+   "hook": "Six measures of national income, two measures of inflation, and about a dozen international indices whose publisher is the question.",
+   "story": "**National income.** **GDP** is the market value of all final goods and services produced within a country's borders in a year. **GNP** is GDP plus net factor income from abroad. **NDP** is GDP minus depreciation; **NNP** is GNP minus depreciation, and **NNP at factor cost** is **national income**. **Per capita income** is national income divided by population. **Nominal** figures use current prices; **real** figures use constant prices from a base year, currently **2011-12** in India. The ratio of nominal to real GDP is the **GDP deflator**, the broadest measure of inflation. Estimates are produced by the **National Statistical Office** under the Ministry of Statistics and Programme Implementation.\n\n**Inflation.** The **Consumer Price Index** measures retail prices and is the RBI's target; food carries a large weight, which is why Indian CPI swings with monsoons. The **Wholesale Price Index**, compiled by the Office of the Economic Adviser in the Ministry of Commerce, excludes services entirely and no longer anchors policy. Types worth naming: **demand-pull**, from excess demand; **cost-push**, from rising input costs; **stagflation**, high inflation with stagnant growth and high unemployment; **deflation**, a general fall in prices; **disinflation**, a fall in the rate of inflation; **reflation**; and **skewflation**, a price rise in one or a small group of commodities, a term coined in India for food inflation.\n\n**Indices and who publishes them.**\n- **Human Development Index**, UNDP, since 1990, devised by **Mahbub ul Haq** with **Amartya Sen**. Life expectancy, education and gross national income per capita.\n- **Global Hunger Index**, Concern Worldwide and Welthungerhilfe. India has disputed its methodology.\n- **World Happiness Report**, UN Sustainable Development Solutions Network.\n- **Corruption Perceptions Index**, Transparency International.\n- **Press Freedom Index**, Reporters Without Borders.\n- **Global Innovation Index**, WIPO.\n- **Environmental Performance Index**, Yale and Columbia.\n- **Global Gender Gap Report**, World Economic Forum.\n- **Ease of Doing Business**, formerly World Bank, discontinued in 2021 after data irregularities and being replaced by B-READY.\n- **Multidimensional Poverty Index**, UNDP with the Oxford Poverty and Human Development Initiative; NITI Aayog publishes an Indian version.",
+   "facts": [
+    {
+     "k": "GDP",
+     "v": "Value of final goods and services produced within the borders"
+    },
+    {
+     "k": "GNP",
+     "v": "GDP plus net factor income from abroad"
+    },
+    {
+     "k": "National income",
+     "v": "NNP at factor cost"
+    },
+    {
+     "k": "Base year in India",
+     "v": "2011-12"
+    },
+    {
+     "k": "Broadest inflation measure",
+     "v": "GDP deflator"
+    },
+    {
+     "k": "RBI’s inflation anchor",
+     "v": "Consumer Price Index"
+    },
+    {
+     "k": "WPI compiled by",
+     "v": "Office of the Economic Adviser, Ministry of Commerce"
+    },
+    {
+     "k": "HDI published by",
+     "v": "UNDP, since 1990"
+    },
+    {
+     "k": "HDI devised by",
+     "v": "Mahbub ul Haq with Amartya Sen"
+    },
+    {
+     "k": "Ease of Doing Business",
+     "v": "Discontinued by the World Bank in 2021"
+    }
+   ],
+   "timeline": [],
+   "why": "Index-to-publisher matching is asked directly and is easy marks. The concept trap is GDP against GNP, and stagflation against deflation.",
+   "map": {
+    "nodes": [
+     {
+      "id": "gdp",
+      "parent": "root",
+      "tier": 1,
+      "label": "GDP",
+      "kind": "term",
+      "rel": "the headline",
+      "note": "Market value of final goods and services produced within a country’s borders in a year."
+     },
+     {
+      "id": "gnp",
+      "parent": "gdp",
+      "tier": 1,
+      "label": "GNP",
+      "kind": "term",
+      "rel": "adds income from abroad",
+      "note": "GDP plus net factor income from abroad. For India GNP is usually slightly below GDP."
+     },
+     {
+      "id": "cpi",
+      "parent": "root",
+      "tier": 1,
+      "label": "Consumer Price Index",
+      "kind": "term",
+      "rel": "the target",
+      "note": "Retail inflation, compiled by the National Statistical Office. The RBI targets 4% with a 2% band on either side."
+     },
+     {
+      "id": "hdi",
+      "parent": "root",
+      "tier": 1,
+      "label": "Human Development Index",
+      "kind": "term",
+      "rel": "UNDP",
+      "note": "Since 1990. Life expectancy, expected and mean years of schooling, and GNI per capita, combined as a geometric mean."
+     },
+     {
+      "id": "deflator",
+      "parent": "gdp",
+      "tier": 2,
+      "label": "GDP deflator",
+      "kind": "term",
+      "rel": "broadest measure",
+      "note": "Ratio of nominal to real GDP. Covers the whole economy, unlike CPI or WPI baskets."
+     },
+     {
+      "id": "wpi",
+      "parent": "cpi",
+      "tier": 2,
+      "label": "Wholesale Price Index",
+      "kind": "term",
+      "rel": "no longer the anchor",
+      "note": "Excludes services. Compiled by the Office of the Economic Adviser, Ministry of Commerce."
+     },
+     {
+      "id": "stag",
+      "parent": "cpi",
+      "tier": 2,
+      "label": "Stagflation",
+      "kind": "term",
+      "rel": "the bad case",
+      "note": "High inflation with stagnant growth and high unemployment. Named during the oil shocks of the 1970s."
+     },
+     {
+      "id": "haq",
+      "parent": "hdi",
+      "tier": 2,
+      "label": "Mahbub ul Haq",
+      "kind": "person",
+      "rel": "devised HDI",
+      "note": "Pakistani economist who created the index with Amartya Sen, whose capability approach underlies it."
+     },
+     {
+      "id": "nso",
+      "parent": "gdp",
+      "tier": 2,
+      "label": "National Statistical Office",
+      "kind": "org",
+      "rel": "produces the data",
+      "note": "Under the Ministry of Statistics and Programme Implementation. Base year 2011-12."
+     },
+     {
+      "id": "ti",
+      "parent": "hdi",
+      "tier": 2,
+      "label": "Transparency International",
+      "kind": "org",
+      "rel": "Corruption Perceptions Index",
+      "note": "Berlin-based. Publishes the CPI annually on a 0 to 100 scale."
+     },
+     {
+      "id": "gii",
+      "parent": "hdi",
+      "tier": 2,
+      "label": "Global Innovation Index",
+      "kind": "term",
+      "rel": "WIPO",
+      "note": "Published by the World Intellectual Property Organization, headquartered in Geneva."
+     },
+     {
+      "id": "mpi",
+      "parent": "hdi",
+      "tier": 2,
+      "label": "Multidimensional Poverty Index",
+      "kind": "term",
+      "rel": "UNDP and OPHI",
+      "note": "Health, education and standard of living. NITI Aayog publishes a national version."
+     },
+     {
+      "id": "ghi",
+      "parent": "hdi",
+      "tier": 3,
+      "label": "Global Hunger Index",
+      "kind": "term",
+      "rel": "Concern Worldwide",
+      "note": "Undernourishment, child stunting, child wasting and child mortality. India has disputed the methodology."
+     },
+     {
+      "id": "epi",
+      "parent": "hdi",
+      "tier": 3,
+      "label": "Environmental Performance Index",
+      "kind": "term",
+      "rel": "Yale and Columbia",
+      "note": "Ranks countries on climate policy, environmental health and ecosystem vitality."
+     },
+     {
+      "id": "doing",
+      "parent": "hdi",
+      "tier": 3,
+      "label": "Ease of Doing Business",
+      "kind": "term",
+      "rel": "discontinued",
+      "note": "Stopped by the World Bank in 2021 after an internal review found data irregularities. B-READY replaces it."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "eco-banking",
+   "rank": 5,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The banking system: nationalisation, bad loans and the regulators",
+   "date": "",
+   "category": "Economy",
+   "tags": [
+    "Banking",
+    "NPA",
+    "IBC",
+    "SEBI",
+    "Nationalisation"
+   ],
+   "hook": "Fourteen banks nationalised in one night in 1969, a bankruptcy code in 2016 that finally let lenders take a company away from its promoter, and four regulators who keep colliding.",
+   "story": "**Nationalisation.** The **Imperial Bank of India** became the **State Bank of India** in 1955 after the Gorwala Committee. On **19 July 1969**, Indira Gandhi nationalised **14 banks** with deposits above ₹50 crore, through an ordinance later replaced by an Act; the ordinance was struck down in *R.C. Cooper v. Union of India* (1970) for inadequate compensation, and Parliament re-enacted it. Six more were nationalised in **1980**. Public sector banks have since been merged repeatedly, most heavily in 2020, leaving twelve.\n\n**Structure.** Scheduled commercial banks are those in the **Second Schedule of the RBI Act 1934**, which requires paid-up capital and reserves of at least ₹5 lakh. Categories: public sector, private sector, foreign, regional rural banks (created 1975 on the Narasimham Committee's recommendation), small finance banks and payments banks (both from 2015 guidelines, with payments banks barred from lending). Co-operative banks are dual-regulated by the RBI and state registrars, a weakness exposed by the PMC Bank collapse and addressed by the Banking Regulation (Amendment) Act 2020.\n\n**Bad loans.** A **non-performing asset** is a loan where interest or principal has been overdue for **90 days**. Classification runs sub-standard, doubtful, loss. The RBI's **Asset Quality Review of 2015** forced banks to recognise what they had been evergreening. Tools to recover: the **SARFAESI Act 2002**, which lets secured creditors seize collateral without a court; **Debt Recovery Tribunals** under the 1993 Act; and the **Insolvency and Bankruptcy Code 2016**, which created a time-bound process of 180 days extendable to 330, run by a resolution professional under the **Committee of Creditors**, with **operational creditors** ranking below financial creditors in the waterfall under section 53. The **IBBI** regulates it. Section 29A bars defaulting promoters from bidding for their own companies.\n\n**Regulators.** **RBI** for banks and payments; **SEBI**, statutory since 1992, for securities; **IRDAI** for insurance, headquartered in Hyderabad; **PFRDA** for pensions. **Deposit insurance** is provided by the **DICGC**, a wholly owned RBI subsidiary, covering **₹5 lakh** per depositor per bank, raised from ₹1 lakh in 2020.",
+   "facts": [
+    {
+     "k": "Bank nationalisation",
+     "v": "19 July 1969, 14 banks; six more in 1980"
+    },
+    {
+     "k": "Case on the 1969 ordinance",
+     "v": "R.C. Cooper v. Union of India, 1970"
+    },
+    {
+     "k": "Imperial Bank became SBI",
+     "v": "1955"
+    },
+    {
+     "k": "Regional Rural Banks created",
+     "v": "1975"
+    },
+    {
+     "k": "NPA definition",
+     "v": "Overdue beyond 90 days"
+    },
+    {
+     "k": "Asset Quality Review",
+     "v": "2015"
+    },
+    {
+     "k": "Insolvency and Bankruptcy Code",
+     "v": "2016; 180 days, extendable to 330"
+    },
+    {
+     "k": "SEBI statutory",
+     "v": "1992"
+    },
+    {
+     "k": "IRDAI headquarters",
+     "v": "Hyderabad"
+    },
+    {
+     "k": "Deposit insurance cover",
+     "v": "₹5 lakh per depositor per bank"
+    }
+   ],
+   "timeline": [],
+   "why": "Expect a passage on a bank failure or a resolution under the IBC. The reliable questions are the 90-day NPA rule, the ₹5 lakh insurance cover and the 1969 date.",
+   "map": {
+    "nodes": [
+     {
+      "id": "nat1969",
+      "parent": "root",
+      "tier": 1,
+      "label": "Bank nationalisation (1969)",
+      "kind": "event",
+      "rel": "the turning point",
+      "note": "14 banks with deposits above ₹50 crore, on 19 July 1969. Six more followed in 1980."
+     },
+     {
+      "id": "cooper",
+      "parent": "nat1969",
+      "tier": 1,
+      "label": "R.C. Cooper (1970)",
+      "kind": "event",
+      "rel": "struck the ordinance",
+      "note": "Held the compensation inadequate and the ordinance void. Also introduced the effect test, later used in Maneka Gandhi."
+     },
+     {
+      "id": "npa",
+      "parent": "root",
+      "tier": 1,
+      "label": "Non-performing asset",
+      "kind": "term",
+      "rel": "the 90-day rule",
+      "note": "A loan is an NPA when interest or principal is overdue beyond 90 days. Classified as sub-standard, doubtful or loss."
+     },
+     {
+      "id": "ibc",
+      "parent": "root",
+      "tier": 1,
+      "label": "Insolvency and Bankruptcy Code, 2016",
+      "kind": "law",
+      "rel": "the resolution route",
+      "note": "Time-bound process of 180 days extendable to 330, run by a resolution professional under the Committee of Creditors."
+     },
+     {
+      "id": "sebi",
+      "parent": "root",
+      "tier": 1,
+      "label": "SEBI",
+      "kind": "org",
+      "rel": "securities regulator",
+      "note": "Established 1988, statutory from 1992 after the Harshad Mehta scam. Headquarters in Mumbai."
+     },
+     {
+      "id": "sarfaesi",
+      "parent": "npa",
+      "tier": 2,
+      "label": "SARFAESI Act, 2002",
+      "kind": "law",
+      "rel": "seizure without court",
+      "note": "Lets secured creditors take possession of collateral without going to court, subject to a 60-day notice."
+     },
+     {
+      "id": "aqr",
+      "parent": "npa",
+      "tier": 2,
+      "label": "Asset Quality Review (2015)",
+      "kind": "event",
+      "rel": "forced recognition",
+      "note": "RBI exercise under Raghuram Rajan that made banks classify loans they had been rolling over."
+     },
+     {
+      "id": "s29a",
+      "parent": "ibc",
+      "tier": 2,
+      "label": "Section 29A",
+      "kind": "law",
+      "rel": "keeps promoters out",
+      "note": "Bars defaulting promoters and connected persons from submitting a resolution plan for their own company."
+     },
+     {
+      "id": "ibbi",
+      "parent": "ibc",
+      "tier": 2,
+      "label": "IBBI",
+      "kind": "org",
+      "rel": "the regulator",
+      "note": "Insolvency and Bankruptcy Board of India, established 2016, regulates professionals and agencies under the Code."
+     },
+     {
+      "id": "dicgc",
+      "parent": "root",
+      "tier": 2,
+      "label": "DICGC",
+      "kind": "org",
+      "rel": "deposit insurance",
+      "note": "Wholly owned RBI subsidiary. Cover raised from ₹1 lakh to ₹5 lakh per depositor per bank in 2020."
+     },
+     {
+      "id": "rrb",
+      "parent": "nat1969",
+      "tier": 2,
+      "label": "Regional Rural Banks",
+      "kind": "org",
+      "rel": "1975",
+      "note": "Created on the Narasimham Committee’s recommendation, jointly owned by the Centre, the state and a sponsor bank."
+     },
+     {
+      "id": "payments",
+      "parent": "rrb",
+      "tier": 2,
+      "label": "Payments banks",
+      "kind": "org",
+      "rel": "2015",
+      "note": "May accept deposits up to a limit and issue cards but cannot lend. India Post Payments Bank is the largest."
+     },
+     {
+      "id": "irdai",
+      "parent": "sebi",
+      "tier": 3,
+      "label": "IRDAI",
+      "kind": "org",
+      "rel": "insurance",
+      "note": "Statutory from 1999 on the Malhotra Committee’s recommendation. Headquartered in Hyderabad."
+     },
+     {
+      "id": "narasimham",
+      "parent": "nat1969",
+      "tier": 3,
+      "label": "Narasimham Committees",
+      "kind": "org",
+      "rel": "reform",
+      "note": "The 1991 and 1998 reports shaped prudential norms, capital adequacy and the opening of private banking."
+     },
+     {
+      "id": "scheduled",
+      "parent": "nat1969",
+      "tier": 3,
+      "label": "Scheduled banks",
+      "kind": "term",
+      "rel": "the definition",
+      "note": "Banks in the Second Schedule of the RBI Act 1934, requiring paid-up capital and reserves of at least ₹5 lakh."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "eco-external",
+   "rank": 6,
+   "depth": "deep",
+   "importance": 4,
+   "title": "The external sector: balance of payments, reserves and trade rules",
+   "date": "",
+   "category": "Economy",
+   "tags": [
+    "Balance of Payments",
+    "FDI",
+    "WTO",
+    "Forex Reserves"
+   ],
+   "hook": "A current account that runs a deficit, a capital account that funds it, and a set of trade rules India argues with every year at Geneva.",
+   "story": "The **balance of payments** records all transactions between residents and the rest of the world. It has two parts. The **current account** covers trade in goods, trade in services, primary income (interest and dividends) and secondary income (remittances). The **capital and financial account** covers foreign direct investment, portfolio investment, loans and banking capital. The two must balance, with errors and omissions closing the gap; reserve movements are the residual.\n\nIndia runs a **merchandise trade deficit** and a **services surplus**, and receives the world's **largest inflow of remittances**, over 100 billion dollars a year. The net result is a current account deficit funded by capital inflows. The **CAD as a share of GDP** is the number that gets quoted; anything beyond about 3% is treated as a warning sign, as in the taper tantrum of 2013.\n\n**FDI versus FPI.** Foreign direct investment involves a lasting management interest, conventionally 10% or more of equity, and is stable. Foreign portfolio investment is financial, liquid and quick to leave, which is why it is called hot money. India's FDI comes through the **automatic route** for most sectors and the **government route** for sensitive ones; since April 2020 all investment from countries sharing a land border with India requires government approval. Sectors with caps: multi-brand retail 51%, insurance 74%, print media 26%; defence allows 74% automatic and more by approval.\n\n**Reserves** are held by the RBI in foreign currency assets, gold, Special Drawing Rights and the reserve tranche position at the IMF. **SDRs** are the IMF's reserve asset, valued on a basket of five currencies: US dollar, euro, Chinese renminbi, Japanese yen and pound sterling; the renminbi entered in 2016.\n\n**Trade rules.** The **WTO** was created on **1 January 1995** by the **Marrakesh Agreement**, replacing the **GATT** of 1947, after the **Uruguay Round**. Headquarters in Geneva; decisions are by consensus, one country one vote. Key agreements: **TRIPS** on intellectual property, **TRIMS** on investment measures, **GATS** on services, and the **Agreement on Agriculture**, whose rules on public stockholding for food security India has fought over since the Bali Ministerial of 2013, where it secured a **peace clause**. The **Appellate Body** has been paralysed since 2019 because the United States has blocked appointments.",
+   "facts": [
+    {
+     "k": "Current account",
+     "v": "Goods, services, primary and secondary income"
+    },
+    {
+     "k": "Largest recipient of remittances",
+     "v": "India, over 100 billion dollars a year"
+    },
+    {
+     "k": "FDI threshold",
+     "v": "Conventionally 10% or more of equity"
+    },
+    {
+     "k": "Land-border rule",
+     "v": "Government approval required for all investment from neighbours, since April 2020"
+    },
+    {
+     "k": "SDR basket",
+     "v": "US dollar, euro, renminbi, yen, pound sterling"
+    },
+    {
+     "k": "WTO founded",
+     "v": "1 January 1995, Marrakesh Agreement"
+    },
+    {
+     "k": "WTO predecessor",
+     "v": "GATT, 1947"
+    },
+    {
+     "k": "WTO headquarters",
+     "v": "Geneva; decision-making by consensus"
+    },
+    {
+     "k": "Peace clause secured at",
+     "v": "Bali Ministerial, 2013"
+    },
+    {
+     "k": "WTO Appellate Body",
+     "v": "Non-functional since 2019"
+    }
+   ],
+   "timeline": [],
+   "why": "Passages on trade disputes or the rupee test the current account definition and the WTO agreement names. The classic trap is FDI against FPI.",
+   "map": {
+    "nodes": [
+     {
+      "id": "bop",
+      "parent": "root",
+      "tier": 1,
+      "label": "Balance of payments",
+      "kind": "term",
+      "rel": "the framework",
+      "note": "Current account plus capital and financial account, with errors and omissions closing the gap."
+     },
+     {
+      "id": "cad",
+      "parent": "bop",
+      "tier": 1,
+      "label": "Current account deficit",
+      "kind": "term",
+      "rel": "the headline number",
+      "note": "Quoted as a share of GDP. India funds it through capital inflows and remittances."
+     },
+     {
+      "id": "wto",
+      "parent": "root",
+      "tier": 1,
+      "label": "WTO",
+      "kind": "org",
+      "rel": "1 January 1995",
+      "note": "Created by the Marrakesh Agreement after the Uruguay Round, replacing GATT 1947. Headquarters Geneva."
+     },
+     {
+      "id": "fdi",
+      "parent": "root",
+      "tier": 1,
+      "label": "FDI and FPI",
+      "kind": "concept",
+      "rel": "the distinction",
+      "note": "FDI implies lasting management interest, conventionally 10% of equity. FPI is liquid financial investment, called hot money."
+     },
+     {
+      "id": "remit",
+      "parent": "cad",
+      "tier": 1,
+      "label": "Remittances",
+      "kind": "term",
+      "rel": "India’s cushion",
+      "note": "India is the world’s largest recipient, over 100 billion dollars a year, mostly from the Gulf and the United States."
+     },
+     {
+      "id": "trips",
+      "parent": "wto",
+      "tier": 2,
+      "label": "TRIPS",
+      "kind": "law",
+      "rel": "intellectual property",
+      "note": "Sets minimum standards for patents and copyright. India amended its Patents Act in 2005 to comply; section 3(d) restricts evergreening."
+     },
+     {
+      "id": "aoa",
+      "parent": "wto",
+      "tier": 2,
+      "label": "Agreement on Agriculture",
+      "kind": "law",
+      "rel": "the fight",
+      "note": "Its limits on public stockholding conflict with India’s minimum support price procurement. The Bali peace clause of 2013 is the interim shield."
+     },
+     {
+      "id": "appellate",
+      "parent": "wto",
+      "tier": 2,
+      "label": "Appellate Body",
+      "kind": "org",
+      "rel": "paralysed",
+      "note": "Non-functional since December 2019 because the United States has blocked new appointments, leaving disputes unresolved."
+     },
+     {
+      "id": "sdr",
+      "parent": "root",
+      "tier": 2,
+      "label": "Special Drawing Rights",
+      "kind": "term",
+      "rel": "IMF reserve asset",
+      "note": "Valued on a basket of five currencies. The Chinese renminbi was added in 2016."
+     },
+     {
+      "id": "reserves",
+      "parent": "sdr",
+      "tier": 2,
+      "label": "Foreign exchange reserves",
+      "kind": "term",
+      "rel": "four components",
+      "note": "Foreign currency assets, gold, SDRs and the reserve tranche position at the IMF. Held and managed by the RBI."
+     },
+     {
+      "id": "border",
+      "parent": "fdi",
+      "tier": 2,
+      "label": "Land-border rule (2020)",
+      "kind": "concept",
+      "rel": "the restriction",
+      "note": "Press Note 3 of April 2020 requires government approval for investment from any country sharing a land border with India."
+     },
+     {
+      "id": "gatt",
+      "parent": "wto",
+      "tier": 2,
+      "label": "GATT, 1947",
+      "kind": "law",
+      "rel": "the predecessor",
+      "note": "A provisional agreement, not an organisation, that governed trade for 47 years through eight negotiating rounds."
+     },
+     {
+      "id": "taper",
+      "parent": "cad",
+      "tier": 3,
+      "label": "Taper tantrum (2013)",
+      "kind": "event",
+      "rel": "the warning",
+      "note": "US Federal Reserve signals on tapering triggered capital outflows; India’s CAD had reached about 4.8% of GDP in 2012-13."
+     },
+     {
+      "id": "gats",
+      "parent": "wto",
+      "tier": 3,
+      "label": "GATS",
+      "kind": "law",
+      "rel": "services",
+      "note": "General Agreement on Trade in Services. India’s interest lies in Mode 4, the movement of natural persons."
+     },
+     {
+      "id": "fema",
+      "parent": "fdi",
+      "tier": 3,
+      "label": "FEMA, 1999",
+      "kind": "law",
+      "rel": "the domestic rule",
+      "note": "Governs foreign exchange transactions and FDI, replacing the far stricter FERA of 1973."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
- "passages": []
+ "passages": [
+  {
+   "id": "economy-p1",
+   "kind": "static",
+   "month": "economy",
+   "topicIds": [
+    "eco-gst"
+   ],
+   "category": "Economy",
+   "tags": [
+    "GST",
+    "Federalism"
+   ],
+   "difficulty": 3,
+   "title": "The tax that needed an amendment",
+   "passage": "The tax introduced in July 2017 could not have been enacted by ordinary legislation. Under the constitutional scheme as it then stood, the power to tax the manufacture of goods lay with the Union and the power to tax their sale lay with the states, and neither could trespass on the other. Merging the two into a single levy therefore required a constitutional amendment, which created a new article giving both levels of government simultaneous power over the same tax base for the first time.\n\nThe amendment also created a council in which the Union and the states negotiate the rates. Its voting rules are unusual. A decision requires three quarters of the weighted votes cast. The Union holds one third of the weight and all the states together hold two thirds. The arithmetic means the Union cannot carry a proposal alone, since a third falls short of three quarters, and the states cannot carry one alone either, since two thirds also falls short. Every decision needs the Union and a substantial majority of states together.\n\nFor five years after the tax came into force, states were guaranteed compensation for any shortfall against a notional fourteen per cent annual growth in their revenue from the taxes they had surrendered, funded by a cess on luxury and demerit goods. The guarantee expired in 2022; the cess did not, having been extended to service the loans taken to pay the compensation during the pandemic.\n\nIn 2022 the Supreme Court held that the council's recommendations are persuasive rather than binding. Since both Parliament and the state legislatures hold the taxing power simultaneously, the Court reasoned, neither is subordinate to a body that merely recommends. The judgment unsettled an assumption that had governed the system since its inception, though in practice the council has continued to work by consensus.\n\nSeveral goods were left outside the new tax altogether. Petroleum products and alcohol for human consumption remained with the states, which is why fuel prices still vary from one state to the next.",
+   "questions": [
+    {
+     "q": "The new article created by the amendment, giving both levels simultaneous power, is:",
+     "options": [
+      "Article 246",
+      "Article 246A",
+      "Article 269A",
+      "Article 279A"
+     ],
+     "answer": 1,
+     "explain": "Article 246A. Article 269A deals with inter-state supply and Article 279A creates the GST Council; Article 246 is the original division of powers under the Seventh Schedule."
+    },
+    {
+     "q": "On the voting arithmetic described in the second paragraph, which is correct?",
+     "options": [
+      "The Union can carry a proposal alone",
+      "The states together can carry a proposal alone",
+      "Neither side can carry a proposal without the other",
+      "A simple majority of members suffices"
+     ],
+     "answer": 2,
+     "explain": "Three quarters is required. One third and two thirds each fall short of three quarters, so the Union and a substantial majority of states must agree together."
+    },
+    {
+     "q": "The 2022 judgment referred to in the fourth paragraph is:",
+     "options": [
+      "Mohit Minerals",
+      "Vodafone International",
+      "Union of India v. Azadi Bachao Andolan",
+      "Jindal Stainless"
+     ],
+     "answer": 0,
+     "explain": "Union of India v. Mohit Minerals (2022) held GST Council recommendations are persuasive, not binding, because both Union and states hold simultaneous legislative power."
+    },
+    {
+     "q": "Why do fuel prices still vary between states, on the passage?",
+     "options": [
+      "Fuel is taxed at different GST slabs",
+      "Petroleum products were kept outside the new tax",
+      "States receive different compensation amounts",
+      "Fuel is taxed only by the Union"
+     ],
+     "answer": 1,
+     "explain": "Petroleum crude, petrol, diesel, ATF and natural gas were kept outside GST, so state VAT and excise continue to apply at differing rates."
+    },
+    {
+     "q": "The compensation guarantee described in the third paragraph was based on assumed annual revenue growth of:",
+     "options": [
+      "Ten per cent",
+      "Twelve per cent",
+      "Fourteen per cent",
+      "Sixteen per cent"
+     ],
+     "answer": 2,
+     "explain": "Fourteen per cent a year against a 2015-16 base, guaranteed for five years from 1 July 2017 and funded by the compensation cess."
+    }
+   ]
+  }
+ ]
 }
