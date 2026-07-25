@@ -2,20 +2,22 @@
 :root {
   color-scheme: light;
 
-  --brand:        oklch(0.52 0.148 42);
-  --brand-hi:     oklch(0.46 0.152 42);
-  --brand-soft:   oklch(0.955 0.022 42);
-  --brand-line:   oklch(0.86 0.055 42);
+  --brand:        oklch(0.545 0.185 357);
+  --brand-hi:     oklch(0.475 0.185 357);
+  --brand-soft:   oklch(0.962 0.024 357);
+  --brand-line:   oklch(0.865 0.062 357);
 
-  --bg:           oklch(1 0 0);
-  --surface:      oklch(0.975 0 0);
-  --surface-2:    oklch(0.955 0 0);
-  --line:         oklch(0.905 0 0);
-  --line-soft:    oklch(0.945 0 0);
-  --ink:          oklch(0.19 0 0);
-  --ink-2:        oklch(0.38 0 0);
-  --muted:        oklch(0.50 0 0);
-  --faint:        oklch(0.64 0 0);
+  --lily:         oklch(0.685 0.165 56);
+
+  --bg:           oklch(0.987 0.005 248);
+  --surface:      oklch(0.968 0.007 248);
+  --surface-2:    oklch(0.944 0.009 248);
+  --line:         oklch(0.898 0.010 248);
+  --line-soft:    oklch(0.938 0.008 248);
+  --ink:          oklch(0.205 0.012 262);
+  --ink-2:        oklch(0.385 0.012 262);
+  --muted:        oklch(0.495 0.010 262);
+  --faint:        oklch(0.635 0.010 262);
 
   --ok:           oklch(0.50 0.13 152);
   --ok-soft:      oklch(0.955 0.03 152);
@@ -47,20 +49,22 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
 
-  --brand:        oklch(0.72 0.135 46);
-  --brand-hi:     oklch(0.79 0.13 48);
-  --brand-soft:   oklch(0.265 0.045 42);
-  --brand-line:   oklch(0.40 0.075 42);
+  --brand:        oklch(0.745 0.155 357);
+  --brand-hi:     oklch(0.815 0.135 357);
+  --brand-soft:   oklch(0.275 0.058 357);
+  --brand-line:   oklch(0.415 0.088 357);
 
-  --bg:           oklch(0.155 0 0);
-  --surface:      oklch(0.192 0 0);
-  --surface-2:    oklch(0.228 0 0);
-  --line:         oklch(0.285 0 0);
-  --line-soft:    oklch(0.235 0 0);
-  --ink:          oklch(0.955 0 0);
-  --ink-2:        oklch(0.82 0 0);
-  --muted:        oklch(0.685 0 0);
-  --faint:        oklch(0.54 0 0);
+  --lily:         oklch(0.72 0.15 56);
+
+  --bg:           oklch(0.168 0.010 262);
+  --surface:      oklch(0.205 0.011 262);
+  --surface-2:    oklch(0.242 0.012 262);
+  --line:         oklch(0.298 0.012 262);
+  --line-soft:    oklch(0.248 0.011 262);
+  --ink:          oklch(0.958 0.004 262);
+  --ink-2:        oklch(0.822 0.008 262);
+  --muted:        oklch(0.688 0.010 262);
+  --faint:        oklch(0.545 0.012 262);
 
   --ok:           oklch(0.76 0.15 152);
   --ok-soft:      oklch(0.255 0.045 152);
@@ -93,6 +97,17 @@ svg { display: block; }
 :focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 3px; }
 ::selection { background: var(--brand-soft); color: var(--ink); }
 
+/* Lily field. Six-tepal outlines, tiled, barely there — a texture you notice
+   on the second look and never while reading. */
+body::before {
+  content: "";
+  position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260' viewBox='0 0 260 260'%3E%3Cg fill='none' stroke='%23e07a2c' stroke-width='1.05' stroke-linejoin='round'%3E%3Cg transform='translate(62 58)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(60)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(180)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(300)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cg stroke-width='.75'%3E%3Cpath d='M0 -2L-9 -26'/%3E%3Cpath d='M0 -2L0 -30'/%3E%3Cpath d='M0 -2L9 -26'/%3E%3C/g%3E%3C/g%3E%3Cg transform='translate(190 186) rotate(26) scale(.66)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(60)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(180)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(300)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3C/g%3E%3Cg transform='translate(196 46) rotate(-18) scale(.38)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3C/g%3E%3Cg transform='translate(40 200) rotate(42) scale(.34)'%3E%3Cpath d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(120)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3Cpath transform='rotate(240)' d='M0 -3C6 -17 6 -33 0 -45C-6 -33 -6 -17 0 -3Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 260px 260px;
+  opacity: 0.075;
+}
+:root[data-theme="dark"] body::before { opacity: 0.062; }
+
 /* ── shell ──────────────────────────────────────────────────────────── */
 .top {
   position: sticky; top: 0; z-index: var(--z-sticky);
@@ -106,7 +121,11 @@ svg { display: block; }
 }
 .brand { display: flex; align-items: baseline; gap: 8px; font-weight: 660; letter-spacing: -0.02em; }
 .brand b { color: var(--brand); font-weight: 700; }
-.brand span { color: var(--faint); font-size: 11px; font-weight: 500; letter-spacing: 0.02em; }
+.brand em {
+  font-family: "Snell Roundhand", "Apple Chancery", "Segoe Script", "Brush Script MT", cursive;
+  font-style: normal; font-weight: 600; font-size: 20px; line-height: 1;
+  color: var(--brand); margin-left: 3px; letter-spacing: 0;
+}
 
 .nav { display: flex; gap: 2px; margin-left: auto; }
 .nav a {
@@ -301,7 +320,10 @@ main { max-width: var(--shell); margin: 0 auto; padding: 26px 20px 96px; }
 .map-bar .legend i.t2 { background: var(--bg); border: 1.5px solid var(--brand-line); }
 .map-bar .legend i.t3 { background: var(--faint); opacity: 0.55; }
 
-.map-stage { position: relative; height: 560px; touch-action: none; cursor: grab; }
+/* pan-y so a finger or trackpad still scrolls the page over the map;
+   dragging switches it off for the duration of the gesture. */
+.map-stage { position: relative; height: 560px; touch-action: pan-y; cursor: grab; }
+.map-stage.drag { touch-action: none; }
 .mapwrap.full .map-stage { height: calc(100% - 41px); }
 .map-stage.drag { cursor: grabbing; }
 .map-stage svg { width: 100%; height: 100%; }
@@ -309,17 +331,18 @@ main { max-width: var(--shell); margin: 0 auto; padding: 26px 20px 96px; }
 .mp-edge { fill: none; stroke: var(--line); stroke-width: 1.15; transition: stroke var(--t), stroke-width var(--t), opacity var(--t); }
 .mp-edge.t1 { stroke: var(--brand-line); stroke-width: 1.6; }
 .mp-node { cursor: pointer; }
-.mp-node circle { transition: r 140ms var(--ease), fill var(--t), stroke var(--t); }
+.mp-node circle:not(.hit) { transition: r 140ms var(--ease), fill var(--t), stroke var(--t); }
+.mp-node circle.hit { fill: transparent; stroke: none; }
 .mp-node text { font: 500 13px/1 var(--sans); fill: var(--ink-2); pointer-events: none; }
-.mp-node.t1 circle { fill: var(--brand); stroke: var(--brand); }
+.mp-node.t1 circle:not(.hit) { fill: var(--brand); stroke: var(--brand); }
 .mp-node.t1 text { fill: var(--ink); font-weight: 580; font-size: 14.5px; }
-.mp-node.t2 circle { fill: var(--bg); stroke: var(--brand-line); stroke-width: 1.6; }
-.mp-node.t3 circle { fill: var(--faint); stroke: none; opacity: 0.62; }
+.mp-node.t2 circle:not(.hit) { fill: var(--bg); stroke: var(--brand-line); stroke-width: 1.6; }
+.mp-node.t3 circle:not(.hit) { fill: var(--faint); stroke: none; opacity: 0.62; }
 .mp-node.t3 text { fill: var(--muted); font-size: 12px; }
-.mp-root circle { fill: var(--ink); }
+.mp-root circle:not(.hit) { fill: var(--ink); }
 .mp-root text { font: 620 15px/1.25 var(--sans); fill: var(--ink); }
-.mp-node:hover circle { r: 8; }
-.mp-node.sel circle { stroke: var(--ink); stroke-width: 2.5; }
+.mp-node:hover circle:not(.hit) { r: 8; }
+.mp-node.sel circle:not(.hit) { stroke: var(--ink); stroke-width: 2.5; }
 .map-stage.focus .mp-node:not(.hi) { opacity: 0.16; }
 .map-stage.focus .mp-edge:not(.hi) { opacity: 0.1; }
 .mp-node, .mp-edge { transition: opacity 160ms var(--ease); }

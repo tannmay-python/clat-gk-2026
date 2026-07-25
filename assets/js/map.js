@@ -127,6 +127,7 @@ function svg(topic, raw) {
     const delay = isRoot ? 0 : 90 + n.depth * 110 + (n.tier - 1) * 40;
     marks.push(
       `<g class="${cls}" data-node="${esc(n.id)}" tabindex="0" role="button" aria-label="${esc(n.label)}" transform="translate(${n.x.toFixed(1)} ${n.y.toFixed(1)})" style="--d:${delay}ms">` +
+      `<circle class="hit" r="${Math.max(16, r + 11)}"/>` +
       `<circle r="${r}"/>` +
       `<text x="${dx}" y="${dy}" text-anchor="${anchor}">${esc(label)}</text>` +
       `</g>`
@@ -183,21 +184,34 @@ export function wireMap(scope, topic) {
     apply();
   }, { passive: false });
 
+  // Pointer capture would steal the click target, so a tap is detected here
+  // rather than left to a click listener: press, move less than 4px, release.
   let drag = null;
   stage.addEventListener('pointerdown', e => {
-    if (e.target.closest('.map-detail')) return;
-    drag = { x: e.clientX, y: e.clientY, tx, ty };
-    stage.classList.add('drag');
-    stage.setPointerCapture(e.pointerId);
+    if (e.target.closest('.map-detail') || e.target.closest('.map-tools')) return;
+    const g = e.target.closest('.mp-node');
+    drag = { x: e.clientX, y: e.clientY, tx, ty, node: g ? g.dataset.node : null, moved: false };
   });
   stage.addEventListener('pointermove', e => {
     if (!drag) return;
+    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if (!drag.moved) {
+      if (dx * dx + dy * dy < 16) return;
+      drag.moved = true;
+      stage.classList.add('drag');
+      try { stage.setPointerCapture(e.pointerId); } catch {}
+    }
     const k = (W / stage.clientWidth) || 1;
-    tx = drag.tx + (e.clientX - drag.x) * k;
-    ty = drag.ty + (e.clientY - drag.y) * k;
+    tx = drag.tx + dx * k;
+    ty = drag.ty + dy * k;
     apply();
   });
-  const endDrag = () => { drag = null; stage.classList.remove('drag'); };
+  const endDrag = e => {
+    if (drag && !drag.moved && drag.node) select(drag.node);
+    drag = null;
+    stage.classList.remove('drag');
+    if (e) { try { stage.releasePointerCapture(e.pointerId); } catch {} }
+  };
   stage.addEventListener('pointerup', endDrag);
   stage.addEventListener('pointercancel', endDrag);
 
@@ -235,10 +249,6 @@ export function wireMap(scope, topic) {
     if (g) focus(g.dataset.node);
   });
   stage.addEventListener('pointerleave', () => focus(null));
-  stage.addEventListener('click', e => {
-    const g = e.target.closest('.mp-node');
-    if (g) select(g.dataset.node);
-  });
   stage.addEventListener('keydown', e => {
     const g = e.target.closest('.mp-node');
     if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); select(g.dataset.node); focus(g.dataset.node); }
