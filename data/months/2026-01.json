@@ -2,7 +2,7 @@
  "id": "2026-01",
  "kind": "current",
  "label": "January 2026",
- "blurb": "US forces captured Nicolás Maduro and the Monroe Doctrine came back into the vocabulary. At home, the EU sent its first joint Republic Day chief guests, India took the BRICS chair, and the Supreme Court read menstrual health into Article 21. Partial month: 21 topics, no passage bank.",
+ "blurb": "US forces captured Nicolás Maduro and the Monroe Doctrine came back into the vocabulary. India passed Japan to fourth place by nominal GDP, non-fossil capacity crossed half the installed total, the EU sent its first joint Republic Day chief guests, India took the BRICS chair, and the Supreme Court read menstrual health into Article 21.",
  "topics": [
   {
    "id": "2026-01-us-venezuela-maduro",
@@ -2815,6 +2815,1270 @@
    "sources": [
     "https://www.olympics.com/en/milano-cortina-2026/olympic-torch-relay"
    ]
+  },
+  {
+   "id": "2026-01-rte-quota",
+   "rank": 22,
+   "depth": "medium",
+   "importance": 4,
+   "title": "The Supreme Court tightens the 25% school quota",
+   "date": "2026-01",
+   "category": "Judiciary",
+   "tags": [
+    "Right to Education",
+    "Article 21A",
+    "Reservation"
+   ],
+   "hook": "A private school that takes no state money still has to keep a quarter of its entry class for children it did not choose.",
+   "story": "The Supreme Court strengthened enforcement of the **25% reservation** for children from weaker sections and disadvantaged groups in **private unaided schools**, directing states to frame rules through consultation and to fix the reimbursement question that has stalled compliance for a decade.\n\nThe obligation comes from **Section 12(1)(c)** of the **Right of Children to Free and Compulsory Education Act, 2009**, which requires unaided schools to admit at least a quarter of their entry-level class from those categories and provide free elementary education to them. The state reimburses the school at its own per-child expenditure or the school's fee, whichever is lower, which is where the disputes begin, because the reimbursement rate is usually well below the fee.\n\nThe Act itself follows **Article 21A**, inserted by the **Eighty-Sixth Amendment in 2002**, which makes free and compulsory education for children aged **six to fourteen** a fundamental right. The same amendment moved the old **Article 45** to cover early childhood care below six and added **Article 51A(k)**, a fundamental duty on parents to provide education.\n\nThe constitutionality of Section 12(1)(c) was upheld in **Society for Unaided Private Schools of Rajasthan v. Union of India (2012)**, with the Court exempting unaided **minority** institutions from the obligation, reasoning that **Article 30(1)** protects their right to administer. **Pramati Educational Trust (2014)** confirmed that exemption for both aided and unaided minority schools, which is why the quota reaches only a part of the private sector.",
+   "facts": [
+    {
+     "k": "Provision",
+     "v": "Section 12(1)(c), RTE Act 2009: 25% of the entry class in private unaided schools"
+    },
+    {
+     "k": "Constitutional basis",
+     "v": "Article 21A, inserted by the 86th Amendment, 2002; ages six to fourteen"
+    },
+    {
+     "k": "Reimbursement",
+     "v": "State per-child expenditure or the school fee, whichever is lower"
+    },
+    {
+     "k": "Upheld in",
+     "v": "Society for Unaided Private Schools of Rajasthan, 2012"
+    },
+    {
+     "k": "Minority exemption",
+     "v": "Confirmed in Pramati Educational Trust, 2014, resting on Article 30(1)"
+    }
+   ],
+   "timeline": [],
+   "why": "The pairing to hold is Article 21A with the 86th Amendment and the age band six to fourteen. The minority exemption is the detail that separates a careful answer from a quick one.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1r-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "RTE quota enforcement",
+      "kind": "event",
+      "rel": "core",
+      "note": "Court directs states to fix rules and reimbursement."
+     },
+     {
+      "id": "j1r-12",
+      "parent": "j1r-root",
+      "tier": 1,
+      "label": "Section 12(1)(c)",
+      "kind": "law",
+      "rel": "provision",
+      "note": "25% of the entry class in private unaided schools."
+     },
+     {
+      "id": "j1r-21a",
+      "parent": "j1r-root",
+      "tier": 1,
+      "label": "Article 21A",
+      "kind": "law",
+      "rel": "basis",
+      "note": "Free and compulsory education for ages six to fourteen."
+     },
+     {
+      "id": "j1r-86",
+      "parent": "j1r-21a",
+      "tier": 2,
+      "label": "86th Amendment, 2002",
+      "kind": "law",
+      "rel": "origin",
+      "note": "Inserted 21A, moved Article 45, added Article 51A(k)."
+     },
+     {
+      "id": "j1r-2012",
+      "parent": "j1r-root",
+      "tier": 1,
+      "label": "Rajasthan case, 2012",
+      "kind": "case",
+      "rel": "upheld",
+      "note": "Section 12(1)(c) held constitutional."
+     },
+     {
+      "id": "j1r-pramati",
+      "parent": "j1r-2012",
+      "tier": 2,
+      "label": "Pramati, 2014",
+      "kind": "case",
+      "rel": "exemption",
+      "note": "Minority institutions outside the obligation."
+     },
+     {
+      "id": "j1r-30",
+      "parent": "j1r-pramati",
+      "tier": 3,
+      "label": "Article 30(1)",
+      "kind": "law",
+      "rel": "ground",
+      "note": "Right of minorities to establish and administer institutions."
+     },
+     {
+      "id": "j1r-reim",
+      "parent": "j1r-12",
+      "tier": 2,
+      "label": "Reimbursement",
+      "kind": "concept",
+      "rel": "friction",
+      "note": "State pays the lower of its own cost and the school fee."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-judge-removal",
+   "rank": 23,
+   "depth": "medium",
+   "importance": 4,
+   "title": "Who may investigate a judge, and why none has ever been removed",
+   "date": "2026-01",
+   "category": "Polity",
+   "tags": [
+    "Impeachment",
+    "Judges Inquiry Act",
+    "Article 124(4)"
+   ],
+   "hook": "The Constitution calls it removal, not impeachment, and in seventy-five years it has never been completed.",
+   "story": "The Supreme Court clarified the **Speaker's authority** to constitute an inquiry committee into allegations against a judge, and noted that no judge of a High Court or the Supreme Court has ever actually been removed.\n\nThe procedure sits in **Article 124(4)**, applied to High Court judges by **Article 217(1)(b)**. A judge may be removed only by an order of the President, passed after an address by **each House of Parliament** supported by a **majority of the total membership** of that House **and** by a **majority of not less than two-thirds of the members present and voting**, presented in the same session, on the ground of **proved misbehaviour or incapacity**. Those are the only two grounds, and neither is defined.\n\nThe mechanics come from the **Judges (Inquiry) Act, 1968**. A motion needs **100 members of the Lok Sabha** or **50 of the Rajya Sabha**. The presiding officer may admit or refuse it; if admitted, a three-member committee investigates, consisting of a Supreme Court judge, a High Court Chief Justice and a distinguished jurist. Only if the committee finds the charge proved does the motion go to a vote.\n\nThe attempts are the case law. **Justice V. Ramaswami** faced a motion in 1993 after a committee found charges proved; the Lok Sabha vote failed when the ruling party abstained. **Justice Soumitra Sen** was removed by a Rajya Sabha vote in 2011 but resigned before the Lok Sabha could take it up. **Justice Yashwant Varma** faced motions in 2025 after cash was found at his residence. The rule that a judge may resign before the second House votes is why the count stays at zero.",
+   "facts": [
+    {
+     "k": "Grounds",
+     "v": "Proved misbehaviour or incapacity; neither is defined in the Constitution"
+    },
+    {
+     "k": "Articles",
+     "v": "124(4) for the Supreme Court, applied to High Courts by 217(1)(b)"
+    },
+    {
+     "k": "Majority needed",
+     "v": "Majority of total membership and two-thirds of those present and voting, in each House"
+    },
+    {
+     "k": "Motion threshold",
+     "v": "100 Lok Sabha members or 50 Rajya Sabha members, under the Judges (Inquiry) Act 1968"
+    },
+    {
+     "k": "Inquiry committee",
+     "v": "A Supreme Court judge, a High Court Chief Justice and a distinguished jurist"
+    },
+    {
+     "k": "Record",
+     "v": "No judge has ever been removed; Ramaswami survived the vote, Sen resigned first"
+    }
+   ],
+   "timeline": [],
+   "why": "The double majority is the most misremembered fact in the whole of polity. Note also that the Constitution never uses the word impeachment for judges — that word belongs to Article 61 and the President.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1j-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Removal of a judge",
+      "kind": "event",
+      "rel": "core",
+      "note": "Speaker's power to constitute an inquiry clarified."
+     },
+     {
+      "id": "j1j-124",
+      "parent": "j1j-root",
+      "tier": 1,
+      "label": "Article 124(4)",
+      "kind": "law",
+      "rel": "procedure",
+      "note": "Removal by presidential order after an address by both Houses."
+     },
+     {
+      "id": "j1j-217",
+      "parent": "j1j-124",
+      "tier": 2,
+      "label": "Article 217(1)(b)",
+      "kind": "law",
+      "rel": "extension",
+      "note": "Applies the same procedure to High Court judges."
+     },
+     {
+      "id": "j1j-maj",
+      "parent": "j1j-124",
+      "tier": 2,
+      "label": "The double majority",
+      "kind": "concept",
+      "rel": "threshold",
+      "note": "Majority of total membership and two-thirds present and voting."
+     },
+     {
+      "id": "j1j-act",
+      "parent": "j1j-root",
+      "tier": 1,
+      "label": "Judges (Inquiry) Act, 1968",
+      "kind": "law",
+      "rel": "mechanics",
+      "note": "Motion thresholds and the three-member committee."
+     },
+     {
+      "id": "j1j-comm",
+      "parent": "j1j-act",
+      "tier": 2,
+      "label": "Inquiry committee",
+      "kind": "institution",
+      "rel": "body",
+      "note": "Supreme Court judge, High Court Chief Justice, jurist."
+     },
+     {
+      "id": "j1j-ram",
+      "parent": "j1j-root",
+      "tier": 2,
+      "label": "Justice V. Ramaswami",
+      "kind": "person",
+      "rel": "attempt",
+      "note": "1993 motion failed on the floor of the Lok Sabha."
+     },
+     {
+      "id": "j1j-sen",
+      "parent": "j1j-root",
+      "tier": 2,
+      "label": "Justice Soumitra Sen",
+      "kind": "person",
+      "rel": "attempt",
+      "note": "Removed by the Rajya Sabha in 2011; resigned before the Lok Sabha voted."
+     },
+     {
+      "id": "j1j-61",
+      "parent": "j1j-root",
+      "tier": 2,
+      "label": "Article 61",
+      "kind": "law",
+      "rel": "contrast",
+      "note": "Impeachment, which applies to the President and not to judges."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-fourth-economy",
+   "rank": 24,
+   "depth": "medium",
+   "importance": 4,
+   "title": "India passes Japan to become the fourth largest economy",
+   "date": "2026-01",
+   "category": "Economy",
+   "tags": [
+    "GDP",
+    "Nominal",
+    "Per Capita",
+    "IMF"
+   ],
+   "hook": "Fourth by the size of the pie and about one hundred and forty-first by the size of the slice.",
+   "story": "India's **nominal GDP** reached about **$4.18 trillion**, moving it past Japan into **fourth place** behind the United States, China and Germany. The **World Bank** raised its growth forecast for the financial year to **7.2%**, citing softer food prices and better labour force participation.\n\nTwo measures are in play and they rank countries differently. **Nominal GDP** converts output at market exchange rates and is the one that produces this headline. **Purchasing power parity** adjusts for what money actually buys locally, and on that basis India has been **third** behind China and the United States for over a decade. Neither says anything about individuals: **per capita** income in nominal terms is around **$2,900**, which places India below the world average and outside the top hundred and thirty.\n\nThe composition has been unusual for a country at this stage. **Services** contribute roughly **55%** of gross value added and **industry** about 27%, while **agriculture** contributes around **18%** but still employs close to **45%** of the workforce. That gap between agriculture's share of output and of employment is the central structural problem, and it is what the phrase premature deindustrialisation points at.\n\nBanking numbers were unusually good in the same month: **gross non-performing assets** fell to about **2.1%**, the lowest in more than a decade, against a peak above 11% in 2018 that followed the asset quality review.",
+   "facts": [
+    {
+     "k": "Nominal GDP",
+     "v": "About $4.18 trillion, fourth in the world past Japan"
+    },
+    {
+     "k": "On PPP",
+     "v": "Third behind China and the United States, and has been for over a decade"
+    },
+    {
+     "k": "Per capita",
+     "v": "About $2,900 nominal, outside the top 130 countries"
+    },
+    {
+     "k": "Growth forecast",
+     "v": "World Bank raised the financial year estimate to 7.2%"
+    },
+    {
+     "k": "Sector shares",
+     "v": "Services about 55% of gross value added, agriculture about 18% but 45% of jobs"
+    },
+    {
+     "k": "Bank asset quality",
+     "v": "Gross NPAs near 2.1%, the lowest in more than a decade"
+    }
+   ],
+   "timeline": [],
+   "why": "The reliable trap is nominal against PPP: fourth on one, third on the other. Pair the aggregate rank with the per capita rank, because a passage will usually set them against each other.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1e-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Fourth largest economy",
+      "kind": "event",
+      "rel": "core",
+      "note": "Nominal GDP about $4.18 trillion, past Japan."
+     },
+     {
+      "id": "j1e-nom",
+      "parent": "j1e-root",
+      "tier": 1,
+      "label": "Nominal GDP",
+      "kind": "concept",
+      "rel": "measure",
+      "note": "Converted at market exchange rates."
+     },
+     {
+      "id": "j1e-ppp",
+      "parent": "j1e-root",
+      "tier": 1,
+      "label": "Purchasing power parity",
+      "kind": "concept",
+      "rel": "measure",
+      "note": "Adjusted for local prices; India third on this basis."
+     },
+     {
+      "id": "j1e-cap",
+      "parent": "j1e-root",
+      "tier": 1,
+      "label": "Per capita income",
+      "kind": "concept",
+      "rel": "measure",
+      "note": "About $2,900 nominal, well outside the top hundred."
+     },
+     {
+      "id": "j1e-wb",
+      "parent": "j1e-root",
+      "tier": 2,
+      "label": "World Bank forecast",
+      "kind": "institution",
+      "rel": "estimate",
+      "note": "Financial year growth raised to 7.2%."
+     },
+     {
+      "id": "j1e-sect",
+      "parent": "j1e-root",
+      "tier": 1,
+      "label": "Sector shares",
+      "kind": "concept",
+      "rel": "structure",
+      "note": "Services 55%, industry 27%, agriculture 18% of value added."
+     },
+     {
+      "id": "j1e-emp",
+      "parent": "j1e-sect",
+      "tier": 2,
+      "label": "The employment gap",
+      "kind": "concept",
+      "rel": "problem",
+      "note": "Agriculture holds 45% of jobs for 18% of output."
+     },
+     {
+      "id": "j1e-npa",
+      "parent": "j1e-root",
+      "tier": 2,
+      "label": "Gross NPAs at 2.1%",
+      "kind": "concept",
+      "rel": "banking",
+      "note": "Lowest in over a decade, against a peak above 11% in 2018."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-renewables",
+   "rank": 26,
+   "depth": "brief",
+   "importance": 4,
+   "title": "Non-fossil capacity passes half the installed total",
+   "date": "2026-01",
+   "category": "Environment",
+   "tags": [
+    "Renewable Energy",
+    "Panchamrit",
+    "Paris Agreement"
+   ],
+   "hook": "India promised to get half its electricity capacity from non-fossil sources by 2030 and arrived early.",
+   "story": "Installed renewable capacity reached about **254 GW**, and **non-fossil sources** crossed **50%** of India's total installed generating capacity, ahead of the 2030 target India set for itself.\n\nThe commitment comes from the **Panchamrit** pledges announced at **COP26 in Glasgow in 2021**: 500 GW of non-fossil capacity by 2030, half of energy requirements from renewables, a billion tonnes cut in projected emissions, a 45% reduction in emissions intensity of GDP from 2005 levels, and **net zero by 2070**. These were folded into India's updated **Nationally Determined Contribution** under the **Paris Agreement**.\n\nCapacity is not generation. Solar and wind run at much lower capacity factors than coal, so non-fossil sources supply well under half the electricity actually generated, and coal still carries about three quarters of it. The gap is a storage and transmission problem, which is what the viability gap funding for battery storage and the **green energy corridors** are meant to close. India also leads the world on renewable energy employment, with about **1.3 million** jobs across solar and hydropower.",
+   "facts": [
+    {
+     "k": "Capacity",
+     "v": "About 254 GW renewable; non-fossil past 50% of total installed capacity"
+    },
+    {
+     "k": "Panchamrit",
+     "v": "Announced at COP26, Glasgow, 2021; five pledges including net zero by 2070"
+    },
+    {
+     "k": "Target",
+     "v": "500 GW non-fossil capacity by 2030"
+    },
+    {
+     "k": "Capacity is not generation",
+     "v": "Coal still supplies about three quarters of electricity generated"
+    },
+    {
+     "k": "Jobs",
+     "v": "About 1.3 million renewable energy jobs, the largest in the world"
+    }
+   ],
+   "timeline": [],
+   "why": "Capacity against generation is the distinction a passage will test. Net zero by 2070, not 2050, is the number that is most often replaced with a wrong option.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1n-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Non-fossil past 50%",
+      "kind": "event",
+      "rel": "core",
+      "note": "254 GW renewable; the 2030 capacity target met early."
+     },
+     {
+      "id": "j1n-pancha",
+      "parent": "j1n-root",
+      "tier": 1,
+      "label": "Panchamrit",
+      "kind": "concept",
+      "rel": "pledge",
+      "note": "Five commitments announced at COP26 in 2021."
+     },
+     {
+      "id": "j1n-net",
+      "parent": "j1n-pancha",
+      "tier": 2,
+      "label": "Net zero by 2070",
+      "kind": "concept",
+      "rel": "target",
+      "note": "India's date, later than most large emitters."
+     },
+     {
+      "id": "j1n-ndc",
+      "parent": "j1n-pancha",
+      "tier": 2,
+      "label": "Nationally Determined Contribution",
+      "kind": "concept",
+      "rel": "instrument",
+      "note": "How Paris Agreement pledges are recorded."
+     },
+     {
+      "id": "j1n-gen",
+      "parent": "j1n-root",
+      "tier": 1,
+      "label": "Capacity against generation",
+      "kind": "concept",
+      "rel": "distinction",
+      "note": "Coal still generates about three quarters of the power."
+     },
+     {
+      "id": "j1n-store",
+      "parent": "j1n-gen",
+      "tier": 2,
+      "label": "Storage and transmission",
+      "kind": "concept",
+      "rel": "constraint",
+      "note": "Battery viability gap funding and green energy corridors."
+     },
+     {
+      "id": "j1n-jobs",
+      "parent": "j1n-root",
+      "tier": 2,
+      "label": "1.3 million jobs",
+      "kind": "concept",
+      "rel": "scale",
+      "note": "The largest renewable workforce in the world."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-unsc-reform",
+   "rank": 27,
+   "depth": "brief",
+   "importance": 4,
+   "title": "The G4 propose a Council of twenty-six",
+   "date": "2026-01",
+   "category": "International Relations",
+   "tags": [
+    "UNSC Reform",
+    "G4",
+    "Veto"
+   ],
+   "hook": "Every proposal to expand the Security Council has to be approved by the five countries whose relative power it would reduce.",
+   "story": "The **G4** — India, Brazil, Germany and Japan — proposed expanding the Security Council to **25 or 26 members**, with **six new permanent seats** and four or five additional non-permanent ones, and offered to defer the question of the **veto** for the new permanent members for fifteen years.\n\nThe obstacle is structural. Amending the Charter requires a two-thirds vote in the General Assembly **and** ratification by two-thirds of members **including all five permanent members**, so any one of them can stop it. **Uniting for Consensus**, sometimes called the Coffee Club and led by Italy with Pakistan, Argentina, South Korea and others, opposes new permanent seats altogether and would add only elected members. The **African Union** presses the **Ezulwini Consensus**, which demands two permanent African seats with full veto rights.\n\nIndia's case rests on population, on troop contributions to peacekeeping, on economic weight, and on eight terms as an elected member, the most recent in 2021 and 2022. Talks have run as **Intergovernmental Negotiations** since 2009 without a negotiating text that all sides accept, which is itself the standing complaint.",
+   "facts": [
+    {
+     "k": "Proposal",
+     "v": "Council of 25 or 26, with six new permanent seats"
+    },
+    {
+     "k": "G4",
+     "v": "India, Brazil, Germany and Japan, each backing the others"
+    },
+    {
+     "k": "Amendment rule",
+     "v": "Two-thirds of the General Assembly plus ratification by all five permanent members"
+    },
+    {
+     "k": "Uniting for Consensus",
+     "v": "Italy, Pakistan and others; would add only elected seats"
+    },
+    {
+     "k": "Ezulwini Consensus",
+     "v": "African Union demand for two permanent African seats with the veto"
+    },
+    {
+     "k": "Process",
+     "v": "Intergovernmental Negotiations since 2009, still without an agreed text"
+    }
+   ],
+   "timeline": [],
+   "why": "The blocking mechanism is the point: reform needs the consent of exactly those it would dilute. Ezulwini and Uniting for Consensus are the two names most likely to appear as options.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1u-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Security Council reform",
+      "kind": "event",
+      "rel": "core",
+      "note": "G4 propose a Council of 25 or 26."
+     },
+     {
+      "id": "j1u-g4",
+      "parent": "j1u-root",
+      "tier": 1,
+      "label": "G4",
+      "kind": "institution",
+      "rel": "grouping",
+      "note": "India, Brazil, Germany, Japan."
+     },
+     {
+      "id": "j1u-amend",
+      "parent": "j1u-root",
+      "tier": 1,
+      "label": "Charter amendment",
+      "kind": "law",
+      "rel": "obstacle",
+      "note": "Needs ratification by all five permanent members."
+     },
+     {
+      "id": "j1u-ufc",
+      "parent": "j1u-root",
+      "tier": 1,
+      "label": "Uniting for Consensus",
+      "kind": "institution",
+      "rel": "opposition",
+      "note": "Italy and Pakistan among others; elected seats only."
+     },
+     {
+      "id": "j1u-ezul",
+      "parent": "j1u-root",
+      "tier": 1,
+      "label": "Ezulwini Consensus",
+      "kind": "concept",
+      "rel": "demand",
+      "note": "African Union position: two permanent seats with the veto."
+     },
+     {
+      "id": "j1u-ign",
+      "parent": "j1u-root",
+      "tier": 2,
+      "label": "Intergovernmental Negotiations",
+      "kind": "concept",
+      "rel": "process",
+      "note": "Running since 2009 without an agreed text."
+     },
+     {
+      "id": "j1u-india",
+      "parent": "j1u-g4",
+      "tier": 2,
+      "label": "India's case",
+      "kind": "concept",
+      "rel": "claim",
+      "note": "Population, peacekeeping, economy, eight elected terms."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-diego-garcia",
+   "rank": 29,
+   "depth": "brief",
+   "importance": 3,
+   "title": "Diego Garcia, the Chagos deal and the people who were removed",
+   "date": "2026-01",
+   "category": "International Relations",
+   "tags": [
+    "Chagos",
+    "Diego Garcia",
+    "ICJ",
+    "Mauritius"
+   ],
+   "hook": "An advisory opinion said the islands should have gone with independence in 1968. The base is still there.",
+   "story": "Attention returned to **Diego Garcia**, the American military base on the largest island of the **Chagos Archipelago**, held by Britain as the **British Indian Ocean Territory**.\n\nBritain detached the archipelago from **Mauritius** in **1965**, three years before Mauritian independence, and between 1968 and 1973 removed the entire **Chagossian** population, mostly to Mauritius and the Seychelles, to make way for the base. The **International Court of Justice** held in a **2019 advisory opinion** that the detachment was unlawful because it broke up a colony before self-determination, and that Britain should end its administration as rapidly as possible. The **General Assembly** endorsed that by 116 votes to 6. An advisory opinion binds nobody, and Britain did not comply.\n\nA **2024 agreement** transferred sovereignty over the archipelago to Mauritius while leasing Diego Garcia back for the base for an initial ninety-nine years. Chagossian groups have objected that they were not party to the negotiation and that the right of return to Diego Garcia itself remains excluded. India supported Mauritius throughout, which fits both its decolonisation position and its interest in the western Indian Ocean.",
+   "facts": [
+    {
+     "k": "Location",
+     "v": "Diego Garcia, largest island of the Chagos Archipelago, in the central Indian Ocean"
+    },
+    {
+     "k": "Detachment",
+     "v": "Separated from Mauritius in 1965, three years before its independence"
+    },
+    {
+     "k": "Removal",
+     "v": "The Chagossian population was expelled between 1968 and 1973"
+    },
+    {
+     "k": "ICJ, 2019",
+     "v": "Advisory opinion holding the detachment unlawful; endorsed 116-6 by the General Assembly"
+    },
+    {
+     "k": "2024 agreement",
+     "v": "Sovereignty to Mauritius, Diego Garcia leased back for ninety-nine years"
+    },
+    {
+     "k": "India's position",
+     "v": "Supported the Mauritian claim throughout"
+    }
+   ],
+   "timeline": [],
+   "why": "An advisory opinion is not binding, and that distinction is the likeliest question. Note that the ICJ has both contentious jurisdiction between states and this separate advisory function.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1d-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Diego Garcia",
+      "kind": "place",
+      "rel": "core",
+      "note": "American base on the largest Chagos island."
+     },
+     {
+      "id": "j1d-1965",
+      "parent": "j1d-root",
+      "tier": 1,
+      "label": "Detachment, 1965",
+      "kind": "event",
+      "rel": "origin",
+      "note": "Chagos separated from Mauritius before independence."
+     },
+     {
+      "id": "j1d-expel",
+      "parent": "j1d-1965",
+      "tier": 2,
+      "label": "Chagossian removal",
+      "kind": "event",
+      "rel": "consequence",
+      "note": "The population expelled between 1968 and 1973."
+     },
+     {
+      "id": "j1d-icj",
+      "parent": "j1d-root",
+      "tier": 1,
+      "label": "ICJ advisory opinion, 2019",
+      "kind": "case",
+      "rel": "ruling",
+      "note": "Detachment unlawful; administration to end rapidly."
+     },
+     {
+      "id": "j1d-adv",
+      "parent": "j1d-icj",
+      "tier": 2,
+      "label": "Advisory opinions",
+      "kind": "concept",
+      "rel": "nature",
+      "note": "Not binding, unlike a contentious judgment."
+     },
+     {
+      "id": "j1d-2024",
+      "parent": "j1d-root",
+      "tier": 1,
+      "label": "2024 agreement",
+      "kind": "agreement",
+      "rel": "settlement",
+      "note": "Sovereignty to Mauritius, base leased back for ninety-nine years."
+     },
+     {
+      "id": "j1d-india",
+      "parent": "j1d-root",
+      "tier": 2,
+      "label": "India's support",
+      "kind": "concept",
+      "rel": "position",
+      "note": "Backed Mauritius on decolonisation and on the Indian Ocean."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-arctic",
+   "rank": 31,
+   "depth": "brief",
+   "importance": 3,
+   "title": "India in the Arctic, and the sea route that is opening",
+   "date": "2026-01",
+   "category": "International Relations",
+   "tags": [
+    "Arctic Council",
+    "Northern Sea Route",
+    "Himadri",
+    "Polar Research"
+   ],
+   "hook": "A country with no Arctic coastline runs a research station there, because what happens on that ice decides the monsoon.",
+   "story": "India expanded its Arctic engagement through fresh research missions, holding **observer status** on the **Arctic Council** since **2013**.\n\nThe Council was created by the **Ottawa Declaration of 1996** and has **eight member states** with territory above the Arctic Circle: Canada, Denmark, Finland, Iceland, Norway, Russia, Sweden and the United States. Six organisations of indigenous peoples sit as **Permanent Participants**. India is one of thirteen observer states, alongside China, Japan and South Korea. India's station **Himadri**, at **Ny-Ålesund** in Svalbard, has operated since **2008**, and India's presence rests on the **Svalbard Treaty of 1920**, to which it has been a party since 1920 and which allows all signatories commercial and research access to the archipelago under Norwegian sovereignty.\n\nThe **Arctic Policy** released in 2022 sets out six pillars from science to connectivity. The scientific interest is direct: Arctic warming is running at roughly **twice the global average**, and changes in polar circulation and sea ice are linked to monsoon variability. The strategic interest is the **Northern Sea Route** along Russia's coast, which shortens the passage from East Asia to Europe substantially as ice retreats, and which India and Russia have discussed developing alongside the **Chennai-Vladivostok** maritime corridor.",
+   "facts": [
+    {
+     "k": "Arctic Council",
+     "v": "Ottawa Declaration, 1996; eight Arctic states and six indigenous Permanent Participants"
+    },
+    {
+     "k": "India's status",
+     "v": "Observer since 2013, one of thirteen observer states"
+    },
+    {
+     "k": "Himadri",
+     "v": "India's Arctic station at Ny-Ålesund, Svalbard, since 2008"
+    },
+    {
+     "k": "Svalbard Treaty",
+     "v": "1920; gives signatories access under Norwegian sovereignty"
+    },
+    {
+     "k": "Warming",
+     "v": "The Arctic is warming at about twice the global rate"
+    },
+    {
+     "k": "Northern Sea Route",
+     "v": "Along Russia's coast; shortens the Asia-Europe passage as ice retreats"
+    }
+   ],
+   "timeline": [],
+   "why": "Himadri is in Svalbard and Bharati and Maitri are in Antarctica — that is the swap an option set will try. The Council's eight members and India's observer status are the other recall points.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1a-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "India in the Arctic",
+      "kind": "event",
+      "rel": "core",
+      "note": "Expanded missions; observer since 2013."
+     },
+     {
+      "id": "j1a-council",
+      "parent": "j1a-root",
+      "tier": 1,
+      "label": "Arctic Council",
+      "kind": "institution",
+      "rel": "body",
+      "note": "Ottawa Declaration 1996; eight Arctic states."
+     },
+     {
+      "id": "j1a-perm",
+      "parent": "j1a-council",
+      "tier": 2,
+      "label": "Permanent Participants",
+      "kind": "concept",
+      "rel": "seats",
+      "note": "Six indigenous peoples' organisations."
+     },
+     {
+      "id": "j1a-himadri",
+      "parent": "j1a-root",
+      "tier": 1,
+      "label": "Himadri",
+      "kind": "place",
+      "rel": "station",
+      "note": "At Ny-Ålesund, Svalbard, since 2008."
+     },
+     {
+      "id": "j1a-sval",
+      "parent": "j1a-himadri",
+      "tier": 2,
+      "label": "Svalbard Treaty, 1920",
+      "kind": "agreement",
+      "rel": "basis",
+      "note": "Access for signatories under Norwegian sovereignty."
+     },
+     {
+      "id": "j1a-policy",
+      "parent": "j1a-root",
+      "tier": 2,
+      "label": "Arctic Policy, 2022",
+      "kind": "concept",
+      "rel": "document",
+      "note": "Six pillars from science to connectivity."
+     },
+     {
+      "id": "j1a-nsr",
+      "parent": "j1a-root",
+      "tier": 1,
+      "label": "Northern Sea Route",
+      "kind": "place",
+      "rel": "corridor",
+      "note": "Shortens Asia to Europe as the ice retreats."
+     },
+     {
+      "id": "j1a-antarctic",
+      "parent": "j1a-root",
+      "tier": 2,
+      "label": "Maitri and Bharati",
+      "kind": "place",
+      "rel": "contrast",
+      "note": "India's Antarctic stations, not to be confused with Himadri."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-carbon-market",
+   "rank": 33,
+   "depth": "brief",
+   "importance": 3,
+   "title": "The carbon credit scheme widens to 208 industries",
+   "date": "2026-01",
+   "category": "Economy",
+   "tags": [
+    "Carbon Market",
+    "CBAM",
+    "Energy Conservation Act"
+   ],
+   "hook": "A domestic carbon price is worth paying because somebody else will otherwise collect it at their border.",
+   "story": "India widened its **Carbon Credit Trading Scheme**, bringing **208 industrial entities** under a compliance mechanism that requires them to cut the **emission intensity** of their output against a benchmark, and to buy credits if they miss it.\n\nThe scheme was notified under the **Energy Conservation (Amendment) Act, 2022**, and is administered by the **Bureau of Energy Efficiency** with the Grid Controller of India as registry. It has a **compliance** side, where obligated entities must meet targets, and an **offset** side, where non-obligated entities can earn credits for voluntary reductions. It replaces the older **Perform, Achieve and Trade** scheme, which traded energy savings certificates rather than carbon.\n\nThe timing is not accidental. The European Union's **carbon border adjustment mechanism** entered its definitive phase in January 2026 and charges importers of steel, aluminium, cement, fertiliser, electricity and hydrogen for embedded emissions, with a deduction for any carbon price already paid at origin. A domestic price therefore keeps at home money that would otherwise be collected at the European border, which has turned an environmental instrument into a trade defence.",
+   "facts": [
+    {
+     "k": "Scope",
+     "v": "208 industrial entities brought under compliance obligations"
+    },
+    {
+     "k": "Legal basis",
+     "v": "Energy Conservation (Amendment) Act, 2022"
+    },
+    {
+     "k": "Administered by",
+     "v": "Bureau of Energy Efficiency, with the Grid Controller of India as registry"
+    },
+    {
+     "k": "Two sides",
+     "v": "A compliance mechanism for obligated entities and an offset mechanism for others"
+    },
+    {
+     "k": "Predecessor",
+     "v": "Perform, Achieve and Trade, which traded energy savings certificates"
+    },
+    {
+     "k": "Trade link",
+     "v": "A domestic carbon price is deductible against EU CBAM certificate costs"
+    }
+   ],
+   "timeline": [],
+   "why": "Do not confuse this with PAT, which traded energy savings and not carbon. The CBAM deduction is the connection a passage will build the question around.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1c-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Carbon Credit Trading Scheme",
+      "kind": "event",
+      "rel": "core",
+      "note": "Widened to 208 industrial entities."
+     },
+     {
+      "id": "j1c-eca",
+      "parent": "j1c-root",
+      "tier": 1,
+      "label": "Energy Conservation (Amendment) Act, 2022",
+      "kind": "law",
+      "rel": "basis",
+      "note": "The statute enabling an Indian carbon market."
+     },
+     {
+      "id": "j1c-bee",
+      "parent": "j1c-root",
+      "tier": 1,
+      "label": "Bureau of Energy Efficiency",
+      "kind": "institution",
+      "rel": "administrator",
+      "note": "Runs the scheme; Grid Controller keeps the registry."
+     },
+     {
+      "id": "j1c-two",
+      "parent": "j1c-root",
+      "tier": 2,
+      "label": "Compliance and offset",
+      "kind": "concept",
+      "rel": "structure",
+      "note": "Obligated targets, and voluntary credits for others."
+     },
+     {
+      "id": "j1c-pat",
+      "parent": "j1c-root",
+      "tier": 2,
+      "label": "Perform, Achieve and Trade",
+      "kind": "concept",
+      "rel": "predecessor",
+      "note": "Traded energy savings certificates, not carbon."
+     },
+     {
+      "id": "j1c-cbam",
+      "parent": "j1c-root",
+      "tier": 1,
+      "label": "EU CBAM",
+      "kind": "concept",
+      "rel": "driver",
+      "note": "Definitive phase from January 2026; domestic price deductible."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-startup-decade",
+   "rank": 35,
+   "depth": "brief",
+   "importance": 3,
+   "title": "Startup India at ten, and the IPO count",
+   "date": "2026-01",
+   "category": "Economy",
+   "tags": [
+    "Startup India",
+    "Unicorns",
+    "IPO",
+    "SEBI"
+   ],
+   "hook": "More new listings than any other country in the world, and most of the money raised went to companies nobody outside finance has heard of.",
+   "story": "**Startup India**, launched in **January 2016**, completed a decade with about **2.09 lakh** recognised startups and more than **120 unicorns**, companies valued above a billion dollars. Around **45%** of recognised startups report at least one woman founder.\n\nRecognition by the **Department for Promotion of Industry and Internal Trade** brings a package: income tax exemption for three of the first ten years under **Section 80-IAC**, exemption from the so-called angel tax on share premium, self-certification on nine labour and three environmental laws, faster patent examination with an 80% fee rebate, and access to the **Fund of Funds for Startups** operated through SIDBI.\n\nSeparately, India ranked **first in the world by the number of initial public offerings**, with about **311 issues** raising roughly **₹1.7 trillion**. Listings are regulated by the **Securities and Exchange Board of India**, a statutory body under the SEBI Act 1992, which clears the offer document, and the shift of retail money into equity through systematic investment plans is what has kept the pipeline open.",
+   "facts": [
+    {
+     "k": "Startup India",
+     "v": "Launched January 2016; about 2.09 lakh recognised startups"
+    },
+    {
+     "k": "Unicorns",
+     "v": "More than 120, valued above a billion dollars each"
+    },
+    {
+     "k": "Women founders",
+     "v": "About 45% of recognised startups have at least one"
+    },
+    {
+     "k": "Recognition benefits",
+     "v": "Section 80-IAC tax holiday, angel tax relief, self-certification, patent rebate"
+    },
+    {
+     "k": "IPOs",
+     "v": "First in the world by number, about 311 issues raising roughly ₹1.7 trillion"
+    },
+    {
+     "k": "Regulator",
+     "v": "SEBI, a statutory body under the SEBI Act 1992"
+    }
+   ],
+   "timeline": [],
+   "why": "Startup India and Stand-Up India are different schemes and the option set will offer both. SEBI being statutory rather than constitutional is the other standard check.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1s-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Startup India at ten",
+      "kind": "event",
+      "rel": "core",
+      "note": "2.09 lakh recognised startups, 120-plus unicorns."
+     },
+     {
+      "id": "j1s-dpiit",
+      "parent": "j1s-root",
+      "tier": 1,
+      "label": "DPIIT recognition",
+      "kind": "institution",
+      "rel": "gateway",
+      "note": "What unlocks the benefits package."
+     },
+     {
+      "id": "j1s-80iac",
+      "parent": "j1s-dpiit",
+      "tier": 2,
+      "label": "Section 80-IAC",
+      "kind": "law",
+      "rel": "benefit",
+      "note": "Three-year tax holiday within the first ten years."
+     },
+     {
+      "id": "j1s-fof",
+      "parent": "j1s-dpiit",
+      "tier": 2,
+      "label": "Fund of Funds",
+      "kind": "scheme",
+      "rel": "capital",
+      "note": "Operated through SIDBI."
+     },
+     {
+      "id": "j1s-ipo",
+      "parent": "j1s-root",
+      "tier": 1,
+      "label": "IPO leadership",
+      "kind": "concept",
+      "rel": "markets",
+      "note": "First in the world by number of issues."
+     },
+     {
+      "id": "j1s-sebi",
+      "parent": "j1s-ipo",
+      "tier": 2,
+      "label": "SEBI",
+      "kind": "institution",
+      "rel": "regulator",
+      "note": "Statutory body under the SEBI Act 1992."
+     },
+     {
+      "id": "j1s-standup",
+      "parent": "j1s-root",
+      "tier": 2,
+      "label": "Stand-Up India",
+      "kind": "scheme",
+      "rel": "contrast",
+      "note": "A different scheme, for SC, ST and women entrepreneurs."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-gig-workers",
+   "rank": 37,
+   "depth": "brief",
+   "importance": 3,
+   "title": "Gig workers strike over the ten-minute delivery model",
+   "date": "2026-01",
+   "category": "Society & Education",
+   "tags": [
+    "Gig Economy",
+    "Labour Codes",
+    "Social Security"
+   ],
+   "hook": "The law finally named them in 2020, and then did not bring the law into force.",
+   "story": "Delivery workers struck across several cities against **ten-minute delivery** targets, arguing that the model forces unsafe riding and that platform work still carries almost no social security.\n\nThe **Code on Social Security, 2020** was the first Indian statute to define a **gig worker**, a person who works outside a traditional employer-employee relationship, and a **platform worker**, one who accesses an organisation through an online platform to solve problems for payment. It provides for a **National Social Security Board** for these workers, for schemes covering life and disability cover, accident insurance, health and maternity benefit and old age protection, and for aggregators to contribute **1% to 2% of their turnover**, capped at 5% of what they pay workers.\n\nThe Code is one of four that consolidate twenty-nine older labour laws, alongside the Codes on **Wages**, on **Industrial Relations**, and on **Occupational Safety, Health and Working Conditions**. Implementation waited on state rules and central notification for years. **Rajasthan** passed its own platform workers' welfare law in 2023, and **Karnataka** followed, each creating a welfare board funded by a levy on transactions.",
+   "facts": [
+    {
+     "k": "Definition",
+     "v": "Code on Social Security, 2020 first defined gig and platform workers"
+    },
+    {
+     "k": "Aggregator contribution",
+     "v": "1% to 2% of turnover, capped at 5% of payments made to workers"
+    },
+    {
+     "k": "Body",
+     "v": "A National Social Security Board for gig and platform workers"
+    },
+    {
+     "k": "Four codes",
+     "v": "Wages, Industrial Relations, Social Security, and Occupational Safety"
+    },
+    {
+     "k": "Consolidation",
+     "v": "The four codes replace twenty-nine earlier labour laws"
+    },
+    {
+     "k": "State laws",
+     "v": "Rajasthan in 2023 and Karnataka after it created platform worker welfare boards"
+    }
+   ],
+   "timeline": [],
+   "why": "The number of labour codes is four and they replace twenty-nine laws — both figures get asked. The gig worker definition sits in the Social Security Code and not in the Industrial Relations Code.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1g-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Gig workers strike",
+      "kind": "event",
+      "rel": "core",
+      "note": "Protests against ten-minute delivery targets."
+     },
+     {
+      "id": "j1g-code",
+      "parent": "j1g-root",
+      "tier": 1,
+      "label": "Code on Social Security, 2020",
+      "kind": "law",
+      "rel": "statute",
+      "note": "First to define gig and platform workers."
+     },
+     {
+      "id": "j1g-def",
+      "parent": "j1g-code",
+      "tier": 2,
+      "label": "Gig and platform worker",
+      "kind": "concept",
+      "rel": "definition",
+      "note": "Work outside the traditional employment relationship."
+     },
+     {
+      "id": "j1g-contrib",
+      "parent": "j1g-code",
+      "tier": 2,
+      "label": "Aggregator contribution",
+      "kind": "concept",
+      "rel": "funding",
+      "note": "1% to 2% of turnover, capped against worker payments."
+     },
+     {
+      "id": "j1g-board",
+      "parent": "j1g-code",
+      "tier": 2,
+      "label": "National Social Security Board",
+      "kind": "institution",
+      "rel": "body",
+      "note": "Oversees schemes for these workers."
+     },
+     {
+      "id": "j1g-four",
+      "parent": "j1g-root",
+      "tier": 1,
+      "label": "Four labour codes",
+      "kind": "law",
+      "rel": "reform",
+      "note": "Replace twenty-nine earlier statutes."
+     },
+     {
+      "id": "j1g-raj",
+      "parent": "j1g-root",
+      "tier": 2,
+      "label": "State laws",
+      "kind": "concept",
+      "rel": "parallel",
+      "note": "Rajasthan 2023 and Karnataka after it."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "2026-01-piprahwa",
+   "rank": 39,
+   "depth": "brief",
+   "importance": 2,
+   "title": "The Piprahwa relics come home",
+   "date": "2026-01",
+   "category": "Arts & Culture",
+   "tags": [
+    "Buddhism",
+    "Antiquities",
+    "Repatriation"
+   ],
+   "hook": "Gems buried with the Buddha, dug up by a colonial landowner in 1898, and auctioned in Hong Kong in 2025.",
+   "story": "The **Piprahwa relics** were displayed in New Delhi after their return, closing a repatriation dispute that had run through 2025.\n\nThey were excavated in **1898** at **Piprahwa** in Siddharthnagar district of Uttar Pradesh, near the site identified with **Kapilavastu**, by the estate manager **William Claxton Peppé**. A sandstone coffer held bone fragments, ash and about 1,800 gems, with an inscription in Brahmi recording the relics of the Buddha deposited by the Sakya clan. Most of the bone was given to the King of Siam; the gems stayed with the Peppé family. When a portion was put up for auction at **Sotheby's Hong Kong in May 2025**, the Ministry of Culture objected that they were **corporeal relics** rather than art, inalienable under Indian law and under the sensibilities of a living religion. The sale was withdrawn.\n\nThe governing statutes are the **Antiquities and Art Treasures Act, 1972**, which controls export and requires registration, and the **Ancient Monuments and Archaeological Sites and Remains Act, 1958**, under which the Archaeological Survey of India works. Internationally the instrument is the **1970 UNESCO Convention** on illicit transfer of cultural property, to which India is a party.",
+   "facts": [
+    {
+     "k": "Site",
+     "v": "Piprahwa, Siddharthnagar district, Uttar Pradesh, near the Kapilavastu identification"
+    },
+    {
+     "k": "Excavated",
+     "v": "1898, by the estate manager William Claxton Peppé"
+    },
+    {
+     "k": "Contents",
+     "v": "Bone, ash and about 1,800 gems, with a Brahmi inscription naming the Sakyas"
+    },
+    {
+     "k": "2025 dispute",
+     "v": "A Sotheby's Hong Kong auction withdrawn after India objected"
+    },
+    {
+     "k": "Domestic law",
+     "v": "Antiquities and Art Treasures Act, 1972; ASI under the 1958 Act"
+    },
+    {
+     "k": "International law",
+     "v": "1970 UNESCO Convention on illicit transfer of cultural property"
+    }
+   ],
+   "timeline": [],
+   "why": "The 1970 UNESCO Convention and the 1972 Antiquities Act are the two instruments any repatriation question turns on, and they are easy to confuse with the 1972 World Heritage Convention.",
+   "map": {
+    "nodes": [
+     {
+      "id": "j1p-root",
+      "parent": "root",
+      "tier": 1,
+      "label": "Piprahwa relics",
+      "kind": "event",
+      "rel": "core",
+      "note": "Returned and displayed in New Delhi."
+     },
+     {
+      "id": "j1p-1898",
+      "parent": "j1p-root",
+      "tier": 1,
+      "label": "Excavation, 1898",
+      "kind": "event",
+      "rel": "origin",
+      "note": "Found by William Claxton Peppé at Piprahwa."
+     },
+     {
+      "id": "j1p-sakya",
+      "parent": "j1p-1898",
+      "tier": 2,
+      "label": "The Brahmi inscription",
+      "kind": "concept",
+      "rel": "evidence",
+      "note": "Records relics of the Buddha deposited by the Sakyas."
+     },
+     {
+      "id": "j1p-2025",
+      "parent": "j1p-root",
+      "tier": 1,
+      "label": "The withdrawn auction",
+      "kind": "event",
+      "rel": "dispute",
+      "note": "Sotheby's Hong Kong, May 2025; India objected."
+     },
+     {
+      "id": "j1p-act72",
+      "parent": "j1p-root",
+      "tier": 1,
+      "label": "Antiquities and Art Treasures Act, 1972",
+      "kind": "law",
+      "rel": "domestic",
+      "note": "Controls export and requires registration."
+     },
+     {
+      "id": "j1p-asi",
+      "parent": "j1p-root",
+      "tier": 2,
+      "label": "Archaeological Survey of India",
+      "kind": "institution",
+      "rel": "body",
+      "note": "Works under the 1958 monuments Act."
+     },
+     {
+      "id": "j1p-unesco",
+      "parent": "j1p-root",
+      "tier": 1,
+      "label": "1970 UNESCO Convention",
+      "kind": "agreement",
+      "rel": "international",
+      "note": "On illicit transfer of cultural property."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
