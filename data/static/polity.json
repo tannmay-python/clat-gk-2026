@@ -3431,6 +3431,400 @@
     ]
    },
    "sources": []
+  },
+  {
+   "id": "pol-art19",
+   "rank": 18,
+   "depth": "medium",
+   "importance": 5,
+   "title": "Article 19: the six freedoms and the eight grounds for restricting them",
+   "date": "",
+   "category": "Polity & Constitution",
+   "tags": [
+    "Article 19",
+    "Free Speech",
+    "Reasonable Restrictions",
+    "Sedition"
+   ],
+   "hook": "Six freedoms for citizens only, each with its own list of reasonable restrictions, and one clause added in 1951 because the courts had struck down press censorship.",
+   "story": "Article 19(1) gives **citizens** six freedoms: **(a)** speech and expression, **(b)** assembly peaceably and without arms, **(c)** association or unions, **(d)** movement throughout India, **(e)** residence and settlement in any part of India, and **(g)** practice of any profession or trade. Clause (f), the right to acquire and dispose of property, was deleted by the **44th Amendment in 1978**. The lettering therefore skips from (e) to (g), which is a favourite trick question. Because these are citizens' rights, a company or a foreign national cannot claim them, though the Supreme Court has allowed shareholders to assert them where a company's rights are affected.\n\nEach freedom carries its own restriction clause. For **speech**, Article 19(2) lists **eight grounds**: sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency or morality, contempt of court, defamation, and incitement to an offence. Three of these, *sovereignty and integrity*, *friendly relations with foreign States* and *public order*, were added by the **First Amendment in 1951** after *Romesh Thappar* and *Brij Bhushan* had struck down press restrictions for want of a public order ground. Restrictions must be **reasonable** and imposed **by law**, so an executive order alone will not do.\n\nWhat Article 19(1)(a) has been held to include: the **right to know** and to receive information, the basis of the RTI Act; **freedom of the press**, which is not separately mentioned, established in *Romesh Thappar* (1950) and *Bennett Coleman* (1973); the **right to fly the national flag** (*Union of India v. Naveen Jindal*, 2004); the **right to silence** and not to be compelled to sing the anthem (*Bijoe Emmanuel*, 1986); and the **right to vote NOTA** as an expression of choice (*PUCL*, 2013).\n\n**Shreya Singhal (2015)** struck down **section 66A of the IT Act** for vagueness and overbreadth, holding that a restriction must have a proximate connection with public order, not a remote one, and distinguishing discussion and advocacy, which are protected, from incitement, which is not. *Anuradha Bhasin* (2020) held that internet access is protected under 19(1)(a) and 19(1)(g) and that indefinite suspension orders must be published and reviewed. *Kedar Nath Singh* (1962) read sedition down to incitement to violence; section 124A has since been replaced by section 152 of the Bharatiya Nyaya Sanhita.",
+   "facts": [
+    {
+     "k": "Freedoms in Article 19(1)",
+     "v": "Six, after property was deleted in 1978"
+    },
+    {
+     "k": "Deleted clause",
+     "v": "19(1)(f), by the 44th Amendment"
+    },
+    {
+     "k": "Grounds for restricting speech",
+     "v": "Eight, in Article 19(2)"
+    },
+    {
+     "k": "Grounds added by the First Amendment, 1951",
+     "v": "Sovereignty and integrity, friendly relations with foreign States, public order"
+    },
+    {
+     "k": "Freedom of the press",
+     "v": "Not separately mentioned; read into 19(1)(a)"
+    },
+    {
+     "k": "Section 66A struck down in",
+     "v": "Shreya Singhal, 2015"
+    },
+    {
+     "k": "Internet access",
+     "v": "Protected under 19(1)(a) and 19(1)(g), Anuradha Bhasin, 2020"
+    },
+    {
+     "k": "Available to",
+     "v": "Citizens only"
+    }
+   ],
+   "timeline": [],
+   "why": "Any passage on speech, protest, a ban or an internet shutdown is an Article 19 question. Examiners test the number of grounds in 19(2) and the missing clause (f).",
+   "map": {
+    "nodes": [
+     {
+      "id": "a191",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 19(1)",
+      "kind": "law",
+      "rel": "the six freedoms",
+      "note": "Speech, assembly, association, movement, residence and profession. Clause (f) on property was deleted in 1978."
+     },
+     {
+      "id": "a192",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 19(2)",
+      "kind": "law",
+      "rel": "eight grounds",
+      "note": "Sovereignty and integrity, security of the State, friendly relations with foreign States, public order, decency or morality, contempt of court, defamation, incitement to an offence."
+     },
+     {
+      "id": "first",
+      "parent": "a192",
+      "tier": 1,
+      "label": "First Amendment (1951)",
+      "kind": "event",
+      "rel": "added three grounds",
+      "note": "Enacted after Romesh Thappar and Brij Bhushan struck down press restrictions for want of a public order ground."
+     },
+     {
+      "id": "shreya",
+      "parent": "root",
+      "tier": 1,
+      "label": "Shreya Singhal (2015)",
+      "kind": "event",
+      "rel": "struck down 66A",
+      "note": "Held section 66A of the IT Act vague and overbroad. Distinguished discussion and advocacy from incitement."
+     },
+     {
+      "id": "press",
+      "parent": "a191",
+      "tier": 1,
+      "label": "Freedom of the press",
+      "kind": "concept",
+      "rel": "read in",
+      "note": "Not separately mentioned in the Constitution. Established through Romesh Thappar (1950) and Bennett Coleman (1973)."
+     },
+     {
+      "id": "bhasin",
+      "parent": "shreya",
+      "tier": 2,
+      "label": "Anuradha Bhasin (2020)",
+      "kind": "event",
+      "rel": "internet shutdowns",
+      "note": "Held internet access is protected under 19(1)(a) and 19(1)(g); suspension orders must be published, reasoned and periodically reviewed."
+     },
+     {
+      "id": "kedar",
+      "parent": "shreya",
+      "tier": 2,
+      "label": "Kedar Nath Singh (1962)",
+      "kind": "event",
+      "rel": "sedition read down",
+      "note": "Confined section 124A to speech inciting violence or public disorder. The section has since been replaced by section 152 BNS."
+     },
+     {
+      "id": "bijoe",
+      "parent": "press",
+      "tier": 2,
+      "label": "Bijoe Emmanuel (1986)",
+      "kind": "event",
+      "rel": "right to silence",
+      "note": "Three Jehovah’s Witness children could not be expelled for standing respectfully without singing the national anthem."
+     },
+     {
+      "id": "jindal",
+      "parent": "press",
+      "tier": 2,
+      "label": "Naveen Jindal (2004)",
+      "kind": "event",
+      "rel": "flying the flag",
+      "note": "Held flying the national flag with respect is an expression protected by Article 19(1)(a)."
+     },
+     {
+      "id": "rti",
+      "parent": "press",
+      "tier": 2,
+      "label": "Right to information",
+      "kind": "concept",
+      "rel": "from 19(1)(a)",
+      "note": "The right to know was read into free speech, and codified by the RTI Act 2005 after State of UP v. Raj Narain (1975)."
+     },
+     {
+      "id": "citizens",
+      "parent": "a191",
+      "tier": 2,
+      "label": "Citizens only",
+      "kind": "concept",
+      "rel": "the limit",
+      "note": "Companies and foreign nationals cannot claim Article 19, unlike Articles 14, 20, 21 and 25 which protect all persons."
+     },
+     {
+      "id": "a44",
+      "parent": "a191",
+      "tier": 2,
+      "label": "44th Amendment (1978)",
+      "kind": "event",
+      "rel": "deleted property",
+      "note": "Removed 19(1)(f) and Article 31, relocating property to Article 300A as an ordinary constitutional right."
+     },
+     {
+      "id": "reasonable",
+      "parent": "a192",
+      "tier": 3,
+      "label": "Reasonable restriction",
+      "kind": "concept",
+      "rel": "the test",
+      "note": "Must be by law, not executive order, and must be proportionate. Proximity to the harm is required, not a remote connection."
+     },
+     {
+      "id": "pucl",
+      "parent": "press",
+      "tier": 3,
+      "label": "PUCL (2013)",
+      "kind": "event",
+      "rel": "NOTA",
+      "note": "Held that the option to reject all candidates is an expression of choice under Article 19(1)(a). NOTA appeared on EVMs from 2013."
+     },
+     {
+      "id": "a21",
+      "parent": "a191",
+      "tier": 3,
+      "label": "The golden triangle",
+      "kind": "concept",
+      "rel": "Articles 14, 19 and 21",
+      "note": "After Maneka Gandhi a law restricting liberty must satisfy all three, not Article 21 alone."
+     }
+    ]
+   },
+   "sources": []
+  },
+  {
+   "id": "pol-eci",
+   "rank": 19,
+   "depth": "medium",
+   "importance": 4,
+   "title": "Elections: the Commission, the law and the reforms that came from court",
+   "date": "",
+   "category": "Polity & Constitution",
+   "tags": [
+    "Election Commission",
+    "Model Code",
+    "EVM",
+    "Representation of the People Act"
+   ],
+   "hook": "A constitutional body with three members, a code of conduct with no statutory force that everyone obeys anyway, and a string of reforms the Supreme Court ordered rather than Parliament passing.",
+   "story": "**Article 324** vests superintendence, direction and control of elections to Parliament, state legislatures, the Presidency and the Vice Presidency in the **Election Commission of India**. It was a single-member body until October 1989, briefly, and permanently three-member from **1 October 1993**. The **Chief Election Commissioner** can be removed only in the manner of a Supreme Court judge; the other two commissioners can be removed on the CEC's recommendation, an asymmetry the Court flagged in *Anoop Baranwal* (2023) when it directed that appointments be made on the advice of a committee of the Prime Minister, the Leader of the Opposition and the Chief Justice, until Parliament legislated. Parliament then passed the **Chief Election Commissioner and Other Election Commissioners Act 2023**, replacing the Chief Justice with a Union Cabinet Minister.\n\n**Statutes.** The **Representation of the People Act 1950** deals with the allocation of seats and electoral rolls; the **Representation of the People Act 1951** deals with the conduct of elections, qualifications, disqualifications and corrupt practices. Note which Act does what, because that is the question.\n\n**Disqualification.** Under section 8 of the 1951 Act, conviction for certain offences disqualifies a member. *Lily Thomas v. Union of India* (2013) struck down section 8(4), which had allowed a convicted legislator to continue in office while an appeal was pending, so disqualification is now immediate on conviction with a sentence of two years or more.\n\n**Court-driven reforms.** *Union of India v. ADR* (2002) and *PUCL* (2003) established that voters have a right to know candidates' criminal records, assets and educational qualifications, giving us the **affidavit** filed with nominations. *PUCL* (2013) created **NOTA**. *Subramanian Swamy* (2013) and the VVPAT litigation led to **voter-verifiable paper audit trails**, with slips from five polling stations per assembly segment counted since 2019. In February 2024 the Supreme Court struck down the **electoral bonds scheme** as unconstitutional for violating the right to information under Article 19(1)(a).\n\n**Model Code of Conduct.** Not a statute. It takes effect from the announcement of the schedule and lasts until results are declared, and its force is convention plus the Commission's power under Article 324.",
+   "facts": [
+    {
+     "k": "Election Commission",
+     "v": "Article 324"
+    },
+    {
+     "k": "Permanently three-member since",
+     "v": "1 October 1993"
+    },
+    {
+     "k": "Removal of the CEC",
+     "v": "Same manner as a Supreme Court judge"
+    },
+    {
+     "k": "RPA 1950",
+     "v": "Allocation of seats and electoral rolls"
+    },
+    {
+     "k": "RPA 1951",
+     "v": "Conduct of elections, qualifications and corrupt practices"
+    },
+    {
+     "k": "Immediate disqualification on conviction",
+     "v": "Lily Thomas, 2013"
+    },
+    {
+     "k": "NOTA introduced",
+     "v": "After PUCL, 2013"
+    },
+    {
+     "k": "Electoral bonds struck down",
+     "v": "February 2024"
+    },
+    {
+     "k": "Model Code of Conduct",
+     "v": "No statutory force; operates from the announcement of the schedule"
+    },
+    {
+     "k": "Voting age lowered to 18",
+     "v": "61st Amendment, 1988"
+    }
+   ],
+   "timeline": [],
+   "why": "Election passages test which Act governs what, and the case behind each reform. Lily Thomas and the electoral bonds judgment are the two most likely names.",
+   "map": {
+    "nodes": [
+     {
+      "id": "a324",
+      "parent": "root",
+      "tier": 1,
+      "label": "Article 324",
+      "kind": "law",
+      "rel": "the Commission",
+      "note": "Superintendence, direction and control of elections to Parliament, state legislatures and the two national offices."
+     },
+     {
+      "id": "rpa51",
+      "parent": "root",
+      "tier": 1,
+      "label": "Representation of the People Act, 1951",
+      "kind": "law",
+      "rel": "conduct of elections",
+      "note": "Qualifications, disqualifications, corrupt practices and election petitions. The 1950 Act deals with rolls and seat allocation."
+     },
+     {
+      "id": "lily",
+      "parent": "root",
+      "tier": 1,
+      "label": "Lily Thomas (2013)",
+      "kind": "event",
+      "rel": "immediate disqualification",
+      "note": "Struck down section 8(4) of the RPA 1951, so a convicted legislator is disqualified at once rather than on exhaustion of appeals."
+     },
+     {
+      "id": "bonds",
+      "parent": "root",
+      "tier": 1,
+      "label": "Electoral bonds judgment (2024)",
+      "kind": "event",
+      "rel": "struck down",
+      "note": "Held the scheme unconstitutional for violating the voter’s right to information under Article 19(1)(a)."
+     },
+     {
+      "id": "mcc",
+      "parent": "root",
+      "tier": 1,
+      "label": "Model Code of Conduct",
+      "kind": "concept",
+      "rel": "no statutory force",
+      "note": "Operates from the announcement of the schedule to the declaration of results. Enforced through Article 324 powers and convention."
+     },
+     {
+      "id": "anoop",
+      "parent": "a324",
+      "tier": 2,
+      "label": "Anoop Baranwal (2023)",
+      "kind": "event",
+      "rel": "appointments",
+      "note": "Directed a selection committee of the PM, Leader of the Opposition and the CJI until Parliament legislated. Parliament then replaced the CJI with a Cabinet Minister."
+     },
+     {
+      "id": "adr",
+      "parent": "bonds",
+      "tier": 2,
+      "label": "Union of India v. ADR (2002)",
+      "kind": "event",
+      "rel": "the affidavit",
+      "note": "Established the voter’s right to know a candidate’s criminal record, assets and education, giving rise to the nomination affidavit."
+     },
+     {
+      "id": "nota",
+      "parent": "bonds",
+      "tier": 2,
+      "label": "NOTA",
+      "kind": "term",
+      "rel": "PUCL, 2013",
+      "note": "None of the above appeared on EVMs from 2013. It does not void an election even if it polls the most votes."
+     },
+     {
+      "id": "vvpat",
+      "parent": "bonds",
+      "tier": 2,
+      "label": "VVPAT",
+      "kind": "term",
+      "rel": "paper trail",
+      "note": "Voter-verifiable paper audit trail. Slips from five polling stations per assembly segment are counted and matched."
+     },
+     {
+      "id": "a326",
+      "parent": "a324",
+      "tier": 2,
+      "label": "Article 326",
+      "kind": "law",
+      "rel": "adult suffrage",
+      "note": "Elections to the Lok Sabha and state assemblies on the basis of adult suffrage. Voting age lowered from 21 to 18 by the 61st Amendment, 1988."
+     },
+     {
+      "id": "sec",
+      "parent": "a324",
+      "tier": 2,
+      "label": "State Election Commissions",
+      "kind": "org",
+      "rel": "separate bodies",
+      "note": "Article 243K. Conduct panchayat and municipal elections, distinct from the Election Commission of India."
+     },
+     {
+      "id": "delim",
+      "parent": "a324",
+      "tier": 2,
+      "label": "Delimitation Commission",
+      "kind": "org",
+      "rel": "redraws seats",
+      "note": "Constituted in 1952, 1963, 1973 and 2002. Seat numbers are frozen on the 1971 census until after the first census following 2026."
+     },
+     {
+      "id": "tenth",
+      "parent": "rpa51",
+      "tier": 3,
+      "label": "Tenth Schedule",
+      "kind": "law",
+      "rel": "the other disqualification",
+      "note": "Anti-defection. Decided by the Speaker rather than the Election Commission, which is why the two routes are often confused."
+     },
+     {
+      "id": "a103",
+      "parent": "rpa51",
+      "tier": 3,
+      "label": "Article 103",
+      "kind": "law",
+      "rel": "office of profit",
+      "note": "Disqualification questions about sitting members are decided by the President on the Election Commission’s opinion."
+     },
+     {
+      "id": "evm",
+      "parent": "vvpat",
+      "tier": 3,
+      "label": "Electronic voting machines",
+      "kind": "term",
+      "rel": "since 1982",
+      "note": "First used in Kerala in 1982, and universally from 2004. Manufactured by BEL and ECIL."
+     }
+    ]
+   },
+   "sources": []
   }
  ],
  "passages": [
