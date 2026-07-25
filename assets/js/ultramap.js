@@ -4,7 +4,7 @@
 import { getManifest, getSection } from './data.js';
 import { esc, meter } from './ui.js';
 
-const W = 2000, H = 1300, CX = 1000, CY = 650;
+const W = 2600, H = 1600, CX = 1300, CY = 800;
 
 export async function viewUltraMap(el) {
   el.innerHTML = `
@@ -62,17 +62,17 @@ function layoutClusters(sections, topics) {
   const nodes = [];
 
   // Inner circle of static hubs
-  const R_static = 300;
+  const R_static = 360;
   staticSecs.forEach((s, i) => {
     const angle = (i / Math.max(1, staticSecs.length)) * Math.PI * 2 - Math.PI / 2;
-    const hx = CX + R_static * Math.cos(angle) * 1.3;
+    const hx = CX + R_static * Math.cos(angle) * 1.25;
     const hy = CY + R_static * Math.sin(angle);
     hubs.push({ id: s.id, label: s.label, kind: 'static', x: hx, y: hy, count: s.topicCount });
 
     const secTopics = topics.filter(t => t.sectionId === s.id);
-    const subRadius = 130;
+    const subRadius = 140;
     secTopics.forEach((t, j) => {
-      const tAngle = angle + ((j - secTopics.length / 2) / Math.max(1, secTopics.length)) * 0.95;
+      const tAngle = angle + ((j - secTopics.length / 2) / Math.max(1, secTopics.length)) * 0.92;
       const dist = subRadius + (t.rank % 3) * 28;
       nodes.push({
         ...t,
@@ -86,17 +86,17 @@ function layoutClusters(sections, topics) {
   });
 
   // Outer circle of current hubs
-  const R_current = 580;
+  const R_current = 680;
   currentSecs.forEach((s, i) => {
     const angle = (i / Math.max(1, currentSecs.length)) * Math.PI * 2 - Math.PI / 2;
-    const hx = CX + R_current * Math.cos(angle) * 1.35;
+    const hx = CX + R_current * Math.cos(angle) * 1.25;
     const hy = CY + R_current * Math.sin(angle);
     hubs.push({ id: s.id, label: s.label, kind: 'current', x: hx, y: hy, count: s.topicCount });
 
     const secTopics = topics.filter(t => t.sectionId === s.id);
-    const subRadius = 150;
+    const subRadius = 160;
     secTopics.forEach((t, j) => {
-      const tAngle = angle + ((j - secTopics.length / 2) / Math.max(1, secTopics.length)) * 0.85;
+      const tAngle = angle + ((j - secTopics.length / 2) / Math.max(1, secTopics.length)) * 0.82;
       const dist = subRadius + (t.rank % 4) * 32;
       nodes.push({
         ...t,
