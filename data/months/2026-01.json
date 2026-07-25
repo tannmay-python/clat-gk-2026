@@ -2817,5 +2817,372 @@
    ]
   }
  ],
- "passages": []
+ "passages": [
+  {
+   "id": "2026-01-p1",
+   "kind": "static",
+   "month": "2026-01",
+   "topicIds": [
+    "2026-01-us-venezuela-maduro"
+   ],
+   "category": "International Relations",
+   "tags": [
+    "Monroe Doctrine",
+    "Venezuela"
+   ],
+   "difficulty": 3,
+   "title": "A doctrine two centuries old",
+   "passage": "In a message to Congress in 1823 an American president told the European powers that the hemisphere was closed to further colonisation, that any attempt to extend their political system to it would be regarded as dangerous to American peace and safety, and that in return the United States would not interfere in European affairs or in existing European colonies. The statement was not a treaty and created no obligation on anyone. For decades it was largely aspirational, since the navy that would have enforced it did not exist and the Royal Navy, whose interest in open South American markets ran the same way, did the enforcing in practice.\n\nIts meaning changed at the start of the twentieth century. A later president added that chronic wrongdoing by a state of the hemisphere might force the United States to exercise an international police power, which converted a warning aimed outward into a licence to intervene inward. That addition was invoked in the Caribbean repeatedly over the next thirty years. A successor administration disavowed intervention in the 1930s, and a secretary of state announced in 2013 that the era of the doctrine was over.\n\nThe vocabulary returned in early 2026, when American forces captured the Venezuelan leader Nicolás Maduro and officials described the hemisphere in terms the 1823 message would have recognised. The legal question raised in response was narrower than the historical one. The prohibition on the use of force in the UN Charter admits of two exceptions, self-defence against an armed attack and authorisation by the Security Council, and neither was claimed in terms.",
+   "questions": [
+    {
+     "q": "The 1823 statement is known as:",
+     "options": [
+      "The Truman Doctrine",
+      "The Monroe Doctrine",
+      "The Roosevelt Corollary",
+      "The Open Door Policy"
+     ],
+     "answer": 1,
+     "explain": "The Monroe Doctrine, from President James Monroe's message to Congress."
+    },
+    {
+     "q": "The early twentieth-century addition described in the third sentence of paragraph two is:",
+     "options": [
+      "The Roosevelt Corollary",
+      "The Good Neighbor Policy",
+      "The Marshall Plan",
+      "Manifest Destiny"
+     ],
+     "answer": 0,
+     "explain": "The Roosevelt Corollary asserted an international police power in the hemisphere."
+    },
+    {
+     "q": "On the passage, the doctrine was enforced in practice in its early decades by:",
+     "options": [
+      "The United States Navy",
+      "The Royal Navy",
+      "The Organization of American States",
+      "No one at all"
+     ],
+     "answer": 1,
+     "explain": "The passage says the Royal Navy did the enforcing because British commercial interests ran the same way."
+    },
+    {
+     "q": "The two exceptions to the prohibition on force under the UN Charter are:",
+     "options": [
+      "Self-defence and Security Council authorisation",
+      "Self-defence and General Assembly approval",
+      "Humanitarian intervention and self-defence",
+      "Regional consent and Security Council authorisation"
+     ],
+     "answer": 0,
+     "explain": "Article 51 self-defence and Chapter VII authorisation by the Security Council."
+    },
+    {
+     "q": "Which of the following is most consistent with the passage?",
+     "options": [
+      "The doctrine created binding obligations in international law",
+      "The doctrine was a unilateral policy statement",
+      "The doctrine was adopted by the Organization of American States",
+      "The doctrine was abandoned permanently in 1930s"
+     ],
+     "answer": 1,
+     "explain": "The passage says it was not a treaty and created no obligation, and that its vocabulary returned in 2026."
+    }
+   ]
+  },
+  {
+   "id": "2026-01-p2",
+   "kind": "static",
+   "month": "2026-01",
+   "topicIds": [
+    "2026-01-sc-menstrual-health-article21"
+   ],
+   "category": "Judiciary",
+   "tags": [
+    "Article 21",
+    "Menstrual Health"
+   ],
+   "difficulty": 2,
+   "title": "Reading health into a sentence",
+   "passage": "A petition asked for a national policy requiring schools to provide sanitary products and functioning separate toilets, arguing that girls drop out when neither exists. The court could have disposed of it as a matter of administrative direction. It chose instead to locate the claim in the right to life, holding that menstrual health is part of the dignity that the article protects and that the state's obligation follows from the right rather than from any scheme.\n\nThe move follows a familiar pattern. The same article has been read to include a right to livelihood, to a clean environment, to shelter, to legal aid, to a speedy trial and to privacy, each time by reasoning that life means more than animal existence. Two directive principles were cited in support: one directing the state to raise the level of nutrition and the standard of public health, and one requiring provision for just and humane conditions of work and maternity relief. Directive principles are not enforceable by any court, but the judgment used them as they have long been used, to give content to a fundamental right rather than to create a separate claim.\n\nThe order directed the framing of a uniform national policy, periodic reporting by states, and audits of school sanitation. Whether that produces toilets is a separate question from whether it produces a right, and the court acknowledged as much by retaining the matter for compliance.",
+   "questions": [
+    {
+     "q": "The right relied on is contained in:",
+     "options": [
+      "Article 19",
+      "Article 21",
+      "Article 23",
+      "Article 47"
+     ],
+     "answer": 1,
+     "explain": "Article 21, the right to life and personal liberty."
+    },
+    {
+     "q": "The directive principle on nutrition and public health is:",
+     "options": [
+      "Article 39",
+      "Article 41",
+      "Article 47",
+      "Article 51A"
+     ],
+     "answer": 2,
+     "explain": "Article 47, the duty of the state to raise nutrition levels and improve public health."
+    },
+    {
+     "q": "Directive principles, on the passage, were used to:",
+     "options": [
+      "Create an independently enforceable right",
+      "Give content to a fundamental right",
+      "Override the fundamental right",
+      "Limit the scope of Article 21"
+     ],
+     "answer": 1,
+     "explain": "The passage says they were used to give content to a fundamental right, not to create a separate claim."
+    },
+    {
+     "q": "The directive principle on maternity relief is:",
+     "options": [
+      "Article 42",
+      "Article 43",
+      "Article 44",
+      "Article 45"
+     ],
+     "answer": 0,
+     "explain": "Article 42, just and humane conditions of work and maternity relief."
+    },
+    {
+     "q": "That directive principles are not enforceable by any court follows from:",
+     "options": [
+      "Article 32",
+      "Article 37",
+      "Article 13",
+      "Article 226"
+     ],
+     "answer": 1,
+     "explain": "Article 37 declares Part IV non-justiciable but fundamental in governance."
+    }
+   ]
+  },
+  {
+   "id": "2026-01-p3",
+   "kind": "static",
+   "month": "2026-01",
+   "topicIds": [
+    "2026-01-rbi-repo-rate-cut"
+   ],
+   "category": "Economy",
+   "tags": [
+    "RBI",
+    "Repo Rate",
+    "Monetary Policy"
+   ],
+   "difficulty": 2,
+   "title": "Cutting into growth",
+   "passage": "The committee that sets the policy rate has six members, and it cut by a quarter point at its first meeting of the year on the ground that inflation had settled inside the band while growth was running ahead of the earlier estimate. The rate it sets is the one at which the central bank lends overnight to commercial banks against government securities, and it is the anchor from which the rest of the corridor is drawn: a facility at which banks may borrow at a higher rate against their statutory holdings sits above it, and the rate at which the bank absorbs surplus liquidity sits below.\n\nTransmission is the difficulty. A cut takes effect immediately on loans priced against an external benchmark, since most floating-rate retail loans have been required since 2019 to be linked to the policy rate or a treasury yield rather than to a bank's own cost of funds. It takes much longer on deposits and on older loans, so the effect on lending overall arrives over quarters rather than weeks.\n\nAlongside the rate the committee announces a stance, which signals direction rather than action. The stance had been shifted to neutral before this meeting, which left room to move either way. The vote was not unanimous, and the minutes published a fortnight later showed one member arguing that the growth estimate was preliminary and might be revised.",
+   "questions": [
+    {
+     "q": "The rate described in the first paragraph is:",
+     "options": [
+      "The bank rate",
+      "The repo rate",
+      "The reverse repo rate",
+      "The marginal standing facility rate"
+     ],
+     "answer": 1,
+     "explain": "The repo rate, at which the RBI lends overnight against government securities."
+    },
+    {
+     "q": "The facility above the policy rate, at which banks borrow against statutory holdings, is:",
+     "options": [
+      "The reverse repo",
+      "The marginal standing facility",
+      "The standing deposit facility",
+      "The cash reserve ratio"
+     ],
+     "answer": 1,
+     "explain": "The marginal standing facility forms the upper bound of the corridor."
+    },
+    {
+     "q": "The committee has:",
+     "options": [
+      "Three members",
+      "Four members",
+      "Six members",
+      "Eight members"
+     ],
+     "answer": 2,
+     "explain": "Six: three from the RBI and three external members appointed by the government."
+    },
+    {
+     "q": "On the passage, transmission is fastest for:",
+     "options": [
+      "Fixed-rate deposits",
+      "Floating-rate retail loans linked to an external benchmark",
+      "Older loans priced on cost of funds",
+      "Corporate bonds"
+     ],
+     "answer": 1,
+     "explain": "External benchmark linked loans reprice immediately."
+    },
+    {
+     "q": "The minutes of the meeting are published:",
+     "options": [
+      "On the same day",
+      "After a fortnight",
+      "After a month",
+      "Only annually"
+     ],
+     "answer": 1,
+     "explain": "The decision is same-day; the minutes with each member's statement follow fourteen days later."
+    }
+   ]
+  },
+  {
+   "id": "2026-01-p4",
+   "kind": "static",
+   "month": "2026-01",
+   "topicIds": [
+    "2026-01-india-brics-chairmanship"
+   ],
+   "category": "International Relations",
+   "tags": [
+    "BRICS",
+    "Multilateralism"
+   ],
+   "difficulty": 2,
+   "title": "Chairing a widened table",
+   "passage": "The grouping began as an acronym coined by a bank economist in 2001 to describe four large economies expected to dominate growth. The four began meeting as a bloc in 2009 and added a fifth member the following year, which changed the acronym. For more than a decade the membership stayed there. Expansion in 2024 and after brought in several more states, most of them large energy producers or populous middle powers, and turned a compact caucus into something looser.\n\nIts most concrete institution is a development bank headquartered in Shanghai, established by treaty in 2014 and open to membership beyond the original five. Alongside it sits a currency reserve arrangement of the same vintage, intended as a swap line for members facing balance of payments pressure. Neither has displaced the institutions created at Bretton Woods, and the bank lends a fraction of what the older ones do, but both were founded on the argument that voting power in those institutions had not kept pace with the distribution of world output.\n\nIndia took the rotating chair for 2026 and named its priorities as reformed multilateralism, counter-terrorism, digital public infrastructure and climate finance. The recurring internal difficulty is that the members disagree on the point of the exercise: some treat it as a vehicle for reforming existing institutions and others as an alternative to them, and proposals for a common currency have been floated by one member and quietly declined by others.",
+   "questions": [
+    {
+     "q": "The fifth member added in 2010 was:",
+     "options": [
+      "South Africa",
+      "Indonesia",
+      "Egypt",
+      "Iran"
+     ],
+     "answer": 0,
+     "explain": "South Africa joined in 2010, turning BRIC into BRICS."
+    },
+    {
+     "q": "The development bank referred to is headquartered at:",
+     "options": [
+      "Beijing",
+      "Shanghai",
+      "New Delhi",
+      "Johannesburg"
+     ],
+     "answer": 1,
+     "explain": "The New Development Bank has its headquarters in Shanghai."
+    },
+    {
+     "q": "The currency reserve arrangement mentioned is:",
+     "options": [
+      "The Chiang Mai Initiative",
+      "The Contingent Reserve Arrangement",
+      "The Special Drawing Rights pool",
+      "The Asian Clearing Union"
+     ],
+     "answer": 1,
+     "explain": "The Contingent Reserve Arrangement, agreed at Fortaleza in 2014 alongside the bank."
+    },
+    {
+     "q": "The passage suggests the grouping's main internal problem is:",
+     "options": [
+      "Lack of a secretariat",
+      "Disagreement over whether it reforms or replaces existing institutions",
+      "Absence of a development bank",
+      "Refusal of new members to join"
+     ],
+     "answer": 1,
+     "explain": "The passage says members disagree on the point of the exercise."
+    },
+    {
+     "q": "The acronym was coined:",
+     "options": [
+      "At the first summit in 2009",
+      "By an economist in 2001",
+      "By the United Nations in 2006",
+      "At the Fortaleza summit in 2014"
+     ],
+     "answer": 1,
+     "explain": "Jim O'Neill coined BRIC in a 2001 paper; the leaders first met as a bloc in 2009."
+    }
+   ]
+  },
+  {
+   "id": "2026-01-p5",
+   "kind": "static",
+   "month": "2026-01",
+   "topicIds": [
+    "2026-01-sc-pca-split-verdict"
+   ],
+   "category": "Judiciary",
+   "tags": [
+    "Prevention of Corruption Act",
+    "Sanction"
+   ],
+   "difficulty": 3,
+   "title": "The sanction question",
+   "passage": "Before a public servant can be prosecuted for an offence connected to the discharge of official duty, the statute requires the previous approval of the authority competent to remove that person from office. The purpose is to shield honest officials from vexatious prosecution, and the protection is not a formality: a prosecution launched without it is void, and the defect cannot be cured by obtaining approval later.\n\nTwo questions recur. The first is whether the requirement survives after the official has left the post. An amendment in 2018 extended the protection to former public servants for acts done while in office, reversing an earlier line of authority. The second is what happens when the approving authority is itself the accused's superior in a matter where the superior has an interest, and here the court has held that a deemed refusal after three months does not authorise prosecution, since the statute fixes a period for decision rather than a period after which consent is presumed.\n\nA two-judge bench divided in January 2026 on whether the requirement applies where the alleged act, though committed by a public servant, could not by any stretch form part of official duty. One judge held that the protection attaches to the office and must be tested at the threshold. The other held that an act incapable of being an official duty falls outside the section altogether, so no approval is needed and the trial may proceed. The matter goes to a larger bench.",
+   "questions": [
+    {
+     "q": "The approval described is commonly called:",
+     "options": [
+      "Bail",
+      "Sanction for prosecution",
+      "Discharge",
+      "Cognizance"
+     ],
+     "answer": 1,
+     "explain": "Sanction for prosecution, required before a court may take cognizance."
+    },
+    {
+     "q": "The 2018 amendment extended the requirement to:",
+     "options": [
+      "Private contractors",
+      "Former public servants for acts done in office",
+      "Judges only",
+      "Members of Parliament"
+     ],
+     "answer": 1,
+     "explain": "The amendment brought former public servants within the protection for official acts."
+    },
+    {
+     "q": "A prosecution launched without the approval is, on the passage:",
+     "options": [
+      "Voidable at the accused's option",
+      "Void, and not curable by later approval",
+      "Valid if approval follows within three months",
+      "Valid if the trial court permits"
+     ],
+     "answer": 1,
+     "explain": "The passage says it is void and the defect cannot be cured later."
+    },
+    {
+     "q": "On the passage, the effect of the approving authority failing to decide within three months is that:",
+     "options": [
+      "Consent is deemed granted",
+      "Consent is deemed refused and prosecution is not authorised",
+      "The accused is discharged",
+      "The case is transferred"
+     ],
+     "answer": 1,
+     "explain": "The passage says a deemed refusal does not authorise prosecution."
+    },
+    {
+     "q": "Where a two-judge bench divides, the matter is:",
+     "options": [
+      "Dismissed",
+      "Decided by the senior judge",
+      "Referred to a larger bench",
+      "Sent back to the High Court"
+     ],
+     "answer": 2,
+     "explain": "A split verdict is placed before a larger bench."
+    }
+   ]
+  }
+ ]
 }
