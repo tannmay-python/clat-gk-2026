@@ -97,16 +97,6 @@ svg { display: block; }
 :focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 3px; }
 ::selection { background: var(--brand-soft); color: var(--ink); }
 
-/* Elegant orange lily wallpaper pattern. Tiled, soft warm vectors with sweeping petals & stamens. */
-body::before {
-  content: "";
-  position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background-image: url("../lily-pattern.svg");
-  background-size: 360px 360px;
-  opacity: 0.135;
-}
-:root[data-theme="dark"] body::before { opacity: 0.10; }
-
 /* ── shell ──────────────────────────────────────────────────────────── */
 .top {
   position: sticky; top: 0; z-index: var(--z-sticky);
